@@ -29,6 +29,149 @@ Conjunctions ;
 Numerals ;
 Punctuation ;
 
+
+LEXICON PronRoot 
+
+ez%<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:ez # ;
+ez%<prn%>%<pers%>%<p1%>%<sg%>%<obl%>:min # ;
+tu%<prn%>%<pers%>%<p2%>%<sg%>%<nom%>:tu # ;
+tu%<prn%>%<pers%>%<p2%>%<sg%>%<obl%>:te # ;
+
+em%<prn%>%<pers%>%<p1%>%<pl%>%<nom%>:em # ;
+em%<prn%>%<pers%>%<p1%>%<pl%>%<obl%>:me # ;
+hun%<prn%>%<pers%>%<p2%>%<pl%>%<nom%>:hun # ;
+hun%<prn%>%<pers%>%<p2%>%<pl%>%<obl%>:we # ;
+
+ew%<prn%>%<dem%>%<sg%>%<nom%>:ew # ;
+ew%<prn%>%<dem%>%<m%>%<sg%>%<obl%>:wî # ;
+ew%<prn%>%<dem%>%<f%>%<sg%>%<obl%>:wê # ;
+ew%<prn%>%<dem%>%<pl%>%<nom%>:ew # ;
+ew%<prn%>%<dem%>%<pl%>%<obl%>:wan # ;
+
+ev%<prn%>%<dem%>%<sg%>%<nom%>:ev # ;
+ev%<prn%>%<dem%>%<m%>%<sg%>%<obl%>:vî # ;
+ev%<prn%>%<dem%>%<f%>%<sg%>%<obl%>:vê # ;
+ev%<prn%>%<dem%>%<pl%>%<nom%>:ev # ;
+ev%<prn%>%<dem%>%<pl%>%<obl%>:van # ;
+
+LEXICON yek__num
+
+%<num%>%<nom%>%<ind%>:%>ek # ;
+%<num%>%<obl%>%<ind%>:%>ekê # ;
+%<num%>%<con%>%<ind%>:%>eke # ;
+%<num%>%<nom%>%<def%>: # ;
+%<num%>%<obl%>%<def%>:%>ê # ;
+%<num%>%<con%>%<def%>:%>a # ;
+
+LEXICON şeş__num
+
+%<num%>%<nom%>%<ind%>: # ;
+%<num%>%<obl%>%<ind%>: # ;
+%<num%>%<con%>%<ind%>: # ;
+%<num%>%<nom%>%<def%>: # ;
+%<num%>%<obl%>%<def%>: # ;
+%<num%>%<con%>%<def%>: # ;
+
+
+
+LEXICON Prep
+
+%<pr%>: # ;
+
+LEXICON CC 
+
+%<cnjcoo%>: # ;
+
+LEXICON CS
+
+%<cnjsub%>: # ;
+
+
+LEXICON nû__adj
+
+%<adj%>%<pst%>:%> #;
+%<adj%>%<comp%>:%>tir # ;
+%<adj%>%<sup%>:%>tirîn # ;
+
+LEXICON pêwis/t__adj
+
+%<adj%>%<pst%>:%>t #;
+%<adj%>%<comp%>:%>tir # ;
+%<adj%>%<sup%>:%>tirîn # ;
+
+
+LEXICON mirov__n
+
+%<n%>%<m%>%<sg%>%<nom%>%<ind%>:%>ek # ;
+%<n%>%<m%>%<sg%>%<obl%>%<ind%>:%>ekî # ;
+%<n%>%<m%>%<sg%>%<con%>%<ind%>:%>ekî # ;
+%<n%>%<m%>%<sg%>%<nom%>%<def%>: # ;
+%<n%>%<m%>%<sg%>%<obl%>%<def%>: # ;
+%<n%>%<m%>%<sg%>%<con%>%<def%>:%>ê # ;
+%<n%>%<m%>%<sg%>%<voc%>%<def%>:%>o # ;
+%<n%>%<m%>%<pl%>%<nom%>%<ind%>:%>in # ;
+%<n%>%<m%>%<pl%>%<obl%>%<ind%>:%>inan # ;
+%<n%>%<m%>%<pl%>%<con%>%<ind%>:%>ine # ;
+%<n%>%<m%>%<pl%>%<nom%>%<def%>: # ;
+%<n%>%<m%>%<pl%>%<obl%>%<def%>:%>an # ;
+%<n%>%<m%>%<pl%>%<obl%>%<def%>:%>a # ; ! ^LR^
+%<n%>%<m%>%<pl%>%<con%>%<def%>:%>ên # ;
+%<n%>%<m%>%<pl%>%<voc%>%<def%>:%>ên # ;
+
+LEXICON ba__n 
+
+%<n%>%<m%>%<sg%>%<nom%>%<ind%>:%>yek # ;
+%<n%>%<m%>%<sg%>%<obl%>%<ind%>:%>yekî # ;
+%<n%>%<m%>%<sg%>%<con%>%<ind%>:%>yekî # ;
+%<n%>%<m%>%<sg%>%<nom%>%<def%>: # ;
+%<n%>%<m%>%<sg%>%<obl%>%<def%>: # ;
+%<n%>%<m%>%<sg%>%<con%>%<def%>:%>yê # ;
+%<n%>%<m%>%<sg%>%<voc%>%<def%>:%>yo # ;
+%<n%>%<m%>%<pl%>%<nom%>%<ind%>:%>yin # ;
+%<n%>%<m%>%<pl%>%<obl%>%<ind%>:%>yinan # ;
+%<n%>%<m%>%<pl%>%<con%>%<ind%>:%>yine # ;
+%<n%>%<m%>%<pl%>%<nom%>%<def%>: # ;
+%<n%>%<m%>%<pl%>%<obl%>%<def%>:%>yan # ;
+%<n%>%<m%>%<pl%>%<con%>%<def%>:%>yên # ;
+%<n%>%<m%>%<pl%>%<voc%>%<def%>:%>no # ;
+
+LEXICON xan/î__n
+
+%<n%>%<m%>%<sg%>%<nom%>%<ind%>:%>iyek # ;
+%<n%>%<m%>%<sg%>%<obl%>%<ind%>:%>iyekî # ;
+%<n%>%<m%>%<sg%>%<con%>%<ind%>:%>iyekî # ;
+%<n%>%<m%>%<sg%>%<nom%>%<def%>:%>î # ;
+%<n%>%<m%>%<sg%>%<obl%>%<def%>:%>î # ;
+%<n%>%<m%>%<sg%>%<con%>%<def%>:%>iyê # ;
+%<n%>%<m%>%<sg%>%<voc%>%<def%>:%>o # ;
+%<n%>%<m%>%<pl%>%<nom%>%<ind%>:%>iyin # ;
+%<n%>%<m%>%<pl%>%<obl%>%<ind%>:%>iyinan # ;
+%<n%>%<m%>%<pl%>%<con%>%<ind%>:%>iyine # ;
+%<n%>%<m%>%<pl%>%<nom%>%<def%>:%>î # ;
+%<n%>%<m%>%<pl%>%<obl%>%<def%>:%>iyan # ;
+%<n%>%<m%>%<pl%>%<con%>%<def%>:%>iyên # ;
+%<n%>%<m%>%<pl%>%<voc%>%<def%>:%>iyên # ;
+
+LEXICON roj__n
+
+%<n%>%<f%>%<sg%>%<nom%>%<ind%>:%>ek # ;
+%<n%>%<f%>%<sg%>%<obl%>%<ind%>:%>ekê # ;
+%<n%>%<f%>%<sg%>%<con%>%<ind%>:%>eke # ;
+%<n%>%<f%>%<sg%>%<nom%>%<def%>: # ;
+%<n%>%<f%>%<sg%>%<obl%>%<def%>:%>ê # ;
+%<n%>%<f%>%<sg%>%<con%>%<def%>:%>a # ;
+%<n%>%<f%>%<sg%>%<voc%>%<def%>:%>ê # ;
+%<n%>%<f%>%<pl%>%<nom%>%<ind%>:%>in # ;
+%<n%>%<f%>%<pl%>%<obl%>%<ind%>:%>inan # ;
+%<n%>%<f%>%<pl%>%<con%>%<ind%>:%>ine # ;
+%<n%>%<f%>%<pl%>%<nom%>%<def%>: # ;
+%<n%>%<f%>%<pl%>%<obl%>%<def%>:%>ên # ;
+%<n%>%<f%>%<pl%>%<con%>%<def%>:%>an # ;
+%<n%>%<f%>%<pl%>%<voc%>%<def%>:%>ên # ;
+
+
+
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! VERBS
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -56,23 +199,23 @@ LEXICON Prefixes
 !!! di- is prefixed to the present stem, and a suffixed personal ending is added 
 !!! to the stem.
 
-@P.PREF.di@:di%{PREF%}@P.PREF.di@ Stems ;
-@P.PREF.bi@:bi%{PREF%}@P.PREF.bi@ Stems ;
-@P.PREF.na@:na%{PREF%}@P.PREF.na@ Stems ;
-@P.PREF.ne@:ne%{PREF%}@P.PREF.ne@ Stems ;
-@P.PREF.nedi@:nedi%{PREF%}@P.PREF.nedi@ Stems ; !! Negative past imperfect 
+@P.PREF.di@:di%{PREF%}@P.PREF.di@ VerbStems ;
+@P.PREF.bi@:bi%{PREF%}@P.PREF.bi@ VerbStems ;
+@P.PREF.na@:na%{PREF%}@P.PREF.na@ VerbStems ;
+@P.PREF.ne@:ne%{PREF%}@P.PREF.ne@ VerbStems ;
+@P.PREF.nedi@:nedi%{PREF%}@P.PREF.nedi@ VerbStems ; !! Negative past imperfect 
 
 !!! If the present stem begins with a- or ê-, the prefix di- may drop its vowel
 !!! and becomes d-, as in axaftin/axiv- ‘speak’ and êşandin/êşîn- ‘to hurt,’ the
 !!! present tenses of which are either daxivim or diaxivim ‘I speak’ and either
 !!! dêşînim or diêşînim ‘I hurt.’
 
-@P.PREF.di@:d%{EPREF%}@P.PREF.di@ Stems ;
+@P.PREF.di@:d%{EPREF%}@P.PREF.di@ VerbStems ;
 
 LEXICON VerbRoot
 
 Prefixes ;
-Stems ;
+VerbStems ;
 IrregularVerbs; 
 CompoundVerbs; 
 
@@ -214,7 +357,7 @@ hebûn%<v%>%<neg%>%<prs%>%<p3%>%<pl%>:neyên # ;
 @P.PREF.bi@ç:her@P.PREF.bi@ Accidents_PresStem_ûn  ; ! lm="çûn" :: "to go"
 @P.PREF.ne@ç:neher@P.PREF.ne@ Accidents_PresStem_ûn  ; ! lm="çûn" :: "to go"
 
-Stems;
+VerbStems;
 
 LEXICON BûnPast
 
@@ -243,138 +386,6 @@ LEXICON BûnPrs
 %<p1%>%<pl%>:bin # ;
 %<p2%>%<pl%>:bin # ;
 %<p3%>%<pl%>:bin # ;
-
-LEXICON Stems 
-
-ç:ç Accidents_PresStem_ûn  ; ! lm="çûn" :: "to go"
-ç:çû Accidents_PastStem_ûn ; ! lm="çûn" :: "to go"
-
-şust:şo Accidents_PresStem_in ; !lm="şustin" :: "to wash"
-şust:şust Accidents_PastStem_in ; !lm="şustin" :: "to wash"
-
-axaft:axiv Accidents_PresStem_in ; !lm="axaftin" :: "to speak"
-axaft:axaft Accidents_PastStem_in ; !lm="axaftin" :: "to speak"
-
-êşand:êşîn Accidents_PresStem_in ; !lm="êşandin" :: "to hurt"
-êşand:êşand Accidents_PastStem_in ; !lm="êşandin" :: "to hurt"
-
-parast:parast Accidents_PresStem_in ; !lm="parastin" :: "to protect"
-parast:parast Accidents_PastStem_in ; !lm="parastin" :: "to protect"
-
-firot:firoş Accidents_PresStem_in ; !lm="firotin" :: "to sell" 
-firot:firot Accidents_PastStem_in ; !lm="firotin" :: "to sell" 
-
-bîst:bîst Accidents_PresStem_in ; !lm="bîstin" :: "to hear"
-bîst:bîst Accidents_PastStem_in ; !lm="bîstin" :: "to hear"
-
-hinart:hinart Accidents_PresStem_in ; !lm="hinartin" :: "to send"
-hinart:hinart Accidents_PastStem_in ; !lm="hinartin" :: "to send"
-
-kir:k Accidents_PresStem_in ; !lm="kirin" :: "to do"
-kir:kir Accidents_PastStem_in ; !lm="kirin" :: "to do"
-
-mîst:mîst Accidents_PresStem_in ; !lm="mîstin" :: "to urinate"
-mîst:mîst Accidents_PastStem_in ; !lm="mîstin" :: "to urinate"
-
-rûnişt:rûnişt Accidents_PresStem_in ; !lm="rûniştin" :: "to sit"
-rûnişt:rûnişt Accidents_PastStem_in ; !lm="rûniştin" :: "to sit"
-
-xwar:xw Accidents_PresStem_in ; !lm="xwarin" :: "to eat"
-xwar:xwar Accidents_PastStem_in ; !lm="xwarin" :: "to eat"
-
-xwend:xwend Accidents_PresStem_in ; !lm="xwendin" :: "to read"
-xwend:xwend Accidents_PastStem_in ; !lm="xwendin" :: "to read"
-
-şand:şand Accidents_PresStem_in ; !lm="şandin" :: "to send"
-şand:şand Accidents_PastStem_in ; !lm="şandin" :: "to send"
-
-ket:kev Accidents_PresStem_in ; !lm="ketin" :: "to fall"
-ket:ket Accidents_PastStem_in ; !lm="ketin" :: "to fall"
-
-çand:çîn Accidents_PresStem_in ; !lm="çandin" :: ""
-çand:çand Accidents_PastStem_in ; !lm="çandin" :: ""
-
-azirand:azirîn Accidents_PastStem_in ; !lm="azirandin" :: "to incite"
-azirand:azirand Accidents_PresStem_in ; !lm="azirandin" :: "to incite"
-
-belişand:belişîn Accidents_PastStem_in ; !lm="belişandin" :: "to incite"
-belişand:belişand Accidents_PresStem_in ; !lm="belişandin" :: "to incite"
-
-dabiland:dabilîn Accidents_PastStem_in ; !lm="dabilandin" :: "to swallow"
-dabiland:dabiland Accidents_PresStem_in ; !lm="dabilandin" :: "to swallow"
-
-fetisand:fetisîn Accidents_PastStem_in ; !lm="fetisandin" :: "to choke"
-fetisand:fetisand Accidents_PresStem_in ; !lm="fetisandin" :: "to choke"
-
-mirand:mirîn Accidents_PastStem_in ; !lm="mirandin" :: "to cause to die"
-mirand:mirand Accidents_PresStem_in ; !lm="mirandin" :: "to cause to die"
-
-nivîsand:nivîsîn Accidents_PastStem_in ; !lm="nivîsandin" :: "to write"
-nivîsand:nivîsand Accidents_PresStem_in ; !lm="nivîsandin" :: "to write"
-
-pesinand:pesinîn Accidents_PastStem_in ; !lm="pesinandin" :: "to pray"
-pesinand:pesinand Accidents_PresStem_in ; !lm="pesinandin" :: "to pray"
-
-qedand:qedîn Accidents_PastStem_in ; !lm="qedandin" :: "to finish"
-qedand:qedand Accidents_PresStem_in ; !lm="qedandin" :: "to finish"
-
-taşand:taşîn Accidents_PastStem_in ; !lm="taşandin" :: "to educate"
-taşand:taşand Accidents_PresStem_in ; !lm="taşandin" :: "to educate"
-
-weşand:weşîn Accidents_PastStem_in ; !lm="weşandin" :: "to publish"
-weşand:weşand Accidents_PresStem_in ; !lm="weşandin" :: "to publish"
-
-êşand:êşîn Accidents_PastStem_in ; !lm="êşandin" :: "to hurt"
-êşand:êşand Accidents_PresStem_in ; !lm="êşandin" :: "to hurt"
-
-xwest:xwaz Accidents_PresStem_in ; !lm="xwestin" :: "to want"
-xwest:xwest Accidents_PastStem_in ; !lm="xwestin" :: "to want"
-
-dît:bîn Accidents_PresStem_in ; !lm="dîtin" :: "to see"
-dît:dît Accidents_PastStem_in ; !lm="dîtin" :: "to see"
-
-got:bêj Accidents_PresStem_in ; !lm="gotin" :: "to say"
-got:got Accidents_PastStem_in ; !lm="gotin" :: "to say"
-
-nivîs:nivîs Accidents_PresStem_în ; !lm="nivîsîn" :: "to write"
-nivîs:nivîsî Accidents_PastStem_în ; !lm="nivîsîn" :: "to write"
-
-tirs:tirs Accidents_PresStem_în ; !lm="tirsîn" :: "to fear"
-tirs:tirsî Accidents_PastStem_în ; !lm="tirsîn" :: "to fear"
-
-kir:kir Accidents_PresStem_în ; !lm="kirîn" :: "to bring"
-kir:kirî Accidents_PastStem_în ; !lm="kirîn" :: "to bring"
-
-ewt:ew Accidents_PresStem_în ; !lm="ewtîn" :: "to bark"
-ewt:ewtî Accidents_PastStem_în ; !lm="ewtîn" :: "to bark"
-
-m:ma Accidents_PresStem_an ; !lm="man" :: "to remain"
-m:ma Accidents_PastStem_an ; !lm="man" :: "to remain"
-
-! lm="fikirîn" :: "to think"
-! lm="tirsîn" :: "to fear"
-! lm="hizirîn" :: "to think"
-! lm="pûnijîn" :: "to think"
-! lm="ramîn" :: "to think"
-! lm="revîn" :: "to escape"
-! lm="doşîn" :: "to milk"
-! lm="bişirîn" :: "to smile"
-! lm="firrîn" :: "to fly"
-! lm="kirrîn" :: "to buy"
-! lm="mêjîn" :: "to suck"
-! lm="bazdan" :: "to escape"
-! lm="razan" :: "to go to bed"
-! lm="hênan" :: "to bring"
-! lm="rahênan" :: "to train"
-! lm="meşiyan" :: "to walk"
-! lm="jîyan" :: "to live"
-! lm="meşîn" :: "to walk"
-! lm="zewicîn" :: "se marier"
-! lm="xewîn" :: "to sleep"
-! lm="werîn" :: "to come"
-! lm="pirsîn" :: "to ask"
-! lm="peyivîn" :: "to talk"
-! lm="westîyan" :: "to be tired"
 
 LEXICON CompoundVerbs
 
@@ -632,6 +643,138 @@ LEXICON PersonalSuffixesIrrealis
 %<p2%>%<pl%>:%{VSUF%}ana # ;
 %<p3%>%<pl%>:%{VSUF%}ana # ;
 
+LEXICON VerbStems 
+
+ç:ç Accidents_PresStem_ûn  ; ! lm="çûn" :: "to go"
+ç:çû Accidents_PastStem_ûn ; ! lm="çûn" :: "to go"
+
+şust:şo Accidents_PresStem_in ; !lm="şustin" :: "to wash"
+şust:şust Accidents_PastStem_in ; !lm="şustin" :: "to wash"
+
+axaft:axiv Accidents_PresStem_in ; !lm="axaftin" :: "to speak"
+axaft:axaft Accidents_PastStem_in ; !lm="axaftin" :: "to speak"
+
+êşand:êşîn Accidents_PresStem_in ; !lm="êşandin" :: "to hurt"
+êşand:êşand Accidents_PastStem_in ; !lm="êşandin" :: "to hurt"
+
+parast:parast Accidents_PresStem_in ; !lm="parastin" :: "to protect"
+parast:parast Accidents_PastStem_in ; !lm="parastin" :: "to protect"
+
+firot:firoş Accidents_PresStem_in ; !lm="firotin" :: "to sell" 
+firot:firot Accidents_PastStem_in ; !lm="firotin" :: "to sell" 
+
+bîst:bîst Accidents_PresStem_in ; !lm="bîstin" :: "to hear"
+bîst:bîst Accidents_PastStem_in ; !lm="bîstin" :: "to hear"
+
+hinart:hinart Accidents_PresStem_in ; !lm="hinartin" :: "to send"
+hinart:hinart Accidents_PastStem_in ; !lm="hinartin" :: "to send"
+
+kir:k Accidents_PresStem_in ; !lm="kirin" :: "to do"
+kir:kir Accidents_PastStem_in ; !lm="kirin" :: "to do"
+
+mîst:mîst Accidents_PresStem_in ; !lm="mîstin" :: "to urinate"
+mîst:mîst Accidents_PastStem_in ; !lm="mîstin" :: "to urinate"
+
+rûnişt:rûnişt Accidents_PresStem_in ; !lm="rûniştin" :: "to sit"
+rûnişt:rûnişt Accidents_PastStem_in ; !lm="rûniştin" :: "to sit"
+
+xwar:xw Accidents_PresStem_in ; !lm="xwarin" :: "to eat"
+xwar:xwar Accidents_PastStem_in ; !lm="xwarin" :: "to eat"
+
+xwend:xwend Accidents_PresStem_in ; !lm="xwendin" :: "to read"
+xwend:xwend Accidents_PastStem_in ; !lm="xwendin" :: "to read"
+
+şand:şand Accidents_PresStem_in ; !lm="şandin" :: "to send"
+şand:şand Accidents_PastStem_in ; !lm="şandin" :: "to send"
+
+ket:kev Accidents_PresStem_in ; !lm="ketin" :: "to fall"
+ket:ket Accidents_PastStem_in ; !lm="ketin" :: "to fall"
+
+çand:çîn Accidents_PresStem_in ; !lm="çandin" :: ""
+çand:çand Accidents_PastStem_in ; !lm="çandin" :: ""
+
+azirand:azirîn Accidents_PastStem_in ; !lm="azirandin" :: "to incite"
+azirand:azirand Accidents_PresStem_in ; !lm="azirandin" :: "to incite"
+
+belişand:belişîn Accidents_PastStem_in ; !lm="belişandin" :: "to incite"
+belişand:belişand Accidents_PresStem_in ; !lm="belişandin" :: "to incite"
+
+dabiland:dabilîn Accidents_PastStem_in ; !lm="dabilandin" :: "to swallow"
+dabiland:dabiland Accidents_PresStem_in ; !lm="dabilandin" :: "to swallow"
+
+fetisand:fetisîn Accidents_PastStem_in ; !lm="fetisandin" :: "to choke"
+fetisand:fetisand Accidents_PresStem_in ; !lm="fetisandin" :: "to choke"
+
+mirand:mirîn Accidents_PastStem_in ; !lm="mirandin" :: "to cause to die"
+mirand:mirand Accidents_PresStem_in ; !lm="mirandin" :: "to cause to die"
+
+nivîsand:nivîsîn Accidents_PastStem_in ; !lm="nivîsandin" :: "to write"
+nivîsand:nivîsand Accidents_PresStem_in ; !lm="nivîsandin" :: "to write"
+
+pesinand:pesinîn Accidents_PastStem_in ; !lm="pesinandin" :: "to pray"
+pesinand:pesinand Accidents_PresStem_in ; !lm="pesinandin" :: "to pray"
+
+qedand:qedîn Accidents_PastStem_in ; !lm="qedandin" :: "to finish"
+qedand:qedand Accidents_PresStem_in ; !lm="qedandin" :: "to finish"
+
+taşand:taşîn Accidents_PastStem_in ; !lm="taşandin" :: "to educate"
+taşand:taşand Accidents_PresStem_in ; !lm="taşandin" :: "to educate"
+
+weşand:weşîn Accidents_PastStem_in ; !lm="weşandin" :: "to publish"
+weşand:weşand Accidents_PresStem_in ; !lm="weşandin" :: "to publish"
+
+êşand:êşîn Accidents_PastStem_in ; !lm="êşandin" :: "to hurt"
+êşand:êşand Accidents_PresStem_in ; !lm="êşandin" :: "to hurt"
+
+xwest:xwaz Accidents_PresStem_in ; !lm="xwestin" :: "to want"
+xwest:xwest Accidents_PastStem_in ; !lm="xwestin" :: "to want"
+
+dît:bîn Accidents_PresStem_in ; !lm="dîtin" :: "to see"
+dît:dît Accidents_PastStem_in ; !lm="dîtin" :: "to see"
+
+got:bêj Accidents_PresStem_in ; !lm="gotin" :: "to say"
+got:got Accidents_PastStem_in ; !lm="gotin" :: "to say"
+
+nivîs:nivîs Accidents_PresStem_în ; !lm="nivîsîn" :: "to write"
+nivîs:nivîsî Accidents_PastStem_în ; !lm="nivîsîn" :: "to write"
+
+tirs:tirs Accidents_PresStem_în ; !lm="tirsîn" :: "to fear"
+tirs:tirsî Accidents_PastStem_în ; !lm="tirsîn" :: "to fear"
+
+kir:kir Accidents_PresStem_în ; !lm="kirîn" :: "to bring"
+kir:kirî Accidents_PastStem_în ; !lm="kirîn" :: "to bring"
+
+ewt:ew Accidents_PresStem_în ; !lm="ewtîn" :: "to bark"
+ewt:ewtî Accidents_PastStem_în ; !lm="ewtîn" :: "to bark"
+
+m:ma Accidents_PresStem_an ; !lm="man" :: "to remain"
+m:ma Accidents_PastStem_an ; !lm="man" :: "to remain"
+
+! lm="fikirîn" :: "to think"
+! lm="tirsîn" :: "to fear"
+! lm="hizirîn" :: "to think"
+! lm="pûnijîn" :: "to think"
+! lm="ramîn" :: "to think"
+! lm="revîn" :: "to escape"
+! lm="doşîn" :: "to milk"
+! lm="bişirîn" :: "to smile"
+! lm="firrîn" :: "to fly"
+! lm="kirrîn" :: "to buy"
+! lm="mêjîn" :: "to suck"
+! lm="bazdan" :: "to escape"
+! lm="razan" :: "to go to bed"
+! lm="hênan" :: "to bring"
+! lm="rahênan" :: "to train"
+! lm="meşiyan" :: "to walk"
+! lm="jîyan" :: "to live"
+! lm="meşîn" :: "to walk"
+! lm="zewicîn" :: "se marier"
+! lm="xewîn" :: "to sleep"
+! lm="werîn" :: "to come"
+! lm="pirsîn" :: "to ask"
+! lm="peyivîn" :: "to talk"
+! lm="westîyan" :: "to be tired"
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Nouns 
@@ -665,77 +808,6 @@ roj:roj roj__n; ! lm="roj" :: "day"
 jin:jin roj__n; ! lm="jin" :: "woman"
 xanî:xan xan/î__n; ! lm="xanî" :: "house"
 
-LEXICON mirov__n
-
-%<n%>%<m%>%<sg%>%<nom%>%<ind%>:%>ek # ;
-%<n%>%<m%>%<sg%>%<obl%>%<ind%>:%>ekî # ;
-%<n%>%<m%>%<sg%>%<con%>%<ind%>:%>ekî # ;
-%<n%>%<m%>%<sg%>%<nom%>%<def%>: # ;
-%<n%>%<m%>%<sg%>%<obl%>%<def%>: # ;
-%<n%>%<m%>%<sg%>%<con%>%<def%>:%>ê # ;
-%<n%>%<m%>%<sg%>%<voc%>%<def%>:%>o # ;
-%<n%>%<m%>%<pl%>%<nom%>%<ind%>:%>in # ;
-%<n%>%<m%>%<pl%>%<obl%>%<ind%>:%>inan # ;
-%<n%>%<m%>%<pl%>%<con%>%<ind%>:%>ine # ;
-%<n%>%<m%>%<pl%>%<nom%>%<def%>: # ;
-%<n%>%<m%>%<pl%>%<obl%>%<def%>:%>an # ;
-%<n%>%<m%>%<pl%>%<obl%>%<def%>:%>a # ; ! ^LR^
-%<n%>%<m%>%<pl%>%<con%>%<def%>:%>ên # ;
-%<n%>%<m%>%<pl%>%<voc%>%<def%>:%>ên # ;
-
-LEXICON ba__n 
-
-%<n%>%<m%>%<sg%>%<nom%>%<ind%>:%>yek # ;
-%<n%>%<m%>%<sg%>%<obl%>%<ind%>:%>yekî # ;
-%<n%>%<m%>%<sg%>%<con%>%<ind%>:%>yekî # ;
-%<n%>%<m%>%<sg%>%<nom%>%<def%>: # ;
-%<n%>%<m%>%<sg%>%<obl%>%<def%>: # ;
-%<n%>%<m%>%<sg%>%<con%>%<def%>:%>yê # ;
-%<n%>%<m%>%<sg%>%<voc%>%<def%>:%>yo # ;
-%<n%>%<m%>%<pl%>%<nom%>%<ind%>:%>yin # ;
-%<n%>%<m%>%<pl%>%<obl%>%<ind%>:%>yinan # ;
-%<n%>%<m%>%<pl%>%<con%>%<ind%>:%>yine # ;
-%<n%>%<m%>%<pl%>%<nom%>%<def%>: # ;
-%<n%>%<m%>%<pl%>%<obl%>%<def%>:%>yan # ;
-%<n%>%<m%>%<pl%>%<con%>%<def%>:%>yên # ;
-%<n%>%<m%>%<pl%>%<voc%>%<def%>:%>no # ;
-
-LEXICON xan/î__n
-
-%<n%>%<m%>%<sg%>%<nom%>%<ind%>:%>iyek # ;
-%<n%>%<m%>%<sg%>%<obl%>%<ind%>:%>iyekî # ;
-%<n%>%<m%>%<sg%>%<con%>%<ind%>:%>iyekî # ;
-%<n%>%<m%>%<sg%>%<nom%>%<def%>:%>î # ;
-%<n%>%<m%>%<sg%>%<obl%>%<def%>:%>î # ;
-%<n%>%<m%>%<sg%>%<con%>%<def%>:%>iyê # ;
-%<n%>%<m%>%<sg%>%<voc%>%<def%>:%>o # ;
-%<n%>%<m%>%<pl%>%<nom%>%<ind%>:%>iyin # ;
-%<n%>%<m%>%<pl%>%<obl%>%<ind%>:%>iyinan # ;
-%<n%>%<m%>%<pl%>%<con%>%<ind%>:%>iyine # ;
-%<n%>%<m%>%<pl%>%<nom%>%<def%>:%>î # ;
-%<n%>%<m%>%<pl%>%<obl%>%<def%>:%>iyan # ;
-%<n%>%<m%>%<pl%>%<con%>%<def%>:%>iyên # ;
-%<n%>%<m%>%<pl%>%<voc%>%<def%>:%>iyên # ;
-
-LEXICON roj__n
-
-%<n%>%<f%>%<sg%>%<nom%>%<ind%>:%>ek # ;
-%<n%>%<f%>%<sg%>%<obl%>%<ind%>:%>ekê # ;
-%<n%>%<f%>%<sg%>%<con%>%<ind%>:%>eke # ;
-%<n%>%<f%>%<sg%>%<nom%>%<def%>: # ;
-%<n%>%<f%>%<sg%>%<obl%>%<def%>:%>ê # ;
-%<n%>%<f%>%<sg%>%<con%>%<def%>:%>a # ;
-%<n%>%<f%>%<sg%>%<voc%>%<def%>:%>ê # ;
-%<n%>%<f%>%<pl%>%<nom%>%<ind%>:%>in # ;
-%<n%>%<f%>%<pl%>%<obl%>%<ind%>:%>inan # ;
-%<n%>%<f%>%<pl%>%<con%>%<ind%>:%>ine # ;
-%<n%>%<f%>%<pl%>%<nom%>%<def%>: # ;
-%<n%>%<f%>%<pl%>%<obl%>%<def%>:%>ên # ;
-%<n%>%<f%>%<pl%>%<con%>%<def%>:%>an # ;
-%<n%>%<f%>%<pl%>%<voc%>%<def%>:%>ên # ;
-
-
-
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Adjectives
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -747,45 +819,10 @@ nû:nû nû__adj ; ! lm="nû" :: "new"
 xur:xur nû__adj ; ! lm="xur" :: "strong"
 pêwist:pêwis pêwis/t__adj; ! lm="pêwist" :: "important"
 
-LEXICON nû__adj
-
-%<adj%>%<pst%>:%> #;
-%<adj%>%<comp%>:%>tir # ;
-%<adj%>%<sup%>:%>tirîn # ;
-
-LEXICON pêwis/t__adj
-
-%<adj%>%<pst%>:%>t #;
-%<adj%>%<comp%>:%>tir # ;
-%<adj%>%<sup%>:%>tirîn # ;
-
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Pronouns 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-LEXICON PronRoot 
-
-ez%<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:ez # ;
-ez%<prn%>%<pers%>%<p1%>%<sg%>%<obl%>:min # ;
-tu%<prn%>%<pers%>%<p2%>%<sg%>%<nom%>:tu # ;
-tu%<prn%>%<pers%>%<p2%>%<sg%>%<obl%>:te # ;
-
-em%<prn%>%<pers%>%<p1%>%<pl%>%<nom%>:em # ;
-em%<prn%>%<pers%>%<p1%>%<pl%>%<obl%>:me # ;
-hun%<prn%>%<pers%>%<p2%>%<pl%>%<nom%>:hun # ;
-hun%<prn%>%<pers%>%<p2%>%<pl%>%<obl%>:we # ;
-
-ew%<prn%>%<dem%>%<sg%>%<nom%>:ew # ;
-ew%<prn%>%<dem%>%<m%>%<sg%>%<obl%>:wî # ;
-ew%<prn%>%<dem%>%<f%>%<sg%>%<obl%>:wê # ;
-ew%<prn%>%<dem%>%<pl%>%<nom%>:ew # ;
-ew%<prn%>%<dem%>%<pl%>%<obl%>:wan # ;
-
-ev%<prn%>%<dem%>%<sg%>%<nom%>:ev # ;
-ev%<prn%>%<dem%>%<m%>%<sg%>%<obl%>:vî # ;
-ev%<prn%>%<dem%>%<f%>%<sg%>%<obl%>:vê # ;
-ev%<prn%>%<dem%>%<pl%>%<nom%>:ev # ;
-ev%<prn%>%<dem%>%<pl%>%<obl%>:van # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Numerals
@@ -795,14 +832,25 @@ LEXICON Numerals
 
 yek:yek yek__num ;  ! lm="yek" :: "one"
 
-LEXICON yek__num
+di:du şeş__num ; !
+sê:sê şeş__num ; !
+çar:çar şeş__num ; !
+pênc:pênc şeş__num ; !
+şeş:şeş şeş__num ; !
+heft:heft şeş__num ; !
+heşt:heşt şeş__num ; !
+neh:neh şeş__num ; !
+deh:deh şeş__num ; !
+yanzdeh:yanzdeh şeş__num ; !
+dwanzdeh:dwanzdeh şeş__num ; !
+sêzdeh:sêzdeh şeş__num ; !
+çardeh:çardeh şeş__num ; !
+panzdeh:panzdeh şeş__num ; !
+şanzdeh:şanzdeh şeş__num ; !
+hivdeh:hivdeh şeş__num ; !
+hijdeh:hijdeh şeş__num ; !
+nozdeh:nozdeh şeş__num ; !
 
-%<num%>%<nom%>%<ind%>:%>ek # ;
-%<num%>%<obl%>%<ind%>:%>ekê # ;
-%<num%>%<con%>%<ind%>:%>eke # ;
-%<num%>%<nom%>%<def%>: # ;
-%<num%>%<obl%>%<def%>:%>ê # ;
-%<num%>%<con%>%<def%>:%>a # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Prepositions
@@ -822,26 +870,14 @@ ser:ser Prep ; ! lm="ser" :: "on"
 ta:ta Prep ; ! lm="ta" :: "until"
 tevî:tevî Prep ; ! lm="tevî" :: "along with"
 
-LEXICON Prep
-
-%<pr%>: # ;
-
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Conjunctions
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Conjunctions
 
-û CC ; ! lm="û" :: "and"
-çaxê% ku CS ; ! lm="çaxê ku" :: "when"
-
-LEXICON CC 
-
-%<cnjcoo%>: # ;
-
-LEXICON CS
-
-%<cnjsub%>: # ;
+û:û CC ; ! lm="û" :: "and"
+çaxê% ku:çaxê% ku CS ; ! lm="çaxê ku" :: "when"
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Punctuation
