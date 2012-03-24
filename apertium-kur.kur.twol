@@ -2,7 +2,7 @@ Alphabet
  a b c d e f g h i j k l m n o p q r s t u v w x y z â ê î ô û ç ş 
  A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Â Ê Î Ô Û Ç Ş
 
- %>:0 %^PREF:0 %^VSUF:0 %^VSUFP:0 %^EPREF:i %^IEPH:0 ;
+ %>:0 %{PREF%}:0 %{VSUF%}:0 %{VSUFP%}:0 %{EPREF%}:i %{IEPH%}:0 ;
 
 Sets
 
@@ -16,63 +16,56 @@ Rules
 ! çû^VSUFim --> çûm
 ! dima^VSUFim --> dimam
 "Remove suffix vowel with vowel-ending stem"
-i:0 <=> Vow %^VSUF:0 _ [ m | n ] ;
+i:0 <=> Vow %{VSUF%}:0 _ [ m | n ] ;
 
 !€ dişo^VSUFim 
 !€ dişo000000m
 
 ! dişo^VSUFe --> dişo
 "Remove suffix vowel with vowel-ending stem"
-e:0 <=> Vow %^VSUF:0 _ ;
+e:0 <=> Vow %{VSUF%}:0 _ ;
 
 !€ dişo^VSUFe
 !€ dişo000000
 
 ! çû^VSUFiye --> çûye
 "Deletion of 'i' with vowel-ending stem"
-i:0 <=> Vow %^VSUF:0 _ y e ;
+i:0 <=> Vow %{VSUF%}:0 _ y e ;
 
 !€ çû^VSUFiye
 !€ çû0000ye
 
 ! biçû^VSUFama --> biçûma
 "Deletion of 'a' with vowel-ending stem in past conditional"
-a:0 <=> Vow %^VSUF:0 _ [ m | n | y ] ;
+a:0 <=> Vow %{VSUF%}:0 _ [ m | n | y ] ;
 
 !€ biçû^VSUFama
 !€ biçû000000ma
 
 ! dişo^VSUFî --> dişoyî
 "Epenthetic 'y' insertion"
-%^VSUF:y <=> Vow _ î ;
+%{VSUF%}:y <=> Vow _ î ;
 
 !€ dişo^VSUFî
 !€ dişoy0000î
 
 ! ma^VSUFî --> mayî
 "Epenthetic 'y' insertion in participle"
-%^VSUFP:y <=> [ a | û ] _ î ;
+%{VSUF%}P:y <=> [ a | û ] _ î ;
 
 !€ ma^VSUFî
 !€ may0000î 
 
 ! bibû^VSUFa --> bibûya
 "Epenthetic 'y' insertion in past conditional"
-%^VSUF:y <=> Vow _ a  ;
-
-!€ bibû^VSUFa
-!€ bibûy0000a 
-
-! bibû^VSUFayî --> bibûya
-"Epenthetic 'y' insertion in past conditional"
-%^VSUF:y <=> Vow _ a  ;
+%{VSUF%}:y <=> Vow _ a  ;
 
 !€ bibû^VSUFa
 !€ bibûy0000a 
 
 ! d^EPREFaxiv^VSUFim --> daxivim
 "Elide 'i' with stems starting with 'a' or 'ê'"
-%^EPREF:0 <=> d _ [ a | ê ] ;
+%{EPREF%}:0 <=> d _ [ a | ê ] ;
 
 !€ d^EPREFaxiv^VSUFim
 !€ d000000axiv00000im

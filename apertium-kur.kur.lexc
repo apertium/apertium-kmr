@@ -1,20 +1,22 @@
 Multichar_Symbols
 
-+Verb +N +Pr +CC +CS +Prn +Adj +Pron 
-+Pri +Prs +Past +Inf +Neg +Pii +Pp +Imp +PresPerf +PastPerf +Pis +PastCond +PerfCond
-+P1 +P2 +P3
-+Masc +Fem
-+Sg +Pl
-+Ind +Def +Rel +Dem +Pers
-+Nom +Obl +Con +Voc
-+Pst +Comp +Sup
-+Sent
+%<v%> %<n%> %<pr%> %<cnjcoo%> %<cnjsub%> %<prn%> %<adj%>
+%<pri%> %<prs%> %<past%> %<inf%> %<neg%> %<pii%> %<pp%> %<imp%> %<perf%> %<pres%> %<pis%> %<cond%> 
+%<p1%> %<p2%> %<p3%>
+%<m%> %<f%>
+%<sg%> %<pl%>
+%<ind%> %<def%> %<rel%> %<dem%> %<pers%>
+%<nom%> %<obl%> %<con%> %<voc%>
+%<pst%> %<comp%> %<sup%>
+%<sent%>
 
-%^PREF %^VSUF %^VSUFP %^EPREF %^IEPH
+%{PREF%} %{VSUF%} %{VSUFP%} %{EPREF%} %{IEPH%}
 
 @P.PREF.di@ @P.PREF.bi@ @P.PREF.na@ @P.PREF.ne@ @P.PREF.nedi@
 @R.PREF.bi@ @R.PREF.di@ @R.PREF.na@ @R.PREF.ne@ @R.PREF.nedi@
 @D.PREF@ @D.PREF.ne@
+
+%>
 
 LEXICON Root
 
@@ -54,18 +56,18 @@ LEXICON Prefixes
 !!! di- is prefixed to the present stem, and a suffixed personal ending is added 
 !!! to the stem.
 
-@P.PREF.di@:di%^PREF@P.PREF.di@ Stems ;
-@P.PREF.bi@:bi%^PREF@P.PREF.bi@ Stems ;
-@P.PREF.na@:na%^PREF@P.PREF.na@ Stems ;
-@P.PREF.ne@:ne%^PREF@P.PREF.ne@ Stems ;
-@P.PREF.nedi@:nedi%^PREF@P.PREF.nedi@ Stems ; !! Negative past imperfect 
+@P.PREF.di@:di%{PREF%}@P.PREF.di@ Stems ;
+@P.PREF.bi@:bi%{PREF%}@P.PREF.bi@ Stems ;
+@P.PREF.na@:na%{PREF%}@P.PREF.na@ Stems ;
+@P.PREF.ne@:ne%{PREF%}@P.PREF.ne@ Stems ;
+@P.PREF.nedi@:nedi%{PREF%}@P.PREF.nedi@ Stems ; !! Negative past imperfect 
 
 !!! If the present stem begins with a- or ê-, the prefix di- may drop its vowel
 !!! and becomes d-, as in axaftin/axiv- ‘speak’ and êşandin/êşîn- ‘to hurt,’ the
 !!! present tenses of which are either daxivim or diaxivim ‘I speak’ and either
 !!! dêşînim or diêşînim ‘I hurt.’
 
-@P.PREF.di@:d%^EPREF@P.PREF.di@ Stems ;
+@P.PREF.di@:d%{EPREF%}@P.PREF.di@ Stems ;
 
 LEXICON VerbRoot
 
@@ -76,13 +78,13 @@ CompoundVerbs;
 
 LEXICON IrregularVerbs
 
-bûn+Verb+Inf:bûn # ;
-bûn+Verb+Pri: PersonalSuffixes ; ! copula
+bûn%<v%>%<inf%>:bûn # ;
+bûn%<v%>%<pri%>: PersonalSuffixes ; ! copula
 
 !   The combination of an oblique plural ending in -an and 
 !   the first-person singular enclitic im usually 
 !   becomes -a me instead of -an im.
-bûn+Verb+Pri+P1+Sg:me # ; 
+bûn%<v%>%<pri%>%<p1%>%<sg%>:me # ; 
 
 
 !   There are two present subjunctives of the verb bûn ‘to be, become,’ with
@@ -90,77 +92,77 @@ bûn+Verb+Pri+P1+Sg:me # ;
 !   is used when the verb means ‘be’; the conjugation with the marker is used
 !   when the verb means ‘become’ and when it is part of a compound verb.
 
-bûn+Verb+Neg+Prs+P1+Sg:nebim # ; 
-bûn+Verb+Neg+Prs+P2+Sg:nebî # ;
-bûn+Verb+Neg+Prs+P3+Sg:nebe # ;
-bûn+Verb+Neg+Prs+P1+Pl:nebin # ;
-bûn+Verb+Neg+Prs+P2+Pl:nebin # ;
-bûn+Verb+Neg+Prs+P3+Pl:nebin # ;
+bûn%<v%>%<neg%>%<prs%>%<p1%>%<sg%>:nebim # ; 
+bûn%<v%>%<neg%>%<prs%>%<p2%>%<sg%>:nebî # ;
+bûn%<v%>%<neg%>%<prs%>%<p3%>%<sg%>:nebe # ;
+bûn%<v%>%<neg%>%<prs%>%<p1%>%<pl%>:nebin # ;
+bûn%<v%>%<neg%>%<prs%>%<p2%>%<pl%>:nebin # ;
+bûn%<v%>%<neg%>%<prs%>%<p3%>%<pl%>:nebin # ;
 
-bûn+Verb+Prs: BûnPrs ;
-bûn+Verb+Prs:bi BûnPrs ;
-bûn+Verb+Past: BûnPast ;
-bûn+Verb+PastCond@D.PREF@:bû@D.PREF@ PersonalSuffixesIrrealis ; ! ez bûma
-bûn+Verb+PastCond@P.PREF.bi@:bibû@P.PREF.bi@ PersonalSuffixesIrrealis ; ! ez bibûma
+bûn%<v%>%<prs%>: BûnPrs ;
+bûn%<v%>%<prs%>:bi BûnPrs ;
+bûn%<v%>%<past%>: BûnPast ;
+bûn%<v%>%<past%>%<cond%>@D.PREF@:bû@D.PREF@ PersonalSuffixesIrrealis ; ! ez bûma
+bûn%<v%>%<past%>%<cond%>@P.PREF.bi@:bibû@P.PREF.bi@ PersonalSuffixesIrrealis ; ! ez bibûma
 
-bûn+Verb+Neg+Past+P1+Sg:nebûm # ; 
-bûn+Verb+Neg+Past+P2+Sg:nebûyî # ;
-bûn+Verb+Neg+Past+P3+Sg:nebû # ;
-bûn+Verb+Neg+Past+P1+Pl:nebûn # ;
-bûn+Verb+Neg+Past+P2+Pl:nebûn # ;
-bûn+Verb+Neg+Past+P3+Pl:nebûn # ;
-bûn+Verb+Neg+Pii+P1+Sg:nedibûm # ; 
-bûn+Verb+Neg+Pii+P2+Sg:nedibûyî # ;
-bûn+Verb+Neg+Pii+P3+Sg:nedibû # ;
-bûn+Verb+Neg+Pii+P1+Pl:nedibûn # ;
-bûn+Verb+Neg+Pii+P2+Pl:nedibûn # ;
-bûn+Verb+Neg+Pii+P3+Pl:nedibûn # ;
+bûn%<v%>%<neg%>%<past%>%<p1%>%<sg%>:nebûm # ; 
+bûn%<v%>%<neg%>%<past%>%<p2%>%<sg%>:nebûyî # ;
+bûn%<v%>%<neg%>%<past%>%<p3%>%<sg%>:nebû # ;
+bûn%<v%>%<neg%>%<past%>%<p1%>%<pl%>:nebûn # ;
+bûn%<v%>%<neg%>%<past%>%<p2%>%<pl%>:nebûn # ;
+bûn%<v%>%<neg%>%<past%>%<p3%>%<pl%>:nebûn # ;
+bûn%<v%>%<neg%>%<pii%>%<p1%>%<sg%>:nedibûm # ; 
+bûn%<v%>%<neg%>%<pii%>%<p2%>%<sg%>:nedibûyî # ;
+bûn%<v%>%<neg%>%<pii%>%<p3%>%<sg%>:nedibû # ;
+bûn%<v%>%<neg%>%<pii%>%<p1%>%<pl%>:nedibûn # ;
+bûn%<v%>%<neg%>%<pii%>%<p2%>%<pl%>:nedibûn # ;
+bûn%<v%>%<neg%>%<pii%>%<p3%>%<pl%>:nedibûn # ;
 
-hebûn+Verb+Inf:hebûn # ;
-hebûn+Verb+Pri+P1+Sg:heme # ;
-hebûn+Verb+Pri+P2+Sg:heyî # ;
-hebûn+Verb+Pri+P3+Sg:heye # ;
-hebûn+Verb+Pri+P1+Pl:hene # ;
-hebûn+Verb+Pri+P2+Pl:hene # ;
-hebûn+Verb+Pri+P3+Pl:hene # ;
-hebûn+Verb+Past+P1+Sg:hebûm # ;
-hebûn+Verb+Past+P2+Sg:hebûyî # ;
-hebûn+Verb+Past+P3+Sg:hebû # ;
-hebûn+Verb+Past+P1+Pl:hebûn # ;
-hebûn+Verb+Past+P2+Pl:hebûn # ;
-hebûn+Verb+Past+P3+Pl:hebûn # ;
-hebûn+Verb+Neg+Pri+P3+Sg:tune # ;
-hebûn+Verb+Neg+Past+P3+Sg:tunebû # ;
+hebûn%<v%>%<inf%>:hebûn # ;
+hebûn%<v%>%<pri%>%<p1%>%<sg%>:heme # ;
+hebûn%<v%>%<pri%>%<p2%>%<sg%>:heyî # ;
+hebûn%<v%>%<pri%>%<p3%>%<sg%>:heye # ;
+hebûn%<v%>%<pri%>%<p1%>%<pl%>:hene # ;
+hebûn%<v%>%<pri%>%<p2%>%<pl%>:hene # ;
+hebûn%<v%>%<pri%>%<p3%>%<pl%>:hene # ;
+hebûn%<v%>%<past%>%<p1%>%<sg%>:hebûm # ;
+hebûn%<v%>%<past%>%<p2%>%<sg%>:hebûyî # ;
+hebûn%<v%>%<past%>%<p3%>%<sg%>:hebû # ;
+hebûn%<v%>%<past%>%<p1%>%<pl%>:hebûn # ;
+hebûn%<v%>%<past%>%<p2%>%<pl%>:hebûn # ;
+hebûn%<v%>%<past%>%<p3%>%<pl%>:hebûn # ;
+hebûn%<v%>%<neg%>%<pri%>%<p3%>%<sg%>:tune # ;
+hebûn%<v%>%<neg%>%<past%>%<p3%>%<sg%>:tunebû # ;
 
 ! There are two present subjunctives of hatin ‘to come.’ One is regularly
 ! conjugated based on the stem wer- without the bi- prefix; the other is regu-
 ! larly conjugated based on the stem bê-, a contraction of bi- and yê-, the
 ! present stem of hatin.
 
-hebûn+Verb+Prs+P1+Sg:werim # ;
-hebûn+Verb+Prs+P2+Sg:werî # ;
-hebûn+Verb+Prs+P3+Sg:were # ;
-hebûn+Verb+Prs+P1+Pl:werin # ;
-hebûn+Verb+Prs+P2+Pl:werin # ;
-hebûn+Verb+Prs+P3+Pl:werin # ;
-hebûn+Verb+Prs+P1+Sg:bêm # ;
-hebûn+Verb+Prs+P2+Sg:bêyî # ;
-hebûn+Verb+Prs+P3+Sg:bê # ;
-hebûn+Verb+Prs+P1+Pl:bên # ;
-hebûn+Verb+Prs+P2+Pl:bên # ;
-hebûn+Verb+Prs+P3+Pl:bên # ;
-hebûn+Verb+Neg+Prs+P1+Sg:newerim # ;
-hebûn+Verb+Neg+Prs+P2+Sg:newerî # ;
-hebûn+Verb+Neg+Prs+P3+Sg:newere # ;
-hebûn+Verb+Neg+Prs+P1+Pl:newerin # ;
-hebûn+Verb+Neg+Prs+P2+Pl:newerin # ;
-hebûn+Verb+Neg+Prs+P3+Pl:newerin # ;
-hebûn+Verb+Neg+Prs+P1+Sg:neyêm # ;
-hebûn+Verb+Neg+Prs+P2+Sg:neyêyî # ;
-hebûn+Verb+Neg+Prs+P3+Sg:neyê # ;
-hebûn+Verb+Neg+Prs+P1+Pl:neyên # ;
-hebûn+Verb+Neg+Prs+P2+Pl:neyên # ;
-hebûn+Verb+Neg+Prs+P3+Pl:neyên # ;
+hebûn%<v%>%<prs%>%<p1%>%<sg%>:werim # ;
+hebûn%<v%>%<prs%>%<p2%>%<sg%>:werî # ;
+hebûn%<v%>%<prs%>%<p3%>%<sg%>:were # ;
+hebûn%<v%>%<prs%>%<p1%>%<pl%>:werin # ;
+hebûn%<v%>%<prs%>%<p2%>%<pl%>:werin # ;
+hebûn%<v%>%<prs%>%<p3%>%<pl%>:werin # ;
+hebûn%<v%>%<prs%>%<p1%>%<sg%>:bêm # ;
+hebûn%<v%>%<prs%>%<p2%>%<sg%>:bêyî # ;
+hebûn%<v%>%<prs%>%<p3%>%<sg%>:bê # ;
+hebûn%<v%>%<prs%>%<p1%>%<pl%>:bên # ;
+hebûn%<v%>%<prs%>%<p2%>%<pl%>:bên # ;
+hebûn%<v%>%<prs%>%<p3%>%<pl%>:bên # ;
+hebûn%<v%>%<neg%>%<prs%>%<p1%>%<sg%>:newerim # ;
+hebûn%<v%>%<neg%>%<prs%>%<p2%>%<sg%>:newerî # ;
+hebûn%<v%>%<neg%>%<prs%>%<p3%>%<sg%>:newere # ;
+hebûn%<v%>%<neg%>%<prs%>%<p1%>%<pl%>:newerin # ;
+hebûn%<v%>%<neg%>%<prs%>%<p2%>%<pl%>:newerin # ;
+hebûn%<v%>%<neg%>%<prs%>%<p3%>%<pl%>:newerin # ;
+hebûn%<v%>%<neg%>%<prs%>%<p1%>%<sg%>:neyêm # ;
+hebûn%<v%>%<neg%>%<prs%>%<p2%>%<sg%>:neyêyî # ;
+hebûn%<v%>%<neg%>%<prs%>%<p3%>%<sg%>:neyê # ;
+hebûn%<v%>%<neg%>%<prs%>%<p1%>%<pl%>:neyên # ;
+hebûn%<v%>%<neg%>%<prs%>%<p2%>%<pl%>:neyên # ;
+hebûn%<v%>%<neg%>%<prs%>%<p3%>%<pl%>:neyên # ;
 
 !!!    There are two verbs with irregular conjugations in the present tense, 
 !!!    hatin ‘to come’ and anîn ‘to bring.’ In both these verbs the dí- modal 
@@ -190,9 +192,9 @@ hebûn+Verb+Neg+Prs+P3+Pl:neyên # ;
 @P.PREF.na@zan:nizan@P.PREF.na@ Accidents_PresStem_în ; ! ez nizanim
 @P.PREF.ne@zan:nezan@P.PREF.ne@ Accidents_PastStem_în ; ! ez nezanim
 @P.PREF.nedi@zan:nedizan@P.PREF.nedi@ Accidents_PastStem_în ; ! ez nedizanim
-@P.PREF.bi@zanîn+Verb+Pis:bizani%^IEPH@P.PREF.bi@ BûnPrs ; ! ez bizanibim
+@P.PREF.bi@zanîn%<v%>%<pis%>:bizani%{IEPH%}@P.PREF.bi@ BûnPrs ; ! ez bizanibim
 !! the bí- subjunctive prefix may be omitted for stylisic reasons
-@D.PREF@zanîn+Verb+Pis:zani%^IEPH@D.PREF@ BûnPrs ; ! ez zanibim ^LR^
+@D.PREF@zanîn%<v%>%<pis%>:zani%{IEPH%}@D.PREF@ BûnPrs ; ! ez zanibim ^LR^
 
 @D.PREF@kar:karî@D.PREF@ Accidents_PastStem_în ; ! lm="karîn" :: "to be able to"
 @P.PREF.di@kar:dikar@P.PREF.di@ Accidents_PresStem_în ; ! ez dikarim
@@ -200,9 +202,9 @@ hebûn+Verb+Neg+Prs+P3+Pl:neyên # ;
 @P.PREF.na@kar:nikar@P.PREF.na@ Accidents_PresStem_în ; ! ez nikarim
 @P.PREF.ne@kar:nekar@P.PREF.ne@ Accidents_PastStem_în ; ! ez nekarim
 @P.PREF.nedi@kar:nedikar@P.PREF.nedi@ Accidents_PastStem_în ; ! ez nedikarim
-@P.PREF.bi@karîn+Verb+Pis:bikari%^IEPH@P.PREF.bi@ BûnPrs ; ! ez bikaribim 
+@P.PREF.bi@karîn%<v%>%<pis%>:bikari%{IEPH%}@P.PREF.bi@ BûnPrs ; ! ez bikaribim 
 !! the bí- subjunctive prefix may be omitted for stylisic reasons
-@D.PREF@karîn+Verb+Pis:kari%^IEPH@D.PREF@ BûnPrs ; ! ez karibim ^LR^
+@D.PREF@karîn%<v%>%<pis%>:kari%{IEPH%}@D.PREF@ BûnPrs ; ! ez karibim ^LR^
 
 ! There are also two present subjunctives of çûn ‘to go.’ One is regularly
 ! congujated based on the stem ç- with the bí- subjunctive marker; the other
@@ -221,12 +223,12 @@ LEXICON BûnPast
 ! PastPerf. PastPerf = past stem + i + past form of 'bûn'
 !
 
-+P1+Sg:bûm # ; 
-+P2+Sg:bûyî # ;
-+P3+Sg:bû # ;
-+P1+Pl:bûn # ;
-+P2+Pl:bûn # ;
-+P3+Pl:bûn # ;
+%<p1%>%<sg%>:bûm # ; 
+%<p2%>%<sg%>:bûyî # ;
+%<p3%>%<sg%>:bû # ;
+%<p1%>%<pl%>:bûn # ;
+%<p2%>%<pl%>:bûn # ;
+%<p3%>%<pl%>:bûn # ;
 
 LEXICON BûnPrs 
 
@@ -235,12 +237,12 @@ LEXICON BûnPrs
 !  Pis = past stem + i + prs of 'bûn'
 !
 
-+P1+Sg:bim # ;
-+P2+Sg:bî # ;
-+P3+Sg:be # ;
-+P1+Pl:bin # ;
-+P2+Pl:bin # ;
-+P3+Pl:bin # ;
+%<p1%>%<sg%>:bim # ;
+%<p2%>%<sg%>:bî # ;
+%<p3%>%<sg%>:be # ;
+%<p1%>%<pl%>:bin # ;
+%<p2%>%<pl%>:bin # ;
+%<p3%>%<pl%>:bin # ;
 
 LEXICON Stems 
 
@@ -384,50 +386,50 @@ VerbCompound_rû ;
 LEXICON VerbCompound_ve
 
 ve@D.PREF@:ve@D.PREF@ CompoundStems_ve ;
-ve@P.PREF.di@:vedi%^PREF@P.PREF.di@ CompoundStems_ve ;
-ve@P.PREF.na@:vena%^PREF@P.PREF.na@ CompoundStems_ve ;
-ve@P.PREF.ne@:vene%^PREF@P.PREF.ne@ CompoundStems_ve ;
-ve@P.PREF.nedi@:venedi%^PREF@P.PREF.nedi@ CompoundStems_ve ; 
+ve@P.PREF.di@:vedi%{PREF%}@P.PREF.di@ CompoundStems_ve ;
+ve@P.PREF.na@:vena%{PREF%}@P.PREF.na@ CompoundStems_ve ;
+ve@P.PREF.ne@:vene%{PREF%}@P.PREF.ne@ CompoundStems_ve ;
+ve@P.PREF.nedi@:venedi%{PREF%}@P.PREF.nedi@ CompoundStems_ve ; 
 
 !! When the bí- prefix is omitted, the absence of a modal
 !! modal prefix identifies the verb as subjunctive, as in 
 !! ve-xwarin (ve-xw-) ‘to drink’
 
-ve@P.PREF.bi@:ve%^PREF@P.PREF.bi@ CompoundStems_ve ; 
+ve@P.PREF.bi@:ve%{PREF%}@P.PREF.bi@ CompoundStems_ve ; 
 
 LEXICON VerbCompound_rû
 
 rû@D.PREF@:rû@D.PREF@ CompoundStems_rû ;
-rû@P.PREF.di@:rûdi%^PREF@P.PREF.di@ CompoundStems_rû ;
-rû@P.PREF.na@:rûna%^PREF@P.PREF.na@ CompoundStems_rû ;
-rû@P.PREF.ne@:rûne%^PREF@P.PREF.ne@ CompoundStems_rû ;
-rû@P.PREF.nedi@:rûnedi%^PREF@P.PREF.nedi@ CompoundStems_rû ; 
+rû@P.PREF.di@:rûdi%{PREF%}@P.PREF.di@ CompoundStems_rû ;
+rû@P.PREF.na@:rûna%{PREF%}@P.PREF.na@ CompoundStems_rû ;
+rû@P.PREF.ne@:rûne%{PREF%}@P.PREF.ne@ CompoundStems_rû ;
+rû@P.PREF.nedi@:rûnedi%{PREF%}@P.PREF.nedi@ CompoundStems_rû ; 
 
 !! When the bí- prefix is omitted, the absence of a modal
 !! modal prefix identifies the rûrb as subjunctirû, as in 
 !! rû-xwarin (rû-xw-) ‘to drink’
 
-rû@P.PREF.bi@:rû%^PREF@P.PREF.bi@ CompoundStems_rû ; 
+rû@P.PREF.bi@:rû%{PREF%}@P.PREF.bi@ CompoundStems_rû ; 
 
 LEXICON VerbCompound_ra
 
 ra@D.PREF@:ra@D.PREF@ CompoundStems_ra ;
-ra@P.PREF.di@:radi%^PREF@P.PREF.di@ CompoundStems_ra ;
-ra@P.PREF.na@:rana%^PREF@P.PREF.na@ CompoundStems_ra ;
-ra@P.PREF.ne@:rane%^PREF@P.PREF.ne@ CompoundStems_ra ;
-ra@P.PREF.nedi@:ranedi%^PREF@P.PREF.nedi@ CompoundStems_ra ; 
+ra@P.PREF.di@:radi%{PREF%}@P.PREF.di@ CompoundStems_ra ;
+ra@P.PREF.na@:rana%{PREF%}@P.PREF.na@ CompoundStems_ra ;
+ra@P.PREF.ne@:rane%{PREF%}@P.PREF.ne@ CompoundStems_ra ;
+ra@P.PREF.nedi@:ranedi%{PREF%}@P.PREF.nedi@ CompoundStems_ra ; 
 
-ra@P.PREF.bi@:ra%^PREF@P.PREF.bi@ CompoundStems_ra ; 
+ra@P.PREF.bi@:ra%{PREF%}@P.PREF.bi@ CompoundStems_ra ; 
 
 LEXICON VerbCompound_hil
 
 hil@D.PREF@:hil@D.PREF@ CompoundStems_hil ;
-hil@P.PREF.di@:hildi%^PREF@P.PREF.di@ CompoundStems_hil ;
-hil@P.PREF.na@:hilna%^PREF@P.PREF.na@ CompoundStems_hil ;
-hil@P.PREF.ne@:hilne%^PREF@P.PREF.ne@ CompoundStems_hil ;
-hil@P.PREF.nedi@:hilnedi%^PREF@P.PREF.nedi@ CompoundStems_hil ; 
+hil@P.PREF.di@:hildi%{PREF%}@P.PREF.di@ CompoundStems_hil ;
+hil@P.PREF.na@:hilna%{PREF%}@P.PREF.na@ CompoundStems_hil ;
+hil@P.PREF.ne@:hilne%{PREF%}@P.PREF.ne@ CompoundStems_hil ;
+hil@P.PREF.nedi@:hilnedi%{PREF%}@P.PREF.nedi@ CompoundStems_hil ; 
 
-hil@P.PREF.bi@:hil%^PREF@P.PREF.bi@ CompoundStems_hil ; 
+hil@P.PREF.bi@:hil%{PREF%}@P.PREF.bi@ CompoundStems_hil ; 
 
 LEXICON CompoundStems_ve 
 
@@ -469,166 +471,166 @@ nişt:nişt Accidents_PastStem_in ; ! lm="rûniştin" :: "to sit down"
 
 LEXICON Accidents_PresStem_ûn
 
-ûn+Verb+Pri@R.PREF.di@@D.PREF.ne@:@R.PREF.di@@D.PREF.ne@ PersonalSuffixes ; ! ez diçim
-ûn+Verb+Prs@R.PREF.bi@:@R.PREF.bi@ PersonalSuffixes ; ! ez biçim
-ûn+Verb+Neg+Pri@R.PREF.na@:@R.PREF.na@ PersonalSuffixes ; ! ez naçim
-ûn+Verb+Neg+Prs@R.PREF.ne@:@R.PREF.ne@ PersonalSuffixes ; ! ez neçim
-ûn+Verb+Imp+P2+Sg@R.PREF.bi@:e@R.PREF.bi@ # ; ! biçe
-ûn+Verb+Imp+P2+Pl@R.PREF.bi@:in@R.PREF.bi@ # ; ! biçin
-ûn+Verb+Neg+Imp+P2+Sg@R.PREF.ne@:e@R.PREF.ne@ # ; ! neke
-ûn+Verb+Neg+Imp+P2+Pl@R.PREF.ne@:in@R.PREF.ne@ # ; ! nekin
+ûn%<v%>%<pri%>@R.PREF.di@@D.PREF.ne@:@R.PREF.di@@D.PREF.ne@ PersonalSuffixes ; ! ez diçim
+ûn%<v%>%<prs%>@R.PREF.bi@:@R.PREF.bi@ PersonalSuffixes ; ! ez biçim
+ûn%<v%>%<neg%>%<pri%>@R.PREF.na@:@R.PREF.na@ PersonalSuffixes ; ! ez naçim
+ûn%<v%>%<neg%>%<prs%>@R.PREF.ne@:@R.PREF.ne@ PersonalSuffixes ; ! ez neçim
+ûn%<v%>%<imp%>%<p2%>%<sg%>@R.PREF.bi@:e@R.PREF.bi@ # ; ! biçe
+ûn%<v%>%<imp%>%<p2%>%<pl%>@R.PREF.bi@:in@R.PREF.bi@ # ; ! biçin
+ûn%<v%>%<neg%>%<imp%>%<p2%>%<sg%>@R.PREF.ne@:e@R.PREF.ne@ # ; ! neke
+ûn%<v%>%<neg%>%<imp%>%<p2%>%<pl%>@R.PREF.ne@:in@R.PREF.ne@ # ; ! nekin
 
 LEXICON Accidents_PastStem_ûn
 
-ûn+Verb+Inf@D.PREF@:n@D.PREF@ # ; ! çûn
-ûn+Verb+Inf+Obl@D.PREF@:na@D.PREF@ # ; ! çûna
-ûn+Verb+Pp@D.PREF@:%^VSUFPî@D.PREF@ # ; ! çûnî
+ûn%<v%>%<inf%>@D.PREF@:n@D.PREF@ # ; ! çûn
+ûn%<v%>%<inf%>%<obl%>@D.PREF@:na@D.PREF@ # ; ! çûna
+ûn%<v%>%<pp%>@D.PREF@:%{VSUFP%}î@D.PREF@ # ; ! çûnî
 
-ûn+Verb+PresPerf@D.PREF@:@D.PREF@ PersonalSuffixesPerfect ; ! ez çûme
-ûn+Verb+Neg+PresPerf@R.PREF.ne@:@R.PREF.ne@ PersonalSuffixesPerfect ; ! ez neçûme
+ûn%<v%>%<perf%>%<pres%>@D.PREF@:@D.PREF@ PersonalSuffixesPerfect ; ! ez çûme
+ûn%<v%>%<neg%>%<perf%>%<pres%>@R.PREF.ne@:@R.PREF.ne@ PersonalSuffixesPerfect ; ! ez neçûme
 
-ûn+Verb+PastPerf@D.PREF@:i%^IEPH@D.PREF@ BûnPast ; ! ez çûbûm
-ûn+Verb+Neg+PastPerf@R.PREF.ne@:i%^IEPH@R.PREF.ne@ BûnPast ; ! ez neçûbûm
-ûn+Verb+Pis@R.PREF.bi@:i%^IEPH@R.PREF.bi@ BûnPrs ; ! ez biçûbim
+ûn%<v%>%<perf%>%<past%>@D.PREF@:i%{IEPH%}@D.PREF@ BûnPast ; ! ez çûbûm
+ûn%<v%>%<neg%>%<perf%>%<past%>@R.PREF.ne@:i%{IEPH%}@R.PREF.ne@ BûnPast ; ! ez neçûbûm
+ûn%<v%>%<pis%>@R.PREF.bi@:i%{IEPH%}@R.PREF.bi@ BûnPrs ; ! ez biçûbim
 !! the bí- subjunctive prefix may be omitted for stylisic reasons
-ûn+Verb+Pis@D.PREF@:i%^IEPH@D.PREF@ BûnPrs ; ! ez biçûbim ^LR^
-ûn+Verb+Neg+Pis@R.PREF.ne@:i%^IEPH@R.PREF.ne@ BûnPrs ; ! ez neçûbim
+ûn%<v%>%<pis%>@D.PREF@:i%{IEPH%}@D.PREF@ BûnPrs ; ! ez biçûbim ^LR^
+ûn%<v%>%<neg%>%<pis%>@R.PREF.ne@:i%{IEPH%}@R.PREF.ne@ BûnPrs ; ! ez neçûbim
 
-ûn+Verb+PastCond@R.PREF.bi@:@R.PREF.bi@ PersonalSuffixesIrrealis ; ! ez biçûma
+ûn%<v%>%<past%>%<cond%>@R.PREF.bi@:@R.PREF.bi@ PersonalSuffixesIrrealis ; ! ez biçûma
 
-ûn+Verb+Past@D.PREF@:@D.PREF@ PersonalSuffixes ; ! ez çûm
-ûn+Verb+Neg+Past@R.PREF.ne@:@R.PREF.ne@ PersonalSuffixes ; ! ez neçûm
-ûn+Verb+Pii@R.PREF.di@:@R.PREF.di@ PersonalSuffixes ; ! ez diçûm
-ûn+Verb+Neg+Pii@R.PREF.nedi@:@R.PREF.nedi@ PersonalSuffixes ; ! ez nediçûm
+ûn%<v%>%<past%>@D.PREF@:@D.PREF@ PersonalSuffixes ; ! ez çûm
+ûn%<v%>%<neg%>%<past%>@R.PREF.ne@:@R.PREF.ne@ PersonalSuffixes ; ! ez neçûm
+ûn%<v%>%<pii%>@R.PREF.di@:@R.PREF.di@ PersonalSuffixes ; ! ez diçûm
+ûn%<v%>%<neg%>%<pii%>@R.PREF.nedi@:@R.PREF.nedi@ PersonalSuffixes ; ! ez nediçûm
 
 LEXICON Accidents_PresStem_in
 
-in+Verb+Pri@R.PREF.di@@D.PREF.ne@:@R.PREF.di@@D.PREF.ne@ PersonalSuffixes ; ! ez dikim
-in+Verb+Prs@R.PREF.bi@:@R.PREF.bi@ PersonalSuffixes ; ! ez bikim
-in+Verb+Neg+Pri@R.PREF.na@:@R.PREF.na@ PersonalSuffixes ; ! ez nakim
-in+Verb+Neg+Prs@R.PREF.ne@:@R.PREF.ne@ PersonalSuffixes ; ! ez nekim
-in+Verb+Imp+P2+Sg@R.PREF.bi@:e@R.PREF.bi@ # ; ! bike
-in+Verb+Imp+P2+Pl@R.PREF.bi@:in@R.PREF.bi@ # ; ! bikin
-in+Verb+Neg+Imp+P2+Sg@R.PREF.ne@:e@R.PREF.ne@ # ; ! neke
-in+Verb+Neg+Imp+P2+Pl@R.PREF.ne@:in@R.PREF.ne@ # ; ! nekin
+in%<v%>%<pri%>@R.PREF.di@@D.PREF.ne@:@R.PREF.di@@D.PREF.ne@ PersonalSuffixes ; ! ez dikim
+in%<v%>%<prs%>@R.PREF.bi@:@R.PREF.bi@ PersonalSuffixes ; ! ez bikim
+in%<v%>%<neg%>%<pri%>@R.PREF.na@:@R.PREF.na@ PersonalSuffixes ; ! ez nakim
+in%<v%>%<neg%>%<prs%>@R.PREF.ne@:@R.PREF.ne@ PersonalSuffixes ; ! ez nekim
+in%<v%>%<imp%>%<p2%>%<sg%>@R.PREF.bi@:e@R.PREF.bi@ # ; ! bike
+in%<v%>%<imp%>%<p2%>%<pl%>@R.PREF.bi@:in@R.PREF.bi@ # ; ! bikin
+in%<v%>%<neg%>%<imp%>%<p2%>%<sg%>@R.PREF.ne@:e@R.PREF.ne@ # ; ! neke
+in%<v%>%<neg%>%<imp%>%<p2%>%<pl%>@R.PREF.ne@:in@R.PREF.ne@ # ; ! nekin
 
 LEXICON Accidents_PastStem_in
 
-in+Verb+Inf@D.PREF@:in@D.PREF@ # ; ! kirin
-in+Verb+Inf+Obl@D.PREF@:na@D.PREF@ # ; ! kirina
-in+Verb+Pp@D.PREF@:%^VSUFPî@D.PREF@ # ; ! kirî
+in%<v%>%<inf%>@D.PREF@:in@D.PREF@ # ; ! kirin
+in%<v%>%<inf%>%<obl%>@D.PREF@:na@D.PREF@ # ; ! kirina
+in%<v%>%<pp%>@D.PREF@:%{VSUFP%}î@D.PREF@ # ; ! kirî
 
-in+Verb+PresPerf@D.PREF@:@D.PREF@ PersonalSuffixesPerfect ; ! ez kirime 
-in+Verb+Neg+PresPerf@R.PREF.ne@:@R.PREF.ne@ PersonalSuffixesPerfect ; ! ez nekirime
+in%<v%>%<perf%>%<pres%>@D.PREF@:@D.PREF@ PersonalSuffixesPerfect ; ! ez kirime 
+in%<v%>%<neg%>%<perf%>%<pres%>@R.PREF.ne@:@R.PREF.ne@ PersonalSuffixesPerfect ; ! ez nekirime
 
-in+Verb+PastPerf@D.PREF@:i%^IEPH@D.PREF@ BûnPast ; ! ez kiribûm 
-in+Verb+Neg+PastPerf@R.PREF.ne@:i%^IEPH@R.PREF.ne@ BûnPast ; ! ez nekiribûm
-in+Verb+Pis@R.PREF.bi@:i%^IEPH@R.PREF.bi@ BûnPrs ; ! ez bikiribim 
+in%<v%>%<perf%>%<past%>@D.PREF@:i%{IEPH%}@D.PREF@ BûnPast ; ! ez kiribûm 
+in%<v%>%<neg%>%<perf%>%<past%>@R.PREF.ne@:i%{IEPH%}@R.PREF.ne@ BûnPast ; ! ez nekiribûm
+in%<v%>%<pis%>@R.PREF.bi@:i%{IEPH%}@R.PREF.bi@ BûnPrs ; ! ez bikiribim 
 !! the bí- subjunctive prefix may be omitted for stylisic reasons
-in+Verb+Pis@D.PREF@:i%^IEPH@D.PREF@ BûnPrs ; ! ez kiribim ^LR^
-in+Verb+Neg+Pis@R.PREF.ne@:i%^IEPH@R.PREF.ne@ BûnPrs ; ! ez nekiribim
+in%<v%>%<pis%>@D.PREF@:i%{IEPH%}@D.PREF@ BûnPrs ; ! ez kiribim ^LR^
+in%<v%>%<neg%>%<pis%>@R.PREF.ne@:i%{IEPH%}@R.PREF.ne@ BûnPrs ; ! ez nekiribim
 
-in+Verb+PastCond@R.PREF.bi@:@R.PREF.bi@ PersonalSuffixesIrrealis ; ! ez bikirama
+in%<v%>%<past%>%<cond%>@R.PREF.bi@:@R.PREF.bi@ PersonalSuffixesIrrealis ; ! ez bikirama
 
-in+Verb+Past@D.PREF@:@D.PREF@ PersonalSuffixes ; ! ez kirim
-in+Verb+Neg+Past@R.PREF.ne@:@R.PREF.ne@ PersonalSuffixes ; ! ez nekirim
-in+Verb+Pii@R.PREF.di@:@R.PREF.di@ PersonalSuffixes ; ! ez dikirim
-in+Verb+Neg+Pii@R.PREF.nedi@:@R.PREF.nedi@ PersonalSuffixes ; ! ez nedikirim
+in%<v%>%<past%>@D.PREF@:@D.PREF@ PersonalSuffixes ; ! ez kirim
+in%<v%>%<neg%>%<past%>@R.PREF.ne@:@R.PREF.ne@ PersonalSuffixes ; ! ez nekirim
+in%<v%>%<pii%>@R.PREF.di@:@R.PREF.di@ PersonalSuffixes ; ! ez dikirim
+in%<v%>%<neg%>%<pii%>@R.PREF.nedi@:@R.PREF.nedi@ PersonalSuffixes ; ! ez nedikirim
 
 LEXICON Accidents_PresStem_în
 
-în+Verb+Pri@R.PREF.di@@D.PREF.ne@:@R.PREF.di@@D.PREF.ne@ PersonalSuffixes ; ! ez dinivîsim 
-în+Verb+Prs@R.PREF.bi@:@R.PREF.bi@ PersonalSuffixes ; ! ez binivîsim
-în+Verb+Neg+Pri@R.PREF.na@:@R.PREF.na@ PersonalSuffixes ; ! ez nanivîsim
-în+Verb+Neg+Prs@R.PREF.ne@:@R.PREF.ne@ PersonalSuffixes ; ! ez nenivîsim
-în+Verb+Imp+P2+Sg@R.PREF.bi@:e@R.PREF.bi@ # ; ! binivîse
-în+Verb+Imp+P2+Pl@R.PREF.bi@:in@R.PREF.bi@ # ; ! binivîsin
-în+Verb+Neg+Imp+P2+Sg@R.PREF.ne@:e@R.PREF.ne@ # ; ! nenivîse
-în+Verb+Neg+Imp+P2+Pl@R.PREF.ne@:in@R.PREF.ne@ # ; ! nenivîsin
+în%<v%>%<pri%>@R.PREF.di@@D.PREF.ne@:@R.PREF.di@@D.PREF.ne@ PersonalSuffixes ; ! ez dinivîsim 
+în%<v%>%<prs%>@R.PREF.bi@:@R.PREF.bi@ PersonalSuffixes ; ! ez binivîsim
+în%<v%>%<neg%>%<pri%>@R.PREF.na@:@R.PREF.na@ PersonalSuffixes ; ! ez nanivîsim
+în%<v%>%<neg%>%<prs%>@R.PREF.ne@:@R.PREF.ne@ PersonalSuffixes ; ! ez nenivîsim
+în%<v%>%<imp%>%<p2%>%<sg%>@R.PREF.bi@:e@R.PREF.bi@ # ; ! binivîse
+în%<v%>%<imp%>%<p2%>%<pl%>@R.PREF.bi@:in@R.PREF.bi@ # ; ! binivîsin
+în%<v%>%<neg%>%<imp%>%<p2%>%<sg%>@R.PREF.ne@:e@R.PREF.ne@ # ; ! nenivîse
+în%<v%>%<neg%>%<imp%>%<p2%>%<pl%>@R.PREF.ne@:in@R.PREF.ne@ # ; ! nenivîsin
 
 LEXICON Accidents_PastStem_în
 
-în+Verb+Inf@D.PREF@:n@D.PREF@ # ; ! nivîsîn
-în+Verb+Inf+Obl@D.PREF@:na@D.PREF@ # ; ! nivîsîna 
-în+Verb+Pp@D.PREF@:%^VSUFP@D.PREF@ # ; ! nivîsî
+în%<v%>%<inf%>@D.PREF@:n@D.PREF@ # ; ! nivîsîn
+în%<v%>%<inf%>%<obl%>@D.PREF@:na@D.PREF@ # ; ! nivîsîna 
+în%<v%>%<pp%>@D.PREF@:%{VSUFP%}@D.PREF@ # ; ! nivîsî
 
-în+Verb+PresPerf@D.PREF@:@D.PREF@ PersonalSuffixesPerfect ; ! ez nivîsime 
-în+Verb+Neg+PresPerf@R.PREF.ne@:@R.PREF.ne@ PersonalSuffixesPerfect ; ! ez nenivîsime
+în%<v%>%<perf%>%<pres%>@D.PREF@:@D.PREF@ PersonalSuffixesPerfect ; ! ez nivîsime 
+în%<v%>%<neg%>%<perf%>%<pres%>@R.PREF.ne@:@R.PREF.ne@ PersonalSuffixesPerfect ; ! ez nenivîsime
 
-în+Verb+PastPerf@D.PREF@:i%^IEPH@D.PREF@ BûnPast ; ! ez nivîsibûm
-în+Verb+Neg+PastPerf@R.PREF.ne@:i%^IEPH@R.PREF.ne@ BûnPast ; ! ez nenivîsibûm
-în+Verb+Pis@R.PREF.bi@:i%^IEPH@R.PREF.bi@ BûnPrs ; ! ez binivîsibim
+în%<v%>%<perf%>%<past%>@D.PREF@:i%{IEPH%}@D.PREF@ BûnPast ; ! ez nivîsibûm
+în%<v%>%<neg%>%<perf%>%<past%>@R.PREF.ne@:i%{IEPH%}@R.PREF.ne@ BûnPast ; ! ez nenivîsibûm
+în%<v%>%<pis%>@R.PREF.bi@:i%{IEPH%}@R.PREF.bi@ BûnPrs ; ! ez binivîsibim
 !! the bí- subjunctive prefix may be omitted for stylisic reasons
-în+Verb+Pis@D.PREF@:i%^IEPH@D.PREF@ BûnPrs ; ! ez nivîsibim ^LR^
-în+Verb+Neg+Pis@R.PREF.ne@:i%^IEPH@R.PREF.ne@ BûnPrs ; ! ez nenivîsibim
+în%<v%>%<pis%>@D.PREF@:i%{IEPH%}@D.PREF@ BûnPrs ; ! ez nivîsibim ^LR^
+în%<v%>%<neg%>%<pis%>@R.PREF.ne@:i%{IEPH%}@R.PREF.ne@ BûnPrs ; ! ez nenivîsibim
 
-în+Verb+PastCond@R.PREF.bi@:@R.PREF.bi@ PersonalSuffixesIrrealis ; ! ez binivîsama
+în%<v%>%<past%>%<cond%>@R.PREF.bi@:@R.PREF.bi@ PersonalSuffixesIrrealis ; ! ez binivîsama
 
-în+Verb+Past@D.PREF@:@D.PREF@ PersonalSuffixes ; ! ez nivîsim
-în+Verb+Neg+Past@R.PREF.ne@:@R.PREF.ne@ PersonalSuffixes ; ! ez nenivîsim
-în+Verb+Pii@R.PREF.di@:@R.PREF.di@ PersonalSuffixes ; ! ez dinivîsim
-în+Verb+Neg+Pii@R.PREF.nedi@:@R.PREF.nedi@ PersonalSuffixes ; ! ez nedinivîsim
+în%<v%>%<past%>@D.PREF@:@D.PREF@ PersonalSuffixes ; ! ez nivîsim
+în%<v%>%<neg%>%<past%>@R.PREF.ne@:@R.PREF.ne@ PersonalSuffixes ; ! ez nenivîsim
+în%<v%>%<pii%>@R.PREF.di@:@R.PREF.di@ PersonalSuffixes ; ! ez dinivîsim
+în%<v%>%<neg%>%<pii%>@R.PREF.nedi@:@R.PREF.nedi@ PersonalSuffixes ; ! ez nedinivîsim
 
 LEXICON Accidents_PresStem_an
 
-an+Verb+Pri@R.PREF.di@@D.PREF.ne@:@R.PREF.di@@D.PREF.ne@ PersonalSuffixes ; ! ez dimam
-an+Verb+Prs@R.PREF.bi@:@R.PREF.bi@ PersonalSuffixes ; ! ez bimam
-an+Verb+Neg+Pri@R.PREF.na@:@R.PREF.na@ PersonalSuffixes ; ! ez namam
-an+Verb+Neg+Prs@R.PREF.ne@:@R.PREF.ne@ PersonalSuffixes ; ! ez nemam
-an+Verb+Imp+P2+Sg@R.PREF.bi@:e@R.PREF.bi@ # ; ! bime
-an+Verb+Imp+P2+Pl@R.PREF.bi@:in@R.PREF.bi@ # ; ! bimin
-an+Verb+Neg+Imp+P2+Sg@R.PREF.ne@:e@R.PREF.ne@ # ; ! neme
-an+Verb+Neg+Imp+P2+Pl@R.PREF.ne@:in@R.PREF.ne@ # ; ! nemin
+an%<v%>%<pri%>@R.PREF.di@@D.PREF.ne@:@R.PREF.di@@D.PREF.ne@ PersonalSuffixes ; ! ez dimam
+an%<v%>%<prs%>@R.PREF.bi@:@R.PREF.bi@ PersonalSuffixes ; ! ez bimam
+an%<v%>%<neg%>%<pri%>@R.PREF.na@:@R.PREF.na@ PersonalSuffixes ; ! ez namam
+an%<v%>%<neg%>%<prs%>@R.PREF.ne@:@R.PREF.ne@ PersonalSuffixes ; ! ez nemam
+an%<v%>%<imp%>%<p2%>%<sg%>@R.PREF.bi@:e@R.PREF.bi@ # ; ! bime
+an%<v%>%<imp%>%<p2%>%<pl%>@R.PREF.bi@:in@R.PREF.bi@ # ; ! bimin
+an%<v%>%<neg%>%<imp%>%<p2%>%<sg%>@R.PREF.ne@:e@R.PREF.ne@ # ; ! neme
+an%<v%>%<neg%>%<imp%>%<p2%>%<pl%>@R.PREF.ne@:in@R.PREF.ne@ # ; ! nemin
 
 LEXICON Accidents_PastStem_an
 
-an+Verb+Inf@D.PREF@:n@D.PREF@ # ; ! man
-an+Verb+Inf+Obl@D.PREF@:na@D.PREF@ # ; ! mana
-an+Verb+Pp@D.PREF@:%^VSUFPî@D.PREF@ # ; ! manî
+an%<v%>%<inf%>@D.PREF@:n@D.PREF@ # ; ! man
+an%<v%>%<inf%>%<obl%>@D.PREF@:na@D.PREF@ # ; ! mana
+an%<v%>%<pp%>@D.PREF@:%{VSUFP%}î@D.PREF@ # ; ! manî
 
-an+Verb+PresPerf@D.PREF@:@D.PREF@ PersonalSuffixesPerfect ; ! ez mamime
-an+Verb+Neg+PresPerf@R.PREF.ne@:@R.PREF.ne@ PersonalSuffixesPerfect ; ! ez nemamime
+an%<v%>%<perf%>%<pres%>@D.PREF@:@D.PREF@ PersonalSuffixesPerfect ; ! ez mamime
+an%<v%>%<neg%>%<perf%>%<pres%>@R.PREF.ne@:@R.PREF.ne@ PersonalSuffixesPerfect ; ! ez nemamime
 
-an+Verb+PastPerf@D.PREF@:i%^IEPH@D.PREF@ BûnPast ; ! ez mabûm
-an+Verb+Neg+PastPerf@R.PREF.ne@:i%^IEPH@R.PREF.ne@ BûnPast ; ! ez nemabûm
-an+Verb+Pis@R.PREF.bi@:i%^IEPH@R.PREF.bi@ BûnPrs ; ! ez bimabim
+an%<v%>%<perf%>%<past%>@D.PREF@:i%{IEPH%}@D.PREF@ BûnPast ; ! ez mabûm
+an%<v%>%<neg%>%<perf%>%<past%>@R.PREF.ne@:i%{IEPH%}@R.PREF.ne@ BûnPast ; ! ez nemabûm
+an%<v%>%<pis%>@R.PREF.bi@:i%{IEPH%}@R.PREF.bi@ BûnPrs ; ! ez bimabim
 !! the bí- subjunctive prefix may be omitted for stylisic reasons
-an+Verb+Pis@D.PREF@:i%^IEPH@D.PREF@ BûnPrs ; ! ez mabim ^LR^
-an+Verb+Neg+Pis@R.PREF.ne@:i%^IEPH@R.PREF.ne@ BûnPrs ; ! ez nemabim
+an%<v%>%<pis%>@D.PREF@:i%{IEPH%}@D.PREF@ BûnPrs ; ! ez mabim ^LR^
+an%<v%>%<neg%>%<pis%>@R.PREF.ne@:i%{IEPH%}@R.PREF.ne@ BûnPrs ; ! ez nemabim
 
-an+Verb+PastCond@R.PREF.bi@:@R.PREF.bi@ PersonalSuffixesIrrealis ; ! ez bimama
+an%<v%>%<past%>%<cond%>@R.PREF.bi@:@R.PREF.bi@ PersonalSuffixesIrrealis ; ! ez bimama
 
-an+Verb+Past@D.PREF@:@D.PREF@ PersonalSuffixes ; ! ez mam 
-an+Verb+Neg+Past@R.PREF.ne@:@R.PREF.ne@ PersonalSuffixes ; ! ez nemam
-an+Verb+Pii@R.PREF.di@:@R.PREF.di@ PersonalSuffixes ; ! ez dimam
-an+Verb+Neg+Pii@R.PREF.nedi@:@R.PREF.nedi@ PersonalSuffixes ; ! ez nedimam
+an%<v%>%<past%>@D.PREF@:@D.PREF@ PersonalSuffixes ; ! ez mam 
+an%<v%>%<neg%>%<past%>@R.PREF.ne@:@R.PREF.ne@ PersonalSuffixes ; ! ez nemam
+an%<v%>%<pii%>@R.PREF.di@:@R.PREF.di@ PersonalSuffixes ; ! ez dimam
+an%<v%>%<neg%>%<pii%>@R.PREF.nedi@:@R.PREF.nedi@ PersonalSuffixes ; ! ez nedimam
 
 LEXICON PersonalSuffixes
 
-+P1+Sg:%^VSUFim # ;
-+P2+Sg:%^VSUFî # ;
-+P3+Sg:%^VSUFe # ;
-+P1+Pl:%^VSUFin # ;
-+P2+Pl:%^VSUFin # ;
-+P3+Pl:%^VSUFin # ;
+%<p1%>%<sg%>:%{VSUF%}im # ;
+%<p2%>%<sg%>:%{VSUF%}î # ;
+%<p3%>%<sg%>:%{VSUF%}e # ;
+%<p1%>%<pl%>:%{VSUF%}in # ;
+%<p2%>%<pl%>:%{VSUF%}in # ;
+%<p3%>%<pl%>:%{VSUF%}in # ;
 
 LEXICON PersonalSuffixesPerfect
 
-+P1+Sg:%^VSUFime # ;
-+P2+Sg:%^VSUFiye # ;
-+P3+Sg:%^VSUFiye # ;
-+P1+Pl:%^VSUFine # ;
-+P2+Pl:%^VSUFine # ;
-+P3+Pl:%^VSUFine # ;
+%<p1%>%<sg%>:%{VSUF%}ime # ;
+%<p2%>%<sg%>:%{VSUF%}iye # ;
+%<p3%>%<sg%>:%{VSUF%}iye # ;
+%<p1%>%<pl%>:%{VSUF%}ine # ;
+%<p2%>%<pl%>:%{VSUF%}ine # ;
+%<p3%>%<pl%>:%{VSUF%}ine # ;
 
 LEXICON PersonalSuffixesIrrealis
 
-+P1+Sg:%^VSUFama # ;
-+P2+Sg:%^VSUFayî # ;
-+P3+Sg:%^VSUFa # ;
-+P1+Pl:%^VSUFana # ;
-+P2+Pl:%^VSUFana # ;
-+P3+Pl:%^VSUFana # ;
+%<p1%>%<sg%>:%{VSUF%}ama # ;
+%<p2%>%<sg%>:%{VSUF%}ayî # ;
+%<p3%>%<sg%>:%{VSUF%}a # ;
+%<p1%>%<pl%>:%{VSUF%}ana # ;
+%<p2%>%<pl%>:%{VSUF%}ana # ;
+%<p3%>%<pl%>:%{VSUF%}ana # ;
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -665,72 +667,72 @@ xanî:xan xan/î__n; ! lm="xanî" :: "house"
 
 LEXICON mirov__n
 
-+N+Masc+Sg+Nom+Ind:%>ek # ;
-+N+Masc+Sg+Obl+Ind:%>ekî # ;
-+N+Masc+Sg+Con+Ind:%>ekî # ;
-+N+Masc+Sg+Nom+Def: # ;
-+N+Masc+Sg+Obl+Def: # ;
-+N+Masc+Sg+Con+Def:%>ê # ;
-+N+Masc+Sg+Voc+Def:%>o # ;
-+N+Masc+Pl+Nom+Ind:%>in # ;
-+N+Masc+Pl+Obl+Ind:%>inan # ;
-+N+Masc+Pl+Con+Ind:%>ine # ;
-+N+Masc+Pl+Nom+Def: # ;
-+N+Masc+Pl+Obl+Def:%>an # ;
-+N+Masc+Pl+Obl+Def:%>a # ; ! ^LR^
-+N+Masc+Pl+Con+Def:%>ên # ;
-+N+Masc+Pl+Voc+Def:%>ên # ;
+%<n%>%<m%>%<sg%>%<nom%>%<ind%>:%>ek # ;
+%<n%>%<m%>%<sg%>%<obl%>%<ind%>:%>ekî # ;
+%<n%>%<m%>%<sg%>%<con%>%<ind%>:%>ekî # ;
+%<n%>%<m%>%<sg%>%<nom%>%<def%>: # ;
+%<n%>%<m%>%<sg%>%<obl%>%<def%>: # ;
+%<n%>%<m%>%<sg%>%<con%>%<def%>:%>ê # ;
+%<n%>%<m%>%<sg%>%<voc%>%<def%>:%>o # ;
+%<n%>%<m%>%<pl%>%<nom%>%<ind%>:%>in # ;
+%<n%>%<m%>%<pl%>%<obl%>%<ind%>:%>inan # ;
+%<n%>%<m%>%<pl%>%<con%>%<ind%>:%>ine # ;
+%<n%>%<m%>%<pl%>%<nom%>%<def%>: # ;
+%<n%>%<m%>%<pl%>%<obl%>%<def%>:%>an # ;
+%<n%>%<m%>%<pl%>%<obl%>%<def%>:%>a # ; ! ^LR^
+%<n%>%<m%>%<pl%>%<con%>%<def%>:%>ên # ;
+%<n%>%<m%>%<pl%>%<voc%>%<def%>:%>ên # ;
 
 LEXICON ba__n 
 
-+N+Masc+Sg+Nom+Ind:%>yek # ;
-+N+Masc+Sg+Obl+Ind:%>yekî # ;
-+N+Masc+Sg+Con+Ind:%>yekî # ;
-+N+Masc+Sg+Nom+Def: # ;
-+N+Masc+Sg+Obl+Def: # ;
-+N+Masc+Sg+Con+Def:%>yê # ;
-+N+Masc+Sg+Voc+Def:%>yo # ;
-+N+Masc+Pl+Nom+Ind:%>yin # ;
-+N+Masc+Pl+Obl+Ind:%>yinan # ;
-+N+Masc+Pl+Con+Ind:%>yine # ;
-+N+Masc+Pl+Nom+Def: # ;
-+N+Masc+Pl+Obl+Def:%>yan # ;
-+N+Masc+Pl+Con+Def:%>yên # ;
-+N+Masc+Pl+Voc+Def:%>no # ;
+%<n%>%<m%>%<sg%>%<nom%>%<ind%>:%>yek # ;
+%<n%>%<m%>%<sg%>%<obl%>%<ind%>:%>yekî # ;
+%<n%>%<m%>%<sg%>%<con%>%<ind%>:%>yekî # ;
+%<n%>%<m%>%<sg%>%<nom%>%<def%>: # ;
+%<n%>%<m%>%<sg%>%<obl%>%<def%>: # ;
+%<n%>%<m%>%<sg%>%<con%>%<def%>:%>yê # ;
+%<n%>%<m%>%<sg%>%<voc%>%<def%>:%>yo # ;
+%<n%>%<m%>%<pl%>%<nom%>%<ind%>:%>yin # ;
+%<n%>%<m%>%<pl%>%<obl%>%<ind%>:%>yinan # ;
+%<n%>%<m%>%<pl%>%<con%>%<ind%>:%>yine # ;
+%<n%>%<m%>%<pl%>%<nom%>%<def%>: # ;
+%<n%>%<m%>%<pl%>%<obl%>%<def%>:%>yan # ;
+%<n%>%<m%>%<pl%>%<con%>%<def%>:%>yên # ;
+%<n%>%<m%>%<pl%>%<voc%>%<def%>:%>no # ;
 
 LEXICON xan/î__n
 
-+N+Masc+Sg+Nom+Ind:%>iyek # ;
-+N+Masc+Sg+Obl+Ind:%>iyekî # ;
-+N+Masc+Sg+Con+Ind:%>iyekî # ;
-+N+Masc+Sg+Nom+Def:%>î # ;
-+N+Masc+Sg+Obl+Def:%>î # ;
-+N+Masc+Sg+Con+Def:%>iyê # ;
-+N+Masc+Sg+Voc+Def:%>o # ;
-+N+Masc+Pl+Nom+Ind:%>iyin # ;
-+N+Masc+Pl+Obl+Ind:%>iyinan # ;
-+N+Masc+Pl+Con+Ind:%>iyine # ;
-+N+Masc+Pl+Nom+Def:%>î # ;
-+N+Masc+Pl+Obl+Def:%>iyan # ;
-+N+Masc+Pl+Con+Def:%>iyên # ;
-+N+Masc+Pl+Voc+Def:%>iyên # ;
+%<n%>%<m%>%<sg%>%<nom%>%<ind%>:%>iyek # ;
+%<n%>%<m%>%<sg%>%<obl%>%<ind%>:%>iyekî # ;
+%<n%>%<m%>%<sg%>%<con%>%<ind%>:%>iyekî # ;
+%<n%>%<m%>%<sg%>%<nom%>%<def%>:%>î # ;
+%<n%>%<m%>%<sg%>%<obl%>%<def%>:%>î # ;
+%<n%>%<m%>%<sg%>%<con%>%<def%>:%>iyê # ;
+%<n%>%<m%>%<sg%>%<voc%>%<def%>:%>o # ;
+%<n%>%<m%>%<pl%>%<nom%>%<ind%>:%>iyin # ;
+%<n%>%<m%>%<pl%>%<obl%>%<ind%>:%>iyinan # ;
+%<n%>%<m%>%<pl%>%<con%>%<ind%>:%>iyine # ;
+%<n%>%<m%>%<pl%>%<nom%>%<def%>:%>î # ;
+%<n%>%<m%>%<pl%>%<obl%>%<def%>:%>iyan # ;
+%<n%>%<m%>%<pl%>%<con%>%<def%>:%>iyên # ;
+%<n%>%<m%>%<pl%>%<voc%>%<def%>:%>iyên # ;
 
 LEXICON roj__n
 
-+N+Fem+Sg+Nom+Ind:%>ek # ;
-+N+Fem+Sg+Obl+Ind:%>ekê # ;
-+N+Fem+Sg+Con+Ind:%>eke # ;
-+N+Fem+Sg+Nom+Def: # ;
-+N+Fem+Sg+Obl+Def:%>ê # ;
-+N+Fem+Sg+Con+Def:%>a # ;
-+N+Fem+Sg+Voc+Def:%>ê # ;
-+N+Fem+Pl+Nom+Ind:%>in # ;
-+N+Fem+Pl+Obl+Ind:%>inan # ;
-+N+Fem+Pl+Con+Ind:%>ine # ;
-+N+Fem+Pl+Nom+Def: # ;
-+N+Fem+Pl+Obl+Def:%>ên # ;
-+N+Fem+Pl+Con+Def:%>an # ;
-+N+Fem+Pl+Voc+Def:%>ên # ;
+%<n%>%<f%>%<sg%>%<nom%>%<ind%>:%>ek # ;
+%<n%>%<f%>%<sg%>%<obl%>%<ind%>:%>ekê # ;
+%<n%>%<f%>%<sg%>%<con%>%<ind%>:%>eke # ;
+%<n%>%<f%>%<sg%>%<nom%>%<def%>: # ;
+%<n%>%<f%>%<sg%>%<obl%>%<def%>:%>ê # ;
+%<n%>%<f%>%<sg%>%<con%>%<def%>:%>a # ;
+%<n%>%<f%>%<sg%>%<voc%>%<def%>:%>ê # ;
+%<n%>%<f%>%<pl%>%<nom%>%<ind%>:%>in # ;
+%<n%>%<f%>%<pl%>%<obl%>%<ind%>:%>inan # ;
+%<n%>%<f%>%<pl%>%<con%>%<ind%>:%>ine # ;
+%<n%>%<f%>%<pl%>%<nom%>%<def%>: # ;
+%<n%>%<f%>%<pl%>%<obl%>%<def%>:%>ên # ;
+%<n%>%<f%>%<pl%>%<con%>%<def%>:%>an # ;
+%<n%>%<f%>%<pl%>%<voc%>%<def%>:%>ên # ;
 
 
 
@@ -747,15 +749,15 @@ pêwist:pêwis pêwis/t__adj; ! lm="pêwist" :: "important"
 
 LEXICON nû__adj
 
-+Adj+Pst:%> #;
-+Adj+Comp:%>tir # ;
-+Adj+Sup:%>tirîn # ;
+%<adj%>%<pst%>:%> #;
+%<adj%>%<comp%>:%>tir # ;
+%<adj%>%<sup%>:%>tirîn # ;
 
 LEXICON pêwis/t__adj
 
-+Adj+Pst:%>t #;
-+Adj+Comp:%>tir # ;
-+Adj+Sup:%>tirîn # ;
+%<adj%>%<pst%>:%>t #;
+%<adj%>%<comp%>:%>tir # ;
+%<adj%>%<sup%>:%>tirîn # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Pronouns 
@@ -763,27 +765,27 @@ LEXICON pêwis/t__adj
 
 LEXICON PronRoot 
 
-ez+Prn+Pers+P1+Sg+Nom:ez # ;
-ez+Prn+Pers+P1+Sg+Obl:min # ;
-tu+Prn+Pers+P2+Sg+Nom:tu # ;
-tu+Prn+Pers+P2+Sg+Obl:te # ;
+ez%<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:ez # ;
+ez%<prn%>%<pers%>%<p1%>%<sg%>%<obl%>:min # ;
+tu%<prn%>%<pers%>%<p2%>%<sg%>%<nom%>:tu # ;
+tu%<prn%>%<pers%>%<p2%>%<sg%>%<obl%>:te # ;
 
-em+Prn+Pers+P1+Pl+Nom:em # ;
-em+Prn+Pers+P1+Pl+Obl:me # ;
-hun+Prn+Pers+P2+Pl+Nom:hun # ;
-hun+Prn+Pers+P2+Pl+Obl:we # ;
+em%<prn%>%<pers%>%<p1%>%<pl%>%<nom%>:em # ;
+em%<prn%>%<pers%>%<p1%>%<pl%>%<obl%>:me # ;
+hun%<prn%>%<pers%>%<p2%>%<pl%>%<nom%>:hun # ;
+hun%<prn%>%<pers%>%<p2%>%<pl%>%<obl%>:we # ;
 
-ew+Prn+Dem+Sg+Nom:ew # ;
-ew+Prn+Dem+Masc+Sg+Obl:wî # ;
-ew+Prn+Dem+Fem+Sg+Obl:wê # ;
-ew+Prn+Dem+Pl+Nom:ew # ;
-ew+Prn+Dem+Pl+Obl:wan # ;
+ew%<prn%>%<dem%>%<sg%>%<nom%>:ew # ;
+ew%<prn%>%<dem%>%<m%>%<sg%>%<obl%>:wî # ;
+ew%<prn%>%<dem%>%<f%>%<sg%>%<obl%>:wê # ;
+ew%<prn%>%<dem%>%<pl%>%<nom%>:ew # ;
+ew%<prn%>%<dem%>%<pl%>%<obl%>:wan # ;
 
-ev+Prn+Dem+Sg+Nom:ev # ;
-ev+Prn+Dem+Masc+Sg+Obl:vî # ;
-ev+Prn+Dem+Fem+Sg+Obl:vê # ;
-ev+Prn+Dem+Pl+Nom:ev # ;
-ev+Prn+Dem+Pl+Obl:van # ;
+ev%<prn%>%<dem%>%<sg%>%<nom%>:ev # ;
+ev%<prn%>%<dem%>%<m%>%<sg%>%<obl%>:vî # ;
+ev%<prn%>%<dem%>%<f%>%<sg%>%<obl%>:vê # ;
+ev%<prn%>%<dem%>%<pl%>%<nom%>:ev # ;
+ev%<prn%>%<dem%>%<pl%>%<obl%>:van # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Numerals
@@ -795,12 +797,12 @@ yek:yek yek__num ;  ! lm="yek" :: "one"
 
 LEXICON yek__num
 
-+Num+Nom+Ind:%>ek # ;
-+Num+Obl+Ind:%>ekê # ;
-+Num+Con+Ind:%>eke # ;
-+Num+Nom+Def: # ;
-+Num+Obl+Def:%>ê # ;
-+Num+Con+Def:%>a # ;
+%<num%>%<nom%>%<ind%>:%>ek # ;
+%<num%>%<obl%>%<ind%>:%>ekê # ;
+%<num%>%<con%>%<ind%>:%>eke # ;
+%<num%>%<nom%>%<def%>: # ;
+%<num%>%<obl%>%<def%>:%>ê # ;
+%<num%>%<con%>%<def%>:%>a # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Prepositions
@@ -822,7 +824,7 @@ tevî:tevî Prep ; ! lm="tevî" :: "along with"
 
 LEXICON Prep
 
-+Pr: # ;
+%<pr%>: # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Conjunctions
@@ -835,11 +837,11 @@ LEXICON Conjunctions
 
 LEXICON CC 
 
-+CC: # ;
+%<cnjcoo%>: # ;
 
 LEXICON CS
 
-+CS: # ;
+%<cnjsub%>: # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Punctuation
@@ -847,7 +849,7 @@ LEXICON CS
 
 LEXICON Punctuation
 
-.+Sent:. # ;
-!+Sent:! # ;
-?+Sent:? # ;
-...+Sent:... # ;
+.%<sent%>:. # ;
+!%<sent%>:! # ;
+?%<sent%>:? # ;
+...%<sent%>:... # ;
