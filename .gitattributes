@@ -1,1 +1,5 @@
 * text=auto !eol
+/apertium-kur.kur.dix -text
+/apertium-kur.kur.lexc -text
+/apertium-kur.kur.rlx -text
+/apertium-kur.kur.twol -text

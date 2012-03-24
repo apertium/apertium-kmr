@@ -1,0 +1,28 @@
+DELIMITERS = "<.>" "<!>" "<?>";
+
+LIST N = n;
+LIST NP = (np top) (np ant) (np cog);
+LIST V = vblex vbser;
+LIST Adv = adv;
+LIST Num = num;
+LIST CC = cnjcoo;
+LIST CS = cnjsub;
+LIST Interj = ij;
+LIST Pr = pr;
+
+LIST A = adj (adj pst) (adj comp) (adj sup);
+LIST Apst = (adj pst);
+LIST Acomp = (adj comp);
+LIST Asup = (adj sup);
+
+LIST Nom = nom;
+LIST Eza = con;
+LIST Obl = obl;
+LIST Voc = voc;
+
+LIST Def = def;
+LIST Ind = ind;
+
+SECTION
+
+SELECT Eza IF (-1 Eza) (NOT 1 Eza);

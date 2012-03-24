@@ -1,0 +1,853 @@
+Multichar_Symbols
+
++Verb +N +Pr +CC +CS +Prn +Adj +Pron 
++Pri +Prs +Past +Inf +Neg +Pii +Pp +Imp +PresPerf +PastPerf +Pis +PastCond +PerfCond
++P1 +P2 +P3
++Masc +Fem
++Sg +Pl
++Ind +Def +Rel +Dem +Pers
++Nom +Obl +Con +Voc
++Pst +Comp +Sup
++Sent
+
+%^PREF %^VSUF %^VSUFP %^EPREF %^IEPH
+
+@P.PREF.di@ @P.PREF.bi@ @P.PREF.na@ @P.PREF.ne@ @P.PREF.nedi@
+@R.PREF.bi@ @R.PREF.di@ @R.PREF.na@ @R.PREF.ne@ @R.PREF.nedi@
+@D.PREF@ @D.PREF.ne@
+
+LEXICON Root
+
+VerbRoot ;
+NounRoot ;
+AdjRoot ;
+PronRoot ;
+Prepositions ;
+Conjunctions ;
+Numerals ;
+Punctuation ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! VERBS
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! Verb forms in Kurdish are usually formed from a prefix indicating mood, a 
+! stem (either present or past) and a personal suffix. For example:
+!
+! 'Ez diçim' (< 'çûn')
+!     di- ç          -im
+!     IND read.PRES  P1.SG
+! 'I read' 
+!
+! But if the verb is a compound, the prefix attaches to the verbal part:
+!
+! 'Ez vedixwim' (< 'vexwarin')
+!     ve-  di- xw       -im
+!     PREF IND eat.PRES P1.SG
+! 'I drink'
+!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Prefixes
+
+!!!   To form the present tense, the stressed progressive/habitual modal marker
+!!! di- is prefixed to the present stem, and a suffixed personal ending is added 
+!!! to the stem.
+
+@P.PREF.di@:di%^PREF@P.PREF.di@ Stems ;
+@P.PREF.bi@:bi%^PREF@P.PREF.bi@ Stems ;
+@P.PREF.na@:na%^PREF@P.PREF.na@ Stems ;
+@P.PREF.ne@:ne%^PREF@P.PREF.ne@ Stems ;
+@P.PREF.nedi@:nedi%^PREF@P.PREF.nedi@ Stems ; !! Negative past imperfect 
+
+!!! If the present stem begins with a- or ê-, the prefix di- may drop its vowel
+!!! and becomes d-, as in axaftin/axiv- ‘speak’ and êşandin/êşîn- ‘to hurt,’ the
+!!! present tenses of which are either daxivim or diaxivim ‘I speak’ and either
+!!! dêşînim or diêşînim ‘I hurt.’
+
+@P.PREF.di@:d%^EPREF@P.PREF.di@ Stems ;
+
+LEXICON VerbRoot
+
+Prefixes ;
+Stems ;
+IrregularVerbs; 
+CompoundVerbs; 
+
+LEXICON IrregularVerbs
+
+bûn+Verb+Inf:bûn # ;
+bûn+Verb+Pri: PersonalSuffixes ; ! copula
+
+!   The combination of an oblique plural ending in -an and 
+!   the first-person singular enclitic im usually 
+!   becomes -a me instead of -an im.
+bûn+Verb+Pri+P1+Sg:me # ; 
+
+
+!   There are two present subjunctives of the verb bûn ‘to be, become,’ with
+!   and without the subjunctive marker bi-. The conjugation without the marker
+!   is used when the verb means ‘be’; the conjugation with the marker is used
+!   when the verb means ‘become’ and when it is part of a compound verb.
+
+bûn+Verb+Neg+Prs+P1+Sg:nebim # ; 
+bûn+Verb+Neg+Prs+P2+Sg:nebî # ;
+bûn+Verb+Neg+Prs+P3+Sg:nebe # ;
+bûn+Verb+Neg+Prs+P1+Pl:nebin # ;
+bûn+Verb+Neg+Prs+P2+Pl:nebin # ;
+bûn+Verb+Neg+Prs+P3+Pl:nebin # ;
+
+bûn+Verb+Prs: BûnPrs ;
+bûn+Verb+Prs:bi BûnPrs ;
+bûn+Verb+Past: BûnPast ;
+bûn+Verb+PastCond@D.PREF@:bû@D.PREF@ PersonalSuffixesIrrealis ; ! ez bûma
+bûn+Verb+PastCond@P.PREF.bi@:bibû@P.PREF.bi@ PersonalSuffixesIrrealis ; ! ez bibûma
+
+bûn+Verb+Neg+Past+P1+Sg:nebûm # ; 
+bûn+Verb+Neg+Past+P2+Sg:nebûyî # ;
+bûn+Verb+Neg+Past+P3+Sg:nebû # ;
+bûn+Verb+Neg+Past+P1+Pl:nebûn # ;
+bûn+Verb+Neg+Past+P2+Pl:nebûn # ;
+bûn+Verb+Neg+Past+P3+Pl:nebûn # ;
+bûn+Verb+Neg+Pii+P1+Sg:nedibûm # ; 
+bûn+Verb+Neg+Pii+P2+Sg:nedibûyî # ;
+bûn+Verb+Neg+Pii+P3+Sg:nedibû # ;
+bûn+Verb+Neg+Pii+P1+Pl:nedibûn # ;
+bûn+Verb+Neg+Pii+P2+Pl:nedibûn # ;
+bûn+Verb+Neg+Pii+P3+Pl:nedibûn # ;
+
+hebûn+Verb+Inf:hebûn # ;
+hebûn+Verb+Pri+P1+Sg:heme # ;
+hebûn+Verb+Pri+P2+Sg:heyî # ;
+hebûn+Verb+Pri+P3+Sg:heye # ;
+hebûn+Verb+Pri+P1+Pl:hene # ;
+hebûn+Verb+Pri+P2+Pl:hene # ;
+hebûn+Verb+Pri+P3+Pl:hene # ;
+hebûn+Verb+Past+P1+Sg:hebûm # ;
+hebûn+Verb+Past+P2+Sg:hebûyî # ;
+hebûn+Verb+Past+P3+Sg:hebû # ;
+hebûn+Verb+Past+P1+Pl:hebûn # ;
+hebûn+Verb+Past+P2+Pl:hebûn # ;
+hebûn+Verb+Past+P3+Pl:hebûn # ;
+hebûn+Verb+Neg+Pri+P3+Sg:tune # ;
+hebûn+Verb+Neg+Past+P3+Sg:tunebû # ;
+
+! There are two present subjunctives of hatin ‘to come.’ One is regularly
+! conjugated based on the stem wer- without the bi- prefix; the other is regu-
+! larly conjugated based on the stem bê-, a contraction of bi- and yê-, the
+! present stem of hatin.
+
+hebûn+Verb+Prs+P1+Sg:werim # ;
+hebûn+Verb+Prs+P2+Sg:werî # ;
+hebûn+Verb+Prs+P3+Sg:were # ;
+hebûn+Verb+Prs+P1+Pl:werin # ;
+hebûn+Verb+Prs+P2+Pl:werin # ;
+hebûn+Verb+Prs+P3+Pl:werin # ;
+hebûn+Verb+Prs+P1+Sg:bêm # ;
+hebûn+Verb+Prs+P2+Sg:bêyî # ;
+hebûn+Verb+Prs+P3+Sg:bê # ;
+hebûn+Verb+Prs+P1+Pl:bên # ;
+hebûn+Verb+Prs+P2+Pl:bên # ;
+hebûn+Verb+Prs+P3+Pl:bên # ;
+hebûn+Verb+Neg+Prs+P1+Sg:newerim # ;
+hebûn+Verb+Neg+Prs+P2+Sg:newerî # ;
+hebûn+Verb+Neg+Prs+P3+Sg:newere # ;
+hebûn+Verb+Neg+Prs+P1+Pl:newerin # ;
+hebûn+Verb+Neg+Prs+P2+Pl:newerin # ;
+hebûn+Verb+Neg+Prs+P3+Pl:newerin # ;
+hebûn+Verb+Neg+Prs+P1+Sg:neyêm # ;
+hebûn+Verb+Neg+Prs+P2+Sg:neyêyî # ;
+hebûn+Verb+Neg+Prs+P3+Sg:neyê # ;
+hebûn+Verb+Neg+Prs+P1+Pl:neyên # ;
+hebûn+Verb+Neg+Prs+P2+Pl:neyên # ;
+hebûn+Verb+Neg+Prs+P3+Pl:neyên # ;
+
+!!!    There are two verbs with irregular conjugations in the present tense, 
+!!!    hatin ‘to come’ and anîn ‘to bring.’ In both these verbs the dí- modal 
+!!!    marker has assimilated to the present stem and appears as t-. 
+
+@D.PREF@hat:hat@D.PREF@ Accidents_PastStem_in ; ! lm="hatin" :: "to come"
+@P.PREF.di@hat:tê@P.PREF.di@ Accidents_PresStem_in ; ! ez têm
+@P.PREF.bi@hat:bê@P.PREF.bi@ Accidents_PresStem_in ; ! ez bêm
+@P.PREF.na@hat:nayê@P.PREF.na@ Accidents_PresStem_in ; ! ez nayêm
+@P.PREF.ne@hat:nehat@P.PREF.ne@ Accidents_PastStem_in ; ! ez nehatim
+@P.PREF.nedi@hat:nedihat@P.PREF.nedi@ Accidents_PastStem_in ; ! ez nedihatim
+
+@D.PREF@an:anî@D.PREF@ Accidents_PastStem_în ; ! lm="anîn" :: "to bring"
+@P.PREF.di@an:tîn@P.PREF.di@ Accidents_PresStem_în ; ! ez tînim
+@P.PREF.bi@an:bîn@P.PREF.bi@ Accidents_PresStem_în ; ! ez bînim
+@P.PREF.na@an:nayn@P.PREF.na@ Accidents_PresStem_în ; ! ez naynim
+@P.PREF.ne@an:neanîn@P.PREF.ne@ Accidents_PastStem_în ; ! ez neanînim
+@P.PREF.nedi@an:nedianîn@P.PREF.nedi@ Accidents_PastStem_în ; ! ez nedianîntim
+
+!!!    There are also two verbs, zanîn ‘to know’ and karîn ‘to be able,’ 
+!!!    that are irregular in the negative. They form the negative with ní i
+!!!    instead of na.
+
+@D.PREF@zan:zanî@D.PREF@ Accidents_PastStem_în ; ! lm="zanîn" :: "to know"
+@P.PREF.di@zan:dizan@P.PREF.di@ Accidents_PresStem_în ; ! ez dizanim
+@P.PREF.bi@zan:bizan@P.PREF.bi@ Accidents_PresStem_în ; ! ez bizanim
+@P.PREF.na@zan:nizan@P.PREF.na@ Accidents_PresStem_în ; ! ez nizanim
+@P.PREF.ne@zan:nezan@P.PREF.ne@ Accidents_PastStem_în ; ! ez nezanim
+@P.PREF.nedi@zan:nedizan@P.PREF.nedi@ Accidents_PastStem_în ; ! ez nedizanim
+@P.PREF.bi@zanîn+Verb+Pis:bizani%^IEPH@P.PREF.bi@ BûnPrs ; ! ez bizanibim
+!! the bí- subjunctive prefix may be omitted for stylisic reasons
+@D.PREF@zanîn+Verb+Pis:zani%^IEPH@D.PREF@ BûnPrs ; ! ez zanibim ^LR^
+
+@D.PREF@kar:karî@D.PREF@ Accidents_PastStem_în ; ! lm="karîn" :: "to be able to"
+@P.PREF.di@kar:dikar@P.PREF.di@ Accidents_PresStem_în ; ! ez dikarim
+@P.PREF.bi@kar:bikar@P.PREF.bi@ Accidents_PresStem_în ; ! ez bikarim
+@P.PREF.na@kar:nikar@P.PREF.na@ Accidents_PresStem_în ; ! ez nikarim
+@P.PREF.ne@kar:nekar@P.PREF.ne@ Accidents_PastStem_în ; ! ez nekarim
+@P.PREF.nedi@kar:nedikar@P.PREF.nedi@ Accidents_PastStem_în ; ! ez nedikarim
+@P.PREF.bi@karîn+Verb+Pis:bikari%^IEPH@P.PREF.bi@ BûnPrs ; ! ez bikaribim 
+!! the bí- subjunctive prefix may be omitted for stylisic reasons
+@D.PREF@karîn+Verb+Pis:kari%^IEPH@D.PREF@ BûnPrs ; ! ez karibim ^LR^
+
+! There are also two present subjunctives of çûn ‘to go.’ One is regularly
+! congujated based on the stem ç- with the bí- subjunctive marker; the other
+! is regularly conjugated based on the stem her- without the subjunctive
+! marker.
+
+@P.PREF.bi@ç:her@P.PREF.bi@ Accidents_PresStem_ûn  ; ! lm="çûn" :: "to go"
+@P.PREF.ne@ç:neher@P.PREF.ne@ Accidents_PresStem_ûn  ; ! lm="çûn" :: "to go"
+
+Stems;
+
+LEXICON BûnPast
+
+!
+! We keep this in a separate sublexicon as it is used for forming the 
+! PastPerf. PastPerf = past stem + i + past form of 'bûn'
+!
+
++P1+Sg:bûm # ; 
++P2+Sg:bûyî # ;
++P3+Sg:bû # ;
++P1+Pl:bûn # ;
++P2+Pl:bûn # ;
++P3+Pl:bûn # ;
+
+LEXICON BûnPrs 
+
+! 
+! Separate sublexicon for past subjunctive, 
+!  Pis = past stem + i + prs of 'bûn'
+!
+
++P1+Sg:bim # ;
++P2+Sg:bî # ;
++P3+Sg:be # ;
++P1+Pl:bin # ;
++P2+Pl:bin # ;
++P3+Pl:bin # ;
+
+LEXICON Stems 
+
+ç:ç Accidents_PresStem_ûn  ; ! lm="çûn" :: "to go"
+ç:çû Accidents_PastStem_ûn ; ! lm="çûn" :: "to go"
+
+şust:şo Accidents_PresStem_in ; !lm="şustin" :: "to wash"
+şust:şust Accidents_PastStem_in ; !lm="şustin" :: "to wash"
+
+axaft:axiv Accidents_PresStem_in ; !lm="axaftin" :: "to speak"
+axaft:axaft Accidents_PastStem_in ; !lm="axaftin" :: "to speak"
+
+êşand:êşîn Accidents_PresStem_in ; !lm="êşandin" :: "to hurt"
+êşand:êşand Accidents_PastStem_in ; !lm="êşandin" :: "to hurt"
+
+parast:parast Accidents_PresStem_in ; !lm="parastin" :: "to protect"
+parast:parast Accidents_PastStem_in ; !lm="parastin" :: "to protect"
+
+firot:firoş Accidents_PresStem_in ; !lm="firotin" :: "to sell" 
+firot:firot Accidents_PastStem_in ; !lm="firotin" :: "to sell" 
+
+bîst:bîst Accidents_PresStem_in ; !lm="bîstin" :: "to hear"
+bîst:bîst Accidents_PastStem_in ; !lm="bîstin" :: "to hear"
+
+hinart:hinart Accidents_PresStem_in ; !lm="hinartin" :: "to send"
+hinart:hinart Accidents_PastStem_in ; !lm="hinartin" :: "to send"
+
+kir:k Accidents_PresStem_in ; !lm="kirin" :: "to do"
+kir:kir Accidents_PastStem_in ; !lm="kirin" :: "to do"
+
+mîst:mîst Accidents_PresStem_in ; !lm="mîstin" :: "to urinate"
+mîst:mîst Accidents_PastStem_in ; !lm="mîstin" :: "to urinate"
+
+rûnişt:rûnişt Accidents_PresStem_in ; !lm="rûniştin" :: "to sit"
+rûnişt:rûnişt Accidents_PastStem_in ; !lm="rûniştin" :: "to sit"
+
+xwar:xw Accidents_PresStem_in ; !lm="xwarin" :: "to eat"
+xwar:xwar Accidents_PastStem_in ; !lm="xwarin" :: "to eat"
+
+xwend:xwend Accidents_PresStem_in ; !lm="xwendin" :: "to read"
+xwend:xwend Accidents_PastStem_in ; !lm="xwendin" :: "to read"
+
+şand:şand Accidents_PresStem_in ; !lm="şandin" :: "to send"
+şand:şand Accidents_PastStem_in ; !lm="şandin" :: "to send"
+
+ket:kev Accidents_PresStem_in ; !lm="ketin" :: "to fall"
+ket:ket Accidents_PastStem_in ; !lm="ketin" :: "to fall"
+
+çand:çîn Accidents_PresStem_in ; !lm="çandin" :: ""
+çand:çand Accidents_PastStem_in ; !lm="çandin" :: ""
+
+azirand:azirîn Accidents_PastStem_in ; !lm="azirandin" :: "to incite"
+azirand:azirand Accidents_PresStem_in ; !lm="azirandin" :: "to incite"
+
+belişand:belişîn Accidents_PastStem_in ; !lm="belişandin" :: "to incite"
+belişand:belişand Accidents_PresStem_in ; !lm="belişandin" :: "to incite"
+
+dabiland:dabilîn Accidents_PastStem_in ; !lm="dabilandin" :: "to swallow"
+dabiland:dabiland Accidents_PresStem_in ; !lm="dabilandin" :: "to swallow"
+
+fetisand:fetisîn Accidents_PastStem_in ; !lm="fetisandin" :: "to choke"
+fetisand:fetisand Accidents_PresStem_in ; !lm="fetisandin" :: "to choke"
+
+mirand:mirîn Accidents_PastStem_in ; !lm="mirandin" :: "to cause to die"
+mirand:mirand Accidents_PresStem_in ; !lm="mirandin" :: "to cause to die"
+
+nivîsand:nivîsîn Accidents_PastStem_in ; !lm="nivîsandin" :: "to write"
+nivîsand:nivîsand Accidents_PresStem_in ; !lm="nivîsandin" :: "to write"
+
+pesinand:pesinîn Accidents_PastStem_in ; !lm="pesinandin" :: "to pray"
+pesinand:pesinand Accidents_PresStem_in ; !lm="pesinandin" :: "to pray"
+
+qedand:qedîn Accidents_PastStem_in ; !lm="qedandin" :: "to finish"
+qedand:qedand Accidents_PresStem_in ; !lm="qedandin" :: "to finish"
+
+taşand:taşîn Accidents_PastStem_in ; !lm="taşandin" :: "to educate"
+taşand:taşand Accidents_PresStem_in ; !lm="taşandin" :: "to educate"
+
+weşand:weşîn Accidents_PastStem_in ; !lm="weşandin" :: "to publish"
+weşand:weşand Accidents_PresStem_in ; !lm="weşandin" :: "to publish"
+
+êşand:êşîn Accidents_PastStem_in ; !lm="êşandin" :: "to hurt"
+êşand:êşand Accidents_PresStem_in ; !lm="êşandin" :: "to hurt"
+
+xwest:xwaz Accidents_PresStem_in ; !lm="xwestin" :: "to want"
+xwest:xwest Accidents_PastStem_in ; !lm="xwestin" :: "to want"
+
+dît:bîn Accidents_PresStem_in ; !lm="dîtin" :: "to see"
+dît:dît Accidents_PastStem_in ; !lm="dîtin" :: "to see"
+
+got:bêj Accidents_PresStem_in ; !lm="gotin" :: "to say"
+got:got Accidents_PastStem_in ; !lm="gotin" :: "to say"
+
+nivîs:nivîs Accidents_PresStem_în ; !lm="nivîsîn" :: "to write"
+nivîs:nivîsî Accidents_PastStem_în ; !lm="nivîsîn" :: "to write"
+
+tirs:tirs Accidents_PresStem_în ; !lm="tirsîn" :: "to fear"
+tirs:tirsî Accidents_PastStem_în ; !lm="tirsîn" :: "to fear"
+
+kir:kir Accidents_PresStem_în ; !lm="kirîn" :: "to bring"
+kir:kirî Accidents_PastStem_în ; !lm="kirîn" :: "to bring"
+
+ewt:ew Accidents_PresStem_în ; !lm="ewtîn" :: "to bark"
+ewt:ewtî Accidents_PastStem_în ; !lm="ewtîn" :: "to bark"
+
+m:ma Accidents_PresStem_an ; !lm="man" :: "to remain"
+m:ma Accidents_PastStem_an ; !lm="man" :: "to remain"
+
+! lm="fikirîn" :: "to think"
+! lm="tirsîn" :: "to fear"
+! lm="hizirîn" :: "to think"
+! lm="pûnijîn" :: "to think"
+! lm="ramîn" :: "to think"
+! lm="revîn" :: "to escape"
+! lm="doşîn" :: "to milk"
+! lm="bişirîn" :: "to smile"
+! lm="firrîn" :: "to fly"
+! lm="kirrîn" :: "to buy"
+! lm="mêjîn" :: "to suck"
+! lm="bazdan" :: "to escape"
+! lm="razan" :: "to go to bed"
+! lm="hênan" :: "to bring"
+! lm="rahênan" :: "to train"
+! lm="meşiyan" :: "to walk"
+! lm="jîyan" :: "to live"
+! lm="meşîn" :: "to walk"
+! lm="zewicîn" :: "se marier"
+! lm="xewîn" :: "to sleep"
+! lm="werîn" :: "to come"
+! lm="pirsîn" :: "to ask"
+! lm="peyivîn" :: "to talk"
+! lm="westîyan" :: "to be tired"
+
+LEXICON CompoundVerbs
+
+VerbCompound_ve ;
+VerbCompound_hil ;
+VerbCompound_ra ;
+VerbCompound_rû ;
+
+LEXICON VerbCompound_ve
+
+ve@D.PREF@:ve@D.PREF@ CompoundStems_ve ;
+ve@P.PREF.di@:vedi%^PREF@P.PREF.di@ CompoundStems_ve ;
+ve@P.PREF.na@:vena%^PREF@P.PREF.na@ CompoundStems_ve ;
+ve@P.PREF.ne@:vene%^PREF@P.PREF.ne@ CompoundStems_ve ;
+ve@P.PREF.nedi@:venedi%^PREF@P.PREF.nedi@ CompoundStems_ve ; 
+
+!! When the bí- prefix is omitted, the absence of a modal
+!! modal prefix identifies the verb as subjunctive, as in 
+!! ve-xwarin (ve-xw-) ‘to drink’
+
+ve@P.PREF.bi@:ve%^PREF@P.PREF.bi@ CompoundStems_ve ; 
+
+LEXICON VerbCompound_rû
+
+rû@D.PREF@:rû@D.PREF@ CompoundStems_rû ;
+rû@P.PREF.di@:rûdi%^PREF@P.PREF.di@ CompoundStems_rû ;
+rû@P.PREF.na@:rûna%^PREF@P.PREF.na@ CompoundStems_rû ;
+rû@P.PREF.ne@:rûne%^PREF@P.PREF.ne@ CompoundStems_rû ;
+rû@P.PREF.nedi@:rûnedi%^PREF@P.PREF.nedi@ CompoundStems_rû ; 
+
+!! When the bí- prefix is omitted, the absence of a modal
+!! modal prefix identifies the rûrb as subjunctirû, as in 
+!! rû-xwarin (rû-xw-) ‘to drink’
+
+rû@P.PREF.bi@:rû%^PREF@P.PREF.bi@ CompoundStems_rû ; 
+
+LEXICON VerbCompound_ra
+
+ra@D.PREF@:ra@D.PREF@ CompoundStems_ra ;
+ra@P.PREF.di@:radi%^PREF@P.PREF.di@ CompoundStems_ra ;
+ra@P.PREF.na@:rana%^PREF@P.PREF.na@ CompoundStems_ra ;
+ra@P.PREF.ne@:rane%^PREF@P.PREF.ne@ CompoundStems_ra ;
+ra@P.PREF.nedi@:ranedi%^PREF@P.PREF.nedi@ CompoundStems_ra ; 
+
+ra@P.PREF.bi@:ra%^PREF@P.PREF.bi@ CompoundStems_ra ; 
+
+LEXICON VerbCompound_hil
+
+hil@D.PREF@:hil@D.PREF@ CompoundStems_hil ;
+hil@P.PREF.di@:hildi%^PREF@P.PREF.di@ CompoundStems_hil ;
+hil@P.PREF.na@:hilna%^PREF@P.PREF.na@ CompoundStems_hil ;
+hil@P.PREF.ne@:hilne%^PREF@P.PREF.ne@ CompoundStems_hil ;
+hil@P.PREF.nedi@:hilnedi%^PREF@P.PREF.nedi@ CompoundStems_hil ; 
+
+hil@P.PREF.bi@:hil%^PREF@P.PREF.bi@ CompoundStems_hil ; 
+
+LEXICON CompoundStems_ve 
+
+xwar:xw Accidents_PresStem_in ; ! lm="vexwarin" :: "to drink"
+xwar:xwar Accidents_PastStem_in ; ! lm="vexwarin" :: "to drink"
+
+kir:k Accidents_PresStem_in ; ! lm="vekirin" :: "to open"
+kir:kir Accidents_PastStem_in ; ! lm="vekirin" :: "to open"
+
+got:bêj Accidents_PresStem_in ; ! lm="vegotin" :: "to report"
+got:got Accidents_PastStem_in ; ! lm="vegotin" :: "to report"
+
+LEXICON CompoundStems_ra
+
+bûn:b Accidents_PresStem_ûn  ; ! lm="rabûn" :: "to get up" 
+bûn:b Accidents_PastStem_ûn; ! lm="rabûn" :: "to get up" 
+
+ket:kev Accidents_PresStem_in  ; ! lm="raketin" :: "to sleep" 
+ket:ket Accidents_PastStem_in  ; ! lm="raketin" :: "to sleep" 
+
+kir:k Accidents_PresStem_in  ; ! lm="rakirin" :: "to lift up" 
+kir:kir Accidents_PastStem_in  ; ! lm="rakirin" :: "to lift up" 
+
+LEXICON CompoundStems_hil
+
+!hilat:hilê; ! lm="hilat" :: "to get up" :: hil-ê- / hil-hat-
+!dan:d ; ! lm="hildan" :: "to lift"
+
+bijart:bijêr Accidents_PresStem_in ; ! lm="hilbijartin" :: "to choose" 
+bijart:bijart Accidents_PastStem_in ; ! lm="hilbijartin" :: "to choose" 
+
+LEXICON CompoundStems_rû
+
+nişt:nê Accidents_PresStem_in ; ! lm="rûniştin" :: "to sit down"
+nişt:nişt Accidents_PastStem_in ; ! lm="rûniştin" :: "to sit down"
+
+!behs% kir:behs% kir ; ! lm="behs kirin" :: "to discuss"
+!alîkarî% kir:alîkarî% kir ; ! lm="alîkarî kirin" :: "to help"
+
+LEXICON Accidents_PresStem_ûn
+
+ûn+Verb+Pri@R.PREF.di@@D.PREF.ne@:@R.PREF.di@@D.PREF.ne@ PersonalSuffixes ; ! ez diçim
+ûn+Verb+Prs@R.PREF.bi@:@R.PREF.bi@ PersonalSuffixes ; ! ez biçim
+ûn+Verb+Neg+Pri@R.PREF.na@:@R.PREF.na@ PersonalSuffixes ; ! ez naçim
+ûn+Verb+Neg+Prs@R.PREF.ne@:@R.PREF.ne@ PersonalSuffixes ; ! ez neçim
+ûn+Verb+Imp+P2+Sg@R.PREF.bi@:e@R.PREF.bi@ # ; ! biçe
+ûn+Verb+Imp+P2+Pl@R.PREF.bi@:in@R.PREF.bi@ # ; ! biçin
+ûn+Verb+Neg+Imp+P2+Sg@R.PREF.ne@:e@R.PREF.ne@ # ; ! neke
+ûn+Verb+Neg+Imp+P2+Pl@R.PREF.ne@:in@R.PREF.ne@ # ; ! nekin
+
+LEXICON Accidents_PastStem_ûn
+
+ûn+Verb+Inf@D.PREF@:n@D.PREF@ # ; ! çûn
+ûn+Verb+Inf+Obl@D.PREF@:na@D.PREF@ # ; ! çûna
+ûn+Verb+Pp@D.PREF@:%^VSUFPî@D.PREF@ # ; ! çûnî
+
+ûn+Verb+PresPerf@D.PREF@:@D.PREF@ PersonalSuffixesPerfect ; ! ez çûme
+ûn+Verb+Neg+PresPerf@R.PREF.ne@:@R.PREF.ne@ PersonalSuffixesPerfect ; ! ez neçûme
+
+ûn+Verb+PastPerf@D.PREF@:i%^IEPH@D.PREF@ BûnPast ; ! ez çûbûm
+ûn+Verb+Neg+PastPerf@R.PREF.ne@:i%^IEPH@R.PREF.ne@ BûnPast ; ! ez neçûbûm
+ûn+Verb+Pis@R.PREF.bi@:i%^IEPH@R.PREF.bi@ BûnPrs ; ! ez biçûbim
+!! the bí- subjunctive prefix may be omitted for stylisic reasons
+ûn+Verb+Pis@D.PREF@:i%^IEPH@D.PREF@ BûnPrs ; ! ez biçûbim ^LR^
+ûn+Verb+Neg+Pis@R.PREF.ne@:i%^IEPH@R.PREF.ne@ BûnPrs ; ! ez neçûbim
+
+ûn+Verb+PastCond@R.PREF.bi@:@R.PREF.bi@ PersonalSuffixesIrrealis ; ! ez biçûma
+
+ûn+Verb+Past@D.PREF@:@D.PREF@ PersonalSuffixes ; ! ez çûm
+ûn+Verb+Neg+Past@R.PREF.ne@:@R.PREF.ne@ PersonalSuffixes ; ! ez neçûm
+ûn+Verb+Pii@R.PREF.di@:@R.PREF.di@ PersonalSuffixes ; ! ez diçûm
+ûn+Verb+Neg+Pii@R.PREF.nedi@:@R.PREF.nedi@ PersonalSuffixes ; ! ez nediçûm
+
+LEXICON Accidents_PresStem_in
+
+in+Verb+Pri@R.PREF.di@@D.PREF.ne@:@R.PREF.di@@D.PREF.ne@ PersonalSuffixes ; ! ez dikim
+in+Verb+Prs@R.PREF.bi@:@R.PREF.bi@ PersonalSuffixes ; ! ez bikim
+in+Verb+Neg+Pri@R.PREF.na@:@R.PREF.na@ PersonalSuffixes ; ! ez nakim
+in+Verb+Neg+Prs@R.PREF.ne@:@R.PREF.ne@ PersonalSuffixes ; ! ez nekim
+in+Verb+Imp+P2+Sg@R.PREF.bi@:e@R.PREF.bi@ # ; ! bike
+in+Verb+Imp+P2+Pl@R.PREF.bi@:in@R.PREF.bi@ # ; ! bikin
+in+Verb+Neg+Imp+P2+Sg@R.PREF.ne@:e@R.PREF.ne@ # ; ! neke
+in+Verb+Neg+Imp+P2+Pl@R.PREF.ne@:in@R.PREF.ne@ # ; ! nekin
+
+LEXICON Accidents_PastStem_in
+
+in+Verb+Inf@D.PREF@:in@D.PREF@ # ; ! kirin
+in+Verb+Inf+Obl@D.PREF@:na@D.PREF@ # ; ! kirina
+in+Verb+Pp@D.PREF@:%^VSUFPî@D.PREF@ # ; ! kirî
+
+in+Verb+PresPerf@D.PREF@:@D.PREF@ PersonalSuffixesPerfect ; ! ez kirime 
+in+Verb+Neg+PresPerf@R.PREF.ne@:@R.PREF.ne@ PersonalSuffixesPerfect ; ! ez nekirime
+
+in+Verb+PastPerf@D.PREF@:i%^IEPH@D.PREF@ BûnPast ; ! ez kiribûm 
+in+Verb+Neg+PastPerf@R.PREF.ne@:i%^IEPH@R.PREF.ne@ BûnPast ; ! ez nekiribûm
+in+Verb+Pis@R.PREF.bi@:i%^IEPH@R.PREF.bi@ BûnPrs ; ! ez bikiribim 
+!! the bí- subjunctive prefix may be omitted for stylisic reasons
+in+Verb+Pis@D.PREF@:i%^IEPH@D.PREF@ BûnPrs ; ! ez kiribim ^LR^
+in+Verb+Neg+Pis@R.PREF.ne@:i%^IEPH@R.PREF.ne@ BûnPrs ; ! ez nekiribim
+
+in+Verb+PastCond@R.PREF.bi@:@R.PREF.bi@ PersonalSuffixesIrrealis ; ! ez bikirama
+
+in+Verb+Past@D.PREF@:@D.PREF@ PersonalSuffixes ; ! ez kirim
+in+Verb+Neg+Past@R.PREF.ne@:@R.PREF.ne@ PersonalSuffixes ; ! ez nekirim
+in+Verb+Pii@R.PREF.di@:@R.PREF.di@ PersonalSuffixes ; ! ez dikirim
+in+Verb+Neg+Pii@R.PREF.nedi@:@R.PREF.nedi@ PersonalSuffixes ; ! ez nedikirim
+
+LEXICON Accidents_PresStem_în
+
+în+Verb+Pri@R.PREF.di@@D.PREF.ne@:@R.PREF.di@@D.PREF.ne@ PersonalSuffixes ; ! ez dinivîsim 
+în+Verb+Prs@R.PREF.bi@:@R.PREF.bi@ PersonalSuffixes ; ! ez binivîsim
+în+Verb+Neg+Pri@R.PREF.na@:@R.PREF.na@ PersonalSuffixes ; ! ez nanivîsim
+în+Verb+Neg+Prs@R.PREF.ne@:@R.PREF.ne@ PersonalSuffixes ; ! ez nenivîsim
+în+Verb+Imp+P2+Sg@R.PREF.bi@:e@R.PREF.bi@ # ; ! binivîse
+în+Verb+Imp+P2+Pl@R.PREF.bi@:in@R.PREF.bi@ # ; ! binivîsin
+în+Verb+Neg+Imp+P2+Sg@R.PREF.ne@:e@R.PREF.ne@ # ; ! nenivîse
+în+Verb+Neg+Imp+P2+Pl@R.PREF.ne@:in@R.PREF.ne@ # ; ! nenivîsin
+
+LEXICON Accidents_PastStem_în
+
+în+Verb+Inf@D.PREF@:n@D.PREF@ # ; ! nivîsîn
+în+Verb+Inf+Obl@D.PREF@:na@D.PREF@ # ; ! nivîsîna 
+în+Verb+Pp@D.PREF@:%^VSUFP@D.PREF@ # ; ! nivîsî
+
+în+Verb+PresPerf@D.PREF@:@D.PREF@ PersonalSuffixesPerfect ; ! ez nivîsime 
+în+Verb+Neg+PresPerf@R.PREF.ne@:@R.PREF.ne@ PersonalSuffixesPerfect ; ! ez nenivîsime
+
+în+Verb+PastPerf@D.PREF@:i%^IEPH@D.PREF@ BûnPast ; ! ez nivîsibûm
+în+Verb+Neg+PastPerf@R.PREF.ne@:i%^IEPH@R.PREF.ne@ BûnPast ; ! ez nenivîsibûm
+în+Verb+Pis@R.PREF.bi@:i%^IEPH@R.PREF.bi@ BûnPrs ; ! ez binivîsibim
+!! the bí- subjunctive prefix may be omitted for stylisic reasons
+în+Verb+Pis@D.PREF@:i%^IEPH@D.PREF@ BûnPrs ; ! ez nivîsibim ^LR^
+în+Verb+Neg+Pis@R.PREF.ne@:i%^IEPH@R.PREF.ne@ BûnPrs ; ! ez nenivîsibim
+
+în+Verb+PastCond@R.PREF.bi@:@R.PREF.bi@ PersonalSuffixesIrrealis ; ! ez binivîsama
+
+în+Verb+Past@D.PREF@:@D.PREF@ PersonalSuffixes ; ! ez nivîsim
+în+Verb+Neg+Past@R.PREF.ne@:@R.PREF.ne@ PersonalSuffixes ; ! ez nenivîsim
+în+Verb+Pii@R.PREF.di@:@R.PREF.di@ PersonalSuffixes ; ! ez dinivîsim
+în+Verb+Neg+Pii@R.PREF.nedi@:@R.PREF.nedi@ PersonalSuffixes ; ! ez nedinivîsim
+
+LEXICON Accidents_PresStem_an
+
+an+Verb+Pri@R.PREF.di@@D.PREF.ne@:@R.PREF.di@@D.PREF.ne@ PersonalSuffixes ; ! ez dimam
+an+Verb+Prs@R.PREF.bi@:@R.PREF.bi@ PersonalSuffixes ; ! ez bimam
+an+Verb+Neg+Pri@R.PREF.na@:@R.PREF.na@ PersonalSuffixes ; ! ez namam
+an+Verb+Neg+Prs@R.PREF.ne@:@R.PREF.ne@ PersonalSuffixes ; ! ez nemam
+an+Verb+Imp+P2+Sg@R.PREF.bi@:e@R.PREF.bi@ # ; ! bime
+an+Verb+Imp+P2+Pl@R.PREF.bi@:in@R.PREF.bi@ # ; ! bimin
+an+Verb+Neg+Imp+P2+Sg@R.PREF.ne@:e@R.PREF.ne@ # ; ! neme
+an+Verb+Neg+Imp+P2+Pl@R.PREF.ne@:in@R.PREF.ne@ # ; ! nemin
+
+LEXICON Accidents_PastStem_an
+
+an+Verb+Inf@D.PREF@:n@D.PREF@ # ; ! man
+an+Verb+Inf+Obl@D.PREF@:na@D.PREF@ # ; ! mana
+an+Verb+Pp@D.PREF@:%^VSUFPî@D.PREF@ # ; ! manî
+
+an+Verb+PresPerf@D.PREF@:@D.PREF@ PersonalSuffixesPerfect ; ! ez mamime
+an+Verb+Neg+PresPerf@R.PREF.ne@:@R.PREF.ne@ PersonalSuffixesPerfect ; ! ez nemamime
+
+an+Verb+PastPerf@D.PREF@:i%^IEPH@D.PREF@ BûnPast ; ! ez mabûm
+an+Verb+Neg+PastPerf@R.PREF.ne@:i%^IEPH@R.PREF.ne@ BûnPast ; ! ez nemabûm
+an+Verb+Pis@R.PREF.bi@:i%^IEPH@R.PREF.bi@ BûnPrs ; ! ez bimabim
+!! the bí- subjunctive prefix may be omitted for stylisic reasons
+an+Verb+Pis@D.PREF@:i%^IEPH@D.PREF@ BûnPrs ; ! ez mabim ^LR^
+an+Verb+Neg+Pis@R.PREF.ne@:i%^IEPH@R.PREF.ne@ BûnPrs ; ! ez nemabim
+
+an+Verb+PastCond@R.PREF.bi@:@R.PREF.bi@ PersonalSuffixesIrrealis ; ! ez bimama
+
+an+Verb+Past@D.PREF@:@D.PREF@ PersonalSuffixes ; ! ez mam 
+an+Verb+Neg+Past@R.PREF.ne@:@R.PREF.ne@ PersonalSuffixes ; ! ez nemam
+an+Verb+Pii@R.PREF.di@:@R.PREF.di@ PersonalSuffixes ; ! ez dimam
+an+Verb+Neg+Pii@R.PREF.nedi@:@R.PREF.nedi@ PersonalSuffixes ; ! ez nedimam
+
+LEXICON PersonalSuffixes
+
++P1+Sg:%^VSUFim # ;
++P2+Sg:%^VSUFî # ;
++P3+Sg:%^VSUFe # ;
++P1+Pl:%^VSUFin # ;
++P2+Pl:%^VSUFin # ;
++P3+Pl:%^VSUFin # ;
+
+LEXICON PersonalSuffixesPerfect
+
++P1+Sg:%^VSUFime # ;
++P2+Sg:%^VSUFiye # ;
++P3+Sg:%^VSUFiye # ;
++P1+Pl:%^VSUFine # ;
++P2+Pl:%^VSUFine # ;
++P3+Pl:%^VSUFine # ;
+
+LEXICON PersonalSuffixesIrrealis
+
++P1+Sg:%^VSUFama # ;
++P2+Sg:%^VSUFayî # ;
++P3+Sg:%^VSUFa # ;
++P1+Pl:%^VSUFana # ;
++P2+Pl:%^VSUFana # ;
++P3+Pl:%^VSUFana # ;
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Nouns 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON NounRoot
+
+mirov:mirov mirov__n ; ! lm="mirov" :: "man"
+xwendevan:xwendevan mirov__n ; ! lm="" :: ""
+karker:karker mirov__n ; ! lm="" :: ""
+mêr:mêr mirov__n ; ! lm="mêr" :: "man"
+doktor:doktor mirov__n ; ! lm="doktor" :: "doctor"
+heval:heval mirov__n ; ! lm="heval" :: "friend"
+kur:kur mirov__n ; ! lm="" :: ""
+xiyar:xiyar mirov__n ; ! lm="xiyar" :: "cucumber"
+ap:ap mirov__n ; ! lm="" :: ""
+bav:bav mirov__n ; ! lm="" :: ""
+çav:çav mirov__n ; ! lm="" :: ""
+bel:bel mirov__n ; ! lm="" :: ""
+kurd:kurd mirov__n ; ! lm="kurd" :: "kurd"
+hogir:hogir mirov__n ; ! lm="" :: ""
+gund:gund mirov__n ; ! lm="" :: ""
+xwêndekar:xwêndekar mirov__n ; ! lm="" :: ""
+endazyar:endazyar mirov__n ; ! lm="" :: ""
+ziman:ziman mirov__n ; ! lm="ziman" :: "language"
+gotar:gotar mirov__n ; ! lm="" :: ""
+şagirt:şagirt mirov__n ; ! lm="" :: ""
+nivîskar:nivîskar mirov__n ; ! lm="nivîskar" :: "writer"
+ba:ba ba__n; ! lm="ba" :: "wind"
+roj:roj roj__n; ! lm="roj" :: "day"
+jin:jin roj__n; ! lm="jin" :: "woman"
+xanî:xan xan/î__n; ! lm="xanî" :: "house"
+
+LEXICON mirov__n
+
++N+Masc+Sg+Nom+Ind:%>ek # ;
++N+Masc+Sg+Obl+Ind:%>ekî # ;
++N+Masc+Sg+Con+Ind:%>ekî # ;
++N+Masc+Sg+Nom+Def: # ;
++N+Masc+Sg+Obl+Def: # ;
++N+Masc+Sg+Con+Def:%>ê # ;
++N+Masc+Sg+Voc+Def:%>o # ;
++N+Masc+Pl+Nom+Ind:%>in # ;
++N+Masc+Pl+Obl+Ind:%>inan # ;
++N+Masc+Pl+Con+Ind:%>ine # ;
++N+Masc+Pl+Nom+Def: # ;
++N+Masc+Pl+Obl+Def:%>an # ;
++N+Masc+Pl+Obl+Def:%>a # ; ! ^LR^
++N+Masc+Pl+Con+Def:%>ên # ;
++N+Masc+Pl+Voc+Def:%>ên # ;
+
+LEXICON ba__n 
+
++N+Masc+Sg+Nom+Ind:%>yek # ;
++N+Masc+Sg+Obl+Ind:%>yekî # ;
++N+Masc+Sg+Con+Ind:%>yekî # ;
++N+Masc+Sg+Nom+Def: # ;
++N+Masc+Sg+Obl+Def: # ;
++N+Masc+Sg+Con+Def:%>yê # ;
++N+Masc+Sg+Voc+Def:%>yo # ;
++N+Masc+Pl+Nom+Ind:%>yin # ;
++N+Masc+Pl+Obl+Ind:%>yinan # ;
++N+Masc+Pl+Con+Ind:%>yine # ;
++N+Masc+Pl+Nom+Def: # ;
++N+Masc+Pl+Obl+Def:%>yan # ;
++N+Masc+Pl+Con+Def:%>yên # ;
++N+Masc+Pl+Voc+Def:%>no # ;
+
+LEXICON xan/î__n
+
++N+Masc+Sg+Nom+Ind:%>iyek # ;
++N+Masc+Sg+Obl+Ind:%>iyekî # ;
++N+Masc+Sg+Con+Ind:%>iyekî # ;
++N+Masc+Sg+Nom+Def:%>î # ;
++N+Masc+Sg+Obl+Def:%>î # ;
++N+Masc+Sg+Con+Def:%>iyê # ;
++N+Masc+Sg+Voc+Def:%>o # ;
++N+Masc+Pl+Nom+Ind:%>iyin # ;
++N+Masc+Pl+Obl+Ind:%>iyinan # ;
++N+Masc+Pl+Con+Ind:%>iyine # ;
++N+Masc+Pl+Nom+Def:%>î # ;
++N+Masc+Pl+Obl+Def:%>iyan # ;
++N+Masc+Pl+Con+Def:%>iyên # ;
++N+Masc+Pl+Voc+Def:%>iyên # ;
+
+LEXICON roj__n
+
++N+Fem+Sg+Nom+Ind:%>ek # ;
++N+Fem+Sg+Obl+Ind:%>ekê # ;
++N+Fem+Sg+Con+Ind:%>eke # ;
++N+Fem+Sg+Nom+Def: # ;
++N+Fem+Sg+Obl+Def:%>ê # ;
++N+Fem+Sg+Con+Def:%>a # ;
++N+Fem+Sg+Voc+Def:%>ê # ;
++N+Fem+Pl+Nom+Ind:%>in # ;
++N+Fem+Pl+Obl+Ind:%>inan # ;
++N+Fem+Pl+Con+Ind:%>ine # ;
++N+Fem+Pl+Nom+Def: # ;
++N+Fem+Pl+Obl+Def:%>ên # ;
++N+Fem+Pl+Con+Def:%>an # ;
++N+Fem+Pl+Voc+Def:%>ên # ;
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Adjectives
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+LEXICON AdjRoot
+
+nû:nû nû__adj ; ! lm="nû" :: "new"
+xur:xur nû__adj ; ! lm="xur" :: "strong"
+pêwist:pêwis pêwis/t__adj; ! lm="pêwist" :: "important"
+
+LEXICON nû__adj
+
++Adj+Pst:%> #;
++Adj+Comp:%>tir # ;
++Adj+Sup:%>tirîn # ;
+
+LEXICON pêwis/t__adj
+
++Adj+Pst:%>t #;
++Adj+Comp:%>tir # ;
++Adj+Sup:%>tirîn # ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Pronouns 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON PronRoot 
+
+ez+Prn+Pers+P1+Sg+Nom:ez # ;
+ez+Prn+Pers+P1+Sg+Obl:min # ;
+tu+Prn+Pers+P2+Sg+Nom:tu # ;
+tu+Prn+Pers+P2+Sg+Obl:te # ;
+
+em+Prn+Pers+P1+Pl+Nom:em # ;
+em+Prn+Pers+P1+Pl+Obl:me # ;
+hun+Prn+Pers+P2+Pl+Nom:hun # ;
+hun+Prn+Pers+P2+Pl+Obl:we # ;
+
+ew+Prn+Dem+Sg+Nom:ew # ;
+ew+Prn+Dem+Masc+Sg+Obl:wî # ;
+ew+Prn+Dem+Fem+Sg+Obl:wê # ;
+ew+Prn+Dem+Pl+Nom:ew # ;
+ew+Prn+Dem+Pl+Obl:wan # ;
+
+ev+Prn+Dem+Sg+Nom:ev # ;
+ev+Prn+Dem+Masc+Sg+Obl:vî # ;
+ev+Prn+Dem+Fem+Sg+Obl:vê # ;
+ev+Prn+Dem+Pl+Nom:ev # ;
+ev+Prn+Dem+Pl+Obl:van # ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Numerals
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Numerals
+
+yek:yek yek__num ;  ! lm="yek" :: "one"
+
+LEXICON yek__num
+
++Num+Nom+Ind:%>ek # ;
++Num+Obl+Ind:%>ekê # ;
++Num+Con+Ind:%>eke # ;
++Num+Nom+Def: # ;
++Num+Obl+Def:%>ê # ;
++Num+Con+Def:%>a # ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Prepositions
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Prepositions
+
+cem:cem Prep  ; ! lm="cem" :: "near to"
+ba:ba Prep  ; ! lm="ba" :: "near to"
+ji:ji Prep ; ! lm="ji" :: "from"
+ji% bo:ji% bo Prep ; ! lm="ji bo" :: "in order to"
+ber:ber Prep  ; ! lm="ber" :: "in front of"
+berî:berî Prep  ; ! lm="berî" :: "before"
+derveyî:derveyî Prep ; ! lm="berî" :: "outside of"
+piştî:piştî Prep ; ! lm="piştî" :: "after"
+ser:ser Prep ; ! lm="ser" :: "on"
+ta:ta Prep ; ! lm="ta" :: "until"
+tevî:tevî Prep ; ! lm="tevî" :: "along with"
+
+LEXICON Prep
+
++Pr: # ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Conjunctions
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Conjunctions
+
+û CC ; ! lm="û" :: "and"
+çaxê% ku CS ; ! lm="çaxê ku" :: "when"
+
+LEXICON CC 
+
++CC: # ;
+
+LEXICON CS
+
++CS: # ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Punctuation
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Punctuation
+
+.+Sent:. # ;
+!+Sent:! # ;
+?+Sent:? # ;
+...+Sent:... # ;
