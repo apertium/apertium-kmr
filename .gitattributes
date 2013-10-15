@@ -5,11 +5,11 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
-/apertium-kur-1.0.pc.in -text
 /apertium-kur.kur.dix -text
 /apertium-kur.kur.lexc -text
 /apertium-kur.kur.rlx -text
 /apertium-kur.kur.twol -text
+/apertium-kur.pc.in -text
 /autogen.sh -text
 /configure.ac -text
 dev/conj.sh -text

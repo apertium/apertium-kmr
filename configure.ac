@@ -92,4 +92,4 @@ then
 fi
 
 
-AC_OUTPUT([Makefile apertium-kur-1.0.pc])
+AC_OUTPUT([Makefile apertium-kur.pc])
