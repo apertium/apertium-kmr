@@ -67,16 +67,16 @@ $(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx
 ## Installation stuff
 ###############################################################################
 #
-#   apertium_kur_libdir: This is where the compiled binaries go
+#   apertium_kur_dir: This is where the compiled binaries go
 #   apertium_kur_srcdir: This is where the source files go
 
-apertium_kurdir=$(prefix)/lib/apertium/$(BASENAME)/
+apertium_kurdir=$(prefix)/share/apertium/$(BASENAME)/
 apertium_kur_srcdir=$(prefix)/share/apertium/$(BASENAME)/
 
 apertium_kur_DATA=$(LANG1).automorf.hfst $(LANG1).autogen.hfst \
 		    $(LANG1).rlx.bin
 
-pkgconfigdir = $(libdir)/pkgconfig
+pkgconfigdir = $(prefix)/share/pkgconfig
 pkgconfig_DATA = $(BASENAME).pc
 
 # Modes are not installed since they're all just "debug modes". All
