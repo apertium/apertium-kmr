@@ -1,10 +1,10 @@
 ###############################################################################
-## Makefile for apertium-kur
+## Makefile for apertium-kmr
 ###############################################################################
 
 RELEASE=0.1
 VERSION=0.1.0
-LANG1=kur
+LANG1=kmr
 BASENAME=apertium-$(LANG1)
 
 TARGETS_COMMON = $(LANG1).automorf.bin $(LANG1).autogen.bin \
@@ -45,13 +45,13 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix \
 ## Installation stuff
 ###############################################################################
 #
-#   apertium_kur_dir: This is where the compiled binaries go
-#   apertium_kur_srcdir: This is where the source files go
+#   apertium_kmr_dir: This is where the compiled binaries go
+#   apertium_kmr_srcdir: This is where the source files go
 
-apertium_kurdir=$(prefix)/share/apertium/$(BASENAME)/
-apertium_kur_srcdir=$(prefix)/share/apertium/$(BASENAME)/
+apertium_kmrdir=$(prefix)/share/apertium/$(BASENAME)/
+apertium_kmr_srcdir=$(prefix)/share/apertium/$(BASENAME)/
 
-apertium_kur_DATA=$(TARGETS_COMMON)
+apertium_kmr_DATA=$(TARGETS_COMMON)
 
 pkgconfigdir = $(prefix)/share/pkgconfig
 pkgconfig_DATA = $(BASENAME).pc
@@ -65,9 +65,9 @@ modes/$(LANG1)-morph.mode: modes.xml
 noinst_DATA=modes/$(LANG1)-morph.mode
 
 install-data-local:
-	test -d $(DESTDIR)$(apertium_kur_srcdir) || mkdir -p $(DESTDIR)$(apertium_kur_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).dix $(DESTDIR)$(apertium_kur_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_kur_srcdir)
+	test -d $(DESTDIR)$(apertium_kmr_srcdir) || mkdir -p $(DESTDIR)$(apertium_kmr_srcdir)
+	$(INSTALL_DATA) $(BASENAME).$(LANG1).dix $(DESTDIR)$(apertium_kmr_srcdir)
+	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_kmr_srcdir)
 
 CLEANFILES = $(TARGETS_COMMON)
 clean-local:

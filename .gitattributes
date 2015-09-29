@@ -5,9 +5,9 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
-/apertium-kur.kur.dix -text
-/apertium-kur.kur.rlx -text
-/apertium-kur.pc.in -text
+/apertium-kmr.kmr.dix -text
+/apertium-kmr.kmr.rlx -text
+/apertium-kmr.pc.in -text
 /autogen.sh -text
 /configure.ac -text
 dev/apertium-kur.kur.lexc -text

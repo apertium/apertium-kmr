@@ -1,7 +1,7 @@
 AC_PREREQ(2.52)
 
-AC_INIT([apertium-kur], [1.0.0], [francis.tyers@gmail.com])
-AM_INIT_AUTOMAKE([apertium-kur], [1.0.0], no-define)
+AC_INIT([apertium-kmr], [1.0.0], [francis.tyers@gmail.com])
+AM_INIT_AUTOMAKE([apertium-kmr], [1.0.0], no-define)
 AC_PROG_LN_S
 AC_PROG_AWK
 
@@ -73,4 +73,4 @@ then
 fi
 
 
-AC_OUTPUT([Makefile apertium-kur.pc])
+AC_OUTPUT([Makefile apertium-kmr.pc])

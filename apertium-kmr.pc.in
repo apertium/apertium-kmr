@@ -2,6 +2,6 @@ prefix=@prefix@
 exec_prefix=${prefix}
 libdir=@libdir@
 
-Name: apertium-kir
+Name: apertium-kmr
 Description: Finite-state morphological transducer and constraint grammar for Kurdish 
 Version: @VERSION@

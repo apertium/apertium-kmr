@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
 
-  <mode name="kur-morph">
+  <mode name="kmr-morph">
     <pipeline>
       <program name="lt-proc -w">
-        <file name="kur.automorf.bin"/>
+        <file name="kmr.automorf.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="kur-gener">
+  <mode name="kmr-gener">
     <pipeline>
       <program name="lt-proc -g">
-        <file name="kur.autogen.bin"/>
+        <file name="kmr.autogen.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="kur-disam">
+  <mode name="kmr-disam">
     <pipeline>
       <program name="lt-proc -w">
-        <file name="kur.automorf.bin"/>
+        <file name="kmr.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
-        <file name="kur.rlx.bin"/>
+        <file name="kmr.rlx.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="kur-disam-debug">
+  <mode name="kmr-debug">
     <pipeline>
       <program name="lt-proc -w">
-        <file name="kur.automorf.bin"/>
+        <file name="kmr.automorf.bin"/>
       </program>
       <program name="cg-conv -a -l" />
       <program name="vislcg3 --trace -g">
-        <file name="apertium-kur.kur.rlx"/>
+        <file name="apertium-kmr.kmr.rlx"/>
       </program>
     </pipeline>
   </mode>
