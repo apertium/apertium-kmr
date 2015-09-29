@@ -6,12 +6,13 @@
 /NEWS -text
 /README -text
 /apertium-kur.kur.dix -text
-/apertium-kur.kur.lexc -text
 /apertium-kur.kur.rlx -text
-/apertium-kur.kur.twol -text
 /apertium-kur.pc.in -text
 /autogen.sh -text
 /configure.ac -text
+dev/apertium-kur.kur.lexc -text
+dev/apertium-kur.kur.twol -text
 dev/conj.sh -text
 dev/test-phrases.txt -text
 dev/test-words.txt -text
+/modes.xml -text

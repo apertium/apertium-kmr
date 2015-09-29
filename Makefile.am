@@ -2,66 +2,44 @@
 ## Makefile for apertium-kur
 ###############################################################################
 
-RELEASE=1.0
-VERSION=1.0.0
+RELEASE=0.1
+VERSION=0.1.0
 LANG1=kur
 BASENAME=apertium-$(LANG1)
 
-TARGETS_COMMON = $(LANG1).automorf.hfst $(LANG1).autogen.hfst \
+TARGETS_COMMON = $(LANG1).automorf.bin $(LANG1).autogen.bin \
+	$(LANG1).automorf.att.gz $(LANG1).autogen.att.gz \
         $(LANG1).rlx.bin
 
 ###############################################################################
-## Kurdish transducer
+## Armenian transducer
 ###############################################################################
 
-.deps/$(LANG1).twol.hfst: $(BASENAME).$(LANG1).twol
-	test -d .deps || mkdir .deps
-	hfst-twolc $< -o $@
+$(LANG1).autogen.bin: $(BASENAME).$(LANG1).dix
+	lt-comp rl $< $@
 
-.deps/$(LANG1).RL.lexc: $(BASENAME).$(LANG1).lexc
-	test -d .deps || mkdir .deps
-	cat $< | grep -v 'Dir/LR' > $@
+$(LANG1).automorf.bin: $(BASENAME).$(LANG1).dix
+	lt-comp lr $< $@
 
-.deps/$(LANG1).LR.lexc: $(BASENAME).$(LANG1).lexc
-	test -d .deps || mkdir .deps
-	cat $< | grep -v 'Dir/RL' > $@
+$(LANG1).autogen.att.gz: $(LANG1).autogen.bin
+	lt-print $< | gzip -9 -c > $@
 
-.deps/$(LANG1).RL.lexc.hfst: .deps/$(LANG1).RL.lexc
-	hfst-lexc --format foma $< -o $@
-
-.deps/$(LANG1).LR.lexc.hfst: .deps/$(LANG1).LR.lexc
-	hfst-lexc --format foma $< -o $@
-
-.deps/$(LANG1).RL.hfst: .deps/$(LANG1).RL.lexc.hfst .deps/$(LANG1).twol.hfst
-	hfst-compose-intersect -1 .deps/$(LANG1).RL.lexc.hfst -2 .deps/$(LANG1).twol.hfst -o $@
-
-.deps/$(LANG1).LR.hfst: .deps/$(LANG1).LR.lexc.hfst .deps/$(LANG1).twol.hfst
-	hfst-compose-intersect -1 .deps/$(LANG1).LR.lexc.hfst -2 .deps/$(LANG1).twol.hfst -o $@
-
-$(LANG1).autogen.hfst: .deps/$(LANG1).RL.hfst
-	hfst-fst2fst -O $< -o $@
-
-$(LANG1).automorf.hfst: .deps/$(LANG1).LR.hfst
-	hfst-invert $< | hfst-fst2fst -O -o $@
+$(LANG1).automorf.att.gz: $(LANG1).automorf.bin
+	lt-print $< | gzip -9 -c > $@
 
 ###############################################################################
-## Debugging transducers (for testvoc)
+## Disambiguation rules 
 ###############################################################################
 
-debug: .deps/$(LANG1).LR-debug.hfst
-
-.deps/$(LANG1).LR-debug.hfst: $(BASENAME).$(LANG1).lexc
-	test -d .deps || mkdir .deps
-	cat $< | grep -v 'Dir/RL' | grep -v 'Use/Circ' > .deps/$(LANG1).LR-debug.lexc
-	hfst-lexc --format foma .deps/$(LANG1).LR-debug.lexc -o .deps/$(LANG1).LR-debug.lexc.hfst
-	hfst-compose-intersect -1 .deps/$(LANG1).LR-debug.lexc.hfst -2 .deps/$(LANG1).twol.hfst -o $@
+$(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx $(CGCOMP)
+	$(CGCOMP) $< $@
 
 ###############################################################################
-## Disambiguation rules
+## Distribution
 ###############################################################################
-
-$(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx
-	cg-comp $< $@
+EXTRA_DIST=$(BASENAME).$(LANG1).dix \
+	   $(BASENAME).$(LANG1).rlx  \
+	   modes.xml
 
 ###############################################################################
 ## Installation stuff
@@ -73,8 +51,7 @@ $(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx
 apertium_kurdir=$(prefix)/share/apertium/$(BASENAME)/
 apertium_kur_srcdir=$(prefix)/share/apertium/$(BASENAME)/
 
-apertium_kur_DATA=$(LANG1).automorf.hfst $(LANG1).autogen.hfst \
-		    $(LANG1).rlx.bin
+apertium_kur_DATA=$(TARGETS_COMMON)
 
 pkgconfigdir = $(prefix)/share/pkgconfig
 pkgconfig_DATA = $(BASENAME).pc
@@ -89,8 +66,7 @@ noinst_DATA=modes/$(LANG1)-morph.mode
 
 install-data-local:
 	test -d $(DESTDIR)$(apertium_kur_srcdir) || mkdir -p $(DESTDIR)$(apertium_kur_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).lexc $(DESTDIR)$(apertium_kur_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).twol $(DESTDIR)$(apertium_kur_srcdir)
+	$(INSTALL_DATA) $(BASENAME).$(LANG1).dix $(DESTDIR)$(apertium_kur_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_kur_srcdir)
 
 CLEANFILES = $(TARGETS_COMMON)
