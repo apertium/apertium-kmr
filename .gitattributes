@@ -8,6 +8,7 @@
 /apertium-kmr.kmr.dix -text
 /apertium-kmr.kmr.rlx -text
 /apertium-kmr.pc.in -text
+/apertium-kmr.post-kmr.dix -text
 /autogen.sh -text
 /configure.ac -text
 dev/apertium-kur.kur.lexc -text
