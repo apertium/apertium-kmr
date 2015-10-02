@@ -17,4 +17,5 @@ dev/kurmanji-basic.kmr-eng.txt -text
 dev/test-phrases.txt -text
 dev/test-words.txt -text
 dev/wikt-en-noun-list -text
+/kmr.prob -text svneol=unset#unset
 /modes.xml -text
