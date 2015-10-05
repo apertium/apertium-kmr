@@ -1,0 +1,122 @@
+axaftin; iv; axiv; axaft; ; di ; bi ; na ; ne ; speak; c
+afirandin; TD; afirîn; afirand; ; di ; bi ; na ; ne ; ; a
+alandin; TD; alîn; aland; ; di ; bi ; na ; ne ; ; a
+avêtin; tv; avêj; avêt; ; d ; b ; n ; ne ; throw away; a
+azirandin; TD; azirîn; azirand; ; di ; bi ; na ; ne ; ; a
+belişandin; TD; belişîn; belişand; ; di ; bi ; na ; ne ; ; a
+bersivandin; TD; bersivîn; bersivand; ; di ; bi ; na ; ne ; ; a
+betilandin; TD; betilîn; betiland; ; di ; bi ; na ; ne ; ; a
+cemidandin; TD; cemidîn; cemidand; ; di ; bi ; na ; ne ; ; a
+cilixandin; TD; cilixîn; cilixand; ; di ; bi ; na ; ne ; ; a
+cixirandin; TD; cixirîn; cixirand; ; di ; bi ; na ; ne ; ; a
+dabilandin; TD; dabilîn; dabiland; ; di ; bi ; na ; ne ; ; a
+damezrandin; TD; damezrîn; damezrand; ; di ; bi ; na ; ne ; ; a
+daqurtandin; TD; daqurtîn; daqurtand; ; di ; bi ; na ; ne ; ; a
+dewisandin; TD; dewisîn; dewisand; ; di ; bi ; na ; ne ; ; a
+dîtin; TD; bîn; dît; ; di ; bi ; na ; ne ; ; a
+dizîn; TD; diz; dizî; ; di ; bi ; na ; ne ; ; a
+domandin; TD; domîn; domand; ; di ; bi ; na ; ne ; ; a
+ecibandin; TD; ecibîn; eciband; ; di ; bi ; na ; ne ; ; a
+edilandin; TD; edilîn; ediland; ; di ; bi ; na ; ne ; ; a
+engizandin; TD; engizîn; engizand; ; di ; bi ; na ; ne ; ; a
+fetisandin; TD; fetisîn; fetisand; ; di ; bi ; na ; ne ; ; a
+fikirîn; TD; fikir; fikirî; ; di ; bi ; na ; ne ; ; a
+filitîn; TD; filit; filitî; ; di ; bi ; na ; ne ; ; a
+firotin; TD; firoş; firot; ; di ; bi ; na ; ne ; ; a
+girtin; TD; gir; girt; ; di ; bi ; na ; ne ; ; a
+gotin; TD; bêj; got; ; di ; bi ; na ; ne ; ; a
+herimandin; TD; herimîn; herimand; ; di ; bi ; na ; ne ; ; a
+hetikandin; TD; hetikîn; hetikand; ; di ; bi ; na ; ne ; ; a
+hilweşandin; TD; hilweşîn; hilweşand; ; di ; bi ; na ; ne ; ; a
+kelandin; TD; kelîn; keland; ; di ; bi ; na ; ne ; ; a
+kerixandin; TD; kerixîn; kerixand; ; di ; bi ; na ; ne ; ; a
+kewandin; TD; kewîn; kewand; ; di ; bi ; na ; ne ; ; a
+kirin; tv; k; kir; ; di ; bi ; na ; ne ; do ; a
+kirîn; TD; kir; kirî; ; di ; bi ; na ; ne ; ; a
+kojandin; TD; kojîn; kojand; ; di ; bi ; na ; ne ; ; a
+lewitandin; TD; lewitîn; lewitand; ; di ; bi ; na ; ne ; ; a
+merixandin; TD; merixîn; merixand; ; di ; bi ; na ; ne ; ; a
+nirxandin; TD; nirxîn; nirxand; ; di ; bi ; na ; ne ; ; a
+pejirandin; TD; pejirîn; pejirand; ; di ; bi ; na ; ne ; ; a
+qelandin; TD; qelîn; qeland; ; di ; bi ; na ; ne ; ; a
+qetandin; TD; qetîn; qetand; ; di ; bi ; na ; ne ; ; a
+şandin; TD; şîn; şand; ; di ; bi ; na ; ne ; ; a
+sekinandin; TD; sekinîn; sekinand; ; di ; bi ; na ; ne ; ; a
+şewitandin; TD; şewitîn; şewitand; ; di ; bi ; na ; ne ; ; a
+sîqilandin; TD; sîqilîn; sîqiland; ; di ; bi ; na ; ne ; ; a
+tefandin; TD; tefîn; tefand; ; di ; bi ; na ; ne ; ; a
+teqandin; tv; teqîn; teqand; ; di ; bi ; na ; ne ; ; a
+tewandin; TD; tewîn; tewand; ; di ; bi ; na ; ne ; ; a
+tirsandin; TD; tirsîn; tirsand; ; di ; bi ; na ; ne ; ; a
+vegotin; TD; bêj; got; ve ; di ; bi ; ne  ; na ; ; a
+westandin; TD; westîn; westand; ; di ; bi ; na ; ne ; ; a
+xapandin; TD; xapîn; xapand; ; di ; bi ; na ; ne ; ; a
+xemilandin; TD; xemilîn; xemiland; ; di ; bi ; na ; ne ; ; a
+xirxirandin; TD; xirxirîn; xirxirand; ; di ; bi ; na ; ne ; ; a
+zivirandin; TD; zivirîn; zivirand; ; di ; bi ; na ; ne ; ; a
+xwestin; tv; xwaz; xwest; ; di ; bi ; na ; ne ; ; a
+vekirin; tv; k; kir; ve; di; ; na ; ne ; ; a
+şiştin; tv; şo; şişt; ; di ; bi ; na ; ne ; ; b
+zanîn; tv; zan; zan; ; di; bi; ni; ne; ; a
+man      ; iv ; mîn   ; ma     ; ; di; bi; na ; ne ; ; c
+rijandin ; tv ; rijîn ; rijand ; ; di ; bi ;na ; ne ; ; a
+rakirin; tv; k; kir; ra; di; ; na ; ne ; ; a
+raman; iv; mîn; ma; ra ; di; ; na; ne; ; c
+xesandin ; tv ; xesîn ; xesand ; ; di ; bi ; na ; ne ; ; a
+xistin ; tv ; x ; xist ; ; di ; bi ; na ; ne ; ; a
+ajotin; tv; ajo; ajot; ; di ; bi ; na ; ne ; drive ; b
+alastin; tv; alês; alast; ; di ; bi ; na ; ne ; lick ; a
+#bihurandîn; tv ; bihurîn ; bihurand ; ; di ; bi ; na ; ne ; spend ; a
+#bihurtin ; iv ; bihur ; bihurt ; ; di ; bi ; na ; ne ; pass ; c
+birin; tv; b; bir; ; di ; bi ; na ; ne ; carry ; a
+bîstin; tv; bîs; bîst; ; di ; bi ; na ; ne ; hear; a
+çandin; tv; çîn; çand; ; di ; bi ; na ; ne ; plant; a
+çirandin; tv; çirîn; çirand; ; di ; bi ; na ; ne ; tear; a
+civandin; tv; civîn; civand; ; di ; bi ; na ; ne ; move; a
+firîn; iv; fir; fir; ; di ; bi ; na ; ne ; fly; c
+derxwendin; tv; xwîn; xwend; der; di ; bi ; na ; ne ; take to task ; a
+daniştin; iv; niş; nişt; da; di ; bi ; na ; ne ; sit down; c
+givaştin; tv; givêş; givaşt; ; di ; bi ; na ; ne ; press ; a
+guhartin; tv; guhêr; guhart; ; di ; bi ; na ; ne ; change; a
+guhaztin; tv; guhêz; guhazt; ; di ; bi ; na ; ne ; transport; a
+jmartin; tv; jmêr; jmart; ; di ; bi ; na ; ne ; count; a
+hejmartin; tv; hejmêr; hejmart; ; di ; bi ; na ; ne ; count; a
+hewandin ; tv; hewîn; hewand; ; di ; bi ; na ; ne ; shelter; a
+kişandin; tv; kişîn; kişand; ; di ; bi ; na ; ne ; pull; a
+kuştin; tv; kuj; kuşt; ; di ; bi ; na ; ne ; kill; a
+hilanîn; tv; în; an; hil; di ; bi ; na ; ne ; take away; a
+#bihîstin bihîs-/bihîz-</b>·<i>v.t.</i>·to hear, listen
+#bijartin bijêr-</b>·<i>v.t.</i>·to choose
+#da-qurtandin qurtên-</b>·<i>v.t.</i>·to swallow
+#gihan·gihê-·</b><i>v.i.·</i>to·reach;
+#gihaştin·gehîj-·</b><i>v.i.·</i>to·reach,·arrive;·to
+#gihîştin·gihîj-/gîj-/gihêj-/ghêj-·</b><i>v.i.·</i>to
+#gurmîn gurm-</b>·<i>v.i.</i>·to make a loud noise
+#ketin·kev-·</b><i>v.i.·</i>to·fall
+#leyistin·leyiz-,·lîz-·</b><i>v.t.·</i>to·play,·play·(a
+lezandin; tv; lezîn; lezand; ; di ; bi ; na ; ne ; hasten; a
+livandin; tv; livîn; livand; ; di ; bi ; na ; ne ; move; a
+nepixandin; tv; nepixîn; nepixand; ; di ; bi ; na ; ne ; blow up; a
+parastin; tv; parêz; parast; ; di ; bi ; na ; ne ; guard; a
+#nivîn2·-niv-</b>·<i>v.i.</i>·to lie down, sleep
+#nivistin -niv-</b>·<i>v.i.</i>·to sleep
+#pêçandin pêçîn-</b>·<i>v.t.</i>·to wrap, roll
+#pê-xistin -xê-</b>·<i>v.t.</i>·to light, turn on (light)
+#qelaştin·-qelêş-·</b><i>v.t.·</i>to·split,·split·open;
+#qelişandin qelişîn-</b>·<i>v.t.</i>·to split, cleave
+#şandin·şîn-</b>·<i>v.t.</i>·to send
+#şêlandin·şêlîn-</b>·<i>v.t.</i>·to exploit
+#şidandin·şidîn-<i>·</b>v.t.</i>·to strike (a match)
+#şikandin·şikîn-</b>·<i>v.t.</i>·to break
+#şikestin·şikê-</b>·<i>v.i.</i>·to break, be defeated
+#şiyan·şê-</b>·<i>v.i.</i>·to be able
+#sparin spêr-·</b><i>v.t.</i>·to entrust
+#stendin·stîn-·</b><i>v.t.·</i>to·take,·get;·<b>bi·paş·de</b>
+#stiran stirê-</b>·<i>v.t.</i>·to sing
+#tefandin·-tefîn-·</b><i>v.t.·</i>to·put·out·(light,
+#weşandin weşîn-</b>·<i>v.t.</i>·to publish
+#westan·west-·</b><i>v.i.·</i>to·stand,·stop;·to·be
+#xapandin·xapîn-·</b><i>v.t.·</i>to·deceive,·to·fool,
+#xesandin xesîn-</b>·<i>v.t.</i>·to twist, wring
+#xwarin;  xw-</b>·<i>v.t.</i>·to eat
+#zivirîn; zivir-·</b><i>v.i.·</i>to·turn,·go/come·back,

@@ -1,5 +1,7 @@
 DELIMITERS = "<.>" "<!>" "<?>";
 
+LIST EOS = (sent) ;
+
 LIST N = n;
 LIST NP = (np top) (np ant) (np cog);
 LIST V = vblex vbser;
@@ -9,6 +11,7 @@ LIST CC = cnjcoo;
 LIST CS = cnjsub;
 LIST Interj = ij;
 LIST Pr = pr;
+LIST Cop = vbcop ;
 
 LIST A = adj (adj pst) (adj comp) (adj sup);
 LIST Apst = (adj pst);
@@ -23,6 +26,14 @@ LIST Voc = voc;
 LIST Def = def;
 LIST Ind = ind;
 
+LIST BI = "bi" ;
+LIST SPEECH-VERB = "axaftin" ;
+LIST LANG = "kurdî" ;
+
 SECTION
 
 SELECT Eza IF (-1 Eza) (NOT 1 Eza);
+
+SELECT LANG IF (-1 BI) (1 SPEECH-VERB) ;
+
+SELECT Cop IF (0 Cop OR Eza) (1 EOS) ;
