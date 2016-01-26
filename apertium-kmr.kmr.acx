@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<analysis-chars>
+  <!-- Make apostrophe variants equal ' -->
+  <char value="'">
+    <equiv-char value="’"/>
+    <equiv-char value="ʼ"/>
+  </char>
+
+  <!-- Sometimes diacritics are not written -->
+  <char value="û">
+    <equiv-char value="u"/>
+  </char>
+  <char value="î">
+    <equiv-char value="i"/>
+    <equiv-char value="ı"/>
+  </char>
+  <char value="i">
+    <equiv-char value="ı"/>
+  </char>
+  <char value="ê">
+    <equiv-char value="e"/>
+  </char>
+</analysis-chars>
