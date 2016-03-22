@@ -586,6 +586,7 @@
         <e><p><l>im</l><r><s n="p1"/><s n="sg"/></r></p></e>
         <e><p><l>î</l><r><s n="p2"/><s n="sg"/></r></p></e>
         <e><p><l>e</l><r><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l></l><r><s n="p3"/><s n="sg"/></r></p></e>
         <e><p><l>in</l><r><s n="p1"/><s n="pl"/></r></p></e>
         <e><p><l>in</l><r><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>in</l><r><s n="p3"/><s n="pl"/></r></p></e>
@@ -604,6 +605,12 @@
     </pardef> 
 
     <pardef n="bik/e__vblex">
+        <e><p><l></l><r><s n="prs"/></r></p><par n="k/e__vblex"/></e>
+        <e><p><l>e</l><r><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>in</l><r><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+    </pardef> 
+
+   <pardef n="got/e__vblex">
         <e><p><l></l><r><s n="prs"/></r></p><par n="k/e__vblex"/></e>
         <e><p><l>e</l><r><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
         <e><p><l>in</l><r><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -862,6 +869,7 @@
 
     <!-- SECTION: Nouns -->
     <e lm="mirov"><i>mirov</i><par n="mirov__n_m"/></e>
+    <e lm="serok"><i>serok</i><par n="mirov__n_m"/></e>
     <e lm="xwendevan"><i>xwendevan</i><par n="mirov__n_m"/></e>
     <e lm="karker"><i>karker</i><par n="mirov__n_m"/></e>
     <e lm="mêr"><i>mêr</i><par n="mirov__n_m"/></e>
@@ -1139,6 +1147,14 @@
     <e lm="vekirin"><p><l>venekir</l><r>vekirin</r></p><par n="nekir/__vblex_tv"/></e>
     <e lm="vekirin"><p><l>venak</l><r>vekirin</r></p><par n="nak/e__vblex_tv"/></e>
     <e lm="vekirin"><p><l>venek</l><r>vekirin</r></p><par n="nek/e__vblex_tv"/></e>
+
+    <!-- gotin; got; bej -->
+    <e lm="gotin"><p><l>got</l><r>gotin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="gotin"><p><l>dibej</l><r>gotin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="gotin"><p><l>bibej</l><r>gotin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="gotin"><p><l>negot</l><r>gotin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="gotin"><p><l>nabej</l><r>gotin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="gotin"><p><l>nebej</l><r>gotin</r></p><par n="nek/e__vblex_tv"/></e>
      
     <!-- şiştin; ; şişt; şo -->
     <e lm="şiştin"><p><l>şişt</l><r>şiştin</r></p><par n="kir/__vblex_tv"/></e>
