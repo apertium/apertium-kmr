@@ -833,6 +833,8 @@
     <e lm="heke"><i>heke</i><par n="gelo__cnjsub"/></e>
 
     <!-- SECTION: Prepositions -->
+
+    <e lm="hember"><i>hember</i><par n="ba__pr"/></e>   
     <e lm="ji"><i/><par n="/ji__pr"/></e>
     <e lm="bi"><i/><par n="/bi__pr"/></e>
     <e lm="di"><i/><par n="/di__pr"/></e>
@@ -910,6 +912,8 @@
 
     <!-- SECTION: Nouns -->
     <e lm="mirov"><i>mirov</i><par n="mirov__n_m"/></e>
+    <e lm="başûr"><i>başûr</i><par n="mirov__n_m"/></e>
+    <e lm="bakûr"><i>bakûr</i><par n="mirov__n_m"/></e>
     <e lm="serok"><i>serok</i><par n="mirov__n_m"/></e>
     <e lm="xwendevan"><i>xwendevan</i><par n="mirov__n_m"/></e>
     <e lm="karker"><i>karker</i><par n="mirov__n_m"/></e>
@@ -945,6 +949,7 @@
     <e lm="sedem"><i>sedem</i><par n="jin__n_f"/></e>
     <e lm="mal"><i>mal</i><par n="jin__n_f"/></e>
     <e lm="heval"><i>heval</i><par n="jin__n_f"/></e>
+    <e lm="helkeft"><i>helkeft</i><par n="jin__n_f"/></e>
     <e lm="av"><i>av</i><par n="jin__n_f"/></e>
     <e lm="sêv"><i>sêv</i><par n="jin__n_f"/></e>
     <e lm="dewlet"><i>dewlet</i><par n="jin__n_f"/></e>
@@ -1003,6 +1008,7 @@
     <e lm="hêstir"><i>hêstir</i><par n="jin__n_f"/></e>
     <e lm="war"><i>war</i><par n="mirov__n_m"/></e>
     <e lm="jiyan"><i>jiyan</i><par n="jin__n_f"/></e>
+    <e lm="dan"><i>dan</i><par n="jin__n_f"/></e>
     <e lm="al"><i>al</i><par n="jin__n_f"/></e>
     <e lm="bal"><i>bal</i><par n="jin__n_f"/></e>
     <e lm="çok"><i>çok</i><par n="mirov__n_m"/></e>
