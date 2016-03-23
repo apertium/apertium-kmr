@@ -125,6 +125,9 @@
       <e><p><l/><r><s n="qst"/></r></p></e>
     </pardef>
 
+    <pardef n="dê__fut">
+      <e><p><l/><r><s n="fut"/></r></p></e>
+    </pardef>
 
     <pardef n="jî__enc">
       <e><p><l/><r><s n="emph"/></r></p></e>
@@ -491,6 +494,25 @@
       <e><p><l>an</l><r><s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="obl"/><s n="dem"/></r></p></e>
      </pardef>
 
+     <pardef n="Bexda__np">
+      <e><p><l></l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
+      <e><p><l>yê</l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="obl"/><s n="def"/></r></p></e>
+      <e><p><l>ya</l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="con"/><s n="def"/></r></p></e>
+      <e><p><l>yê</l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="voc"/><s n="def"/></r></p></e>
+      <e><p><l>yek</l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e><p><l>yekê</l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="obl"/><s n="ind"/></r></p></e>
+      <e><p><l>yeke</l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="con"/><s n="ind"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
+      <e><p><l>yên</l><r><s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="obl"/><s n="def"/></r></p></e>
+      <e><p><l>yan</l><r><s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="con"/><s n="def"/></r></p></e>
+      <e><p><l>yên</l><r><s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="voc"/><s n="def"/></r></p></e>
+      <e><p><l>yin</l><r><s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e><p><l>yinan</l><r><s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="obl"/><s n="ind"/></r></p></e>
+      <e><p><l>yine</l><r><s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="con"/><s n="ind"/></r></p></e>
+      <e><p><l>yê</l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="obl"/><s n="dem"/></r></p></e>
+      <e><p><l>yan</l><r><s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="obl"/><s n="dem"/></r></p></e>
+     </pardef>
+
      <pardef n="Tirkiy/e__np">
       <e><p><l>e</l><r>e<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
       <e><p><l>ê</l><r>e<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="obl"/><s n="def"/></r></p></e>
@@ -517,10 +539,11 @@
     </pardef> 
 
     <pardef n="Barzan/î__np">
-      <e><p><l>î</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>iye</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
-      <e><p><l>iya</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="con"/></r></p></e>
+      <e><p><l>î</l><r>î<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>iye</l><r>î<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>iya</l><r>î<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="con"/></r></p></e>
     </pardef> 
+
 
     <!-- SECTION: Adjectives -->
 
@@ -752,6 +775,8 @@
         <e><p><l>nehatin</l><r><s n="vblex"/><s n="iv"/><s n="neg"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
         <e><p><l>here</l><r><s n="vblex"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
         <e><p><l>herin</l><r><s n="vblex"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>were</l><r><s n="vblex"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>werin</l><r><s n="vblex"/><s n="iv"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
 
 
@@ -768,10 +793,12 @@
     <e lm="yê"><i/><par n="/yê__enc"/></e> <!-- This is the free ezafe -->
     <e lm="jî"><i>jî</i><par n="jî__enc"/></e> <!-- This is the emphatic jî -->
     <e lm="ma"><i>ma</i><par n="ma__qst"/></e>
+    <e lm="dê"><i>dê</i><par n="dê__fut"/></e>
  
     <!-- SECTION: Conjunctions -->
     <e lm="û"><i>û</i><par n="û__cnjcoo"/></e>
     <e lm="lê"><i>lê</i><par n="û__cnjcoo"/></e>
+    <e lm="yan"><i>yan</i><par n="û__cnjcoo"/></e>
 
     <e lm="gelo"><i>gelo</i><par n="gelo__cnjsub"/></e>
     <e lm="berî"><i>berî</i><par n="gelo__cnjsub"/></e>
@@ -847,6 +874,7 @@
     <e lm="ew"><i/><par n="/ew__prn"/></e>
     <e lm="ev"><i/><par n="/ev__prn"/></e>
     <e lm="xwe"><i>xwe</i><par n="xwe__prn"/></e>
+    <e lm="hev"><i>hev</i><par n="xwe__prn"/></e>
     <e lm="ku"><i>ku</i><par n="ku__prn"/></e>
     <e lm="ku" r="LR"><p><l>ko</l><r>ku</r></p><par n="ku__prn"/></e>
 
@@ -997,7 +1025,9 @@
 
     <!-- SECTION: Proper nouns -->
 
+    <e lm="Bexda"><i>Bexda</i><par n="Bexda__np"/></e>
     <e lm="Kurdistan"><i>Kurdistan</i><par n="Kurdistan__np"/></e>
+    <e lm="Newroz"><i>Newroz</i><par n="Kurdistan__np"/></e>
     <e lm="Macaristan"><i>Macaristan</i><par n="Kurdistan__np"/></e>
     <e lm="Diyarbekir"><i>Diyarbekir</i><par n="Kurdistan__np"/></e>
     <e lm="Îngilistan"><i>Îngilistan</i><par n="Kurdistan__np"/></e>
@@ -1042,6 +1072,7 @@
     <!-- SECTION: Adjectives -->
 
     <e lm="nû"><i>nû</i><par n="nû__adj"/></e>
+    <e lm="hemû"><i>hemû</i><par n="nû__adj"/></e>
     <e lm="biçûk"><i>biçûk</i><par n="nû__adj"/></e>
     <e lm="bêh"><i>bêh</i><par n="nû__adj"/></e>
     <e lm="sor"><i>sor</i><par n="nû__adj"/></e>
@@ -1055,8 +1086,8 @@
     <e lm="xurt"><i>xur</i><par n="pêwis/t__adj"/></e>
     <e lm="mezin"><i>mez</i><par n="mez/in__adj"/></e>
     <e lm="baş"><i/><par n="/baş__adj"/></e>
-
     <e lm="kurdî"><i>kurdî</i><par n="kurdî__adj"/></e>
+    <e lm="siyasî"><i>siyasî</i><par n="kurdî__adj"/></e>
     <e lm="amerikî"><i>amerikî</i><par n="kurdî__adj"/></e>
     <e lm="tirkî"><i>tirkî</i><par n="kurdî__adj"/></e>
 
@@ -1064,6 +1095,7 @@
 
     <!-- SECTION: Adverbs -->
     <e lm="her"><i>her</i><par n="niha__adv"/></e>
+    <e lm="hemû"><i>hemû</i><par n="niha__adv"/></e>
     <e lm="herî"><i>herî</i><par n="niha__adv"/></e>
     <e lm="niha"><i>niha</i><par n="niha__adv"/></e>
     <e lm="paşî"><i>paşî</i><par n="niha__adv"/></e>
@@ -1223,6 +1255,14 @@
     <e lm="man"><p><l>namîn</l><r>man</r></p><par n="naaxiv/e__vblex_iv"/></e>
     <e lm="man"><p><l>nemîn</l><r>man</r></p><par n="neaxiv/e__vblex_iv"/></e>
      
+    <!-- dan; ; da; d -->
+    <e lm="dan"><p><l>de</l><r>dan</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="dan"><p><l>did</l><r>dan</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="dan"><p><l>bid</l><r>dan</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="dan"><p><l>neda</l><r>dan</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="dan"><p><l>nad</l><r>dan</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="dan"><p><l>ned</l><r>dan</r></p><par n="nek/e__vblex_tv"/></e>
+
     <!-- rijandin; ; rijand; rijîn -->
     <e lm="rijandin"><p><l>rijand</l><r>rijandin</r></p><par n="kir/__vblex_tv"/></e>
     <e lm="rijandin"><p><l>dirijîn</l><r>rijandin</r></p><par n="dik/e__vblex_tv"/></e>
@@ -1827,6 +1867,7 @@
     <e lm="rêz"><i>rêz</i><par n="jin__n_f"/></e>
     <e lm="rêziman"><i>rêziman</i><par n="jin__n_f"/></e>
     <e lm="rêzkirin"><i>rêzkirin</i><par n="jin__n_f"/></e>
+    <e lm="xwînrijandin"><i>xwînrijandin</i><par n="jin__n_f"/></e>
     <e lm="rûmet"><i>rûmet</i><par n="jin__n_f"/></e>
     <e lm="rûniştin"><i>rûniştin</i><par n="jin__n_f"/></e>
     <e lm="rûpel"><i>rûpel</i><par n="jin__n_f"/></e>
