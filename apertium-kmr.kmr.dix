@@ -915,7 +915,6 @@
 
     <!-- SECTION: Nouns -->
     <e lm="mirov"><i>mirov</i><par n="mirov__n_m"/></e>
-    <e lm="başûr"><i>başûr</i><par n="mirov__n_m"/></e>
     <e lm="bakûr"><i>bakûr</i><par n="mirov__n_m"/></e>
     <e lm="serok"><i>serok</i><par n="mirov__n_m"/></e>
     <e lm="xwendevan"><i>xwendevan</i><par n="mirov__n_m"/></e>
@@ -966,6 +965,10 @@
     <e lm="cumhûriyet"><i>cumhûriyet</i><par n="jin__n_f"/></e>
     <e lm="nîvro"><i>nîvro</i><par n="nîvro__n_f"/></e>
     <e lm="dinya"><i>dinya</i><par n="nîvro__n_f"/></e>
+
+    <e lm="başûr"><i>başûr</i><par n="mirov__n_m"/></e>
+    <e lm="bakur"><i>bakur</i><par n="mirov__n_m"/></e>
+    <e lm="rojava"><i>rojava</i><par n="nîvro__n_f"/></e>
 
     <e lm="kitêb" c="check"><i>kitêb</i><par n="jin__n_f"/></e>
     <e lm="kitêb" c="sub" r="LR"><p><l>kitab</l><r>kitêb</r></p><par n="jin__n_f"/></e>
@@ -1034,6 +1037,7 @@
     <e lm="parêzer"><i>parêzer</i><par n="mirov__n_m"/></e>
     <e lm="helbestvan"><i>helbestvan</i><par n="mirov__n_m"/></e>
     <e lm="mamoste"><i>mamost</i><par n="perç/e__n"/></e> <!-- FIXME-->
+    <e lm="federalîzm"><i>federalîzm</i><par n="jin__n_f"/></e> <!-- FIXME -->
 
     <!-- SECTION: Proper nouns -->
 
@@ -2325,7 +2329,6 @@
     <e lm="alav"><i>alav</i><par n="mirov__n_m"/></e>
     <e lm="bacan"><i>bacan</i><par n="mirov__n_m"/></e>
     <e lm="bajar"><i>bajar</i><par n="mirov__n_m"/></e>
-    <e lm="bakur"><i>bakur</i><par n="mirov__n_m"/></e>
     <e lm="bar"><i>bar</i><par n="mirov__n_m"/></e>
     <e lm="bask"><i>bask</i><par n="mirov__n_m"/></e>
     <e lm="bav"><i>bav</i><par n="mirov__n_m"/></e>
