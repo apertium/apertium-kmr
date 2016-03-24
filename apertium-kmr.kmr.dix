@@ -612,10 +612,12 @@
     </pardef> 
 
     <pardef n="div/êtin__vblex">
-        <e><p><l>ê</l><r><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>êt</l><r><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>abû</l><r><s n="p3"/><s n="plu"/><s n="sg"/></r></p></e>
-        <e><p><l>iyabû</l><r><s n="plu"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>ê</l><r><s n="vblex"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>êt</l><r><s n="vblex"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>abû</l><r><s n="vblex"/><s n="p3"/><s n="plu"/><s n="sg"/></r></p></e>
+        <e><p><l>a<b/>bû</l><r><s n="vblex"/><s n="p3"/><s n="plu"/><s n="sg"/></r></p></e>
+        <e><p><l>iyabû</l><r><s n="vblex"/><s n="plu"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>iya<b/>bû</l><r><s n="vblex"/><s n="plu"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef> 
 
     <pardef n="k/e__vblex">
