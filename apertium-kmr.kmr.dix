@@ -951,6 +951,7 @@
     <e lm="keç"><i>keç</i><par n="jin__n_f"/></e>
     <e lm="sedem"><i>sedem</i><par n="jin__n_f"/></e>
     <e lm="mal"><i>mal</i><par n="jin__n_f"/></e>
+    <e lm="sekinandin"><i>sekinandin</i><par n="jin__n_f"/></e>
     <e lm="heval"><i>heval</i><par n="jin__n_f"/></e>
     <e lm="helkeft"><i>helkeft</i><par n="jin__n_f"/></e>
     <e lm="av"><i>av</i><par n="jin__n_f"/></e>
@@ -987,6 +988,7 @@
     <!-- NOTE: Gender checked -->
     <e lm="gazî"><i>gaz</i><par n="xan/î__n_m"/></e>
     <e lm="enî"><i>en</i><par n="piran/î__n_f"/></e>
+    <e lm="xweşî"><i>xweşî</i><par n="piran/î__n_f"/></e>
     <e lm="biyanî"><i>biyan</i><par n="xan/î__n_m"/></e>
     <e lm="tilî"><i>til</i><par n="piran/î__n_f"/></e>
     <e lm="enerjî"><i>enerj</i><par n="piran/î__n_f"/></e>
@@ -1017,8 +1019,8 @@
     <e lm="çok"><i>çok</i><par n="mirov__n_m"/></e>
     <e lm="dest"><i>dest</i><par n="jin__n_f"/></e>
     <e lm="bîst"><i>bîst</i><par n="jin__n_f"/></e>
-
-
+    <e lm="zihniyet"><i>zihniyet</i><par n="jin__n_f"/></e>
+    <e lm="zilm"><i>zilm</i><par n="jin__n_f"/></e>
 
     <!--e lm="deste">-->
     <!--e lm="heste">-->
@@ -1084,6 +1086,10 @@
     <!-- SECTION: Adjectives -->
 
     <e lm="nû"><i>nû</i><par n="nû__adj"/></e>
+    <e lm="dudil"><i>dudil</i><par n="nû__adj"/></e>
+    <e lm="xirab"><i>xirab</i><par n="nû__adj"/></e>
+    <e lm="xembar"><i>xembar</i><par n="nû__adj"/></e>
+    <e lm="xembar"><i>xemdar</i><par n="nû__adj"/></e>
     <e lm="ciddî"><i>ciddî</i><par n="nû__adj"/></e>
     <e lm="cidî"><i>cidî</i><par n="nû__adj"/></e>
     <e lm="hemû"><i>hemû</i><par n="nû__adj"/></e>
