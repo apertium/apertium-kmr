@@ -1185,7 +1185,7 @@
     <e lm="qewimin"><p><l>neqewim</l><r>qewimin</r></p><par n="neaxiv/e__vblex_iv"/></e>
     
     <!-- divêtin --> 
-    <e lm="divêtin"><p><l>div</l><r>dîvêtin</r></p><par n="div/êtin__vblex"/></e>
+    <e lm="divêtin"><p><l>div</l><r>divêtin</r></p><par n="div/êtin__vblex"/></e>
 
     <!-- avêtin; ; avêt; avêj -->
     <e lm="avêtin"><p><l>avêt</l><r>avêtin</r></p><par n="kir/__vblex_tv"/></e>
