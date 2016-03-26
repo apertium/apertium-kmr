@@ -285,7 +285,7 @@
     </pardef>
 
     <pardef n="her__det">
-      <e><p><l/><r><s n="det"/><s n="ind"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e><p><l/><r><s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
 
       <!-- SECTION: Nouns -->
@@ -460,6 +460,11 @@
       <e><p><l>yine</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="con"/><s n="ind"/></r></p></e>
       <e><p><l>yê</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><s n="dem"/></r></p></e>
       <e><p><l>yan</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><s n="dem"/></r></p></e>
+     </pardef>
+
+     <pardef n="r/ê__n_f"> <!-- FIXME -->
+      <e><p><l>ê</l><r>ê<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
+      <e><p><l>iya</l><r>ê<s n="n"/><s n="f"/><s n="sg"/><s n="con"/><s n="def"/></r></p></e>
      </pardef>
 
 
@@ -1038,6 +1043,7 @@
     <e lm="helbestvan"><i>helbestvan</i><par n="mirov__n_m"/></e>
     <e lm="mamoste"><i>mamost</i><par n="perç/e__n"/></e> <!-- FIXME-->
     <e lm="federalîzm"><i>federalîzm</i><par n="jin__n_f"/></e> <!-- FIXME -->
+    <e lm="rê"><i>r</i><par n="r/ê__n_f"/></e> <!-- FIXME -->
 
     <!-- SECTION: Proper nouns -->
 
@@ -1116,6 +1122,11 @@
     <e lm="tirkî"><i>tirkî</i><par n="kurdî__adj"/></e>
     <e lm="wiha"><i>wiha</i><par n="kurdî__adj"/></e>
     <e lm="girîng"><i>girîng</i><par n="kurdî__adj"/></e>
+
+    <e lm="tûj"><i>tûj</i><par n="kurdî__adj"/></e>
+    <e lm="demkî"><i>demkî</i><par n="kurdî__adj"/></e>
+    <e lm="reşbîn"><i>reşbîn</i><par n="kurdî__adj"/></e>
+    <e lm="rewa"><i>rewa</i><par n="kurdî__adj"/></e>
 
     <!-- SECTION: Adverbs -->
     <e lm="her"><i>her</i><par n="niha__adv"/></e>
