@@ -919,6 +919,19 @@
     <e lm="yekem"><i>yekem</i><par n="yekem__num"/></e>
 
     <!-- SECTION: Nouns -->
+
+    <!-- New Feminines -->
+    <e lm="fayton"><i>fayton</i><par n="jin__n_f"/></e>
+
+	
+
+    
+    <!-- New Masculines -->
+    <e lm="qeraş"><i>qeraş</i><par n="mirov__n_m"/></e>
+	
+    <!-- Double Paradigms -->
+
+
     <e lm="mirov"><i>mirov</i><par n="mirov__n_m"/></e>
     <e lm="bakûr"><i>bakûr</i><par n="mirov__n_m"/></e>
     <e lm="serok"><i>serok</i><par n="mirov__n_m"/></e>
