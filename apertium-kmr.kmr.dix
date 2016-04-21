@@ -921,14 +921,22 @@
 
     <!-- SECTION: Nouns -->
 
-    <!-- New Feminines --> 
+    <!-- New Feminines -->
+    <e lm="kes"><i>kes</i><par n="jin__n_f"/></e>
+    <e lm="hêjahî"><i>hêjah</i><par n="piran/î__n_f"/></e>
+    <e lm="guhartin"><i>guhartin</i><par n="jin__n_f"/></e>
+    <e lm="parlamento"><i>parlament</i><par n ="nîvro__n_f"/></e>
+    <e lm="girtî"><i>girt</i><par n="piran/î__n_f"/></e>
+    <e lm="fersend"><i>fersend</i><par n="jin__n_f"/></e>
+    <e lm="firsend"><i>firsend</i><par n="jin__n_f"/></e>
+    <e lm="referandom"><i>referandom</i><par n="jin__n_f"/></e> 
     <e lm="şirîkbûn"><i>şirîkbûn</i><par n="jin__n_f"/></e>
     <e lm="tehdît"><i>tehdît</i><par n="jin__n_f"/></e>
-    <e lm="destkeft"><i>destkeft</i><par n="jin__n_f"/></e><!--  strange error
-    <e lm="bere"><i>ber</i><par n ="od/e__n"/><e/>
-    <e lm="arîşe"><i>arîş</i><par n ="od/e__n"/><e/>
+    <e lm="destkeft"><i>destkeft</i><par n="jin__n_f"/></e>
+    <e lm="bere"><i>ber</i><par n ="od/e__n"/></e>
+    <e lm="arîşe"><i>arîş</i><par n ="od/e__n"/></e>
     <e lm="bijarde"><i>bijard</i><par n="od/e__n"/></e>
-    <e lm="asteng"><i>asteng</i><par n="jin__n_f"/></e>-->
+    <e lm="asteng"><i>asteng</i><par n="jin__n_f"/></e>
 
     <e lm="alîkar"><i>alîkar</i><par n="jin__n_f"/></e>  
     <e lm="aktîfkirin"><i>aktîfkirin</i><par n="jin__n_f"/></e>
@@ -951,6 +959,10 @@
 
     
     <!-- New Masculines -->
+    <e lm="kes"><i>kes</i><par n="mirov__n_m"/></e>
+    <e lm="hesab"><i>hesab</i><par n="mirov__n_m"/></e>
+    <e lm="girtî"><i>girt</i><par n="xan/î__n_m"/></e>
+    <e lm="diyar"><i>diyar</i><par n="mirov__n_m"/></e>
     <e lm="serek"><i>serek</i><par n="mirov__n_m"/></e>
     <e lm="alîkar"><i>alîkar</i><par n="mirov__n_m"/></e>
     <e lm="qeraş"><i>qeraş</i><par n="mirov__n_m"/></e>
@@ -12061,8 +12073,17 @@
     <!-- SECTION: Adjectives -->
 
     <!-- new comparables -->
+    <e lm="kiritîk"><i>kiritîk</i><par n="nû__adj"/></e>
+    <e lm="kesekî"><i>kesekî</i><par n="nû__adj"/></e>
+    <e lm="diyar"><i>diyar</i><par n="nû__adj"/></e>
 
     <!-- new non-comparables -->
+    <e lm="hundirî"><i>hundirî</i><par n="kurdî__adj"/></e>
+    <e lm="hundirîn"><i>hundirîn</i><par n="kurdî__adj"/></e>
+    <e lm="girtî"><i>girtî</i><par n="kurdî__adj"/></e>
+    <e lm="federal"><i>federal</i><par n="kurdî__adj"/></e>
+    <e lm="alîkar"><i>alîkar</i><par n="kurdî__adj"/></e>
+    <e lm="pir"><i>pir</i><par n="kurdî__adj"/></e>
     <e lm="sereke"><i>sereke</i><par n="kurdî__adj"/></e>
 
     <e lm="nû"><i>nû</i><par n="nû__adj"/></e>
