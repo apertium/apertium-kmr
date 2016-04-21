@@ -571,6 +571,7 @@
     <pardef n="/baş__adj">
       <e><p><l>baş</l><r>baş<s n="adj"/><s n="pst"/></r></p></e>
         <e r="LR"><p><l>baştir</l><r>baş<s n="adj"/><s n="comp"/></r></p></e>
+        <e><p><l>tirîn</l><r>in<s n="adj"/><s n="sup"/></r></p></e>
       <e><p><l>çêtir</l><r>baş<s n="adj"/><s n="comp"/></r></p></e>
       <e><p><l>çêtirîn</l><r>baş<s n="adj"/><s n="sup"/></r></p></e>
     </pardef>
@@ -920,18 +921,38 @@
 
     <!-- SECTION: Nouns -->
 
-    <!-- New Feminines -->
-    <e lm="bijarde"><i>bijarde</i><par n="nîvro__n_f"/></e>
+    <!-- New Feminines --> 
+    <e lm="şirîkbûn"><i>şirîkbûn</i><par n="jin__n_f"/></e>
+    <e lm="tehdît"><i>tehdît</i><par n="jin__n_f"/></e>
+    <e lm="destkeft"><i>destkeft</i><par n="jin__n_f"/></e><!--  strange error
+    <e lm="bere"><i>ber</i><par n ="od/e__n"/><e/>
+    <e lm="arîşe"><i>arîş</i><par n ="od/e__n"/><e/>
+    <e lm="bijarde"><i>bijard</i><par n="od/e__n"/></e>
+    <e lm="asteng"><i>asteng</i><par n="jin__n_f"/></e>-->
+
+    <e lm="alîkar"><i>alîkar</i><par n="jin__n_f"/></e>  
+    <e lm="aktîfkirin"><i>aktîfkirin</i><par n="jin__n_f"/></e>
+
+
+
+
     <e lm="nehiştin"><i>nehiştin</i><par n="jin__n_f"/></e>
+
     <e lm="nehîştin"><i>nehîştin</i><par n="jin__n_f"/></e>
-    <e lm="çakbînî"><i>çakbîn</i><par n="piran/î__n_f"/></e>
+
+
+
     <e lm="çalakatî"><i>çalakat</i><par n="piran/î__n_f"/></e>
+    <e lm="çakbînî"><i>çakbîn</i><par n="piran/î__n_f"/></e>
+
     <e lm="fayton"><i>fayton</i><par n="jin__n_f"/></e>
 
 	
 
     
     <!-- New Masculines -->
+    <e lm="serek"><i>serek</i><par n="mirov__n_m"/></e>
+    <e lm="alîkar"><i>alîkar</i><par n="mirov__n_m"/></e>
     <e lm="qeraş"><i>qeraş</i><par n="mirov__n_m"/></e>
 	
     <!-- Double Paradigms -->
@@ -12038,6 +12059,11 @@
     <e lm="Tîrêj"><i>Tîrêj</i><par n="Tîrêj__np"/></e>
 
     <!-- SECTION: Adjectives -->
+
+    <!-- new comparables -->
+
+    <!-- new non-comparables -->
+    <e lm="sereke"><i>sereke</i><par n="kurdî__adj"/></e>
 
     <e lm="nû"><i>nû</i><par n="nû__adj"/></e>
     <e lm="dudil"><i>dudil</i><par n="nû__adj"/></e>
