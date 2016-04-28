@@ -23,3 +23,18 @@
 "<.>"
 	"." sent @punct #12->11
 
+"<Pênc>"
+	"pênc" num pl nom def @nummod #1->2
+"<salan>"
+	"sal" n f pl obl dem @nmod #2->6
+"<li>"
+	"li" pr @case #3->5
+"<wê>"
+	"ew" det dem f sg obl @det #4->5
+"<dibistanê>"
+	"dibistan" n f sg obl dem @nmod #5->6
+"<xwendiye>"
+	"xwandin" vblex iv XXX p3 sg @root #6->0
+"<.>"
+	"." sent @punct #7->6
+

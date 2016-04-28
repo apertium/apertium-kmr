@@ -11,3 +11,11 @@
 11	tê	hatin	_	vblex	iv|pri|p3|sg	0	root
 12	.	.	_	sent	_	11	punct
 
+1	Pênc	pênc	_	num	pl|nom|def	2	nummod
+2	salan	sal	_	n	f|pl|obl|dem	6	nmod
+3	li	li	_	pr	_	5	case
+4	wê	ew	_	det	dem|f|sg|obl	5	det
+5	dibistanê	dibistan	_	n	f|sg|obl|dem	6	nmod
+6	xwendiye	xwandin	_	vblex	iv|XXX|p3|sg	0	root
+7	.	.	_	sent	_	6	punct
+
