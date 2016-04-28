@@ -1,0 +1,13 @@
+1	Civaka	civak	_	n	f|sg|con|def	11	nsubj
+2	misilmanan	misilman	_	n	m|pl|nom|DD	1	nmod:poss
+3	ji	ji	_	pr	_	4	case
+4	mezhebên	mezheb	_	n	m|pl|con|def	11	nmod
+5	şafiî	şafi	_	n	m|sg|obl|def	4	nmod:poss
+6	,	,	_	cm	_	5	punct
+7	henefî	henefî	_	n	f|sg|nom|def	5	conj
+8	û	û	_	cnjcoo	_	5	cc
+9	elewî	elewî	_	n	f|sg|nom|def	5	conj
+10	pêk	pêk	_	adj	_	11	xcomp
+11	tê	hatin	_	vblex	iv|pri|p3|sg	0	root
+12	.	.	_	sent	_	11	punct
+

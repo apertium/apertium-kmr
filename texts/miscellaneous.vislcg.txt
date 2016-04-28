@@ -1,0 +1,25 @@
+"<Civaka>"
+	"civak" n f sg con def @nsubj #1->11
+"<misilmanan>"
+	"misilman" n m pl nom DD @nmod:poss #2->1
+"<ji>"
+	"ji" pr @case #3->4
+"<mezhebên>"
+	"mezheb" n m pl con def @nmod #4->11
+"<şafiî>"
+	"şafi" n m sg obl def @nmod:poss #5->4
+"<,>"
+	"," cm @punct #6->5
+"<henefî>"
+	"henefî" n f sg nom def @conj #7->5
+"<û>"
+	"û" cnjcoo @cc #8->5
+"<elewî>"
+	"elewî" n f sg nom def @conj #9->5
+"<pêk>"
+	"pêk" adj @xcomp #10->11
+"<tê>"
+	"hatin" vblex iv pri p3 sg @root #11->0
+"<.>"
+	"." sent @punct #12->11
+
