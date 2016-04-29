@@ -1,0 +1,73 @@
+"<Ethem>"
+	"*Ethem" np ant m sg XXX XXX @nsubj #1->
+"<Xemgîn>"
+	"*Xemgîn" np cog mf sg XXX XXX @name #2->1
+"<dîrokzan>"
+	"*dîrokzan"
+"<û>"
+	"û" cnjcoo @cc
+"<nivîskarekî>"
+	"*nivîskarekî"
+"<kurd>"
+	"kurd" n m sg obl def
+	"kurd" n m sg nom def
+	"kurd" n m pl nom def
+"<e>"
+	"bûn" vbcop pri p3 sg
+"<.>"
+	"." sent @punct
+
+"<Li ser>"
+	"li ser" pr @case
+"<dîrok>"
+	"dîrok" n f sg nom def
+	"dîrok" n f pl nom def
+"<û>"
+	"û" cnjcoo @cc
+"<mitolojiya>"
+	"mîtolojî" n f sg con def
+"<kurdi>"
+	"kurdî" adj
+"<ji>"
+	"ji" pr @case
+"<lêkolînên>"
+	"lêkolîn" n f pl obl def
+	"lêkolîn" n f pl voc def
+"<wî>"
+	"ew" prn dem m sg obl
+	"ew" det dem m sg obl
+"<bûna>"
+	"bûn" n f sg con def
+"<.>"
+	"." sent @punct
+
+"<Li ser>"
+	"li ser" pr @case
+"<dîroke>"
+	"dîrok" n f sg obl dem
+	"dîrok" n f sg obl def
+	"dîrok" n f sg voc def
+"<Kurdistanê>"
+	"Kurdistan" np top f sg obl dem
+	"Kurdistan" np top f sg obl def
+"<ji>"
+	"ji" pr @case
+"<bi>"
+	"bi" pr @case
+	"bî" n f sg nom def
+	"bî" n f pl nom def
+"<sê>"
+	"sê" num pl nom def
+	"se" n m sg con def
+"<bergan>"
+	"berg" n m pl obl dem
+	"berg" n m pl obl def
+"<pirtûk>"
+	"pirtûk" n f sg nom def
+	"pirtûk" n f pl nom def
+"<nivisand>"
+	"*nivisand"
+"<.>"
+	"." sent @punct
+
+

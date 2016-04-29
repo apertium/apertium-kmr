@@ -23,5 +23,6 @@ dev/verbs/verbs.txt -text
 dev/wikt-en-noun-list -text
 /kmr.prob -text svneol=unset#unset
 /modes.xml -text
+texts/ethem.vislcg.txt -text
 texts/miscellaneous.vislcg.txt -text
 texts/puupankki/puupankki.srd.conllu -text
