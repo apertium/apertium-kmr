@@ -608,6 +608,10 @@
         <e r="RL"><p><l><a/>in</l><r>bûn<s n="vbcop"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <pardef n="da/n__vblex_tv">
+	<e><p><l></l><r><s n="vblex"/><s n ="p3"/><s n="sg"/><s n="past"/></r></p></e>
+    </pardef>
+
     <pardef n="şo/__vblex">
         <e><p><l>m</l><r><s n="p1"/><s n="sg"/></r></p></e>
         <e><p><l>yî</l><r><s n="p2"/><s n="sg"/></r></p></e>
@@ -12081,6 +12085,7 @@
     <e lm="diyar"><i>diyar</i><par n="nû__adj"/></e>
 
     <!-- new non-comparables -->
+    <e lm="din"><i>din</i><par n="kurdî__adj"/></e>
     <e lm="hundirî"><i>hundirî</i><par n="kurdî__adj"/></e>
     <e lm="hundirîn"><i>hundirîn</i><par n="kurdî__adj"/></e>
     <e lm="girtî"><i>girtî</i><par n="kurdî__adj"/></e>
@@ -12161,6 +12166,7 @@
     <e lm="êdî"><i>êdî</i><par n="niha__adv"/></e>
     <!-- SECTION: Verbs -->
 
+
     <e lm="bûn"><i/><par n="/bûn__vbcop"/></e>
     <e lm="hebûn"><p><l></l><r>hebûn</r></p><par n="/hebûn__vbhaver"/></e>
     <e lm="hatin"><p><l></l><r>hatin</r></p><par n="/hatin__vblex_iv"/></e>
@@ -12182,6 +12188,7 @@
     <e lm="axaftin" r="LR"><p><l>naxiv</l><r>axaftin</r></p><par n="naaxiv/e__vblex_iv"/></e>
 
 
+    <e lm="dan"><p><l>da</l><r>dan</r></p><par n ="da/n__vblex_tv"/></e>
 
   </section>
   <section id="verbs" type="standard">
