@@ -479,6 +479,16 @@
       <e><p><l>eke</l><r><s n="np"/><s n="al"/><s n="f"/><s n="sg"/><s n="con"/><s n="ind"/></r></p></e>
      </pardef>
 
+    <pardef n="Şeibî__np">
+      <e><p><l>î</l><r><s n="np"/><s n="al"/><s n="f"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
+      <e><p><l>iyê</l><r><s n="np"/><s n="al"/><s n="f"/><s n="sg"/><s n="obl"/><s n="def"/></r></p></e>
+      <e><p><l>iya</l><r><s n="np"/><s n="al"/><s n="f"/><s n="sg"/><s n="con"/><s n="def"/></r></p></e>
+      <e><p><l>iyê</l><r><s n="np"/><s n="al"/><s n="f"/><s n="sg"/><s n="voc"/><s n="def"/></r></p></e>
+      <e><p><l>iyek</l><r><s n="np"/><s n="al"/><s n="f"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e><p><l>iyekê</l><r><s n="np"/><s n="al"/><s n="f"/><s n="sg"/><s n="obl"/><s n="ind"/></r></p></e>
+      <e><p><l>iyeke</l><r><s n="np"/><s n="al"/><s n="f"/><s n="sg"/><s n="con"/><s n="ind"/></r></p></e>
+     </pardef>
+
 
     <pardef n="Kurdistan__np">
       <e><p><l></l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
@@ -610,6 +620,7 @@
 
     <pardef n="da/n__vblex_tv">
 	<e><p><l></l><r><s n="vblex"/><s n ="p3"/><s n="sg"/><s n="past"/></r></p></e>
+	<e><p><l>n</l><r><s n="vblex"/><s n ="p3"/><s n="pl"/><s n="past"/></r></p></e>
     </pardef>
 
     <pardef n="şo/__vblex">
@@ -847,6 +858,9 @@
 
     <!-- SECTION: Prepositions -->
 
+    <e lm="wek"><i>wek</i><par n="ba__pr"/></e>   
+    <e lm="wekî"><i>wekî</i><par n="ba__pr"/></e>   
+    <e lm="weke"><i>weke</i><par n="ba__pr"/></e>   
     <e lm="hember"><i>hember</i><par n="ba__pr"/></e>   
     <e lm="ji"><i/><par n="/ji__pr"/></e>
     <e lm="bi"><i/><par n="/bi__pr"/></e>
@@ -1070,6 +1084,7 @@
     <e lm="tifing"><i>tifing</i><par n="jin__n_f"/></e>
     <e lm="ferheng"><i>ferheng</i><par n="jin__n_f"/></e>
     <e lm="perçe"><i>perç</i><par n="perç/e__n"/></e>
+    <e lm="şîe"><i>şîe</i><par n="perç/e__n"/></e>
     <e lm="erd"><i>erd</i><par n="jin__n_f"/></e>
     <e lm="derd"><i>derd</i><par n="mirov__n_m"/></e>
     <e lm="armanc"><i>armanc</i><par n="jin__n_f"/></e>
@@ -12031,6 +12046,9 @@
 
     <!-- SECTION: Proper nouns -->
 
+    <e lm="Kerkûk"><i>Kerkûk</i><par n="Kurdistan__np"/></e>
+    <e lm="Heşda Şeibî"><i>Heşda<b/>Şeib</i><par n="Şeibî__np"/></e>
+    <e lm="Xurmatû"><i>Xurmatû</i><par n="Bexda__np"/></e>
     <e lm="Bexda"><i>Bexda</i><par n="Bexda__np"/></e>
     <e lm="Kurdistan"><i>Kurdistan</i><par n="Kurdistan__np"/></e>
     <e lm="Hewlêr"><i>Hewlêr</i><par n="Kurdistan__np"/></e>
@@ -12083,7 +12101,8 @@
     <e lm="kiritîk"><i>kiritîk</i><par n="nû__adj"/></e>
     <e lm="kesekî"><i>kesekî</i><par n="nû__adj"/></e>
     <e lm="diyar"><i>diyar</i><par n="nû__adj"/></e>
-
+    <e lm="pirr"><i>pirr</i><par n="nû__adj"/></e>
+    
     <!-- new non-comparables -->
     <e lm="din"><i>din</i><par n="kurdî__adj"/></e>
     <e lm="hundirî"><i>hundirî</i><par n="kurdî__adj"/></e>
@@ -12129,6 +12148,7 @@
     <e lm="rewa"><i>rewa</i><par n="kurdî__adj"/></e>
 
     <!-- SECTION: Adverbs -->
+    <e lm="pêk"><i>pêk</i><par n="niha__adv"/></e>
     <e lm="her"><i>her</i><par n="niha__adv"/></e>
     <e lm="wiha"><i>wiha</i><par n="niha__adv"/></e>
     <e lm="hemû"><i>hemû</i><par n="niha__adv"/></e>
@@ -12193,6 +12213,14 @@
   </section>
   <section id="verbs" type="standard">
 
+    <!-- weşandin; ; weşand; weşîn -->
+    <e lm="weşandin"><p><l>weşand</l><r>weşandin</r></p><par n="axaft/__vblex_iv"/></e>
+    <e lm="weşandin"><p><l>diweşîn</l><r>weşandin</r></p><par n="diaxiv/e__vblex_iv"/></e>
+    <e lm="weşandin"><p><l>biweşîn</l><r>weşandin</r></p><par n="biaxiv/e__vblex_iv"/></e>
+    <e lm="weşandin"><p><l>neweşand</l><r>weşandin</r></p><par n="neaxaft/__vblex_iv"/></e>
+    <e lm="weşandin"><p><l>naweşîn</l><r>weşandin</r></p><par n="naaxiv/e__vblex_iv"/></e>
+    <e lm="weşandin"><p><l>neweşîn</l><r>weşandin</r></p><par n="neaxiv/e__vblex_iv"/></e>
+     
     <!-- axaftin; ; axaft; axiv -->
     <e lm="axaftin"><p><l>axaft</l><r>axaftin</r></p><par n="axaft/__vblex_iv"/></e>
     <e lm="axaftin"><p><l>diaxiv</l><r>axaftin</r></p><par n="diaxiv/e__vblex_iv"/></e>
@@ -12228,6 +12256,7 @@
     <e lm="kirin"><p><l>nak</l><r>kirin</r></p><par n="nak/e__vblex_tv"/></e>
     <e lm="kirin"><p><l>nek</l><r>kirin</r></p><par n="nek/e__vblex_tv"/></e>
 
+    <!-- kirin type LVCs -->
     <!-- dîtin; ; dît; bîn -->
     <e lm="dîtin"><p><l>dît</l><r>kirin</r></p><par n="kir/__vblex_tv"/></e>
     <e lm="dîtin"><p><l>dibîn</l><r>kirin</r></p><par n="dik/e__vblex_tv"/></e>
