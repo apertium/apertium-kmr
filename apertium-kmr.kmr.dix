@@ -868,6 +868,7 @@
     <e lm="li"><i/><par n="/li__pr"/></e>
     <e lm="de"><i>de</i><par n="ba__pr"/></e>
     <e lm="ba"><i>ba</i><par n="ba__pr"/></e>
+    <e lm="ba"><i>bê</i><par n="ba__pr"/></e>
     <e lm="ber"><i>ber</i><par n="ba__pr"/></e>
     <e lm="bêî"><i>bêî</i><par n="ba__pr"/></e>
     <e lm="berî"><i>berî</i><par n="ba__pr"/></e>
@@ -913,7 +914,9 @@
     <e lm="ev"><i></i><par n="/ev__det"/></e>
     <e lm="ew"><i></i><par n="/ew__det"/></e>
     <e lm="her"><i>her</i><par n="her__det"/></e>
+    <e lm="hin"><i>hin</i><par n="her__det"/></e>
     <e lm="hindek"><i>hindek</i><par n="hindek__det"/></e>
+    <e lm="hindek"><i>hinek</i><par n="hindek__det"/></e>
 
     <!-- SECTION: Numerals -->
     <e lm="yek"><i>yek</i><par n="yek__num"/></e>
@@ -12046,6 +12049,8 @@
 
     <!-- SECTION: Proper nouns -->
 
+
+    <e lm="Şingal"><i>Şingal</i><par n="Kurdistan__np"/></e>
     <e lm="Kerkûk"><i>Kerkûk</i><par n="Kurdistan__np"/></e>
     <e lm="Heşda Şeibî"><i>Heşda<b/>Şeib</i><par n="Şeibî__np"/></e>
     <e lm="Xurmatû"><i>Xurmatû</i><par n="Bexda__np"/></e>
@@ -12098,12 +12103,16 @@
     <!-- SECTION: Adjectives -->
 
     <!-- new comparables -->
+    <e lm="navdar"><i>navdar</i><par n="nû__adj"/></e>
     <e lm="kiritîk"><i>kiritîk</i><par n="nû__adj"/></e>
     <e lm="kesekî"><i>kesekî</i><par n="nû__adj"/></e>
     <e lm="diyar"><i>diyar</i><par n="nû__adj"/></e>
     <e lm="pirr"><i>pirr</i><par n="nû__adj"/></e>
     
     <!-- new non-comparables -->
+    <e lm="giredayî"><i>giredayî</i><par n="kurdî__adj"/></e>
+    <e lm="giredayî"><i>gredayî</i><par n="kurdî__adj"/></e>
+    <e lm="şiî"><i>şiî</i><par n="kurdî__adj"/></e>
     <e lm="din"><i>din</i><par n="kurdî__adj"/></e>
     <e lm="hundirî"><i>hundirî</i><par n="kurdî__adj"/></e>
     <e lm="hundirîn"><i>hundirîn</i><par n="kurdî__adj"/></e>
