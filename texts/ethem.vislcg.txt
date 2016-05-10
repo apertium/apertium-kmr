@@ -3,19 +3,19 @@
 "<Xemgîn>"
 	"*Xemgîn" np cog mf sg XXX XXX @name #2->1
 "<dîrokzan>"
-	"*dîrokzan"
+	"dîrokzan" n m sg XXX XXX @x #3->
 "<û>"
-	"û" cnjcoo @cc
+	"û" cnjcoo @cc #4->
 "<nivîskarekî>"
-	"*nivîskarekî"
+	"nivîskar" n m sg XXX XXX @x #5->
 "<kurd>"
 	"kurd" n m sg obl def
 	"kurd" n m sg nom def
 	"kurd" n m pl nom def
 "<e>"
-	"bûn" vbcop pri p3 sg
+	"bûn" vbcop pri p3 sg @x #7->
 "<.>"
-	"." sent @punct
+	"." sent @punct #8->
 
 "<Li ser>"
 	"li ser" pr @case

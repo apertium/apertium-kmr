@@ -38,3 +38,12 @@
 "<.>"
 	"." sent @punct #7->6
 
+"<Ev>"
+	"ev" prn dem mf sp nom @nsubj #1->2
+"<çi>" 
+	"çi" prn itg mf sp nom @root #2->0
+"<ye>"
+	"bûn" vbcop pri p3 sg @cop #3->2
+"<?>" 
+	"?" sent @punct #4->2
+
