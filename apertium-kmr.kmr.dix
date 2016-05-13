@@ -818,6 +818,10 @@
         <e><p><l>werin</l><r><s n="vblex"/><s n="iv"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <pardef n="/anîn__vblex_iv">
+
+    </pardef>
+
 
     <!-- SECTION: Adverbs -->
     <pardef n="niha__adv">
@@ -888,7 +892,7 @@
     <e lm="di"><i/><par n="/di__pr"/></e>
     <e lm="li"><i/><par n="/li__pr"/></e>
     <e lm="de"><i>de</i><par n="ba__pr"/></e>
-    <e lm="ba"><i>ba</i><par n="ba__pr"/></e>
+    <e lm="bo"><i>bo</i><par n="ba__pr"/></e>
     <e lm="ba"><i>bê</i><par n="ba__pr"/></e>
     <e lm="ber"><i>ber</i><par n="ba__pr"/></e>
     <e lm="bêî"><i>bêî</i><par n="ba__pr"/></e>
@@ -12141,8 +12145,8 @@
     <e lm="pirr"><i>pirr</i><par n="nû__adj"/></e>
     
     <!-- new non-comparables -->
-    <e lm="giredayî"><i>giredayî</i><par n="kurdî__adj"/></e>
-    <e lm="giredayî"><i>gredayî</i><par n="kurdî__adj"/></e>
+    <e lm="girêdayî"><i>girêdayî</i><par n="kurdî__adj"/></e>
+    <e lm="girêdayî" r="LR"><i>grêdayî</i><par n="kurdî__adj"/></e>
     <e lm="şiî"><i>şiî</i><par n="kurdî__adj"/></e>
     <e lm="din"><i>din</i><par n="kurdî__adj"/></e>
     <e lm="hundirî"><i>hundirî</i><par n="kurdî__adj"/></e>
