@@ -2327,7 +2327,7 @@
       <e lm="rûl"><i>rûl</i><par n="mirov__n_m"/></e>
       <e lm="rûn"><i>rûn</i><par n="mirov__n_m"/></e>
       <e lm="rûniştevan"><i>rûniştevan</i><par n="mirov__n_m"/></e>
-      <e lm="rûniştevan"><i>rûniştvan</i><par n="mirov__n_m"/></e>
+      <e lm="rûniştevan" r="LR><p><l>rûniştvan</l><r>rûniştevan</r></p><par n="mirov__n_m"/></e>
       <e lm="rûpel"><i>rûpel</i><par n="mirov__n_m"/></e>
       <e lm="sabir"><i>sabir</i><par n="mirov__n_m"/></e>
       <e lm="sadiq"><i>sadiq</i><par n="mirov__n_m"/></e>
