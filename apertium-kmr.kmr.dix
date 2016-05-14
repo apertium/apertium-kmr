@@ -9,6 +9,7 @@
     <sdef n="prn"     c="Pronoun"/>     
     <sdef n="adj"     c="Adjective"/>     
     <sdef n="adv"     c="Adverb"/>     
+    <sdef n="preadv"     c="Preadverb"/>  
     <sdef n="det"     c="Determiner"/>     
     <sdef n="enc"     c="Enclitic"/>     
     <sdef n="ord"     c="Ordinal"/>     
@@ -517,7 +518,6 @@
       <e><p><l>iyeke</l><r>î<s n="np"/><s n="org"/><s n="al"/><s n="f"/><s n="pl"/><s n="con"/><s n="ind"/></r></p></e>
      </pardef>
 
-
     <pardef n="Kurdistan__np">
       <e><p><l></l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
       <e><p><l>ê</l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="obl"/><s n="def"/></r></p></e>
@@ -694,6 +694,14 @@
         <e><p><l>ibin</l><r><s n="fpi"/><s n="pl"/></r></p></e>
     </pardef> 
 
+    <pardef n="karib/û__vblex">
+        <e><p><l>n</l><r><s n="plu"/><s n="pl"/></r></p></e>
+        <e><p><l>yî</l><r><s n="plu"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>û</l><r><s n="plu"/></r></p></e>
+        <e><p><l>m</l><r><s n="plu"/><s n="p1"/><s n="sg"/></r></p></e>
+    </pardef> 
+
+
     <pardef n="dik/e__vblex">
         <e><p><l></l><r><s n="pri"/></r></p><par n="k/e__vblex"/></e>
     </pardef> 
@@ -807,6 +815,9 @@
         <e><p><l>tên</l><r><s n="vblex"/><s n="iv"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
         <e><p><l>tên</l><r><s n="vblex"/><s n="iv"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>tên</l><r><s n="vblex"/><s n="iv"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e><p><l>têne</l><r><s n="vblex"/><s n="iv"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>têne</l><r><s n="vblex"/><s n="iv"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>têne</l><r><s n="vblex"/><s n="iv"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
         <e><p><l>hatim</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
         <e><p><l>hatî</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
         <e><p><l>hat</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -816,6 +827,7 @@
         <e><p><l>hatime</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="p1"/><s n="sg"/></r></p></e>
         <e><p><l>hatiye</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="p2"/><s n="sg"/></r></p></e>
         <e><p><l>hatiye</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>hate</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="p3"/><s n="sg"/></r></p></e>
         <e><p><l>hatine</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="p1"/><s n="pl"/></r></p></e>
         <e><p><l>hatine</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>hatine</l><r><s n="vblex"/><s n="iv"/><s n="perf"/><s n="p3"/><s n="pl"/></r></p></e>
@@ -907,7 +919,8 @@
     <e lm="heke"><i>heke</i><par n="gelo__cnjsub"/></e>
 
     <!-- SECTION: Prepositions -->
-
+    <e lm="jê"><i>jê</i><par n="ba__pr"/></e>  
+    <e lm="navbera"><i>navbera</i><par n="ba__pr"/></e>   
     <e lm="wek"><i>wek</i><par n="ba__pr"/></e>   
     <e lm="wekî"><i>wekî</i><par n="ba__pr"/></e>   
     <e lm="weke"><i>weke</i><par n="ba__pr"/></e>   
@@ -964,10 +977,11 @@
 
     <e lm="ev"><i></i><par n="/ev__det"/></e>
     <e lm="ew"><i></i><par n="/ew__det"/></e>
+    <e lm="çend"><i>çend</i><par n="hindek__det"/></e>
     <e lm="her"><i>her</i><par n="her__det"/></e>
     <e lm="hin"><i>hin</i><par n="hindek__det"/></e>
     <e lm="hindek"><i>hindek</i><par n="hindek__det"/></e>
-    <e lm="hindek"><i>hinek</i><par n="hindek__det"/></e>
+    <e lm="hindek" r="LR"><p><l>hinek</l><r>hindek</r></p><par n="hindek__det"/></e>
 
     <!-- SECTION: Numerals -->
     <e lm="yek"><i>yek</i><par n="yek__num"/></e>
@@ -995,6 +1009,11 @@
     <!-- SECTION: Nouns -->
 
     <!-- New Feminines -->
+    <e lm="pereng"><i>pereng</i><par n="jin__n_f"/></e>
+    <e lm="peyvok"><i>peyvok</i><par n="jin__n_f"/></e>
+    <e lm="pervgerî"><i>pervger</i><par n="piran/î__n_f"/></e>
+    <e lm="hebanî"><i>heban</i><par n="piran/î__n_f"/></e>
+    
     <e lm="wate"><i>wate</i><par n="jin__n_f"/></e>
     <e lm="jahr" r="LR"><p><l>jar</l><r>jahr</r></p><par n="jin__n_f"/></e>
     <e lm="jahr"><i>jahr</i><par n="jin__n_f"/></e>
@@ -1039,6 +1058,11 @@
 
     
     <!-- New Masculines -->
+    <e lm="perwaz"><i>perwaz</i><par n="mirov__n_m"/></e>
+    <e lm="pereng"><i>pereng</i><par n="mirov__n_m"/></e>
+    <e lm="pere"><i>per</i><par n ="perç/e__n"/></e>
+    <e lm="pez"><i>pez</i><par n="mirov__n_m"/></e>
+    <e lm="peykan"><i>peykan</i><par n="mirov__n_m"/></e>
     <e lm="welatî"><i>welat</i><par n="xan/î__n_m"/></e>
     <e lm="kes"><i>kes</i><par n="mirov__n_m"/></e>
     <e lm="hesab"><i>hesab</i><par n="mirov__n_m"/></e>
@@ -1184,13 +1208,13 @@
       <e lm="adod"><i>adod</i><par n="mirov__n_m"/></e>
       <e lm="aferîde"><i>aferîd</i><par n="perç/e__n"/></e>
       <e lm="afirr"><i>afirr</i><par n="mirov__n_m"/></e>
-      <e lm="agha"><i>agha</i><par n="mirov__n_m"/></e>
+      <e lm="agha"><i>agh</i><par n="çiy/a__n_m"/></e>
       <e lm="agir"><i>agir</i><par n="mirov__n_m"/></e>
       <e lm="agirkolk"><i>agirkolk</i><par n="mirov__n_m"/></e>
       <e lm="agirpij"><i>agirpij</i><par n="mirov__n_m"/></e>
       <e lm="agirî"><i>agir</i><par n="xan/î__n_m"/></e>
       <e lm="ahen"><i>ahen</i><par n="mirov__n_m"/></e>
-      <e lm="ahuramezda"><i>ahuramezda</i><par n="mirov__n_m"/></e>
+      <e lm="ahuramezda"><i>ahuramezd</i><par n="çiy/a__n_m"/></e>
       <e lm="aksan"><i>aksan</i><par n="mirov__n_m"/></e>
       <e lm="akund"><i>akund</i><par n="mirov__n_m"/></e>
       <e lm="al"><i>al</i><par n="mirov__n_m"/></e>
@@ -1228,7 +1252,7 @@
       <e lm="arxavk"><i>arxavk</i><par n="mirov__n_m"/></e>
       <e lm="arî"><i>ar</i><par n="xan/î__n_m"/></e>
       <e lm="arûk"><i>arûk</i><par n="mirov__n_m"/></e>
-      <e lm="asa"><i>asa</i><par n="mirov__n_m"/></e>
+      <e lm="asa"><i>as</i><par n="çiy/a__n_m"/></e>
       <e lm="asiman"><i>asiman</i><par n="mirov__n_m"/></e>
       <e lm="asin"><i>asin</i><par n="mirov__n_m"/></e>
       <e lm="asink"><i>asink</i><par n="mirov__n_m"/></e>
@@ -1245,7 +1269,7 @@
       <e lm="avaker"><i>avaker</i><par n="mirov__n_m"/></e>
       <e lm="averês"><i>averês</i><par n="mirov__n_m"/></e>
       <e lm="awaz"><i>awaz</i><par n="mirov__n_m"/></e>
-      <e lm="axa"><i>axa</i><par n="mirov__n_m"/></e>
+      <e lm="axa"><i>ax</i><par n="çiy/a__n_m"/></e>
       <e lm="axal"><i>axal</i><par n="mirov__n_m"/></e>
       <e lm="axeban"><i>axeban</i><par n="mirov__n_m"/></e>
       <e lm="axiye"><i>axiy</i><par n="perç/e__n"/></e>
@@ -1258,11 +1282,11 @@
       <e lm="azman"><i>azman</i><par n="mirov__n_m"/></e>
       <e lm="açar"><i>açar</i><par n="mirov__n_m"/></e>
       <e lm="aş"><i>aş</i><par n="mirov__n_m"/></e>
-      <e lm="aşeba"><i>aşeba</i><par n="mirov__n_m"/></e>
+      <e lm="aşeba"><i>aşeb</i><par n="çiy/a__n_m"/></e>
       <e lm="ap"><i>ap</i><par n="mirov__n_m"/></e>
-      <e lm="ba"><i>ba</i><par n="mirov__n_m"/></e>
-      <e lm="ba"><i>ba</i><par n="mirov__n_m"/></e>
-      <e lm="ba"><i>ba</i><par n="mirov__n_m"/></e>
+      <e lm="ba"><i>b</i><par n="çiy/a__n_m"/></e>
+      <e lm="ba"><i>b</i><par n="çiy/a__n_m"/></e>
+      <e lm="ba"><i>b</i><par n="çiy/a__n_m"/></e>
       <e lm="bab"><i>bab</i><par n="mirov__n_m"/></e>
       <e lm="babet"><i>babet</i><par n="mirov__n_m"/></e>
       <e lm="bahol"><i>bahol</i><par n="mirov__n_m"/></e>
@@ -1331,7 +1355,7 @@
       <e lm="bergûz"><i>bergûz</i><par n="mirov__n_m"/></e>
       <e lm="berhem"><i>berhem</i><par n="mirov__n_m"/></e>
       <e lm="berik"><i>berik</i><par n="mirov__n_m"/></e>
-      <e lm="berma"><i>berma</i><par n="mirov__n_m"/></e>
+      <e lm="berma"><i>berm</i><par n="çiy/a__n_m"/></e>
       <e lm="bermil"><i>bermil</i><par n="mirov__n_m"/></e>
       <e lm="berperr"><i>berperr</i><par n="mirov__n_m"/></e>
       <e lm="berwar"><i>berwar</i><par n="mirov__n_m"/></e>
@@ -1340,7 +1364,7 @@
       <e lm="bext"><i>bext</i><par n="mirov__n_m"/></e>
       <e lm="bez"><i>bez</i><par n="mirov__n_m"/></e>
       <e lm="beşt"><i>beşt</i><par n="mirov__n_m"/></e>
-      <e lm="biha"><i>biha</i><par n="mirov__n_m"/></e>
+      <e lm="biha"><i>bih</i><par n="çiy/a__n_m"/></e>
       <e lm="bijîjk"><i>bijîjk</i><par n="mirov__n_m"/></e>
       <e lm="bil"><i>bil</i><par n="mirov__n_m"/></e>
       <e lm="bilbil"><i>bilbil</i><par n="mirov__n_m"/></e>
@@ -1352,11 +1376,11 @@
       <e lm="bingeh"><i>bingeh</i><par n="mirov__n_m"/></e>
       <e lm="binyat"><i>binyat</i><par n="mirov__n_m"/></e>
       <e lm="binî"><i>bin</i><par n="xan/î__n_m"/></e>
-      <e lm="bira"><i>bira</i><par n="mirov__n_m"/></e>
+      <e lm="bira"><i>bir</i><par n="çiy/a__n_m"/></e>
       <e lm="birabav"><i>birabav</i><par n="mirov__n_m"/></e>
       <e lm="biramak"><i>biramak</i><par n="mirov__n_m"/></e>
-      <e lm="birazava"><i>birazava</i><par n="mirov__n_m"/></e>
-      <e lm="birazava"><i>birazava</i><par n="mirov__n_m"/></e>
+      <e lm="birazava"><i>birazav</i><par n="çiy/a__n_m"/></e>
+      <e lm="birazava"><i>birazav</i><par n="çiy/a__n_m"/></e>
       <e lm="birh"><i>birh</i><par n="mirov__n_m"/></e>
       <e lm="birêvebir"><i>birêvebir</i><par n="mirov__n_m"/></e>
       <e lm="birîndar"><i>birîndar</i><par n="mirov__n_m"/></e>
@@ -1375,13 +1399,13 @@
       <e lm="bostan"><i>bostan</i><par n="mirov__n_m"/></e>
       <e lm="bronz"><i>bronz</i><par n="mirov__n_m"/></e>
       <e lm="bîkînî"><i>bîkîn</i><par n="xan/î__n_m"/></e>
-      <e lm="bîna"><i>bîna</i><par n="mirov__n_m"/></e>
+      <e lm="bîna"><i>bîn</i><par n="çiy/a__n_m"/></e>
       <e lm="bînber"><i>bînber</i><par n="mirov__n_m"/></e>
-      <e lm="bûra"><i>bûra</i><par n="mirov__n_m"/></e>
+      <e lm="bûra"><i>bûr</i><par n="çiy/a__n_m"/></e>
       <e lm="bûstan"><i>bûstan</i><par n="mirov__n_m"/></e>
       <e lm="cacik"><i>cacik</i><par n="mirov__n_m"/></e>
       <e lm="can"><i>can</i><par n="mirov__n_m"/></e>
-      <e lm="canega"><i>canega</i><par n="mirov__n_m"/></e>
+      <e lm="canega"><i>caneg</i><par n="çiy/a__n_m"/></e>
       <e lm="cang"><i>cang</i><par n="mirov__n_m"/></e>
       <e lm="casûs"><i>casûs</i><par n="mirov__n_m"/></e>
       <e lm="caw"><i>caw</i><par n="mirov__n_m"/></e>
@@ -1409,7 +1433,7 @@
       <e lm="cew"><i>cew</i><par n="mirov__n_m"/></e>
       <e lm="cewr"><i>cewr</i><par n="mirov__n_m"/></e>
       <e lm="cewrik"><i>cewrik</i><par n="mirov__n_m"/></e>
-      <e lm="ceza"><i>ceza</i><par n="mirov__n_m"/></e>
+      <e lm="ceza"><i>cez</i><par n="çiy/a__n_m"/></e>
       <e lm="cibe"><i>cib</i><par n="perç/e__n"/></e>
       <e lm="cih"><i>cih</i><par n="mirov__n_m"/></e>
       <e lm="cihaz"><i>cihaz</i><par n="mirov__n_m"/></e>
@@ -1442,7 +1466,7 @@
       <e lm="danê êvarê"><i>danê êvarê</i><par n="mirov__n_m"/></e>
       <e lm="dar"><i>dar</i><par n="mirov__n_m"/></e>
       <e lm="dar"><i>dar</i><par n="mirov__n_m"/></e>
-      <e lm="dara"><i>dara</i><par n="mirov__n_m"/></e>
+      <e lm="dara"><i>dar</i><par n="çiy/a__n_m"/></e>
       <e lm="darbirr"><i>darbirr</i><par n="mirov__n_m"/></e>
       <e lm="darik"><i>darik</i><par n="mirov__n_m"/></e>
       <e lm="darik"><i>darik</i><par n="mirov__n_m"/></e>
@@ -1474,7 +1498,7 @@
       <e lm="dest"><i>dest</i><par n="mirov__n_m"/></e>
       <e lm="destar"><i>destar</i><par n="mirov__n_m"/></e>
       <e lm="destbirak"><i>destbirak</i><par n="mirov__n_m"/></e>
-      <e lm="destebira"><i>destebira</i><par n="mirov__n_m"/></e>
+      <e lm="destebira"><i>destebir</i><par n="çiy/a__n_m"/></e>
       <e lm="destheq"><i>destheq</i><par n="mirov__n_m"/></e>
       <e lm="destik"><i>destik</i><par n="mirov__n_m"/></e>
       <e lm="destik"><i>destik</i><par n="mirov__n_m"/></e>
@@ -1534,7 +1558,7 @@
       <e lm="dû"><i>dû</i><par n="mirov__n_m"/></e>
       <e lm="dûkêl"><i>dûkêl</i><par n="mirov__n_m"/></e>
       <e lm="dûv"><i>dûv</i><par n="mirov__n_m"/></e>
-      <e lm="eba"><i>eba</i><par n="mirov__n_m"/></e>
+      <e lm="eba"><i>eb</i><par n="çiy/a__n_m"/></e>
       <e lm="ebû"><i>ebû</i><par n="mirov__n_m"/></e>
       <e lm="edet"><i>edet</i><par n="mirov__n_m"/></e>
       <e lm="edgar"><i>edgar</i><par n="mirov__n_m"/></e>
@@ -1555,7 +1579,7 @@
       <e lm="erzaq"><i>erzaq</i><par n="mirov__n_m"/></e>
       <e lm="erzin"><i>erzin</i><par n="mirov__n_m"/></e>
       <e lm="erş"><i>erş</i><par n="mirov__n_m"/></e>
-      <e lm="esa"><i>esa</i><par n="mirov__n_m"/></e>
+      <e lm="esa"><i>es</i><par n="çiy/a__n_m"/></e>
       <e lm="esas"><i>esas</i><par n="mirov__n_m"/></e>
       <e lm="esil"><i>esil</i><par n="mirov__n_m"/></e>
       <e lm="esker"><i>esker</i><par n="mirov__n_m"/></e>
@@ -1569,7 +1593,7 @@
       <e lm="eyar"><i>eyar</i><par n="mirov__n_m"/></e>
       <e lm="ezalet"><i>ezalet</i><par n="mirov__n_m"/></e>
       <e lm="ezman"><i>ezman</i><par n="mirov__n_m"/></e>
-      <e lm="eşya"><i>eşya</i><par n="mirov__n_m"/></e>
+      <e lm="eşya"><i>eşy</i><par n="çiy/a__n_m"/></e>
       <e lm="eşîr"><i>eşîr</i><par n="mirov__n_m"/></e>
       <e lm="fafon"><i>fafon</i><par n="mirov__n_m"/></e>
       <e lm="fason"><i>fason</i><par n="mirov__n_m"/></e>
@@ -1625,7 +1649,7 @@
       <e lm="gir"><i>gir</i><par n="mirov__n_m"/></e>
       <e lm="girî"><i>gir</i><par n="xan/î__n_m"/></e>
       <e lm="girş"><i>girş</i><par n="mirov__n_m"/></e>
-      <e lm="giya"><i>giya</i><par n="mirov__n_m"/></e>
+      <e lm="giya"><i>giy</i><par n="çiy/a__n_m"/></e>
       <e lm="giyan"><i>giyan</i><par n="mirov__n_m"/></e>
       <e lm="golik"><i>golik</i><par n="mirov__n_m"/></e>
       <e lm="gon"><i>gon</i><par n="mirov__n_m"/></e>
@@ -1641,7 +1665,7 @@
       <e lm="guhdar"><i>guhdar</i><par n="mirov__n_m"/></e>
       <e lm="guhdar"><i>guhdar</i><par n="mirov__n_m"/></e>
       <e lm="gulî"><i>gul</i><par n="xan/î__n_m"/></e>
-      <e lm="gulûgiya"><i>gulûgiya</i><par n="mirov__n_m"/></e>
+      <e lm="gulûgiya"><i>gulûgiy</i><par n="çiy/a__n_m"/></e>
       <e lm="gumil"><i>gumil</i><par n="mirov__n_m"/></e>
       <e lm="gumlek"><i>gumlek</i><par n="mirov__n_m"/></e>
       <e lm="gun"><i>gun</i><par n="mirov__n_m"/></e>
@@ -1745,7 +1769,7 @@
       <e lm="imr"><i>imr</i><par n="mirov__n_m"/></e>
       <e lm="indeko"><i>indeko</i><par n="mirov__n_m"/></e>
       <e lm="inwan"><i>inwan</i><par n="mirov__n_m"/></e>
-      <e lm="inşa"><i>inşa</i><par n="mirov__n_m"/></e>
+      <e lm="inşa"><i>inş</i><par n="çiy/a__n_m"/></e>
       <e lm="irf"><i>irf</i><par n="mirov__n_m"/></e>
       <e lm="irfan"><i>irfan</i><par n="mirov__n_m"/></e>
       <e lm="isim"><i>isim</i><par n="mirov__n_m"/></e>
@@ -1758,7 +1782,7 @@
       <e lm="k"><i>k</i><par n="mirov__n_m"/></e>
       <e lm="kab"><i>kab</i><par n="mirov__n_m"/></e>
       <e lm="kabok"><i>kabok</i><par n="mirov__n_m"/></e>
-      <e lm="kabra"><i>kabra</i><par n="mirov__n_m"/></e>
+      <e lm="kabra"><i>kabr</i><par n="çiy/a__n_m"/></e>
       <e lm="kadû"><i>kadû</i><par n="mirov__n_m"/></e>
       <e lm="kak"><i>kak</i><par n="mirov__n_m"/></e>
       <e lm="kakût"><i>kakût</i><par n="mirov__n_m"/></e>
@@ -1771,7 +1795,7 @@
       <e lm="kalo"><i>kalo</i><par n="mirov__n_m"/></e>
       <e lm="kaloxk"><i>kaloxk</i><par n="mirov__n_m"/></e>
       <e lm="kalîte"><i>kalît</i><par n="perç/e__n"/></e>
-      <e lm="kanza"><i>kanza</i><par n="mirov__n_m"/></e>
+      <e lm="kanza"><i>kanz</i><par n="çiy/a__n_m"/></e>
       <e lm="kapîtal"><i>kapîtal</i><par n="mirov__n_m"/></e>
       <e lm="kar"><i>kar</i><par n="mirov__n_m"/></e>
       <e lm="karbidest"><i>karbidest</i><par n="mirov__n_m"/></e>
@@ -1819,11 +1843,11 @@
       <e lm="kevçî"><i>kevç</i><par n="xan/î__n_m"/></e>
       <e lm="kewter"><i>kewter</i><par n="mirov__n_m"/></e>
       <e lm="key"><i>key</i><par n="mirov__n_m"/></e>
-      <e lm="keya"><i>keya</i><par n="mirov__n_m"/></e>
+      <e lm="keya"><i>key</i><par n="çiy/a__n_m"/></e>
       <e lm="keyan"><i>keyan</i><par n="mirov__n_m"/></e>
       <e lm="keys"><i>keys</i><par n="mirov__n_m"/></e>
       <e lm="kezevan"><i>kezevan</i><par n="mirov__n_m"/></e>
-      <e lm="keşa"><i>keşa</i><par n="mirov__n_m"/></e>
+      <e lm="keşa"><i>keş</i><par n="çiy/a__n_m"/></e>
       <e lm="keşkol"><i>keşkol</i><par n="mirov__n_m"/></e>
       <e lm="kifş"><i>kifş</i><par n="mirov__n_m"/></e>
       <e lm="kil"><i>kil</i><par n="mirov__n_m"/></e>
@@ -1978,7 +2002,7 @@
       <e lm="mejû"><i>mejû</i><par n="mirov__n_m"/></e>
       <e lm="mekan"><i>mekan</i><par n="mirov__n_m"/></e>
       <e lm="meksî"><i>meks</i><par n="xan/î__n_m"/></e>
-      <e lm="mela"><i>mela</i><par n="mirov__n_m"/></e>
+      <e lm="mela"><i>mel</i><par n="çiy/a__n_m"/></e>
       <e lm="melevan"><i>melevan</i><par n="mirov__n_m"/></e>
       <e lm="melhem"><i>melhem</i><par n="mirov__n_m"/></e>
       <e lm="melik"><i>melik</i><par n="mirov__n_m"/></e>
@@ -1998,7 +2022,7 @@
       <e lm="mesîre"><i>mesîr</i><par n="perç/e__n"/></e>
       <e lm="metal"><i>metal</i><par n="mirov__n_m"/></e>
       <e lm="metin"><i>metin</i><par n="mirov__n_m"/></e>
-      <e lm="mewda"><i>mewda</i><par n="mirov__n_m"/></e>
+      <e lm="mewda"><i>mewd</i><par n="çiy/a__n_m"/></e>
       <e lm="mewzû"><i>mewzû</i><par n="mirov__n_m"/></e>
       <e lm="meyît"><i>meyît</i><par n="mirov__n_m"/></e>
       <e lm="mezar"><i>mezar</i><par n="mirov__n_m"/></e>
@@ -2007,7 +2031,7 @@
       <e lm="meîşet"><i>meîşet</i><par n="mirov__n_m"/></e>
       <e lm="mideh"><i>mideh</i><par n="mirov__n_m"/></e>
       <e lm="midûr"><i>midûr</i><par n="mirov__n_m"/></e>
-      <e lm="mifa"><i>mifa</i><par n="mirov__n_m"/></e>
+      <e lm="mifa"><i>mif</i><par n="çiy/a__n_m"/></e>
       <e lm="miftî"><i>mift</i><par n="xan/î__n_m"/></e>
       <e lm="miftî"><i>mift</i><par n="xan/î__n_m"/></e>
       <e lm="mihwer"><i>mihwer</i><par n="mirov__n_m"/></e>
@@ -2110,8 +2134,8 @@
       <e lm="palewan"><i>palewan</i><par n="mirov__n_m"/></e>
       <e lm="palto"><i>palto</i><par n="mirov__n_m"/></e>
       <e lm="pantolon"><i>pantolon</i><par n="mirov__n_m"/></e>
-      <e lm="papa"><i>papa</i><par n="mirov__n_m"/></e>
-      <e lm="papa"><i>papa</i><par n="mirov__n_m"/></e>
+      <e lm="papa"><i>pap</i><par n="çiy/a__n_m"/></e>
+      <e lm="papa"><i>pap</i><par n="çiy/a__n_m"/></e>
       <e lm="papîrûs"><i>papîrûs</i><par n="mirov__n_m"/></e>
       <e lm="papîrûs"><i>papîrûs</i><par n="mirov__n_m"/></e>
       <e lm="paq"><i>paq</i><par n="mirov__n_m"/></e>
@@ -2154,8 +2178,8 @@
       <e lm="petat"><i>petat</i><par n="mirov__n_m"/></e>
       <e lm="petêx"><i>petêx</i><par n="mirov__n_m"/></e>
       <e lm="pexşannivîskar"><i>pexşannivîskar</i><par n="mirov__n_m"/></e>
-      <e lm="peya"><i>peya</i><par n="mirov__n_m"/></e>
-      <e lm="peya"><i>peya</i><par n="mirov__n_m"/></e>
+      <e lm="peya"><i>pey</i><par n="çiy/a__n_m"/></e>
+      <e lm="peya"><i>pey</i><par n="çiy/a__n_m"/></e>
       <e lm="peykel"><i>peykel</i><par n="mirov__n_m"/></e>
       <e lm="pido"><i>pido</i><par n="mirov__n_m"/></e>
       <e lm="pidok"><i>pidok</i><par n="mirov__n_m"/></e>
@@ -2176,7 +2200,7 @@
       <e lm="plak"><i>plak</i><par n="mirov__n_m"/></e>
       <e lm="plançêker"><i>plançêker</i><par n="mirov__n_m"/></e>
       <e lm="pol"><i>pol</i><par n="mirov__n_m"/></e>
-      <e lm="pola"><i>pola</i><par n="mirov__n_m"/></e>
+      <e lm="pola"><i>pol</i><par n="çiy/a__n_m"/></e>
       <e lm="polen"><i>polen</i><par n="mirov__n_m"/></e>
       <e lm="pop"><i>pop</i><par n="mirov__n_m"/></e>
       <e lm="porr"><i>porr</i><par n="mirov__n_m"/></e>
@@ -2292,7 +2316,7 @@
       <e lm="qîmet"><i>qîmet</i><par n="mirov__n_m"/></e>
       <e lm="qûm"><i>qûm</i><par n="mirov__n_m"/></e>
       <e lm="qût"><i>qût</i><par n="mirov__n_m"/></e>
-      <e lm="ra"><i>ra</i><par n="mirov__n_m"/></e>
+      <e lm="ra"><i>r</i><par n="çiy/a__n_m"/></e>
       <e lm="ran"><i>ran</i><par n="mirov__n_m"/></e>
       <e lm="ran"><i>ran</i><par n="mirov__n_m"/></e>
       <e lm="ran"><i>ran</i><par n="mirov__n_m"/></e>
@@ -2324,7 +2348,7 @@
       <e lm="risq"><i>risq</i><par n="mirov__n_m"/></e>
       <e lm="ritil"><i>ritil</i><par n="mirov__n_m"/></e>
       <e lm="rizq"><i>rizq</i><par n="mirov__n_m"/></e>
-      <e lm="roava"><i>roava</i><par n="mirov__n_m"/></e>
+      <e lm="roava"><i>roav</i><par n="çiy/a__n_m"/></e>
       <e lm="robar"><i>robar</i><par n="mirov__n_m"/></e>
       <e lm="rohilat"><i>rohilat</i><par n="mirov__n_m"/></e>
       <e lm="rok"><i>rok</i><par n="mirov__n_m"/></e>
@@ -2374,7 +2398,7 @@
       <e lm="serbaz"><i>serbaz</i><par n="mirov__n_m"/></e>
       <e lm="serdar"><i>serdar</i><par n="mirov__n_m"/></e>
       <e lm="serdest"><i>serdest</i><par n="mirov__n_m"/></e>
-      <e lm="sereta"><i>sereta</i><par n="mirov__n_m"/></e>
+      <e lm="sereta"><i>seret</i><par n="çiy/a__n_m"/></e>
       <e lm="sergo"><i>sergo</i><par n="mirov__n_m"/></e>
       <e lm="sergur"><i>sergur</i><par n="mirov__n_m"/></e>
       <e lm="sergîn"><i>sergîn</i><par n="mirov__n_m"/></e>
@@ -2393,7 +2417,7 @@
       <e lm="serwet"><i>serwet</i><par n="mirov__n_m"/></e>
       <e lm="serçiçik"><i>serçiçik</i><par n="mirov__n_m"/></e>
       <e lm="serî"><i>ser</i><par n="xan/î__n_m"/></e>
-      <e lm="seyda"><i>seyda</i><par n="mirov__n_m"/></e>
+      <e lm="seyda"><i>seyd</i><par n="çiy/a__n_m"/></e>
       <e lm="seîd"><i>seîd</i><par n="mirov__n_m"/></e>
       <e lm="sfenks"><i>sfenks</i><par n="mirov__n_m"/></e>
       <e lm="sifir"><i>sifir</i><par n="mirov__n_m"/></e>
@@ -2414,7 +2438,7 @@
       <e lm="sirrehî"><i>sirreh</i><par n="xan/î__n_m"/></e>
       <e lm="sitirî"><i>sitir</i><par n="xan/î__n_m"/></e>
       <e lm="siyasetvan"><i>siyasetvan</i><par n="mirov__n_m"/></e>
-      <e lm="siza"><i>siza</i><par n="mirov__n_m"/></e>
+      <e lm="siza"><i>siz</i><par n="çiy/a__n_m"/></e>
       <e lm="skelet"><i>skelet</i><par n="mirov__n_m"/></e>
       <e lm="solçêker"><i>solçêker</i><par n="mirov__n_m"/></e>
       <e lm="sonde"><i>sond</i><par n="perç/e__n"/></e>
@@ -2439,7 +2463,7 @@
       <e lm="sîng"><i>sîng</i><par n="mirov__n_m"/></e>
       <e lm="sînor"><i>sînor</i><par n="mirov__n_m"/></e>
       <e lm="sîrt"><i>sîrt</i><par n="mirov__n_m"/></e>
-      <e lm="sîseba"><i>sîseba</i><par n="mirov__n_m"/></e>
+      <e lm="sîseba"><i>sîseb</i><par n="çiy/a__n_m"/></e>
       <e lm="sîstem"><i>sîstem</i><par n="mirov__n_m"/></e>
       <e lm="sîx"><i>sîx</i><par n="mirov__n_m"/></e>
       <e lm="sû"><i>sû</i><par n="mirov__n_m"/></e>
@@ -2451,11 +2475,11 @@
       <e lm="sûxte"><i>sûxt</i><par n="perç/e__n"/></e>
       <e lm="sûç"><i>sûç</i><par n="mirov__n_m"/></e>
       <e lm="t"><i>t</i><par n="mirov__n_m"/></e>
-      <e lm="ta"><i>ta</i><par n="mirov__n_m"/></e>
-      <e lm="ta"><i>ta</i><par n="mirov__n_m"/></e>
-      <e lm="ta"><i>ta</i><par n="mirov__n_m"/></e>
-      <e lm="ta"><i>ta</i><par n="mirov__n_m"/></e>
-      <e lm="ta"><i>ta</i><par n="mirov__n_m"/></e>
+      <e lm="ta"><i>t</i><par n="çiy/a__n_m"/></e>
+      <e lm="ta"><i>t</i><par n="çiy/a__n_m"/></e>
+      <e lm="ta"><i>t</i><par n="çiy/a__n_m"/></e>
+      <e lm="ta"><i>t</i><par n="çiy/a__n_m"/></e>
+      <e lm="ta"><i>t</i><par n="çiy/a__n_m"/></e>
       <e lm="tab"><i>tab</i><par n="mirov__n_m"/></e>
       <e lm="tacir"><i>tacir</i><par n="mirov__n_m"/></e>
       <e lm="taet"><i>taet</i><par n="mirov__n_m"/></e>
@@ -2547,7 +2571,7 @@
       <e lm="tûz"><i>tûz</i><par n="mirov__n_m"/></e>
       <e lm="tûzik"><i>tûzik</i><par n="mirov__n_m"/></e>
       <e lm="ulan"><i>ulan</i><par n="mirov__n_m"/></e>
-      <e lm="vajîna"><i>vajîna</i><par n="mirov__n_m"/></e>
+      <e lm="vajîna"><i>vajîn</i><par n="çiy/a__n_m"/></e>
       <e lm="vedeng"><i>vedeng</i><par n="mirov__n_m"/></e>
       <e lm="vir"><i>vir</i><par n="mirov__n_m"/></e>
       <e lm="vizik"><i>vizik</i><par n="mirov__n_m"/></e>
@@ -2610,7 +2634,7 @@
       <e lm="xort"><i>xort</i><par n="mirov__n_m"/></e>
       <e lm="xortim"><i>xortim</i><par n="mirov__n_m"/></e>
       <e lm="xortim"><i>xortim</i><par n="mirov__n_m"/></e>
-      <e lm="xuda"><i>xuda</i><par n="mirov__n_m"/></e>
+      <e lm="xuda"><i>xud</i><par n="çiy/a__n_m"/></e>
       <e lm="xudan"><i>xudan</i><par n="mirov__n_m"/></e>
       <e lm="xulam"><i>xulam</i><par n="mirov__n_m"/></e>
       <e lm="xulk"><i>xulk</i><par n="mirov__n_m"/></e>
@@ -2630,9 +2654,9 @@
       <e lm="zak"><i>zak</i><par n="mirov__n_m"/></e>
       <e lm="zalim"><i>zalim</i><par n="mirov__n_m"/></e>
       <e lm="zar"><i>zar</i><par n="mirov__n_m"/></e>
-      <e lm="zarava"><i>zarava</i><par n="mirov__n_m"/></e>
+      <e lm="zarava"><i>zarav</i><par n="çiy/a__n_m"/></e>
       <e lm="zarif"><i>zarif</i><par n="mirov__n_m"/></e>
-      <e lm="zava"><i>zava</i><par n="mirov__n_m"/></e>
+      <e lm="zava"><i>zav</i><par n="çiy/a__n_m"/></e>
       <e lm="zayend"><i>zayend</i><par n="mirov__n_m"/></e>
       <e lm="zebeş"><i>zebeş</i><par n="mirov__n_m"/></e>
       <e lm="zekî"><i>zek</i><par n="xan/î__n_m"/></e>
@@ -2669,7 +2693,7 @@
       <e lm="zirêç"><i>zirêç</i><par n="mirov__n_m"/></e>
       <e lm="zirêç"><i>zirêç</i><par n="mirov__n_m"/></e>
       <e lm="zirûf"><i>zirûf</i><par n="mirov__n_m"/></e>
-      <e lm="ziya"><i>ziya</i><par n="mirov__n_m"/></e>
+      <e lm="ziya"><i>ziy</i><par n="çiy/a__n_m"/></e>
       <e lm="zomp"><i>zomp</i><par n="mirov__n_m"/></e>
       <e lm="zomp"><i>zomp</i><par n="mirov__n_m"/></e>
       <e lm="zomp"><i>zomp</i><par n="mirov__n_m"/></e>
@@ -2695,7 +2719,7 @@
       <e lm="Îhsan"><i>Îhsan</i><par n="mirov__n_m"/></e>
       <e lm="Îlyas"><i>Îlyas</i><par n="mirov__n_m"/></e>
       <e lm="Îmad"><i>Îmad</i><par n="mirov__n_m"/></e>
-      <e lm="Îsa"><i>Îsa</i><par n="mirov__n_m"/></e>
+      <e lm="Îsa"><i>Îs</i><par n="çiy/a__n_m"/></e>
       <e lm="Îsmaîl"><i>Îsmaîl</i><par n="mirov__n_m"/></e>
       <e lm="Ûsiv"><i>Ûsiv</i><par n="mirov__n_m"/></e>
       <e lm="çadir"><i>çadir</i><par n="mirov__n_m"/></e>
@@ -2801,7 +2825,7 @@
       <e lm="şekir"><i>şekir</i><par n="mirov__n_m"/></e>
       <e lm="şel"><i>şel</i><par n="mirov__n_m"/></e>
       <e lm="şelwal"><i>şelwal</i><par n="mirov__n_m"/></e>
-      <e lm="şema"><i>şema</i><par n="mirov__n_m"/></e>
+      <e lm="şema"><i>şem</i><par n="çiy/a__n_m"/></e>
       <e lm="şeqle"><i>şeql</i><par n="perç/e__n"/></e>
       <e lm="şer"><i>şer</i><par n="mirov__n_m"/></e>
       <e lm="şerr"><i>şerr</i><par n="mirov__n_m"/></e>
@@ -2842,7 +2866,7 @@
       <e lm="penîr"><i>penîr</i><par n="mirov__n_m"/></e>
       <e lm="piling"><i>piling</i><par n="mirov__n_m"/></e>
       <e lm="pizot"><i>pizot</i><par n="mirov__n_m"/></e>
-      <e lm="pola"><i>pola</i><par n="mirov__n_m"/></e>
+      <e lm="pola"><i>pol</i><par n="çiy/a__n_m"/></e>
       <e lm="pê"><i>pê</i><par n="mirov__n_m"/></e>
       <e lm="pîrhepok"><i>pîrhepok</i><par n="mirov__n_m"/></e>
       <e lm="alim"><i>alim</i><par n="mirov__n_m"/></e>
@@ -12163,6 +12187,12 @@
     <!-- SECTION: Adjectives -->
 
     <!-- new comparables -->
+    <e lm="perîşan"><i>perîşan</i><par n="nû__adj"/></e>
+    <e lm="peywend"><i>peywend</i><par n="nû__adj"/></e>
+    <e lm="hazir"><i>hazir</i><par n="nû__adj"/></e>
+    <e lm="perîşan ; adjcomp ; miserable, wretched"><i>perîşan ; adjcomp ; miserable, wretched</i><par n="nû__adj"/></e>
+    <e lm="peywend ; adjcomp ; connected, related"><i>peywend ; adjcomp ; connected, related</i><par n="nû__adj"/></e>
+    <e lm="hazir; adjcomp ; ready"><i>hazir; adjcomp ; ready</i><par n="nû__adj"/></e>
     <e lm="amade"><i>amade</i><par n="nû__adj"/></e>
     <e lm="navdar"><i>navdar</i><par n="nû__adj"/></e>
     <e lm="kiritîk"><i>kiritîk</i><par n="nû__adj"/></e>
@@ -12220,6 +12250,8 @@
     <e lm="rewa"><i>rewa</i><par n="kurdî__adj"/></e>
 
     <!-- SECTION: Adverbs -->
+    <e lm="çend"><i>çend</i><par n="niha__adv"/></e>
+    <e lm="pêş"><i>pêş</i><par n="niha__adv"/></e>
     <e lm="heman"><i>heman</i><par n="niha__adv"/></e>
     <e lm="îro"><i>îro</i><par n="niha__adv"/></e>
     <e lm="vêga"><i>vêga</i><par n="niha__adv"/></e>
@@ -12266,7 +12298,6 @@
     <e lm="hebûn"><p><l></l><r>hebûn</r></p><par n="/hebûn__vbhaver"/></e>
     <e lm="hatin"><p><l></l><r>hatin</r></p><par n="/hatin__vblex_iv"/></e>
 
-    <e lm="nivîsîn"><p><l>dinivîs</l><r>nivîsîn</r></p><par n="dik/e__vblex_tv"/></e>
     <e lm="jîn"><p><l>dij</l><r>jîn</r></p><par n="diaxiv/e__vblex_iv"/></e>
     <e lm="nivîn"><p><l>diniv</l><r>nivîn</r></p><par n="diaxiv/e__vblex_iv"/></e>
     <e lm="çûn"><p><l>diç</l><r>çûn</r></p><par n="diaxiv/e__vblex_iv"/></e>
@@ -12287,6 +12318,15 @@
 
   </section>
   <section id="verbs" type="standard">
+    <!-- nivîsandin; ; i; nivîsîn -->
+    <e lm="nivîsandin"><p><l>nivîsand</l><r>nivîsandin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="nivîsandin"><p><l>dinivîsîn</l><r>nivîsandin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="nivîsandin"><p><l>binivîsîn</l><r>nivîsandin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="nivîsandin"><p><l>nenivîsand</l><r>nivîsandin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="nivîsandin"><p><l>nanivîsîn</l><r>nivîsandin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="nivîsandin"><p><l>nenivîsîn</l><r>nivîsandin</r></p><par n="nek/e__vblex_tv"/></e>
+
+    <e lm="nivîsîn"><p><l>dinivîs</l><r>nivîsîn</r></p><par n="dik/e__vblex_tv"/></e>
 
     <!-- weşandin; ; weşand; weşîn -->
     <e lm="weşandin"><p><l>weşand</l><r>weşandin</r></p><par n="kir/__vblex_tv"/></e>
@@ -12376,6 +12416,10 @@
     <e lm="çêkirin" r="LR"><p><l>çê<b/>nekir</l><r>çêkirin</r></p><par n="nekir/__vblex_tv"/></e>
     <e lm="çêkirin" r="LR"><p><l>çê<b/>nak</l><r>çêkirin</r></p><par n="nak/e__vblex_tv"/></e>
     <e lm="çêkirin" r="LR"><p><l>çê<b/>nek</l><r>çêkirin</r></p><par n="nek/e__vblex_tv"/></e>
+
+    <!-- karîn; ; kar; kar -->
+    <e lm="karîn"><p><l>dik</l><r>dikar</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="karîn"><p><l>dik</l><r>kar</r></p><par n="dik/e__vblex_tv"/></e>
 
     <!-- kirin; ; kir; k -->
     <e lm="kirin"><p><l>kir</l><r>kirin</r></p><par n="kir/__vblex_tv"/></e>
