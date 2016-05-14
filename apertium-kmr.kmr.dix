@@ -622,11 +622,12 @@
         <e r="RL"><p><l><a/>in</l><r>bûn<s n="vbcop"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
         <e r="RL"><p><l><a/>in</l><r>bûn<s n="vbcop"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
         <e r="RL"><p><l><a/>in</l><r>bûn<s n="vbcop"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e><p><l>be</l><r><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="da/n__vblex_tv">
-	<e><p><l></l><r><s n="vblex"/><s n ="p3"/><s n="sg"/><s n="past"/></r></p></e>
-	<e><p><l>n</l><r><s n="vblex"/><s n ="p3"/><s n="pl"/><s n="past"/></r></p></e>
+	<e><p><l></l><r><s n="vblex"/><s n="tv"/><s n ="p3"/><s n="sg"/><s n="past"/></r></p></e>
+	<e><p><l>n</l><r><s n="vblex"/><s n="tv"/><s n ="p3"/><s n="pl"/><s n="past"/></r></p></e>
     </pardef>
 
     <pardef n="şo/__vblex">
@@ -893,7 +894,8 @@
     <e lm="li"><i/><par n="/li__pr"/></e>
     <e lm="de"><i>de</i><par n="ba__pr"/></e>
     <e lm="bo"><i>bo</i><par n="ba__pr"/></e>
-    <e lm="ba"><i>bê</i><par n="ba__pr"/></e>
+<!-- <e lm="ba"><p><l>bê</l><r>ba<s n="pr"/><s n="obl"/></r></e> -->
+    <e lm="ba"><i>ba</i><par n="ba__pr"/></e>
     <e lm="ber"><i>ber</i><par n="ba__pr"/></e>
     <e lm="bêî"><i>bêî</i><par n="ba__pr"/></e>
     <e lm="berî"><i>berî</i><par n="ba__pr"/></e>
@@ -969,6 +971,7 @@
     <!-- SECTION: Nouns -->
 
     <!-- New Feminines -->
+    <e lm="wate"><i>wate</i><par n="jin__n_f"/></e>
     <e lm="jahr" r="LR"><p><l>jar</l><r>jahr</r></p><par n="jin__n_f"/></e>
     <e lm="jahr"><i>jahr</i><par n="jin__n_f"/></e>
     <e lm="jahr"><i>jehr</i><par n="jin__n_f"/></e>
@@ -12145,6 +12148,8 @@
     <e lm="pirr"><i>pirr</i><par n="nû__adj"/></e>
     
     <!-- new non-comparables -->
+    <e lm="erebî"><i>erebî</i><par n="kurdî__adj"/></e>
+    <e lm="fermî"><i>fermî</i><par n="kurdî__adj"/></e>
     <e lm="girêdayî"><i>girêdayî</i><par n="kurdî__adj"/></e>
     <e lm="girêdayî" r="LR"><i>grêdayî</i><par n="kurdî__adj"/></e>
     <e lm="şiî"><i>şiî</i><par n="kurdî__adj"/></e>
@@ -12192,6 +12197,8 @@
     <e lm="rewa"><i>rewa</i><par n="kurdî__adj"/></e>
 
     <!-- SECTION: Adverbs -->
+    <e lm="heman"><i>heman</i><par n="niha__adv"/></e>
+    <e lm="îro"><i>îro</i><par n="niha__adv"/></e>
     <e lm="vêga"><i>vêga</i><par n="niha__adv"/></e>
     <e lm="pêk"><i>pêk</i><par n="niha__adv"/></e>
     <e lm="her"><i>her</i><par n="niha__adv"/></e>
@@ -12259,13 +12266,29 @@
   <section id="verbs" type="standard">
 
     <!-- weşandin; ; weşand; weşîn -->
-    <e lm="weşandin"><p><l>weşand</l><r>weşandin</r></p><par n="axaft/__vblex_iv"/></e>
-    <e lm="weşandin"><p><l>diweşîn</l><r>weşandin</r></p><par n="diaxiv/e__vblex_iv"/></e>
-    <e lm="weşandin"><p><l>biweşîn</l><r>weşandin</r></p><par n="biaxiv/e__vblex_iv"/></e>
-    <e lm="weşandin"><p><l>neweşand</l><r>weşandin</r></p><par n="neaxaft/__vblex_iv"/></e>
-    <e lm="weşandin"><p><l>naweşîn</l><r>weşandin</r></p><par n="naaxiv/e__vblex_iv"/></e>
-    <e lm="weşandin"><p><l>neweşîn</l><r>weşandin</r></p><par n="neaxiv/e__vblex_iv"/></e>
- 
+    <e lm="weşandin"><p><l>weşand</l><r>weşandin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="weşandin"><p><l>diweşîn</l><r>weşandin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="weşandin"><p><l>biweşîn</l><r>weşandin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="weşandin"><p><l>neweşand</l><r>weşandin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="weşandin"><p><l>naweşîn</l><r>weşandin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="weşandin"><p><l>neweşîn</l><r>weşandin</r></p><par n="nek/e__vblex_tv"/></e>
+
+    <!-- girtin; ; girt; gir -->
+    <e lm="girtin"><p><l>girt</l><r>girtin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="girtin"><p><l>digir</l><r>girtin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="girtin"><p><l>bigir</l><r>girtin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="girtin"><p><l>negir</l><r>girtin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="girtin"><p><l>nagir</l><r>girtin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="girtin"><p><l>negir</l><r>girtin</r></p><par n="nek/e__vblex_tv"/></e>
+
+    <!-- weşandin; ; weşand; weşîn -->
+    <e lm="weşandin"><p><l>weşand</l><r>weşandin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="weşandin"><p><l>diweşîn</l><r>weşandin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="weşandin"><p><l>biweşîn</l><r>weşandin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="weşandin"><p><l>neweşand</l><r>weşandin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="weşandin"><p><l>naweşîn</l><r>weşandin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="weşandin"><p><l>neweşîn</l><r>weşandin</r></p><par n="nek/e__vblex_tv"/></e>
+
     <!-- ketin; ; ket; kev -->
     <e lm="ketin"><p><l>ket</l><r>ketin</r></p><par n="axaft/__vblex_iv"/></e>
     <e lm="ketin"><p><l>dikev</l><r>ketin</r></p><par n="diaxiv/e__vblex_iv"/></e>
