@@ -2327,6 +2327,7 @@
       <e lm="rûl"><i>rûl</i><par n="mirov__n_m"/></e>
       <e lm="rûn"><i>rûn</i><par n="mirov__n_m"/></e>
       <e lm="rûniştevan"><i>rûniştevan</i><par n="mirov__n_m"/></e>
+      <e lm="rûniştevan"><i>rûniştvan</i><par n="mirov__n_m"/></e>
       <e lm="rûpel"><i>rûpel</i><par n="mirov__n_m"/></e>
       <e lm="sabir"><i>sabir</i><par n="mirov__n_m"/></e>
       <e lm="sadiq"><i>sadiq</i><par n="mirov__n_m"/></e>
@@ -12087,6 +12088,7 @@
     <e lm="Kerkûk"><i>Kerkûk</i><par n="Kurdistan__np"/></e>
     <e lm="Heşda Şeibî"><i>Heşda<b/>Şeib</i><par n="Şeibî__np"/></e>
     <e lm="Xurmatû"><i>Xurmatû</i><par n="Bexda__np"/></e>
+    <e lm="Ewropa"><i>Ewropa</i><par n="Bexda__np"/></e>
     <e lm="Bexda"><i>Bexda</i><par n="Bexda__np"/></e>
     <e lm="Mêrdîn"><i>Mêrdîn</i><par n="Kurdistan__np"/></e>
     <e lm="Amed"><i>Amed</i><par n="Kurdistan__np"/></e>
@@ -12347,6 +12349,28 @@
     <e lm="kirin"><p><l>nek</l><r>kirin</r></p><par n="nek/e__vblex_tv"/></e>
 
     <!-- kirin type LVCs -->
+    <!-- valakirin; ; valakir; vala..k -->
+    <e lm="valakirin"><p><l>valakir</l><r>valakirin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="valakirin"><p><l>valadik</l><r>valakirin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="valakirin"><p><l>valabik</l><r>valakirin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="valakirin"><p><l>valanekir</l><r>valakirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="valakirin"><p><l>valanak</l><r>valakirin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="valakirin"><p><l>valanek</l><r>valakirin</r></p><par n="nek/e__vblex_tv"/></e>
+    <e lm="valakirin" r="LR"><p><l>valakir</l><r>valakirin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="valakirin" r="LR"><p><l>valadik</l><r>valakirin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="valakirin" r="LR"><p><l>valabik</l><r>valakirin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="valakirin" r="LR"><p><l>valanekir</l><r>valakirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="valakirin" r="LR"><p><l>valanak</l><r>valakirin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="valakirin" r="LR"><p><l>valanek</l><r>valakirin</r></p><par n="nek/e__vblex_tv"/></e>
+
+    <!-- kirin; ; kir; k -->
+    <e lm="valakirin"><p><l>kir</l><r>kirin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="valakirin"><p><l>dik</l><r>kirin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="valakirin"><p><l>bik</l><r>kirin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="valakirin"><p><l>nekir</l><r>kirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="valakirin"><p><l>nak</l><r>kirin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="valakirin"><p><l>nek</l><r>kirin</r></p><par n="nek/e__vblex_tv"/></e>
+
     <!-- dîtin; ; dît; bîn -->
     <e lm="dîtin"><p><l>dît</l><r>kirin</r></p><par n="kir/__vblex_tv"/></e>
     <e lm="dîtin"><p><l>dibîn</l><r>kirin</r></p><par n="dik/e__vblex_tv"/></e>
