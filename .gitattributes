@@ -6,6 +6,7 @@
 /NEWS -text
 /README -text
 /apertium-kmr.kmr.acx -text
+/apertium-kmr.kmr.dix -text
 /apertium-kmr.kmr.rlx -text
 /apertium-kmr.pc.in -text
 /apertium-kmr.post-kmr.dix -text
