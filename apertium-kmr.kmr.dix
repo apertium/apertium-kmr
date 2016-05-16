@@ -876,6 +876,7 @@
         <e><p><l>hatim</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
         <e><p><l>hatî</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
         <e><p><l>hat</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>hatibû</l><r><s n="vblex"/><s n="iv"/><s n="plu"/><s n="p3"/><s n="sg"/></r></p></e>
         <e><p><l>hatin</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
         <e><p><l>hatin</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>hatin</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
@@ -1084,6 +1085,7 @@
     <!-- SECTION: Nouns -->
 
     <!-- New Feminines -->
+    <e lm="alfabe"><i>alfab</i><par n ="od/e__n"/></e>
     <e lm="împeratorî"><i>împerator</i><par n="piran/î__n_f"/></e>
     <e lm="nivîskar"><i>nivîskar</i><par n="jin__n_f"/></e>
     <e lm="nêzîkî"><i>nêzîk</i><par n="piran/î__n_f"/></e>
@@ -12209,6 +12211,12 @@
     <e lm="rê"><i>r</i><par n="r/ê__n_f"/></e> <!-- FIXME -->
 
     <!-- SECTION: Proper nouns -->
+    <e lm="Serdeşt"><i>Serdeşt</i><par n="Kurdistan__np"/></e>
+    <e lm="Farqîn"><i>Farqîn</i><par n="Kurdistan__np"/></e>
+    <e lm="Efrîn"><i>Efrîn</i><par n="Kurdistan__np"/></e>
+    <e lm="Erzîrom"><i>Erzîrom</i><par n="Kurdistan__np"/></e>
+    <e lm="Mûş"><i>Mûş</i><par n="Kurdistan__np"/></e>
+    <e lm="Stenbol"><i>Stenbol</i><par n="Kurdistan__np"/></e>
     <e lm="Amerîka"><i>Amerîka</i><par n="Bexda__np"/></e>
     <e lm="Îsa"><i>Îsa</i><par n="Salih__np"/></e>
     <e lm="Bedirxan"><i>Bedirxan</i><par n="Salih__np"/></e>
@@ -12282,6 +12290,7 @@
     <!-- SECTION: Adjectives -->
 
     <!-- new comparables -->
+    <e lm="dewlemend"><i>dewlemend</i><par n="nû__adj"/></e>
     <e lm="reş"><i>reş</i><par n="nû__adj"/></e>
     <e lm="cuda"><i>cuda</i><par n="nû__adj"/></e>
     <e lm="perîşan"><i>perîşan</i><par n="nû__adj"/></e>
