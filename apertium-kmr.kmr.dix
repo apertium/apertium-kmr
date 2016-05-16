@@ -749,6 +749,10 @@
         <e><p><l>ibin</l><r><s n="fpi"/><s n="pl"/></r></p></e>
     </pardef> 
 
+    <pardef n="dikir/__vblex_tv">
+        <e><p><l></l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="prog"/></r></p><par n="k/e__vblex"/></e>
+    </pardef>
+
     <pardef n="karib/û__vblex">
         <e><p><l>n</l><r><s n="plu"/><s n="pl"/></r></p></e>
         <e><p><l>yî</l><r><s n="plu"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -1009,6 +1013,7 @@
     <e lm="ji bilî"><i>ji<b/>bilî</i><par n="ba__pr"/></e>
     <e lm="ji bo"><i>ji<b/>bo</i><par n="ba__pr"/></e>
     <e lm="li ser"><i>li<b/>ser</i><par n="ba__pr"/></e>
+    <e lm="ji bo" r="LR"><p><l>jibo</l><r>ji<b/>bo</r></p><par n="ba__pr"/></e>
     <e lm="ji bo" r="LR"><p><l>jî<b/>bo</l><r>ji<b/>bo</r></p><par n="ba__pr"/></e>
     <e lm="ji nava"><i>ji<b/>nava</i><par n="ba__pr"/></e>
     <e lm="ji xeynî"><i>ji<b/>xeynî</i><par n="ba__pr"/></e>
@@ -1085,6 +1090,12 @@
     <!-- SECTION: Nouns -->
 
     <!-- New Feminines -->
+    <e lm="encamdan"><i>encamdan</i><par n="jin__n_f"/></e>
+    <e lm="zarok"><i>zarok</i><par n="jin__n_f"/></e>
+    <e lm="rê"><i>r</i><par n ="od/e__n"/></e>
+    <e lm="hîn"><i>hîn</i><par n="jin__n_f"/></e>
+    <e lm="famîle"><i>famîl</i><par n ="od/e__n"/></e>
+    <e lm="heya"><i>hey</i><par n ="nîvro__n_f"/></e>
     <e lm="alfabe"><i>alfab</i><par n ="od/e__n"/></e>
     <e lm="împeratorî"><i>împerator</i><par n="piran/î__n_f"/></e>
     <e lm="nivîskar"><i>nivîskar</i><par n="jin__n_f"/></e>
@@ -1141,6 +1152,8 @@
 
     
     <!-- New Masculines -->
+    <e lm="zarok"><i>zarok</i><par n="mirov__n_m"/></e>
+    <e lm="heya"><i>hey</i><par n ="çiy/a__n_m"/></e>
     <e lm="nivîskar"><i>nivîskar</i><par n="mirov__n_m"/></e>
     <e lm="cure"><i>cur</i><par n ="perç/e__n"/></e>
     <e lm="cur"><i>cur</i><par n="mirov__n_m"/></e>
@@ -12541,8 +12554,8 @@
     <e lm="çêkirin" r="LR"><p><l>çê<b/>nek</l><r>çêkirin</r></p><par n="nek/e__vblex_tv"/></e>
 
     <!-- karîn; ; kar; kar -->
-    <e lm="karîn"><p><l>dik</l><r>dikar</r></p><par n="dik/e__vblex_tv"/></e>
-    <e lm="karîn"><p><l>dik</l><r>kar</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="karîn"><p><l>dikar</l><r>karîn</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="karîn"><p><l>kar</l><r>karîn</r></p><par n="dik/e__vblex_tv"/></e>
     
     <!-- ketin type LVCs -->
     <!-- derketin; ; derket; der..kev -->
@@ -12562,6 +12575,7 @@
 
     <!-- kirin; ; kir; k -->
     <e lm="kirin"><p><l>kir</l><r>kirin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="kirin"><p><l>dikir</l><r>kirin</r></p><par n="dikir/__vblex_tv"/></e>
     <e lm="kirin"><p><l>dik</l><r>kirin</r></p><par n="dik/e__vblex_tv"/></e>
     <e lm="kirin"><p><l>bik</l><r>kirin</r></p><par n="bik/e__vblex_tv"/></e>
     <e lm="kirin"><p><l>nekir</l><r>kirin</r></p><par n="nekir/__vblex_tv"/></e>
