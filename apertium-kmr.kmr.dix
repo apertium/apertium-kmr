@@ -2,6 +2,7 @@
 <dictionary>
   <alphabet>ABCÇDEÊFGHIÎJKLMNOPQRSŞTUÛVWXYZabcçdeêfghiîjklmnopqrsştuûvwxyzáÁàăắặâấậǎåäãąāảạæḇćčđḏðéèếệěëËėęēḗəğĞĝġĥȟḧḥḫḪíìĭïĩīıİḱḳľłṃńňṅṇŋñóòôốộöÖőõøōơớºœṗřṛśšŠșṣßťţṭúÚùŭǔůüÜűũųūŵẍýÝźžþʒʿḍ</alphabet>   
   <sdefs>     
+    <sdef n="acr"      c=""/>
     <sdef n="abbr"     c="Abbreviation"/>
     <sdef n="n"       c="Noun"/>     
     <sdef n="np"      c="Proper noun"/>     
@@ -227,6 +228,11 @@
     </pardef>
 
     <!-- SECTION: Pronouns -->
+
+    <pardef n="çi__prn">
+      <e><p><l></l><r><s n="prn"/><s n="itg"/></r></p></e>
+    </pardef>
+
 
     <pardef n="S__ê_dê__enc">
       <e><p><l/><r/></p></e>
@@ -530,6 +536,11 @@
       <e><p><l>iya</l><r>ê<s n="n"/><s n="f"/><s n="sg"/><s n="con"/><s n="def"/></r></p></e>
      </pardef>
 
+
+    <pardef n="YNK__n">
+      <e><p><l></l><r><s n="n"/><s n="acr"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>ê</l><r><s n="n"/><s n="acr"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
+    </pardef>
 
     <!-- Proper nouns -->
     <pardef n="Tîrêj__np">
@@ -935,10 +946,8 @@
       <e><p><l></l><r><s n="adv"/></r></p></e>
     </pardef>
 
-    <pardef n="çi__adv">
-      <e><p><l></l><r><s n="adv"/><s n="itg"/></r></p></e>
-    </pardef>
-  </pardefs>
+
+  </pardefs> 
 
   <section id="main" type="standard">
 
@@ -1046,7 +1055,7 @@
     <e lm="hev"><i>hev</i><par n="xwe__prn"/></e>
     <e lm="ku"><i>ku</i><par n="ku__prn"/></e>
     <e lm="ku" r="LR"><p><l>ko</l><r>ku</r></p><par n="ku__prn"/></e>
-
+    <e lm="çi"><i>çi</i><par n="çi__prn"/></e>
     <!-- SECTION: Determiners -->
 
     <e lm="ev"><i></i><par n="/ev__det"/></e>
@@ -12223,6 +12232,15 @@
     <e lm="federalîzm"><i>federalîzm</i><par n="jin__n_f"/></e> <!-- FIXME -->
     <e lm="rê"><i>r</i><par n="r/ê__n_f"/></e> <!-- FIXME -->
 
+    <e lm="DAIŞ"><i>DAIŞ</i><par n="YNK__n"/></e>
+    <e lm="DAIŞ"><p><l>DAÎŞ</l><r>DAIŞ</r></p><par n="YNK__n"/></e>
+    <e lm="PYD"><i>PYD</i><par n="YNK__n"/></e>
+    <e lm="YNK"><i>YNK</i><par n="YNK__n"/></e>
+    <e lm="PKK"><i>PKK</i><par n="YNK__n"/></e>
+    <e lm="BDP"><i>BDP</i><par n="YNK__n"/></e>
+    <e lm="ENKS"><i>ENKS</i><par n="YNK__n"/></e>
+    <e lm="HDP"><i>HDP</i><par n="YNK__n"/></e>
+
     <!-- SECTION: Proper nouns -->
     <e lm="Serdeşt"><i>Serdeşt</i><par n="Kurdistan__np"/></e>
     <e lm="Farqîn"><i>Farqîn</i><par n="Kurdistan__np"/></e>
@@ -12243,7 +12261,7 @@
     <e lm="Agirî"><i>Agir</i><par n="Agir/î__np"/></e>
     <e lm="Elî"><i>El</i><par n="Barzan/î__np"/></e>
 
-    <e lm="DAIŞ"><i>DAIŞ</i><par n="Kurdistan__np"/></e>
+
     <e lm="Şingal"><i>Şingal</i><par n="Kurdistan__np"/></e>
     <e lm="Kerkûk"><i>Kerkûk</i><par n="Kurdistan__np"/></e>
     <e lm="Heşda Şeibî"><i>Heşda<b/>Şeib</i><par n="Şeib/î__np"/></e>
