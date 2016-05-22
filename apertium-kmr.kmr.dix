@@ -653,7 +653,10 @@
       <e><p><l>iye</l><r>î<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
       <e><p><l>iya</l><r>î<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="con"/></r></p></e>
     </pardef> 
-
+    <pardef n="Rûdaw__np">
+      <e>       <p><l></l>         <r><s n="np"/><s n="org"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e>       <p><l>ê</l>         <r><s n="np"/><s n="org"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
+    </pardef> 
 
     <!-- SECTION: Adjectives -->
 
@@ -999,7 +1002,8 @@
     <e lm="heke"><i>heke</i><par n="gelo__cnjsub"/></e>
 
     <!-- SECTION: Prepositions -->
-    <e lm="jê"><i>jê</i><par n="ba__pr"/></e>  
+    <e lm="jê"><i>jê</i><par n="ba__pr"/></e> 
+    <e lm="derbarê"><i>derbarê</i><par n="ba__pr"/></e>   
     <e lm="navbera"><i>navbera</i><par n="ba__pr"/></e>   
     <e lm="wek"><i>wek</i><par n="ba__pr"/></e>   
     <e lm="wekî"><i>wekî</i><par n="ba__pr"/></e>   
@@ -1052,6 +1056,7 @@
     <e lm="ew"><i/><par n="/ew__prn"/></e>
     <e lm="ev"><i/><par n="/ev__prn"/></e>
     <e lm="xwe"><i>xwe</i><par n="xwe__prn"/></e>
+    <e lm="xwe"><p><l>xo</l><r>xwe</r></p><par n="xwe__prn"/></e>
     <e lm="hev"><i>hev</i><par n="xwe__prn"/></e>
     <e lm="ku"><i>ku</i><par n="ku__prn"/></e>
     <e lm="ku" r="LR"><p><l>ko</l><r>ku</r></p><par n="ku__prn"/></e>
@@ -1088,7 +1093,7 @@
     <e lm="nozdeh"><i>nozdeh</i><par n="şeş__num"/></e>
 
     <e lm="yekem"><i>yekem</i><par n="yekem__num"/></e>
-
+    <e lm="hezar"><i>hezar</i><par n="milyon__num"/></e>
     <e lm="milyon"><i>milyon</i><par n="milyon__num"/></e>
 
     <!-- SECTION: Abbreviations -->
@@ -1099,6 +1104,8 @@
     <!-- SECTION: Nouns -->
 
     <!-- New Feminines -->
+    <e lm="PDK"><i>PDK</i><par n="YNK__n"/></e>
+    <e lm="îngilîzî"><i>îngilîz</i><par n="piran/î__n_f"/></e>
     <e lm="encamdan"><i>encamdan</i><par n="jin__n_f"/></e>
     <e lm="zarok"><i>zarok</i><par n="jin__n_f"/></e>
     <e lm="rê"><i>r</i><par n ="od/e__n"/></e>
@@ -1128,7 +1135,7 @@
     <e lm="kes"><i>kes</i><par n="jin__n_f"/></e>
     <e lm="hêjahî"><i>hêjah</i><par n="piran/î__n_f"/></e>
     <e lm="guhartin"><i>guhartin</i><par n="jin__n_f"/></e>
-    <e lm="parlamento"><i>parlament</i><par n ="nîvro__n_f"/></e>
+    <e lm="parlamento"><i>parlamento</i><par n ="nîvro__n_f"/></e>
     <e lm="girtî"><i>girt</i><par n="piran/î__n_f"/></e>
     <e lm="fersend"><i>fersend</i><par n="jin__n_f"/></e>
     <e lm="firsend"><i>firsend</i><par n="jin__n_f"/></e>
@@ -2153,7 +2160,6 @@
       <e lm="miqam"><i>miqam</i><par n="mirov__n_m"/></e>
       <e lm="mircan"><i>mircan</i><par n="mirov__n_m"/></e>
       <e lm="mirdiyaq"><i>mirdiyaq</i><par n="mirov__n_m"/></e>
-      <e lm="mirov"><i>mirov</i><par n="mirov__n_m"/></e>
       <e lm="mirîd"><i>mirîd</i><par n="mirov__n_m"/></e>
       <e lm="mirûz"><i>mirûz</i><par n="mirov__n_m"/></e>
       <e lm="mis"><i>mis</i><par n="mirov__n_m"/></e>
@@ -6902,7 +6908,10 @@
       <e lm="kurdolojî"><i>kurdoloj</i><par n="piran/î__n_f"/></e>
       <e lm="kurdî"><i>kurd</i><par n="piran/î__n_f"/></e>
       <e lm="kurdîtî"><i>kurdît</i><par n="piran/î__n_f"/></e>
-      <e lm="kurmancî"><i>kurmanc</i><par n="piran/î__n_f"/></e>
+      <e lm="Kurmancî"><p><l>kurmanc</l><r>Kurmanc</r></p><par n="piran/î__n_f"/></e>
+      <e lm="Kurmancî"><i>Kurmanc</i><par n="piran/î__n_f"/></e>
+      <e lm="Kurmancî"><i>Kurmanc</i><par n="piran/î__n_f"/></e>
+      <e lm="îngilîzî"><i>îngilîzî</i><par n="piran/î__n_f"/></e>
       <e lm="kurre"><i>kurr</i><par n="od/e__n"/></e>
       <e lm="kurs"><i>kurs</i><par n="jin__n_f"/></e>
       <e lm="kursî"><i>kurs</i><par n="piran/î__n_f"/></e>
@@ -7578,7 +7587,6 @@
       <e lm="mirandin"><i>mirandin</i><par n="jin__n_f"/></e>
       <e lm="mirekeb"><i>mirekeb</i><par n="jin__n_f"/></e>
       <e lm="mirin"><i>mirin</i><par n="jin__n_f"/></e>
-      <e lm="mirov"><i>mirov</i><par n="jin__n_f"/></e>
       <e lm="mirovatî"><i>mirovat</i><par n="piran/î__n_f"/></e>
       <e lm="mirovdostî"><i>mirovdost</i><par n="piran/î__n_f"/></e>
       <e lm="mirovdostî"><i>mirovdost</i><par n="piran/î__n_f"/></e>
@@ -11085,7 +11093,6 @@
       <e lm="xişt"><i>xişt</i><par n="jin__n_f"/></e>
       <e lm="xişxiş"><i>xişxiş</i><par n="jin__n_f"/></e>
       <e lm="xişîmî"><i>xişîm</i><par n="piran/î__n_f"/></e>
-      <e lm="xo"><i>xo</i><par n="nîvro__n_f"/></e>
       <e lm="xof"><i>xof</i><par n="jin__n_f"/></e>
       <e lm="xof û tirs"><i>xof û tirs</i><par n="jin__n_f"/></e>
       <e lm="xok"><i>xok</i><par n="jin__n_f"/></e>
@@ -12236,12 +12243,16 @@
     <e lm="DAIŞ"><p><l>DAÎŞ</l><r>DAIŞ</r></p><par n="YNK__n"/></e>
     <e lm="PYD"><i>PYD</i><par n="YNK__n"/></e>
     <e lm="YNK"><i>YNK</i><par n="YNK__n"/></e>
+    <e lm="YPG"><i>YPG</i><par n="YNK__n"/></e>
     <e lm="PKK"><i>PKK</i><par n="YNK__n"/></e>
     <e lm="BDP"><i>BDP</i><par n="YNK__n"/></e>
     <e lm="ENKS"><i>ENKS</i><par n="YNK__n"/></e>
     <e lm="HDP"><i>HDP</i><par n="YNK__n"/></e>
 
     <!-- SECTION: Proper nouns -->
+    <e lm="Pêşmerge"><i>Pêşmerge</i><par n="Rûdaw__np"/></e>
+    <e lm="Pêşmerge" r="LR"><p><l>pêşmerge</l><r>Pêşmerge</r></p><par n="Rûdaw__np"/></e>
+    <e lm="Rûdaw"><i>Rûdaw</i><par n="Rûdaw__np"/></e>
     <e lm="Serdeşt"><i>Serdeşt</i><par n="Kurdistan__np"/></e>
     <e lm="Farqîn"><i>Farqîn</i><par n="Kurdistan__np"/></e>
     <e lm="Efrîn"><i>Efrîn</i><par n="Kurdistan__np"/></e>
@@ -12251,6 +12262,7 @@
     <e lm="Amerîka"><i>Amerîka</i><par n="Bexda__np"/></e>
     <e lm="Îsa"><i>Îsa</i><par n="Salih__np"/></e>
     <e lm="Bedirxan"><i>Bedirxan</i><par n="Salih__np"/></e>
+    <e lm="Ocalan"><i>Ocalan</i><par n="Salih__np"/></e>
     <e lm="Îraq"><i>Îraq</i><par n="Kurdistan__np"/></e>
     <e lm="Ehmed"><i>Ehmed</i><par n="Salih__np"/></e>
     <e lm="Almanya"><i>Almanya</i><par n="Bexda__np"/></e>
@@ -12321,6 +12333,9 @@
     <!-- SECTION: Adjectives -->
 
     <!-- new comparables -->
+    <e lm="îngilîzî"><i>îngilîzî</i><par n="nû__adj"/></e>
+    <e lm="erebî"><i>erebî</i><par n="nû__adj"/></e>
+    <e lm="taybet"><i>taybe</i><par n="pêwis/t__adj"/></e>
     <e lm="dewlemend"><i>dewlemend</i><par n="nû__adj"/></e>
     <e lm="reş"><i>reş</i><par n="nû__adj"/></e>
     <e lm="cuda"><i>cuda</i><par n="nû__adj"/></e>
@@ -12393,6 +12408,10 @@
     <e lm="rewa"><i>rewa</i><par n="kurdî__adj"/></e>
 
     <!-- SECTION: Adverb entries -->
+    <e lm="herwiha"><i>herwiha</i><par n="niha__adv"/></e>
+    <e lm="herwisa"><i>herwisa</i><par n="niha__adv"/></e>
+    <e lm="wisa"><i>wisa</i><par n="niha__adv"/></e>
+    <e lm="wir"><i>wir</i><par n="niha__adv"/></e>
     <e lm="nêzî"><i>nêzî</i><par n="niha__adv"/></e>
     <e lm="hê"><i>hê</i><par n="niha__adv"/></e>
     <e lm="çend"><i>çend</i><par n="niha__adv"/></e>
