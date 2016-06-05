@@ -360,7 +360,28 @@
       <e><p><l>eyî</l><r>e<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><s n="dem"/></r></p></e>
       <e><p><l>eyan</l><r>e<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><s n="dem"/></r></p></e>
       </pardef>
-
+      
+      <pardef n="rû/__n_m">
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><s n="def"/></r></p></e>
+      <e><p><l>yê</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="con"/><s n="def"/></r></p></e>
+          <e r="LR"><p><l>yê</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="con"/><s n="def"/></r></p></e>
+      <e><p><l>yo</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="voc"/><s n="def"/></r></p></e>
+      <e><p><l>yek</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e><p><l>yeke</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><s n="ind"/></r></p></e>
+      <e><p><l>yekî</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="con"/><s n="ind"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
+      <e><p><l>yan</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><s n="def"/></r></p></e>
+      <e><p><l>yên</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="con"/><s n="def"/></r></p></e>
+          <e r="LR"><p><l>ên</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="con"/><s n="def"/></r></p></e>
+      <e><p><l>yên</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="voc"/><s n="def"/></r></p></e>
+      <e><p><l>yin</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e><p><l>yinan</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><s n="ind"/></r></p></e>
+      <e><p><l>yine</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="con"/><s n="ind"/></r></p></e>
+      <e><p><l>yî</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><s n="dem"/></r></p></e>
+      <e><p><l>yan</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><s n="dem"/></r></p></e>
+      </pardef>
+      
       <pardef n="çiy/a__n_m">
       <e><p><l>a</l><r>a<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
       <e><p><l>aye</l><r>a<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><s n="def"/></r></p></e>
@@ -647,6 +668,25 @@
       <e><p><l>an</l><r>e<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="obl"/><s n="dem"/></r></p></e>
     </pardef>
 
+    <pardef n="Licê/__np">
+      <e><p><l></l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
+      <e><p><l>yê</l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="obl"/><s n="def"/></r></p></e>
+      <e><p><l>ya</l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="con"/><s n="def"/></r></p></e>
+      <e><p><l>yê</l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="voc"/><s n="def"/></r></p></e>
+      <e><p><l>yek</l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e><p><l>yekê</l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="obl"/><s n="ind"/></r></p></e>
+      <e><p><l>yeke</l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="con"/><s n="ind"/></r></p></e>
+      <e><p><l>ye</l><r><s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
+      <e><p><l>yên</l><r><s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="obl"/><s n="def"/></r></p></e>
+      <e><p><l>yan</l><r><s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="con"/><s n="def"/></r></p></e>
+      <e><p><l>yên</l><r><s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="voc"/><s n="def"/></r></p></e>
+      <e><p><l>yin</l><r><s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e><p><l>yinan</l><r><s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="obl"/><s n="ind"/></r></p></e>
+      <e><p><l>yine</l><r><s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="con"/><s n="ind"/></r></p></e>
+      <e><p><l>yê</l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="obl"/><s n="dem"/></r></p></e>
+      <e><p><l>eyê</l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="obl"/><s n="dem"/></r></p></e>
+      <e><p><l>an</l><r><s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="obl"/><s n="dem"/></r></p></e>
+    </pardef>
     <pardef n="Salih__np">
       <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>ê</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
@@ -992,6 +1032,8 @@
     <e lm="yan"><i>yan</i><par n="û__cnjcoo"/></e>
     <e lm="an"><i>an</i><par n="û__cnjcoo"/></e>
 
+
+    <e lm="lewra"><i>lewra</i><par n="gelo__cnjsub"/></e>
     <e lm="hem"><i>hem</i><par n="gelo__cnjsub"/></e>
     <e lm="gelo"><i>gelo</i><par n="gelo__cnjsub"/></e>
     <e lm="berî"><i>berî</i><par n="gelo__cnjsub"/></e>
@@ -1026,6 +1068,7 @@
     <e lm="heke"><i>heke</i><par n="gelo__cnjsub"/></e>
 
     <!-- SECTION: Prepositions -->
+    <e lm="digel"><i>digel</i><par n="ba__pr"/></e> 
     <e lm="jê"><i>jê</i><par n="ba__pr"/></e> 
     <e lm="derbarê"><i>derbarê</i><par n="ba__pr"/></e>   
     <e lm="navbera"><i>navbera</i><par n="ba__pr"/></e>   
@@ -1194,6 +1237,10 @@
 
     
     <!-- New Masculines -->
+    <e lm="rû"><i>r</i><par n ="rû/__n_m"/></e>
+    <e lm="fizîk"><p><l>fîzîk</l><r>fizîk</r></p><par n="mirov__n_m"/></e>
+    <e lm="fizîk"><i>fizîk</i><par n="mirov__n_m"/></e>
+    <e lm="derve"><i>derv</i><par n ="perç/e__n"/></e>
     <e lm="awa"><i>aw</i><par n ="çiy/a__n_m"/></e>
     <e lm="esl"><i>esl</i><par n="mirov__n_m"/></e>
     <e lm="zarok"><i>zarok</i><par n="mirov__n_m"/></e>
@@ -2509,8 +2556,6 @@
       <e lm="rêzefilm"><i>rêzefilm</i><par n="mirov__n_m"/></e>
       <e lm="rîs"><i>rîs</i><par n="mirov__n_m"/></e>
       <e lm="rîtm"><i>rîtm</i><par n="mirov__n_m"/></e>
-      <e lm="rû"><i>rû</i><par n="mirov__n_m"/></e>
-      <e lm="rû"><i>rû</i><par n="mirov__n_m"/></e>
       <e lm="rûbar"><i>rûbar</i><par n="mirov__n_m"/></e>
       <e lm="rûdêm"><i>rûdêm</i><par n="mirov__n_m"/></e>
       <e lm="rûl"><i>rûl</i><par n="mirov__n_m"/></e>
@@ -12276,6 +12321,7 @@
     <e lm="HDP"><i>HDP</i><par n="YNK__n"/></e>
 
     <!-- SECTION: Proper nouns -->
+    <e lm="Licê"><i>Licê</i><par n="Licê/__np"/></e>
     <e lm="Seqiz"><i>Seqiz</i><par n="Kurdistan__np"/></e>
     <e lm="Riha"><i>Riha</i><par n="Bexda__np"/></e>
     <e lm="Pêşmerge"><i>Pêşmerge</i><par n="Rûdaw__np"/></e>
@@ -12361,6 +12407,7 @@
     <!-- SECTION: Adjectives -->
 
     <!-- new comparables -->
+    <e lm="derve"><i>derve</i><par n="nû__adj"/></e>
     <e lm="çê"><i>çê</i><par n="nû__adj"/></e>
     <e lm="romî"><i>romî</i><par n="nû__adj"/></e>
     <e lm="olî"><i>olî</i><par n="nû__adj"/></e>
@@ -12387,6 +12434,7 @@
     <e lm="pirr"><i>pirr</i><par n="nû__adj"/></e>
     
     <!-- new non-comparables -->
+    <e lm="pêşîn"><i>pêşîn</i><par n="kurdî__adj"/></e>
     <e lm="fransî"><i>fransî</i><par n="kurdî__adj"/></e>
     <e lm="leşkerî"><i>leşkerî</i><par n="kurdî__adj"/></e>
     <e lm="civakî"><i>civakî</i><par n="kurdî__adj"/></e>
