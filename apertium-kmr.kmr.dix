@@ -995,8 +995,8 @@
         <e><p><l>werin</l><r><s n="vblex"/><s n="iv"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
 
-    <pardef n="/anîn__vblex_iv">
-
+    <pardef n="/anîn__vblex_tv">
+		<e><p><l>tînim</l><r><s n="vblex"/></r></p></e>
     </pardef>
 
 
