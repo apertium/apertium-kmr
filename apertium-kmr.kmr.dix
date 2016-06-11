@@ -76,7 +76,6 @@
     <sdef n="quot"      c="Quote"/>
     <sdef n="guio" 	c="Hyphen"/>    
     <sdef n="cm"   	c="Comma"/>    
-    <sdef n="sent"    c="End-of-sentence marker"/>
   </sdefs>
 
   <pardefs>
@@ -100,9 +99,9 @@
       <e><re>,</re><p><l></l><r><s n="cm"/></r></p></e>
     </pardef>
   
-    <pardef n="separa">
+<!--    <pardef n="separa">
       <e><re>[.\?;:!…"]+</re><p><l></l><r><s n="sent"/></r></p></e>
-    </pardef>
+    </pardef> -->
   
     <pardef n="quotes">
       <e><re>[«“]+</re><p><l></l><r><s n="lquot"/></r></p></e>
@@ -233,7 +232,7 @@
 
     <!-- SECTION: Pronouns -->
 
-    <pardef n="çi__prn">
+    <pardef n="çi__prn_itg">
       <e><p><l></l><r><s n="prn"/><s n="itg"/></r></p></e>
     </pardef>
 
@@ -290,7 +289,7 @@
       <e><p><l/><r><s n="prn"/><s n="rel"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
 
-    <pardef n="çi__prn">
+    <pardef n="çi__prn_rel">
       <e><p><l/><r><s n="prn"/><s n="rel"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
 
@@ -1000,9 +999,6 @@
     </pardef>
 
 
-    <e r="LR"><p><l>br</l><r></r></p></e>
-    <e r="LR"><p><l>z</l><r></r></p></e>
-
     <!-- SECTION: Adverbs -->
     
     <pardef n="niha__adv">
@@ -1127,7 +1123,7 @@
     <e lm="hev"><i>hev</i><par n="xwe__prn"/></e>
     <e lm="ku"><i>ku</i><par n="ku__prn"/></e>
     <e lm="ku" r="LR"><p><l>ko</l><r>ku</r></p><par n="ku__prn"/></e>
-    <e lm="çi"><i>çi</i><par n="çi__prn"/></e>
+    <e lm="çi"><i>çi</i><par n="çi__prn_itg"/></e>
     <!-- SECTION: Determiners -->
 
     <e lm="ev"><i></i><par n="/ev__det"/></e>
@@ -12545,6 +12541,8 @@
     <e lm="êdî"><i>êdî</i><par n="niha__adv"/></e>
     <!-- SECTION: Verbs -->
 
+
+    <e lm="anîn"><i/><par n="/anîn__vblex_tv"/></e>
 
     <e lm="bûn"><i/><par n="/bûn__vbcop"/></e>
     <e lm="hebûn"><p><l></l><r>hebûn</r></p><par n="/hebûn__vbhaver"/></e>
