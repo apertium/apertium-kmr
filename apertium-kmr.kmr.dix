@@ -995,7 +995,27 @@
     </pardef>
 
     <pardef n="/anîn__vblex_tv">
-		<e><p><l>tînim</l><r><s n="vblex"/></r></p></e>
+<!-- add infinitives -->
+		<e><p><l>anîn</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
+		<e><p><l>anî</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+		<e><p><l>anî<b/>bû</l><r><s n="vblex"/><s n="tv"/><s n="plu"/><s n="p3"/><s n="sg"/></r></p></e>
+		<e><p><l>anî<b/>bûn</l><r><s n="vblex"/><s n="tv"/><s n="plu"/><s n="p1"/><s n="pl"/></r></p></e>
+		<e><p><l>anî<b/>bûn</l><r><s n="vblex"/><s n="tv"/><s n="plu"/><s n="p2"/><s n="pl"/></r></p></e>
+		<e><p><l>anî<b/>bûn</l><r><s n="vblex"/><s n="tv"/><s n="plu"/><s n="p3"/><s n="pl"/></r></p></e>
+		<e><p><l>anî<b/>bûyî</l><r><s n="vblex"/><s n="tv"/><s n="plu"/><s n="p2"/><s n="sg"/></r></p></e>
+		<e><p><l>anî<b/>bûm</l><r><s n="vblex"/><s n="tv"/><s n="plu"/><s n="p1"/><s n="sg"/></r></p></e>
+		<e><p><l>tînim</l><r><s n="vblex"/><s n="tv"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+		<e><p><l>tînî</l><r><s n="vblex"/><s n="tv"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+		<e><p><l>tîne</l><r><s n="vblex"/><s n="tv"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+		<e><p><l>tînin</l><r><s n="vblex"/><s n="tv"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+		<e><p><l>tînin</l><r><s n="vblex"/><s n="tv"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+		<e><p><l>tînin</l><r><s n="vblex"/><s n="tv"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+		<e><p><l>naynim</l><r><s n="vblex"/><s n="tv"/><s n="neg"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+		<e><p><l>naynî</l><r><s n="vblex"/><s n="tv"/><s n="neg"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+		<e><p><l>nayne</l><r><s n="vblex"/><s n="tv"/><s n="neg"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+		<e><p><l>naynin</l><r><s n="vblex"/><s n="tv"/><s n="neg"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+		<e><p><l>naynin</l><r><s n="vblex"/><s n="tv"/><s n="neg"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+		<e><p><l>naynin</l><r><s n="vblex"/><s n="tv"/><s n="neg"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
 
 
@@ -12542,7 +12562,7 @@
     <!-- SECTION: Verbs -->
 
 
-    <e lm="anîn"><i/><par n="/anîn__vblex_tv"/></e>
+    <e lm="anîn"><p><l></l><r>anîn</r></p><par n="/anîn__vblex_tv"/></e>
 
     <e lm="bûn"><i/><par n="/bûn__vbcop"/></e>
     <e lm="hebûn"><p><l></l><r>hebûn</r></p><par n="/hebûn__vbhaver"/></e>
@@ -12689,7 +12709,14 @@
     <!-- karîn; ; kar; kar -->
     <e lm="karîn"><p><l>dikar</l><r>karîn</r></p><par n="dik/e__vblex_tv"/></e>
     <e lm="karîn"><p><l>kar</l><r>karîn</r></p><par n="dik/e__vblex_tv"/></e>
-    
+
+    <!-- anîn type LVCs -->
+    <e lm="bikaranîn"><p><l>bikar</l><r>bikaranîn</r></p><par n="/anîn__vblex_tv"/></e>
+    <e lm="bikaranîn" r="LR"><p><l>bi<b/>kar</l><r>bikaranîn</r></p><par n="/anîn__vblex_tv"/></e>
+    <e lm="bikaranîn" r="LR"><p><l>bi<b/>kar<b/></l><r>bikaranîn</r></p><par n="/anîn__vblex_tv"/></e>
+    <e lm="bikaranîn" r="LR"><p><l>bikar<b/></l><r>bikaranîn</r></p><par n="/anîn__vblex_tv"/></e>
+
+
     <!-- ketin type LVCs -->
     <!-- derketin; ; derket; der..kev -->
     <e lm="derketin"><p><l>derket</l><r>derketin</r></p><par n="kir/__vblex_tv"/></e>
