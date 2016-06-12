@@ -1084,6 +1084,7 @@
     <e lm="heke"><i>heke</i><par n="gelo__cnjsub"/></e>
 
     <!-- SECTION: Prepositions -->
+    <e lm="ji bona ku"><i>ji<b/>bona<b/>ku</i><par n="ba__pr"/></e>
     <e lm="digel"><i>digel</i><par n="ba__pr"/></e> 
     <e lm="jê"><i>jê</i><par n="ba__pr"/></e> 
     <e lm="derbarê"><i>derbarê</i><par n="ba__pr"/></e>   
@@ -1187,6 +1188,7 @@
     <!-- SECTION: Nouns -->
 
     <!-- New Feminines -->
+    <e lm="Dr"><i>Dr</i><par n="jin__n_f"/></e>
     <e lm="fransî"><i>frans</i><par n="piran/î__n_f"/></e>
     <e lm="pêjgeh"><i>pêjgeh</i><par n="jin__n_f"/></e>
     <e lm="derbas"><i>derbas</i><par n="jin__n_f"/></e>
@@ -1253,7 +1255,12 @@
 
     
     <!-- New Masculines -->
-    <e lm="rû"><i>r</i><par n ="rû/__n_m"/></e>
+    <e lm="Dr"><i>Dr</i><par n="mirov__n_m"/></e>
+    <e lm="misilman"><i>misilman</i><par n="mirov__n_m"/></e>
+    <e lm="bira"><i>bir</i><par n ="çiy/a__n_m"/></e>
+    <e lm="TV"><i>TV</i><par n="mirov__n_m"/></e>
+    <e lm="cm"><i>cm</i><par n="mirov__n_m"/></e>
+    <e lm="rû"><i>rû</i><par n ="rû/__n_m"/></e>
     <e lm="fizîk"><p><l>fîzîk</l><r>fizîk</r></p><par n="mirov__n_m"/></e>
     <e lm="fizîk"><i>fizîk</i><par n="mirov__n_m"/></e>
     <e lm="derve"><i>derv</i><par n ="perç/e__n"/></e>
@@ -12337,6 +12344,8 @@
     <e lm="HDP"><i>HDP</i><par n="YNK__n"/></e>
 
     <!-- SECTION: Proper nouns -->
+    <e lm="Rom"><i>Rom</i><par n="Kurdistan__np"/></e>
+    <e lm="Dêrika"><i>Dêrika</i><par n="Bexda__np"/></e>
     <e lm="Licê"><i>Licê</i><par n="Licê/__np"/></e>
     <e lm="Seqiz"><i>Seqiz</i><par n="Kurdistan__np"/></e>
     <e lm="Riha"><i>Riha</i><par n="Bexda__np"/></e>
@@ -12450,6 +12459,7 @@
     <e lm="pirr"><i>pirr</i><par n="nû__adj"/></e>
     
     <!-- new non-comparables -->
+    <e lm="duyem"><i>duyem</i><par n="kurdî__adj"/></e>
     <e lm="pêşîn"><i>pêşîn</i><par n="kurdî__adj"/></e>
     <e lm="fransî"><i>fransî</i><par n="kurdî__adj"/></e>
     <e lm="leşkerî"><i>leşkerî</i><par n="kurdî__adj"/></e>
@@ -12511,6 +12521,7 @@
     <e lm="rewa"><i>rewa</i><par n="kurdî__adj"/></e>
 
     <!-- SECTION: Adverb entries -->
+    <e lm="tev"><i>tev</i><par n="niha__adv"/></e>
     <e lm="çawa"><i>çawa</i><par n="niha__adv"/></e>
     <e lm="herwiha"><i>herwiha</i><par n="niha__adv"/></e>
     <e lm="herwisa"><i>herwisa</i><par n="niha__adv"/></e>
