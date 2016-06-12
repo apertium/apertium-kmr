@@ -1189,6 +1189,13 @@
     <!-- SECTION: Nouns -->
 
     <!-- New Feminines -->
+    <e lm="înternet"><i>înternet</i><par n="jin__n_f"/></e>
+    <e lm="Alman"><i>Alman</i><par n="jin__n_f"/></e>
+    <e lm="Quran"><i>Quran</i><par n="jin__n_f"/></e>
+    <e lm="polîtîk"><i>polîtîk</i><par n="jin__n_f"/></e>
+    <e lm="gundî"><i>gund</i><par n="piran/î__n_f"/></e>
+    <e lm="farsî"><i>fars</i><par n="piran/î__n_f"/></e>
+    <e lm="kirmanckî"><i>kirmanck</i><par n="piran/î__n_f"/></e>
     <e lm="îranî"><i>îran</i><par n="piran/î__n_f"/></e>
     <e lm="federedewlet"><i>federedewlet</i><par n="jin__n_f"/></e>
     <e lm="radyo"><i>rady</i><par n ="nîvro__n_f"/></e>
@@ -1286,6 +1293,13 @@
 
     
     <!-- New Masculines -->
+    <e lm="Alman"><i>Alman</i><par n="mirov__n_m"/></e>
+    <e lm="swêdî"><i>swêd</i><par n="xan/î__n_m"/></e>
+    <e lm="îmam"><i>îmam</i><par n="mirov__n_m"/></e>
+    <e lm="xalk"><i>xalk</i><par n="mirov__n_m"/></e>
+    <e lm="gundî"><i>gund</i><par n="xan/î__n_m"/></e>
+    <e lm="Pêxember"><i>Pêxember</i><par n="mirov__n_m"/></e>
+    <e lm="îtalî"><i>îtal</i><par n="xan/î__n_m"/></e>
     <e lm="îranî"><i>îran</i><par n="xan/î__n_m"/></e>
     <e lm="çînî"><i>çîn</i><par n="xan/î__n_m"/></e>
     <e lm="Soranî"><i>Soran</i><par n="xan/î__n_m"/></e>
@@ -11667,6 +11681,7 @@
       <e lm="Îrlenda"><i>Îrlenda</i><par n="nîvro__n_f"/></e>
       <e lm="Îskenderûn"><i>Îskenderûn</i><par n="jin__n_f"/></e>
       <e lm="Îslam"><i>Îslam</i><par n="jin__n_f"/></e>
+      <e lm="Îslam"><p><l>îslam</l><r>Îslam</r></p><par n="jin__n_f"/></e>
       <e lm="Îtalya"><i>Îtalya</i><par n="nîvro__n_f"/></e>
       <e lm="Îzlenda"><i>Îzlenda</i><par n="nîvro__n_f"/></e>
       <e lm="Îştar"><i>Îştar</i><par n="jin__n_f"/></e>
@@ -12404,6 +12419,61 @@
     <e lm="HDP"><i>HDP</i><par n="YNK__n"/></e>
 
     <!-- SECTION: Proper nouns -->
+    <e lm="Adem"><i>Adem</i><par n="Salih__np"/></e>
+    <e lm="Charles"><i>Charles</i><par n="Salih__np"/></e>
+    <e lm="Mehmed"><i>Mehmed</i><par n="Salih__np"/></e>
+    <e lm="George"><i>George</i><par n="Salih__np"/></e>
+    <e lm="Tehran"><i>Tehran</i><par n="Kurdistan__np"/></e>
+    <e lm="Îsmaîl"><i>Îsmaîl</i><par n="Salih__np"/></e>
+    <e lm="Mûsil"><i>Mûsil</i><par n="Kurdistan__np"/></e>
+    <e lm="Gever"><i>Gever</i><par n="Kurdistan__np"/></e>
+    <e lm="Paul"><i>Paul</i><par n="Salih__np"/></e>
+    <e lm="Seyîd"><i>Seyîd</i><par n="Salih__np"/></e>
+    <e lm="Spanya"><i>Spanya</i><par n="Bexda__np"/></e>
+    <e lm="William"><i>William</i><par n="Salih__np"/></e>
+    <e lm="Yûsif"><i>Yûsif</i><par n="Salih__np"/></e>
+    <e lm="Reşîd"><i>Reşîd</i><par n="Salih__np"/></e>
+    <e lm="Mezopotamya"><i>Mezopotamya</i><par n="Bexda__np"/></e>
+    <e lm="Atatürk"><i>Atatürk</i><par n="Salih__np"/></e>
+    <e lm="Mehmûd"><i>Mehmûd</i><par n="Salih__np"/></e>
+    <e lm="Mustafa"><i>Mustafa</i><par n="Salih__np"/></e>
+    <e lm="Îtalya"><i>Îtalya</i><par n="Bexda__np"/></e>
+    <e lm="Xorasan"><i>Xorasan</i><par n="Kurdistan__np"/></e>
+    <e lm="Qers"><i>Qers</i><par n="Kurdistan__np"/></e>
+    <e lm="Dîcle"><i>Dîcl</i><par n="Tirkiy/e__np"/></e>
+    <e lm="Stembol"><i>Stembol</i><par n="Kurdistan__np"/></e>
+    <e lm="Aydin"><i>Aydin</i><par n="Kurdistan__np"/></e>
+    <e lm="Dêrik"><i>Dêrik</i><par n="Kurdistan__np"/></e>
+    <e lm="Abdullah"><i>Abdullah</i><par n="Salih__np"/></e>
+    <e lm="Nisêbîn"><i>Nisêbîn</i><par n="Kurdistan__np"/></e>
+    <e lm="Cemîl"><i>Cemîl</i><par n="Salih__np"/></e>
+    <e lm="Misir"><i>Misir</i><par n="Kurdistan__np"/></e>
+    <e lm="Êlih"><i>Êlih</i><par n="Kurdistan__np"/></e>
+    <e lm="Mûsa"><i>Mûsa</i><par n="Salih__np"/></e>
+    <e lm="Zaxo"><i>Zaxo</i><par n="Salih__np"/></e>
+    <e lm="Zerdeşt"><i>Zerdeşt</i><par n="Salih__np"/></e>
+    <e lm="Xalid"><i>Xalid</i><par n="Salih__np"/></e>
+    <e lm="Brîtanya"><i>Brîtanya</i><par n="Bexda__np"/></e>
+    <e lm="Mehabad"><i>Mehabad</i><par n="Kurdistan__np"/></e>
+    <e lm="Azerbaycan"><i>Azerbaycan</i><par n="Kurdistan__np"/></e>
+    <e lm="Xelîl"><i>Xelîl</i><par n="Salih__np"/></e>
+    <e lm="Celadet"><i>Celadet</i><par n="Salih__np"/></e>
+    <e lm="Afrîka"><i>Afrîka</i><par n="Bexda__np"/></e>
+    <e lm="Silêman"><i>Silêman</i><par n="Salih__np"/></e>
+    <e lm="John"><i>John</i><par n="Salih__np"/></e>
+    <e lm="Batman"><i>Batman</i><par n="Kurdistan__np"/></e>
+    <e lm="Cizîr"><i>Cizîr</i><par n="Kurdistan__np"/></e>
+    <e lm="Mistefa"><i>Mistefa</i><par n="Salih__np"/></e>
+    <e lm="Şam"><i>Şam</i><par n="Kurdistan__np"/></e>
+    <e lm="Bidlîs"><i>Bidlîs</i><par n="Kurdistan__np"/></e>
+    <e lm="Erzîngan"><i>Erzîngan</i><par n="Kurdistan__np"/></e>
+    <e lm="Ahmet"><i>Ahmet</i><par n="Salih__np"/></e>
+    <e lm="Bismil"><i>Bismil</i><par n="Kurdistan__np"/></e>
+    <e lm="Ibn"><i>Ibn</i><par n="Salih__np"/></e>
+    <e lm="Mehmet"><i>Mehmet</i><par n="Salih__np"/></e>
+    <e lm="Duhok"><i>Duhok</i><par n="Kurdistan__np"/></e>
+    <e lm="Sêwas"><i>Sêwas</i><par n="Kurdistan__np"/></e>
+    <e lm="Seîd"><i>Seîd</i><par n="Salih__np"/></e>
     <e lm="Parîs"><i>Parîs</i><par n="Kurdistan__np"/></e>
     <e lm="Berlîn"><i>Berlîn</i><par n="Kurdistan__np"/></e>
     <e lm="London"><i>London</i><par n="Kurdistan__np"/></e>
@@ -12437,6 +12507,7 @@
     <e lm="Dîlok"><i>Dîlok</i><par n="Kurdistan__np"/></e>
     <e lm="Adiyemanê"><i>Adiyemanê</i><par n="Licê/__np"/></e>
     <e lm="Colemêrg"><i>Colemêrg</i><par n="Kurdistan__np"/></e>
+    <e lm="Colemêrg"><p><l>Colemêrg</l><r>Culemêrg</r></p><par n="Kurdistan__np"/></e>
     <e lm="Rom"><i>Rom</i><par n="Kurdistan__np"/></e>
     <e lm="Dêrika"><i>Dêrika</i><par n="Bexda__np"/></e>
     <e lm="Licê"><i>Licê</i><par n="Licê/__np"/></e>
@@ -12526,6 +12597,11 @@
     <!-- SECTION: Adjectives -->
 
     <!-- new comparables -->
+    <e lm="rojavayî"><i>rojavayî</i><par n="nû__adj"/></e>
+    <e lm="swêdî"><i>swêdî</i><par n="nû__adj"/></e>
+    <e lm="Îslamî"><i>Îslamî</i><par n="nû__adj"/></e>
+    <e lm="ewropî"><i>ewropî</i><par n="nû__adj"/></e>
+    <e lm="îtalî"><i>îtalî</i><par n="nû__adj"/></e>
     <e lm="grekî"><i>grekî</i><par n="nû__adj"/></e>
     <e lm="amerîkî"><i>amerîkî</i><par n="nû__adj"/></e>
     <e lm="kedî"><i>kedî</i><par n="nû__adj"/></e>
@@ -12546,6 +12622,7 @@
     <e lm="zanistî"><i>zanistî</i><par n="nû__adj"/></e>
     <e lm="navendî"><i>navend</i><par n="navend/î__adj"/></e>
     <e lm="îngilîzî"><i>îngilîzî</i><par n="nû__adj"/></e>
+    <e lm="îngilîzî"><p><l>îngilîzî</l><r>înglîzî</r></p><par n="nû__adj"/></e>
     <e lm="erebî"><i>erebî</i><par n="nû__adj"/></e>
     <e lm="taybet"><i>taybe</i><par n="pêwis/t__adj"/></e>
     <e lm="dewlemend"><i>dewlemend</i><par n="nû__adj"/></e>
@@ -13699,6 +13776,7 @@
     <e lm="rizgarkirin"><i>rizgarkirin</i><par n="jin__n_f"/></e>
     <e lm="ro"><i>ro</i><par n="jin__n_f"/></e>
     <e lm="rojhilat"><i>rojhilat</i><par n="jin__n_f"/></e>
+    <e lm="rojhilat"><p><l>rojhelat</l><r>rojhilat</r></p><par n="jin__n_f"/></e>
     <e lm="rol"><i>rol</i><par n="jin__n_f"/></e>
     <e lm="roman"><i>roman</i><par n="jin__n_f"/></e>
     <e lm="rondik"><i>rondik</i><par n="jin__n_f"/></e>
