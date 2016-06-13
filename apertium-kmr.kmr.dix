@@ -1243,6 +1243,7 @@
     <e lm="derbas"><i>derbas</i><par n="jin__n_f"/></e>
     <e lm="PDK"><i>PDK</i><par n="YNK__n"/></e>
     <e lm="îngilîzî"><i>îngilîz</i><par n="piran/î__n_f"/></e>
+    <e lm="îngilîzî" r="LR"><p><l>îngilîz</l><r>îngîlîz</r></p><par n="piran/î__n_f"/></e>
     <e lm="encamdan"><i>encamdan</i><par n="jin__n_f"/></e>
     <e lm="zarok"><i>zarok</i><par n="jin__n_f"/></e>
     <e lm="hîn"><i>hîn</i><par n="jin__n_f"/></e>
@@ -1304,6 +1305,8 @@
 
     
     <!-- New Masculines -->
+    <e lm="Sultan"><i>Sultan</i><par n="mirov__n_m"/></e>
+    <e lm="Caesar"><i>Caesar</i><par n="mirov__n_m"/></e>
     <e lm="Efendî"><i>Efend</i><par n="xan/î__n_m"/></e>
     <e lm="hevpar"><i>hevpar</i><par n="mirov__n_m"/></e>
     <e lm="suryanî"><i>suryan</i><par n="xan/î__n_m"/></e>
@@ -1322,12 +1325,14 @@
     <e lm="gundî"><i>gund</i><par n="xan/î__n_m"/></e>
     <e lm="Pêxember"><i>Pêxember</i><par n="mirov__n_m"/></e>
     <e lm="Pêxember"><p><l>pêxember</l><r>Pêxember</r></p><par n="mirov__n_m"/></e>
+    <e lm="Pêxember"><p><l>Pêximber</l><r>Pêxember</r></p><par n="mirov__n_m"/></e>
 
     <e lm="îtalî"><i>îtal</i><par n="xan/î__n_m"/></e>
     <e lm="îranî"><i>îran</i><par n="xan/î__n_m"/></e>
     <e lm="çînî"><i>çîn</i><par n="xan/î__n_m"/></e>
     <e lm="Soranî"><i>Soran</i><par n="xan/î__n_m"/></e>
     <e lm="Soranî"><p><l>soran</l><r>Soran</r></p><par n="xan/î__n_m"/></e>
+    <e lm="Hewramî"><p><l>hewram</l><r>Hewram</r></p><par n="xan/î__n_m"/></e>
     <e lm="sivîl"><i>sivîl</i><par n="mirov__n_m"/></e>
     <e lm="şafîî"><i>şafî</i><par n="xan/î__n_m"/></e>
     <e lm="matematîk"><i>matematîk</i><par n="mirov__n_m"/></e>
@@ -12445,6 +12450,50 @@
     <e lm="HDP"><i>HDP</i><par n="YNK__n"/></e>
 
     <!-- SECTION: Proper nouns -->
+    <e lm="Henry"><i>Henry</i><par n="Salih__np"/></e>
+    <e lm="Îhsan"><i>Îhsan</i><par n="Salih__np"/></e>
+    <e lm="Îsraîl"><i>Îsraîl</i><par n="Kurdistan__np"/></e>
+    <e lm="Michael"><i>Michael</i><par n="Salih__np"/></e>
+    <e lm="Mirad"><i>Mirad</i><par n="Salih__np"/></e>
+    <e lm="Washington"><i>Washington</i><par n="Kurdistan__np"/></e>
+    <e lm="Kanada"><i>Kanada</i><par n="Bexda__np"/></e>
+    <e lm="Zengî"><i>Zeng</i><par n="Barzan/î__np"/></e>
+    <e lm="Afrin"><i>Afrin</i><par n="Kurdistan__np"/></e>
+    <e lm="Aslan"><i>Aslan</i><par n="Salih__np"/></e>
+    <e lm="Kilîs"><i>Kilîs</i><par n="Kurdistan__np"/></e>
+    <e lm="Polonya"><i>Polonya</i><par n="Bexda__np"/></e>
+    <e lm="Îskender"><i>Îskender</i><par n="Salih__np"/></e>
+    <e lm="Yigit"><i>Yigit</i><par n="Salih__np"/></e>
+    <e lm="Eyûbî"><i>Eyûb</i><par n="Barzan/î__np"/></e>
+    <e lm="Deniz"><i>Deniz</i><par n="Salih__np"/></e>
+    <e lm="Omer"><i>Omer</i><par n="Salih__np"/></e>
+    <e lm="Kawa"><i>Kawa</i><par n="Salih__np"/></e>
+    <e lm="Kevin"><i>Kevin</i><par n="Salih__np"/></e>
+    <e lm="Lîtvanya"><i>Lîtvanya</i><par n="Bexda__np"/></e>
+    <e lm="Lenîn"><i>Lenîn</i><par n="Salih__np"/></e>
+    <e lm="Richard"><i>Richard</i><par n="Salih__np"/></e>
+    <e lm="Îsrael"><i>Îsrael</i><par n="Kurdistan__np"/></e>
+    <e lm="Şerîf"><i>Şerîf</i><par n="Salih__np"/></e>
+    <e lm="Platon"><i>Platon</i><par n="Salih__np"/></e>
+    <e lm="Friedrich"><i>Friedrich</i><par n="Salih__np"/></e>
+    <e lm="Sigmund"><i>Sigmund</i><par n="Salih__np"/></e>
+    <e lm="Nûredîn"><i>Nûredîn</i><par n="Salih__np"/></e>
+    <e lm="Ezîz"><i>Ezîz</i><par n="Salih__np"/></e>
+    <e lm="Qadir"><i>Qadir</i><par n="Salih__np"/></e>
+    <e lm="Ziya"><i>Ziya</i><par n="Salih__np"/></e>
+    <e lm="Joseph"><i>Joseph</i><par n="Salih__np"/></e>
+    <e lm="Kerîm"><i>Kerîm</i><par n="Salih__np"/></e>
+    <e lm="Sedam"><i>Sedam</i><par n="Salih__np"/></e>
+    <e lm="David"><i>David</i><par n="Salih__np"/></e>
+    <e lm="Abdusamet"><i>Abdusamet</i><par n="Salih__np"/></e>
+    <e lm="Çêxov"><i>Çêxov</i><par n="Salih__np"/></e>
+    <e lm="Muhammed"><i>Muhammed</i><par n="Salih__np"/></e>
+    <e lm="Muhemmed"><i>Muhemmed</i><par n="Salih__np"/></e>
+    <e lm="Qasim"><i>Qasim</i><par n="Salih__np"/></e>
+    <e lm="Arif"><i>Arif</i><par n="Salih__np"/></e>
+    <e lm="Husên"><i>Husên</i><par n="Salih__np"/></e>
+    <e lm="Pûşkîn"><i>Pûşkîn</i><par n="Salih__np"/></e>
+    <e lm="Albert"><i>Albert</i><par n="Salih__np"/></e>
     <e lm="Freud"><i>Freud</i><par n="Salih__np"/></e>
     <e lm="Napoleon"><i>Napoleon</i><par n="Salih__np"/></e>
     <e lm="Evdirehman"><i>Evdirehman</i><par n="Salih__np"/></e>
@@ -12640,6 +12689,7 @@
     <!-- SECTION: Adjectives -->
 
     <!-- new comparables -->
+    <e lm="îslamî"><i>îslamî</i><par n="nû__adj"/></e>
     <e lm="suryanî"><i>suryanî</i><par n="nû__adj"/></e>
     <e lm="sîstematîk"><i>sîstematîk</i><par n="nû__adj"/></e>
     <e lm="psîkolojîk"><i>psîkolojîk</i><par n="nû__adj"/></e>
