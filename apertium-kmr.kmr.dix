@@ -12983,6 +12983,23 @@
     <e lm="derketin" r="LR"><p><l>der<b/>nakev</l><r>derketin</r></p><par n="nak/e__vblex_tv"/></e>
     <e lm="derketin" r="LR"><p><l>der<b/>nekev</l><r>derketin</r></p><par n="nek/e__vblex_tv"/></e>
 
+    <!-- xistin; ; xist; x -->
+    <e lm="xistin"><p><l>xist</l><r>xistin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="xistin"><p><l>dixist</l><r>xistin</r></p><par n="dikir/__vblex_tv"/></e>
+    <e lm="xistin"><p><l>dix</l><r>xistin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="xistin"><p><l>bix</l><r>xistin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="xistin"><p><l>nexist</l><r>xistin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="xistin"><p><l>nax</l><r>xistin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="xistin"><p><l>nex</l><r>xistin</r></p><par n="nek/e__vblex_tv"/></e>
+
+    <!-- derxistin; ; derxist; der..x -->
+    <e lm="derxistin"><p><l>derxist</l><r>derxistin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="derxistin"><p><l>derdixist</l><r>derxistin</r></p><par n="dikir/__vblex_tv"/></e>
+    <e lm="derxistin"><p><l>derdix</l><r>derxistin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="derxistin"><p><l>derbix</l><r>derxistin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="derxistin"><p><l>dernexist</l><r>derxistin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="derxistin"><p><l>dernax</l><r>derxistin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="derxistin"><p><l>dernex</l><r>derxistin</r></p><par n="nek/e__vblex_tv"/></e>
 
     <!-- kirin; ; kir; k -->
     <e lm="kirin"><p><l>kir</l><r>kirin</r></p><par n="kir/__vblex_tv"/></e>
