@@ -634,6 +634,7 @@
 
      <pardef n="Bexda__np">
       <e><p><l></l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>ê</l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="obl"/><s n="def"/></r></p></e>
       <e><p><l>yê</l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="obl"/><s n="def"/></r></p></e>
       <e><p><l>ya</l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="con"/><s n="def"/></r></p></e>
       <e><p><l>yê</l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="voc"/><s n="def"/></r></p></e>
@@ -648,6 +649,7 @@
       <e><p><l>yinan</l><r><s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="obl"/><s n="ind"/></r></p></e>
       <e><p><l>yine</l><r><s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="con"/><s n="ind"/></r></p></e>
       <e><p><l>yê</l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="obl"/><s n="dem"/></r></p></e>
+      <e r="LR"><p><l>ê</l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="obl"/><s n="dem"/></r></p></e>
       <e><p><l>yan</l><r><s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="obl"/><s n="dem"/></r></p></e>
      </pardef>
 
@@ -691,16 +693,29 @@
       <e><p><l>eyê</l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="obl"/><s n="dem"/></r></p></e>
       <e><p><l>an</l><r><s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="obl"/><s n="dem"/></r></p></e>
     </pardef>
+
     <pardef n="Salih__np">
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>ê</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="con"/></r></p></e>
+    </pardef> 
+
+    <pardef n="Zîn__np">
       <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>ê</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
       <e><p><l>a</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="con"/></r></p></e>
     </pardef> 
 
+    <pardef n="Leyla__np">
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l>yê</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>ya</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="con"/></r></p></e>
+    </pardef> 
+
     <pardef n="Barzan/î__np">
       <e><p><l>î</l><r>î<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-      <e><p><l>iye</l><r>î<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
-      <e><p><l>iya</l><r>î<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="con"/></r></p></e>
+      <e><p><l>î</l><r>î<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>iyê</l><r>î<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="con"/></r></p></e>
     </pardef> 
     <pardef n="Rûdaw__np">
       <e>       <p><l></l>         <r><s n="np"/><s n="org"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
@@ -1196,6 +1211,10 @@
     <!-- SECTION: Nouns -->
 
     <!-- New Feminines -->
+    <e lm="fîlm"><i>fîlm</i><par n="jin__n_f"/></e>
+    <e lm="YKSS"><i>YKSS</i><par n="YNK__n"/></e>
+    <e lm="alman"><i>alman</i><par n="jin__n_f"/></e>
+    <e lm="DYA"><i>DYA</i><par n="DYA__n"/></e>
     <e lm="Şerefname"><i>Şerefnam</i><par n ="od/e__n"/></e>
     <e lm="hevpar"><i>hevpar</i><par n="jin__n_f"/></e>
     <e lm="suryanî"><i>suryan</i><par n="piran/î__n_f"/></e>
@@ -1311,6 +1330,12 @@
 
     
     <!-- New Masculines -->
+    <e lm="siyasetmedar"><i>siyasetmedar</i><par n="mirov__n_m"/></e>
+    <e lm="osmanî"><i>osman</i><par n="xan/î__n_m"/></e>
+    <e lm="zanist"><i>zanist</i><par n="mirov__n_m"/></e>
+    <e lm="Beg"><i>Beg</i><par n="mirov__n_m"/></e>
+    <e lm="alman"><i>alman</i><par n="mirov__n_m"/></e>
+    <e lm="gelhenasî"><i>gelhenas</i><par n="xan/î__n_m"/></e>
     <e lm="Sultan"><i>Sultan</i><par n="mirov__n_m"/></e>
     <e lm="Caesar"><i>Caesar</i><par n="mirov__n_m"/></e>
     <e lm="Efendî"><i>Efend</i><par n="xan/î__n_m"/></e>
@@ -12456,6 +12481,17 @@
     <e lm="HDP"><i>HDP</i><par n="YNK__n"/></e>
 
     <!-- SECTION: Proper nouns -->
+    <e lm="Zêwye"><i>Zêwy</i><par n="Tirkiy/e__np"/></e>
+    <e lm="Leyla"><i>Leyla</i><par n="Leyla__np"/></e>
+    <e lm="Cizîrî"><i>Cizîr</i><par n="Barzan/î__np"/></e>
+    <e lm="Îbrahîm"><i>Îbrahîm</i><par n="Salih__np"/></e>
+    <e lm="Osman"><i>Osman</i><par n="Salih__np"/></e>
+    <e lm="Şahmaran"><i>Şahmaran</i><par n="Zîn__np"/></e>
+    <e lm="Ebû"><i>Ebû</i><par n="Salih__np"/></e>
+    <e lm="Hecî"><i>Hec</i><par n="Barzan/î__np"/></e>
+    <e lm="Çewlîgê"><i>Çewlîgê</i><par n="Licê/__np"/></e>
+    <e lm="Kemal"><i>Kemal</i><par n="Salih__np"/></e>
+    <e lm="Nobel"><i>Nobel</i><par n="Salih__np"/></e>
     <e lm="Henry"><i>Henry</i><par n="Salih__np"/></e>
     <e lm="Îhsan"><i>Îhsan</i><par n="Salih__np"/></e>
     <e lm="Îsraîl"><i>Îsraîl</i><par n="Kurdistan__np"/></e>
@@ -12695,6 +12731,11 @@
     <!-- SECTION: Adjectives -->
 
     <!-- new comparables -->
+    <e lm="serbest"><i>serbes</i><par n="pêwis/t__adj"/></e>
+    <e lm="cûda"><i>cûda</i><par n="nû__adj"/></e>
+    <e lm="pêwîst"><i>pêwîs</i><par n="pêwis/t__adj"/></e>
+    <e lm="kesk"><i>kesk</i><par n="nû__adj"/></e>
+    <e lm="balkêş"><i>balkêş</i><par n="nû__adj"/></e>
     <e lm="îslamî"><i>îslamî</i><par n="nû__adj"/></e>
     <e lm="suryanî"><i>suryanî</i><par n="nû__adj"/></e>
     <e lm="sîstematîk"><i>sîstematîk</i><par n="nû__adj"/></e>
@@ -12943,7 +12984,17 @@
     <e lm="nivîsandin"><p><l>nanivîsîn</l><r>nivîsandin</r></p><par n="nak/e__vblex_tv"/></e>
     <e lm="nivîsandin"><p><l>nenivîsîn</l><r>nivîsandin</r></p><par n="nek/e__vblex_tv"/></e>
 
-    <e lm="nivîsîn"><p><l>dinivîs</l><r>nivîsîn</r></p><par n="dik/e__vblex_tv"/></e>
+    <!-- nivîsîn; ; i; nivîs -->
+<!--
+    <e lm="nivîsîn"><p><l>nivîsand</l><r>nivîsandin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="nivîsîn"><p><l>dinivîs</l><r>nivîsandin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="nivîsîn"><p><l>binivîs</l><r>nivîsandin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="nivîsîn"><p><l>nenivîsand</l><r>nivîsandin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="nivîsîn"><p><l>nanivîs</l><r>nivîsandin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="nivîsîn"><p><l>nenivîs</l><r>nivîsandin</r></p><par n="nek/e__vblex_tv"/></e>
+-->
+
+
 
     <!-- weşandin; ; weşand; weşîn -->
     <e lm="weşandin"><p><l>weşand</l><r>weşandin</r></p><par n="kir/__vblex_tv"/></e>
@@ -13246,12 +13297,17 @@
 
     <!-- firotin; ; firot; firoş -->
     <e lm="firotin"><p><l>firot</l><r>firotin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="firotin" r="LR"><p><l>frot</l><r>firotin</r></p><par n="kir/__vblex_tv"/></e>
     <e lm="firotin"><p><l>difiroş</l><r>firotin</r></p><par n="dik/e__vblex_tv"/></e>
     <e lm="firotin" r="LR"><p><l>difroş</l><r>firotin</r></p><par n="dik/e__vblex_tv"/></e>
     <e lm="firotin"><p><l>bifiroş</l><r>firotin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="firotin" r="LR"><p><l>bifroş</l><r>firotin</r></p><par n="bik/e__vblex_tv"/></e>
     <e lm="firotin"><p><l>nefirot</l><r>firotin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="firotin" r="LR"><p><l>nefrot</l><r>firotin</r></p><par n="nekir/__vblex_tv"/></e>
     <e lm="firotin"><p><l>nafiroş</l><r>firotin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="firotin" r="LR"><p><l>nafroş</l><r>firotin</r></p><par n="nak/e__vblex_tv"/></e>
     <e lm="firotin"><p><l>nefiroş</l><r>firotin</r></p><par n="nek/e__vblex_tv"/></e>
+    <e lm="firotin" r="LR"><p><l>nefroş</l><r>firotin</r></p><par n="nek/e__vblex_tv"/></e>
 
     <!-- dîtin; ; dît; bîn -->
     <e lm="dîtin"><p><l>dît</l><r>dîtin</r></p><par n="kir/__vblex_tv"/></e>
@@ -14439,6 +14495,7 @@
     <e lm="mil"><i>mil</i><par n="mirov__n_m"/></e>
     <e lm="milet"><i>milet</i><par n="mirov__n_m"/></e>
     <e lm="milyon"><i>milyon</i><par n="mirov__n_m"/></e>
+    <e lm="hezar"><i>hezar</i><par n="mirov__n_m"/></e>
     <e lm="mîr"><i>mîr</i><par n="mirov__n_m"/></e>
     <e lm="nan"><i>nan</i><par n="mirov__n_m"/></e>
     <e lm="nav"><i>nav</i><par n="mirov__n_m"/></e>
