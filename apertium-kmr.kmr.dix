@@ -792,7 +792,9 @@
         <e r="RL"><p><l><a/>in</l><r>bûn<s n="vbcop"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
         <e r="RL"><p><l><a/>in</l><r>bûn<s n="vbcop"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
         <e r="RL"><p><l><a/>in</l><r>bûn<s n="vbcop"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
-        <e><p><l>be</l><r><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>be</l><r>bûn<s n="vbcop"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>bî</l><r>bûn<s n="vbcop"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e><!-- check later! -->
+        <e><p><l>be</l><r>bûn<s n="vbcop"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>
 
 	<pardef n="/dan__vblex_tv">
@@ -1030,6 +1032,12 @@
 		<e><p><l>tînin</l><r><s n="vblex"/><s n="tv"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
 		<e><p><l>tînin</l><r><s n="vblex"/><s n="tv"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
 		<e><p><l>tînin</l><r><s n="vblex"/><s n="tv"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+		<e><p><l>bînim</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+		<e><p><l>bînî</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+		<e><p><l>bîne</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+		<e><p><l>bînin</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+		<e><p><l>bînin</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+		<e><p><l>bînin</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
 		<e><p><l>naynim</l><r><s n="vblex"/><s n="tv"/><s n="neg"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
 		<e><p><l>naynî</l><r><s n="vblex"/><s n="tv"/><s n="neg"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
 		<e><p><l>nayne</l><r><s n="vblex"/><s n="tv"/><s n="neg"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -12958,6 +12966,13 @@
     <e lm="damezrandin"><p><l>nedamezrand</l><r>damezrandin</r></p><par n="nekir/__vblex_tv"/></e>
     <e lm="damezrandin"><p><l>nadamezrîn</l><r>damezrandin</r></p><par n="nak/e__vblex_tv"/></e>
     <e lm="damezrandin"><p><l>nedamezrîn</l><r>damezrandin</r></p><par n="nek/e__vblex_tv"/></e>
+    <e lm="damezrandin" r="LR"><p><l>damezirand</l><r>damezrandin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="damezrandin" r="LR"><p><l>didamezirîn</l><r>damezrandin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="damezrandin" r="LR"><p><l>bidamezirîn</l><r>damezrandin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="damezrandin" r="LR"><p><l>nedamezirand</l><r>damezrandin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="damezrandin" r="LR"><p><l>nadamezirîn</l><r>damezrandin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="damezrandin" r="LR"><p><l>nedamezirîn</l><r>damezrandin</r></p><par n="nek/e__vblex_tv"/></e>
+
 
     <!-- qedandin; ; qedand; qedîn -->
     <e lm="qedandin"><p><l>qedand</l><r>qedandin</r></p><par n="kir/__vblex_tv"/></e>
