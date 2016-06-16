@@ -50,7 +50,7 @@ SELECT Eza IF (-1 Eza) (NOT 1 Eza);
 
 SELECT LANG IF (-1 BI) (1 SPEECH-VERB) ;
 
-SELECT Cop IF (0 Cop OR Eza) (1 EOS) ;
+SELECT Cop IF (0 Cop OR Eza) (1 EOS) (NOT -1 PrfPrc);
 
 REMOVE N + Dem IF (NOT -1 Det) ; 
 
