@@ -13856,6 +13856,14 @@
     <e lm="çandin"><p><l>naçîn</l><r>çandin</r></p><par n="nak/e__vblex_tv"/></e>
     <e lm="çandin"><p><l>neçîn</l><r>çandin</r></p><par n="nek/e__vblex_tv"/></e>
      
+    <!-- domandin; ; domand; domîn -->
+    <e lm="domandin"><p><l>domand</l><r>domandin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="domandin"><p><l>didomîn</l><r>domandin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="domandin"><p><l>bidomîn</l><r>domandin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="domandin"><p><l>nedomand</l><r>domandin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="domandin"><p><l>nadomîn</l><r>domandin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="domandin"><p><l>nedomîn</l><r>domandin</r></p><par n="nek/e__vblex_tv"/></e>
+
     <!-- çirandin; ; çirand; çirîn -->
     <e lm="çirandin"><p><l>çirand</l><r>çirandin</r></p><par n="kir/__vblex_tv"/></e>
     <e lm="çirandin"><p><l>diçirîn</l><r>çirandin</r></p><par n="dik/e__vblex_tv"/></e>
