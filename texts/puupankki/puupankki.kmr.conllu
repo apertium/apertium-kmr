@@ -1,0 +1,54 @@
+
+1	Civaka	civak	_	n	f|sg|con|def	11	nsubj	_	_
+2	misilmanan	misilman	_	n	m|pl|nom|DD	1	nmod:poss	_	_
+3	ji	ji	_	pr	_	4	case	_	_
+4	mezhebên	mezheb	_	n	m|pl|con|def	11	nmod	_	_
+5	şafiî	şafi	_	n	m|sg|obl|def	4	nmod:poss	_	_
+6	,	,	_	cm	_	5	punct	_	_
+7	henefî	henefî	_	n	f|sg|nom|def	5	conj	_	_
+8	û	û	_	cnjcoo	_	5	cc	_	_
+9	elewî	elewî	_	n	f|sg|nom|def	5	conj	_	_
+10	pêk	pêk	_	adj	_	11	xcomp	_	_
+11	tê	hatin	_	vblex	iv|pri|p3|sg	0	root	_	_
+12	.	.	_	sent	_	11	punct	_	_
+
+1	Pênc	pênc	_	num	pl|nom|def	2	nummod	_	_
+2	salan	sal	_	n	f|pl|obl|dem	6	nmod	_	_
+3	li	li	_	pr	_	5	case	_	_
+4	wê	ew	_	det	dem|f|sg|obl	5	det	_	_
+5	dibistanê	dibistan	_	n	f|sg|obl|dem	6	nmod	_	_
+6	xwendiye	xwandin	_	vblex	iv|XXX|p3|sg	0	root	_	_
+7	.	.	_	sent	_	6	punct	_	_
+
+1	Ev	ev	_	prn	dem|mf|sp|nom	2	nsubj	_	_
+2	çi	çi	_	prn	itg|mf|sp|nom	0	root	_	_
+3	ye	bûn	_	vbcop	pri|p3|sg	2	cop	_	_
+4	?	?	_	sent	_	2	punct	_	_
+
+1	Meheke	meh	_	n	f|sg|con|ind	0	root	_	_
+2	Nîsanê	nîsan	_	n	f|sg|obl|def	1	nmod:con	_	_
+3	bû	bûn	_	vbcop	past|p3|sg	1	cop	_	_
+4	.	.	_	sent	_	1	punct	_	_
+
+1	Bi	bi	_	pr	_	2	case	_	_
+2	spêdê	spêde	_	n	f|sg|obl|ind	5	nmod	_	_
+3	ve	ve	_	post	_	2	case:circ	_	_
+4	ez	ez	_	prn	pers|p1|mf|sg|nom	5	nsubj	_	_
+5	hişyar bû	hişyar bûn	_	vblex	iv|pp	0	root	_	_
+6	bûm	bûn	_	vaux	past|p3|sg	5	aux	_	_
+7	.	.	_	sent	_	5	punct	_	_
+
+1	Şerlok	Şerlok	_	np	ant|m|sg|nom	2	name	_	_
+2	Holmes	Holmes	_	np	ant|m|sg|nom	12	nsubj	_	_
+3	li	li	_	pr	_	4	case	_	_
+4	hêla	hêl	_	n	f|sg|con|def	8	nmod	_	_
+5	serê	ser	_	n	m|sg|con|def	4	nmod:con	_	_
+6	texte	text	_	n	m|sg|con|def	5	nmod:con	_	_
+7	min	ez	_	prn	pers|p1|mf|sg|obl	6	nmod:con	_	_
+8	sekinî bû	sekinî bûn	_	vblex	iv|past|p3|sg	12	conj	_	_
+9	û	û	_	cnjcoo	_	12	cc	_	_
+10	li	li	_	pr	_	11	case	_	_
+11	min	ez	_	prn	pers|p1|mf|sg|obl	12	nmod	_	_
+12	dinihêrt	nihêrtin	_	vblex	iv|TD|p3|sg	0	root	_	_
+13	.	.	_	sent	_	12	punct	_	_
+

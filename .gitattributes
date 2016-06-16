@@ -25,6 +25,6 @@ dev/wikt-en-noun-list -text
 /modes.xml -text
 texts/ethem.vislcg.txt -text
 texts/miscellaneous.vislcg.txt -text
-texts/puupankki/puupankki.srd.conllu -text
+texts/puupankki/puupankki.kmr.conllu -text
 texts/sherlock.txt -text
 texts/sherlock.vislcg.txt -text

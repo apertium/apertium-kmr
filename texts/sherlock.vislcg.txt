@@ -45,7 +45,52 @@
 "<min>"
 	"ez" prn pers p1 mf sg obl @nmod #11->12
 "<dinihêrt>"
-	"*dinihêrt" vblex TD PD ND @x #12->0
+	"nihêrtin" vblex iv XXX p3 sg @root #12->0
 "<.>"
 	"." sent @punct #13->12
+
+"<Gava>"
+	"gav" n f sg con def @nmod
+"<min>"
+	"ez" prn pers p1 mf sg obl @x
+"<Şerlok>"
+	"Şerlok" np ant m sg obl
+	"Şerlok" np ant m sg nom
+"<Holmes>"
+	"Holmes" np ant m sg obl
+	"Holmes" np ant m sg nom
+"<li ber>"
+	"li ber" pr @case
+"<serê>"
+	"ser" n m sg con def @x
+"<xwe>"
+	"xwe" prn ref mf sp @x
+"<dît>"
+	"dîtin" vblex tv past p3 sg @x
+"<,>"
+	"," cm @punct
+"<min>"
+	"ez" prn pers p1 mf sg obl
+"<da>"
+	"da" n f sg nom def
+	"da" n f pl nom def
+	"de" n f sg con def
+	"dan" vblex tv p3 sg past
+"<xwe>"
+	"xwe" prn ref mf sp @x
+"<û>"
+	"û" cnjcoo @cc
+"<ez>"
+	"ez" prn pers p1 mf sg nom @nsubj 
+"<li ser>"
+	"li ser" pr @case
+"<pista>"
+	"pist" n f sg con def
+	"piste" n f sg con def
+"<xwe>"
+	"xwe" prn ref mf sp @x
+"<rabûm>"
+	"rabûn" vblex iv XXX p1 sg @root 
+"<.>"
+	"." sent @punct
 
