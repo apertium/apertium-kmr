@@ -41,6 +41,7 @@ LIST BÛN = "bûn" ;
 LIST JÊ = "<jê>"i;
 LIST JI = "ji";
 LIST RE = "re";
+LIST Pers = pers;
 
 SET NOMEN = N | Prop ;
 
@@ -79,3 +80,5 @@ REMOVE Nom IF (-1 Eza);
 SELECT Post IF (0 RE) (-1 JÊ);
 
 SELECT JI IF (0 JÊ) (1 RE);
+
+SELECT Pers IF (0 Pers OR Dem); 
