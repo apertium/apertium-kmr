@@ -72,6 +72,3 @@ SELECT AUX IF (-1 PrfPrc);
 REMOVE Nom IF (-1 Pr);
 
 REMOVE Nom IF (-1 Eza);
-
-REMOVE CNJSUB IF (-1 BOS);
-
