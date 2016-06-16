@@ -13276,7 +13276,7 @@
     <e lm="xwendin"><p><l>dixwîn</l><r>xwendin</r></p><par n="dik/e__vblex_tv"/></e>
     <e lm="xwendin" r="LR"><p><l>dixwên</l><r>xwendin</r></p><par n="dik/e__vblex_tv"/></e>
     <e lm="vexwarin"><p><l>vedixw</l><r>vexwarin</r></p><par n="dik/e__vblex_tv"/></e>
-
+    <e lm="rabûn"><p><l>ra<b/></l><r>ra<b/></r></p><par n="/bûn__vblex"/></e>
     <e lm="berdewam bûn"><p><l>berdewam<b/></l><r>berdewam<b/></r></p><par n="/bûn__vblex"/></e>
     <e lm="sekinî bûn"><p><l>sekinî<b/></l><r>sekinî<b/></r></p><par n="/bûn__vblex"/></e>
     <e lm="hişyar bûn"><p><l>hişyar<b/></l><r>hişyar<b/></r></p><par n="/bûn__vblex"/></e>
@@ -13493,6 +13493,14 @@
     <e lm="darizandin"><p><l>nadarizîn</l><r>darizandin</r></p><par n="nak/e__vblex_tv"/></e>
     <e lm="darizandin"><p><l>nedarizîn</l><r>darizandin</r></p><par n="nek/e__vblex_tv"/></e>
 
+    <!-- raketin; ; ra..ket; ra..kev -->
+    <e lm="raketin"><p><l>raket</l><r>raketin</r></p><par n="axaft/__vblex_iv"/></e>
+    <e lm="raketin"><p><l>radiket</l><r>raketin</r></p><par n="diaxaft/__vblex_iv"/></e>
+    <e lm="ketin"><p><l>radikev</l><r>raketin</r></p><par n="diaxiv/e__vblex_iv"/></e>
+    <e lm="ketin"><p><l>rabikev</l><r>raketin</r></p><par n="biaxiv/e__vblex_iv"/></e>
+    <e lm="ketin"><p><l>ranekev</l><r>raketin</r></p><par n="neaxaft/__vblex_iv"/></e>
+    <e lm="ketin"><p><l>ranakev</l><r>raketin</r></p><par n="naaxiv/e__vblex_iv"/></e>
+    <e lm="ketin"><p><l>ranekev</l><r>raketin</r></p><par n="neaxiv/e__vblex_iv"/></e>
 
     <!-- ketin; ; ket; kev -->
     <e lm="ketin"><p><l>ket</l><r>ketin</r></p><par n="axaft/__vblex_iv"/></e>
