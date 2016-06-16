@@ -1023,6 +1023,8 @@
         <e><p><l>ine</l><r><s n="vblex"/><s n="iv"/><s n="prog"/><s n="narr"/><s n="p3"/><s n="pl"/></r></p></e> 
     </pardef>
 
+
+
     <pardef n="biaxaft/__vblex_iv">
         <e><p><l></l><r><s n="vblex"/><s n="iv"/><s n="opt"/></r></p><par n="kir/__vblex"/></e>
         <e><p><l>ima</l><r><s n="vblex"/><s n="iv"/><s n="opt"/><s n="narr"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -13267,6 +13269,7 @@
     <e lm="vexwarin"><p><l>vedixw</l><r>vexwarin</r></p><par n="dik/e__vblex_tv"/></e>
 
     <e lm="berdewam bûn"><p><l>berdewam<b/></l><r>berdewam<b/></r></p><par n="/bûn__vblex"/></e>
+    <e lm="sekinî bûn"><p><l>sekinî<b/></l><r>sekinî<b/></r></p><par n="/bûn__vblex"/></e>
     <e lm="hişyar bûn"><p><l>hişyar<b/></l><r>hişyar<b/></r></p><par n="/bûn__vblex"/></e>
     <e lm="bûn"><i/><par n="/bûn__vaux"/></e>
     <e lm="bûn"><i/><par n="/bûn__vblex"/></e>
@@ -13612,6 +13615,15 @@
     <e lm="lidarxistin"><p><l>lidarnexist</l><r>lidarxistin</r></p><par n="nekir/__vblex_tv"/></e>
     <e lm="lidarxistin"><p><l>lidarnax</l><r>lidarxistin</r></p><par n="nak/e__vblex_tv"/></e>
     <e lm="lidarxistin"><p><l>lidarnex</l><r>lidarxistin</r></p><par n="nek/e__vblex_tv"/></e>
+
+    <!-- nihêrtin; ; nihêrt; nihêr -->
+    <e lm="nihêrtin"><p><l>nihêrt</l><r>nihêrtin</r></p><par n="axaft/__vblex_iv"/></e>
+    <e lm="nihêrtin"><p><l>dinihêrt</l><r>nihêrtin</r></p><par n="diaxaft/__vblex_iv"/></e>
+    <e lm="nihêrtin"><p><l>dinihêr</l><r>nihêrtin</r></p><par n="diaxiv/e__vblex_iv"/></e>
+    <e lm="nihêrtin"><p><l>binihêr</l><r>nihêrtin</r></p><par n="biaxiv/e__vblex_iv"/></e>
+    <e lm="nihêrtin"><p><l>nenihêrt</l><r>nihêrtin</r></p><par n="neaxaft/__vblex_iv"/></e>
+    <e lm="nihêrtin"><p><l>nanihêr</l><r>nihêrtin</r></p><par n="naaxiv/e__vblex_iv"/></e>
+    <e lm="nihêrtin"><p><l>nenihêr</l><r>nihêrtin</r></p><par n="neaxiv/e__vblex_iv"/></e>
 
     <!-- kirin; ; kir; k -->
     <e lm="kirin"><p><l>kir</l><r>kirin</r></p><par n="kir/__vblex_tv"/></e>

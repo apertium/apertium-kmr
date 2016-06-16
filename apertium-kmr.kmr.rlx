@@ -30,6 +30,7 @@ LIST Def = def;
 LIST Ind = ind;
 LIST Dem = dem;
 LIST PrfPrc = pp;
+LIST AUX = vaux;
 
 LIST BI = "bi" ;
 LIST SPEECH-VERB = "axaftin" ;
@@ -64,3 +65,5 @@ REMOVE PrfPrc IF (NOT 1 V) ;
 REMOVE Voc IF (-1 Pr ) ;
 
 REMOVE Voc IF (1 Post);
+
+SELECT AUX IF (-1 PrfPrc);
