@@ -822,7 +822,7 @@
     </pardef>
 
     <pardef n="/bûn__vblex">
-        <e><p><l></l><r>bûn<s n="vblex"/></r></p><par n="/bûn"/></e>
+        <e><p><l></l><r>bûn<s n="vblex"/><s n="iv"/></r></p><par n="/bûn"/></e>
     </pardef>
 
 
