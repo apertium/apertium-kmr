@@ -12610,6 +12610,10 @@
     <e lm="HDP"><i>HDP</i><par n="YNK__n"/></e>
 
     <!-- SECTION: Proper nouns -->
+    <e lm="Şerlok"><i>Şerlok</i><par n="Salih__np"/></e>
+    <e lm="Rweylot"><i>Rweylot</i><par n="Salih__np"/></e>
+    <e lm="Stonêr"><i>Stonêr</i><par n="Salih__np"/></e>
+    <e lm="Holmes"><i>Holmes</i><par n="Salih__np"/></e>
     <e lm="Baba"><i>Baba</i><par n="Salih__np"/></e>
     <e lm="Hacî"><i>Hac</i><par n="Barzan/î__np"/></e>
     <e lm="Saint"><i>Saint</i><par n="Zîn__np"/></e>
@@ -12980,6 +12984,7 @@
     <!-- SECTION: Adjectives -->
 
     <!-- new comparables -->
+    <e lm="ecêb"><i>ecêb</i><par n="nû__adj"/></e>
     <e lm="xwerû"><i>xwerû</i><par n="nû__adj"/></e>
     <e lm="sipî"><i>sipî</i><par n="nû__adj"/></e>
     <e lm="serkeftî"><i>serkeftî</i><par n="nû__adj"/></e>
