@@ -173,7 +173,8 @@
       <e><p><l>ji</l><r>ji<s n="pr"/></r></p></e>
       <e><p><l>jê</l><r>ji<s n="pr"/><j/>ew<s n="prn"/><s n="dem"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
       <e><p><l>jê</l><r>ji<s n="pr"/><j/>ew<s n="prn"/><s n="dem"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
-    </pardef>
+      <e><p><l>jê</l><r>ji<s n="pr"/><j/>ew<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="obl"/></r></p></e>
+	</pardef>
 
     <pardef n="/li__pr">
       <e><p><l>li</l><r>li<s n="pr"/></r></p></e>
@@ -1223,7 +1224,6 @@
     <!-- SECTION: Prepositions -->
     <e lm="ji bona ku"><i>ji<b/>bona<b/>ku</i><par n="ba__pr"/></e>
     <e lm="digel"><i>digel</i><par n="ba__pr"/></e> 
-    <e lm="jê"><i>jê</i><par n="ba__pr"/></e> 
     <e lm="derbarê"><i>derbarê</i><par n="ba__pr"/></e>   
     <e lm="navbera"><i>navbera</i><par n="ba__pr"/></e>   
     <e lm="wek"><i>wek</i><par n="ba__pr"/></e>   
@@ -2316,7 +2316,6 @@
       <e lm="isim"><i>isim</i><par n="mirov__n_m"/></e>
       <e lm="jajî"><i>jaj</i><par n="xan/î__n_m"/></e>
       <e lm="jinû"><i>jinû</i><par n="mirov__n_m"/></e>
-      <e lm="jê"><i>jê</i><par n="mirov__n_m"/></e>
       <e lm="jî"><i>j</i><par n="xan/î__n_m"/></e>
       <e lm="jîgolo"><i>jîgolo</i><par n="mirov__n_m"/></e>
       <e lm="jîgolo"><i>jîgolo</i><par n="mirov__n_m"/></e>
