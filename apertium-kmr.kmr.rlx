@@ -38,6 +38,9 @@ LIST SPEECH-VERB = "axaftin" ;
 LIST LANG = "kurdî" ;
 LIST VE = "ve" ;
 LIST BÛN = "bûn" ; 
+LIST JÊ = "<jê>";
+LIST JI = "ji";
+LIST RE = "re";
 
 SET NOMEN = N | Prop ;
 
@@ -72,3 +75,7 @@ SELECT AUX IF (-1 PrfPrc);
 REMOVE Nom IF (-1 Pr);
 
 REMOVE Nom IF (-1 Eza);
+
+SELECT Post IF (0 RE) (-1 JÊ);
+
+SELECT JI IF (0 JÊ) (1 RE);
