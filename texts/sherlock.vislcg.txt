@@ -10,7 +10,7 @@
 "<Bi>"
 	"bi" pr @case #1->2
 "<spêdê>"
-	"spêd" n f sg obl ind @nmod #2->5
+	"spêde" n f sg obl ind @nmod #2->5
 "<ve>"
 	"ve" post @case:circ #3->2
 "<ez>"

@@ -3,7 +3,7 @@ DELIMITERS = "<.>" "<!>" "<?>";
 LIST EOS = (sent) ;
 
 LIST N = n;
-LIST NP = (np top) (np ant) (np cog);
+LIST Prop = np ;
 LIST V = vaux vblex vbser;
 LIST Adv = adv;
 LIST Num = num;
@@ -37,6 +37,8 @@ LIST LANG = "kurdî" ;
 LIST VE = "ve" ;
 LIST BÛN = "bûn" ; 
 
+SET NOMEN = N | Prop ;
+
 SECTION
 
 SELECT Eza IF (-1 Eza) (NOT 1 Eza);
@@ -49,7 +51,7 @@ REMOVE N + Dem IF (NOT -1 Det) ;
 
 SELECT V IF (1 EOS) (NEGATE -1* V) ; 
 
-REMOVE N + Obl IF (NOT -1 Eza) (NOT -1 Pr) (NOT 1 Post)  (NOT 1* TV) ;
+REMOVE NOMEN + Obl IF (NOT -1 Eza) (NOT -1 Pr) (NOT 1 Post)  (NOT 1* TV) ;
 
 SELECT BI IF (0 BI) ;
 
