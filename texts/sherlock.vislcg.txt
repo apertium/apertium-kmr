@@ -7,3 +7,18 @@
 "<.>"
 	"." sent @punct #4->1
 
+"<Bi>"
+	"bi" pr @case #1->2
+"<spêdê>"
+	"spêd" n f sg obl ind @nmod #2->5
+"<ve>"
+	"ve" post @case:circ #3->2
+"<ez>"
+	"ez" prn pers p1 mf sg nom @nsubj #4->5
+"<hişyar bû>"
+	"hişyar bûn" vblex iv pp @root #5->0
+"<bûm>"
+	"bûn" vaux past p3 sg @aux #6->5
+"<.>"
+	"." sent @punct #7->5
+
