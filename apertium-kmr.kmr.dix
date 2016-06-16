@@ -9,7 +9,7 @@
     <sdef n="n"       c="Noun"/>     
     <sdef n="np"      c="Proper noun"/>     
     <sdef n="pr"      c="Preposition"/>     
-    <sdef n="post"    c="Postposition"/>     
+    <sdef n="post"    c="Postposition"/>    
     <sdef n="num"     c="Numeral"/>     
     <sdef n="prn"     c="Pronoun"/>     
     <sdef n="adj"     c="Adjective"/>     
@@ -1156,6 +1156,11 @@
     <pardef n="niha__adv">
       <e><p><l></l><r><s n="adv"/></r></p></e>
     </pardef>
+
+    <pardef n="ne__adv">
+      <e><p><l></l><r><s n="adv"/><s n="neg"/></r></p></e>
+    </pardef>
+
 
 
   </pardefs> 
@@ -13220,6 +13225,7 @@
     <e lm="hemû"><i>hemû</i><par n="niha__adv"/></e>
     <e lm="herî"><i>herî</i><par n="niha__adv"/></e>
     <e lm="niha"><i>niha</i><par n="niha__adv"/></e>
+    <e lm="ne"><i>ne</i><par n="ne__adv"/></e>
     <e lm="paşî"><i>paşî</i><par n="niha__adv"/></e>
     <e lm="piştre"><i>piştre</i><par n="niha__adv"/></e>
     <e lm="dûre"><i>dûre</i><par n="niha__adv"/></e>

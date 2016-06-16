@@ -38,7 +38,7 @@ LIST SPEECH-VERB = "axaftin" ;
 LIST LANG = "kurdî" ;
 LIST VE = "ve" ;
 LIST BÛN = "bûn" ; 
-LIST JÊ = "<jê>";
+LIST JÊ = "<jê>"i;
 LIST JI = "ji";
 LIST RE = "re";
 
