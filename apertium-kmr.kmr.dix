@@ -801,33 +801,33 @@
     </pardef>
 
     <pardef n="/bûn">
-        <e><p><l>bûm</l><r>bûn<s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>bûyî</l><r>bûn<s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l>bû</l><r>bûn<s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>bûn</l><r>bûn<s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
-        <e><p><l>bûn</l><r>bûn<s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
-        <e><p><l>bûn</l><r>bûn<s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
-        <e><p><l>dibûm</l><r>bûn<s n="prog"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>dibûyî</l><r>bûn<s n="prog"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l>dibû</l><r>bûn<s n="prog"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>dibûn</l><r>bûn<s n="prog"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
-        <e><p><l>dibûn</l><r>bûn<s n="prog"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
-        <e><p><l>dibûn</l><r>bûn<s n="prog"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
-        <e><p><l>dibim</l><r>bûn<s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>dibî</l><r>bûn<s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l>dibe</l><r>bûn<s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>dibin</l><r>bûn<s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
-        <e><p><l>dibin</l><r>bûn<s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
-        <e><p><l>dibin</l><r>bûn<s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e><p><l>bûm</l><r><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>bûyî</l><r><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>bû</l><r><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>bûn</l><r><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>bûn</l><r><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>bûn</l><r><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e><p><l>dibûm</l><r><s n="prog"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>dibûyî</l><r><s n="prog"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>dibû</l><r><s n="prog"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>dibûn</l><r><s n="prog"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>dibûn</l><r><s n="prog"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>dibûn</l><r><s n="prog"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e><p><l>dibim</l><r><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>dibî</l><r><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>dibe</l><r><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>dibin</l><r><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>dibin</l><r><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>dibin</l><r><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="/bûn__vblex">
-        <e><p><l></l><r><s n="vblex"/></r></p><par n="/bûn"/></e>
+        <e><p><l></l><r>bûn<s n="vblex"/></r></p><par n="/bûn"/></e>
     </pardef>
 
 
     <pardef n="/bûn__vaux">
-        <e><p><l></l><r><s n="vaux"/></r></p><par n="/bûn"/></e>
+        <e><p><l></l><r>bûn<s n="vaux"/></r></p><par n="/bûn"/></e>
     </pardef>
 
 	<pardef n="/dan__vblex_tv">
@@ -13242,8 +13242,9 @@
     <e lm="xwendin" r="LR"><p><l>dixwên</l><r>xwendin</r></p><par n="dik/e__vblex_tv"/></e>
     <e lm="vexwarin"><p><l>vedixw</l><r>vexwarin</r></p><par n="dik/e__vblex_tv"/></e>
 
-    <e lm="berdewam bûn"><p><l>berdewam<b/></l><r>berdewam<b/>bûn</r></p><par n="/bûn__vblex"/></e>
-    <e lm="bûn"><p><l><b/></l><r></r></p><par n="/bûn__vaux"/></e>
+    <e lm="berdewam bûn"><p><l>berdewam<b/></l><r>berdewam<b/></r></p><par n="/bûn__vblex"/></e>
+    <e lm="bûn"><i/><par n="/bûn__vaux"/></e>
+    <e lm="bûn"><i/><par n="/bûn__vblex"/></e>
 
     <e lm="axaftin" r="LR"><p><l>daxiv</l><r>axaftin</r></p><par n="diaxiv/e__vblex_iv"/></e>
     <e lm="axaftin" r="LR"><p><l>naxiv</l><r>axaftin</r></p><par n="naaxiv/e__vblex_iv"/></e>
