@@ -5,7 +5,7 @@ LIST BOS = (>>>) (sent);
 
 LIST N = n;
 LIST Prop = np ;
-LIST V = vaux vblex vbser;
+LIST V = vaux vblex vbser vbcop;
 LIST Adv = adv;
 LIST Num = num;
 LIST CC = cnjcoo;
@@ -38,6 +38,7 @@ LIST SPEECH-VERB = "axaftin" ;
 LIST LANG = "kurdî" ;
 LIST VE = "ve" ;
 LIST BÛN = "bûn" ; 
+LIST BÛ = "<bû>"i ;
 LIST JÊ = "<jê>"i;
 LIST JI = "ji";
 LIST RE = "re";
@@ -82,3 +83,7 @@ SELECT Post IF (0 RE) (-1 JÊ);
 SELECT JI IF (0 JÊ) (1 RE);
 
 SELECT Pers IF (0 Pers OR Dem); 
+
+SECTION
+
+SELECT V IF (0 BÛ);
