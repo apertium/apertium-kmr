@@ -797,7 +797,7 @@
         </pardef> -->
     
     <pardef n="/bûn">
-        <e><p><l>bûm</l><r><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>bûm</l><r><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
         <e><p><l>bûyî</l><r><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
         <e><p><l>bû</l><r><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
         <e><p><l>bû</l><r><s n="pp"/></r></p></e>
