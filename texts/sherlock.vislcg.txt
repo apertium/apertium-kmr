@@ -50,47 +50,73 @@
 	"." sent @punct #13->12
 
 "<Gava>"
-	"gav" n f sg con def @nmod
+	"gava" cnjsub @mark #1->8
 "<min>"
-	"ez" prn pers p1 mf sg obl @x
+	"ez" prn pers p1 mf sg obl @nsubj #2->8
 "<Şerlok>"
-	"Şerlok" np ant m sg obl
-	"Şerlok" np ant m sg nom
+	"Şerlok" np ant m sg nom @name #3->4
 "<Holmes>"
-	"Holmes" np ant m sg obl
-	"Holmes" np ant m sg nom
+	"Holmes" np ant m sg nom @dobj #4->8
 "<li ber>"
-	"li ber" pr @case
+	"li ber" pr @case #5->6
 "<serê>"
-	"ser" n m sg con def @x
+	"ser" n m sg con def @nmod #6->8
 "<xwe>"
-	"xwe" prn ref mf sp @x
+	"xwe" prn ref mf sp @nmod:con #7->6
 "<dît>"
-	"dîtin" vblex tv past p3 sg @x
+	"dîtin" vblex tv past p3 sg @advcl #8->18
 "<,>"
-	"," cm @punct
+	"," cm @punct #9->18
 "<min>"
-	"ez" prn pers p1 mf sg obl
+	"ez" prn pers p1 mf sg obl @nsubj #10->
 "<da>"
 	"da" n f sg nom def
 	"da" n f pl nom def
 	"de" n f sg con def
 	"dan" vblex tv p3 sg past
 "<xwe>"
-	"xwe" prn ref mf sp @x
+	"xwe" prn ref mf sp @x #12->
 "<û>"
-	"û" cnjcoo @cc
+	"û" cnjcoo @cc #13->18
 "<ez>"
-	"ez" prn pers p1 mf sg nom @nsubj 
+	"ez" prn pers p1 mf sg nom @nsubj #14->18
 "<li ser>"
-	"li ser" pr @case
+	"li ser" pr @case #15->16
 "<pista>"
-	"pist" n f sg con def
+	"pist" n f sg con def 
 	"piste" n f sg con def
 "<xwe>"
-	"xwe" prn ref mf sp @x
+	"xwe" prn ref mf sp @x #17->
 "<rabûm>"
-	"rabûn" vblex iv XXX p1 sg @root 
+	"rabûn" vblex iv XXX p1 sg @root #18->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #19->18
+
+"<Jê>"
+	"ji" pr @case #1->2
+		"ew" prn dem m sg obl @nmod #2->5
+"<re>"
+	"re" post @case:circ #3->2
+"<ne>"
+	"ne" adv @neg #4->5
+"<adet>"
+	"adet" n f sg nom def @x #5->0
+"<bû>"
+	"bûn" vbcop past p3 sg @cop #6->5
+"<zû>"
+	"zû" adj pst @advmod #7->8
+"<hişyar be>"
+	"hişyar bûn" vblex prs p3 sg @x #8->5
+"<;>"
+	";" sent @punct #9->5
+"<heta>"
+	"heta" adv @advmod #10->13
+"<derengiya>"
+	"derengî" n f sg con ind @x #11->12
+"<rojê>"
+	"roj" n f sg obl def @nmod:con #12->13
+"<radiket>"
+	"raketîn" vblex iv prog past p3 sg @parataxis #13->5
+"<.>"
+	"." sent @punct #14->13
 

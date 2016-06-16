@@ -52,3 +52,19 @@
 12	dinihêrt	nihêrtin	_	vblex	iv|prog|past|p3|sg	0	root	_	_
 13	.	.	_	sent	_	12	punct	_	_
 
+1-2	Jê	_	_	_	_	_	_	_	_
+1	_	ji	_	pr	_	2	case	_	_
+2	_	ew	_	prn	dem|m|sg|obl	5	nmod	_	_
+3	re	re	_	post	_	2	case:circ	_	_
+4	ne	ne	_	adv	_	5	neg	_	_
+5	adet	adet	_	n	f|sg|nom|def	0	x	_	_
+6	bû	bûn	_	vbcop	past|p3|sg	5	cop	_	_
+7	zû	zû	_	adj	pst	8	advmod	_	_
+8	hişyar be	hişyar bûn	_	vblex	prs|p3|sg	5	x	_	_
+9	;	;	_	sent	_	5	punct	_	_
+10	heta	heta	_	adv	_	13	advmod	_	_
+11	derengiya	derengî	_	n	f|sg|con|ind	12	x	_	_
+12	rojê	roj	_	n	f|sg|obl|def	13	nmod:con	_	_
+13	radiket	raketîn	_	vblex	iv|prog|past|p3|sg	5	parataxis	_	_
+14	.	.	_	sent	_	13	punct	_	_
+

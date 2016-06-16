@@ -796,6 +796,30 @@
 
         </pardef> -->
     
+    <pardef n="/bûn">
+        <e><p><l>bûm</l><r><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>bûyî</l><r><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>bû</l><r><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>bû</l><r><s n="pp"/></r></p></e>
+        <e><p><l>bûn</l><r><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>bûn</l><r><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>bûn</l><r><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e><p><l>dibûm</l><r><s n="prog"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>dibûyî</l><r><s n="prog"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>dibû</l><r><s n="prog"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>dibûn</l><r><s n="prog"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>dibûn</l><r><s n="prog"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>dibûn</l><r><s n="prog"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e><p><l>dibim</l><r><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>dibî</l><r><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>dibe</l><r><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>be</l><r><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>bî</l><r><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e> <!-- check later -->
+        <e><p><l>dibin</l><r><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>dibin</l><r><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>dibin</l><r><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+    </pardef>
+
     <pardef n="/bûn__vbcop">
         <!-- Post-consonantal -->
         <e r="LR"><p><l>im</l><r>bûn<s n="vbcop"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -817,38 +841,13 @@
         <e r="RL"><p><l><a/>in</l><r>bûn<s n="vbcop"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
         <e r="RL"><p><l><a/>in</l><r>bûn<s n="vbcop"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
         <e r="RL"><p><l><a/>in</l><r>bûn<s n="vbcop"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
-        <e><p><l>be</l><r>bûn<s n="vbcop"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>bî</l><r>bûn<s n="vbcop"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e><!-- check later! -->
-        <e><p><l>be</l><r>bûn<s n="vbcop"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l></l><r>bûn<s n="vbcop"/></r></p><par n="/bûn"/></e>
     </pardef>
 
-    <pardef n="/bûn">
-        <e><p><l>bûm</l><r><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>bûyî</l><r><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l>bû</l><r><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>bû</l><r><s n="pp"/></r></p></e>
-        <e><p><l>bûn</l><r><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
-        <e><p><l>bûn</l><r><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
-        <e><p><l>bûn</l><r><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
-        <e><p><l>dibûm</l><r><s n="prog"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>dibûyî</l><r><s n="prog"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l>dibû</l><r><s n="prog"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>dibûn</l><r><s n="prog"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
-        <e><p><l>dibûn</l><r><s n="prog"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
-        <e><p><l>dibûn</l><r><s n="prog"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
-        <e><p><l>dibim</l><r><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>dibî</l><r><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l>dibe</l><r><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>be</l><r><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>dibin</l><r><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
-        <e><p><l>dibin</l><r><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
-        <e><p><l>dibin</l><r><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
-    </pardef>
 
     <pardef n="/bûn__vblex">
         <e><p><l></l><r>bûn<s n="vblex"/><s n="iv"/></r></p><par n="/bûn"/></e>
     </pardef>
-
 
     <pardef n="/bûn__vaux">
         <e><p><l></l><r>bûn<s n="vaux"/></r></p><par n="/bûn"/></e>
@@ -13282,7 +13281,6 @@
     <e lm="sekinî bûn"><p><l>sekinî<b/></l><r>sekinî<b/></r></p><par n="/bûn__vblex"/></e>
     <e lm="hişyar bûn"><p><l>hişyar<b/></l><r>hişyar<b/></r></p><par n="/bûn__vblex"/></e>
     <e lm="bûn"><i/><par n="/bûn__vaux"/></e>
-    <e lm="bûn"><i/><par n="/bûn__vblex"/></e>
 
     <e lm="axaftin" r="LR"><p><l>daxiv</l><r>axaftin</r></p><par n="diaxiv/e__vblex_iv"/></e>
     <e lm="axaftin" r="LR"><p><l>naxiv</l><r>axaftin</r></p><par n="naaxiv/e__vblex_iv"/></e>
