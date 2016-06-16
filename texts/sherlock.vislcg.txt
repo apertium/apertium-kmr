@@ -100,19 +100,19 @@
 "<ne>"
 	"ne" adv @neg #4->5
 "<adet>"
-	"adet" n f sg nom def @x #5->0
+	"adet" n f sg nom def @root #5->0
 "<bû>"
 	"bûn" vbcop past p3 sg @cop #6->5
 "<zû>"
 	"zû" adj pst @advmod #7->8
 "<hişyar be>"
-	"hişyar bûn" vblex prs p3 sg @x #8->5
+	"hişyar bûn" vblex prs p3 sg @csubj #8->5
 "<;>"
 	";" sent @punct #9->5
 "<heta>"
-	"heta" adv @advmod #10->13
+	"heta" pr @case #10->11
 "<derengiya>"
-	"derengî" n f sg con ind @x #11->12
+	"derengî" n f sg con ind @nmod #11->12
 "<rojê>"
 	"roj" n f sg obl def @nmod:con #12->13
 "<radiket>"
