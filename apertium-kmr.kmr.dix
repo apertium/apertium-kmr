@@ -3,6 +3,8 @@
   <alphabet>ABCÇDEÊFGHIÎJKLMNOPQRSŞTUÛVWXYZabcçdeêfghiîjklmnopqrsştuûvwxyzáÁàăắặâấậǎåäãąāảạæḇćčđḏðéèếệěëËėęēḗəğĞĝġĥȟḧḥḫḪíìĭïĩīıİḱḳľłṃńňṅṇŋñóòôốộöÖőõøōơớºœṗřṛśšŠșṣßťţṭúÚùŭǔůüÜűũųūŵẍýÝźžþʒʿḍ</alphabet>   
   <sdefs>     
     <sdef n="acr"      c=""/>
+    <sdef n="narr"      c="Narrative"/>
+    <sdef n="opt"      c="Optative"/>
     <sdef n="abbr"     c="Abbreviation"/>
     <sdef n="n"       c="Noun"/>     
     <sdef n="np"      c="Proper noun"/>     
@@ -844,9 +846,6 @@
         <e><p><l>ibin</l><r><s n="fpi"/><s n="pl"/></r></p></e>
     </pardef> 
 
-    <pardef n="dikir/__vblex_tv">
-        <e><p><l></l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="prog"/></r></p><par n="k/e__vblex"/></e>
-    </pardef>
 
     <pardef n="karib/û__vblex">
         <e><p><l>n</l><r><s n="plu"/><s n="pl"/></r></p></e>
@@ -884,6 +883,32 @@
 
     <pardef n="kir/__vblex_tv">
         <e><p><l></l><r><s n="vblex"/><s n="tv"/></r></p><par n="kir/__vblex"/></e>
+        <e><p><l>ime</l><r><s n="vblex"/><s n="tv"/><s n="narr"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>iyî</l><r><s n="vblex"/><s n="tv"/><s n="narr"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>iye</l><r><s n="vblex"/><s n="tv"/><s n="narr"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>ine</l><r><s n="vblex"/><s n="tv"/><s n="narr"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>ine</l><r><s n="vblex"/><s n="tv"/><s n="narr"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>ine</l><r><s n="vblex"/><s n="tv"/><s n="narr"/><s n="p3"/><s n="pl"/></r></p></e> 
+    </pardef>
+
+    <pardef n="dikir/__vblex_tv">
+        <e><p><l></l><r><s n="vblex"/><s n="tv"/><s n="prog"/></r></p><par n="kir/__vblex"/></e>
+        <e><p><l>ime</l><r><s n="vblex"/><s n="tv"/><s n="prog"/><s n="narr"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>iyî</l><r><s n="vblex"/><s n="tv"/><s n="prog"/><s n="narr"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>iye</l><r><s n="vblex"/><s n="tv"/><s n="prog"/><s n="narr"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>ine</l><r><s n="vblex"/><s n="tv"/><s n="prog"/><s n="narr"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>ine</l><r><s n="vblex"/><s n="tv"/><s n="prog"/><s n="narr"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>ine</l><r><s n="vblex"/><s n="tv"/><s n="prog"/><s n="narr"/><s n="p3"/><s n="pl"/></r></p></e> 
+    </pardef>
+
+    <pardef n="bikir/__vblex_tv">
+        <e><p><l></l><r><s n="vblex"/><s n="tv"/><s n="opt"/></r></p><par n="kir/__vblex"/></e>
+        <e><p><l>ima</l><r><s n="vblex"/><s n="tv"/><s n="opt"/><s n="narr"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>ayî</l><r><s n="vblex"/><s n="tv"/><s n="opt"/><s n="narr"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>a</l><r><s n="vblex"/><s n="tv"/><s n="opt"/><s n="narr"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>ana</l><r><s n="vblex"/><s n="tv"/><s n="opt"/><s n="narr"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>ana</l><r><s n="vblex"/><s n="tv"/><s n="opt"/><s n="narr"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>ana</l><r><s n="vblex"/><s n="tv"/><s n="opt"/><s n="narr"/><s n="p3"/><s n="pl"/></r></p></e> 
     </pardef>
 
     <pardef n="dik/e__vblex_tv">
@@ -932,6 +957,26 @@
 
     <pardef n="biaxiv/e__vblex_iv">
         <e><p><l></l><r><s n="vblex"/><s n="iv"/></r></p><par n="bik/e__vblex"/></e>
+    </pardef>
+
+    <pardef n="diaxaft/__vblex_iv">
+        <e><p><l></l><r><s n="vblex"/><s n="iv"/><s n="prog"/></r></p><par n="kir/__vblex"/></e>
+        <e><p><l>ime</l><r><s n="vblex"/><s n="iv"/><s n="prog"/><s n="narr"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>iyî</l><r><s n="vblex"/><s n="iv"/><s n="prog"/><s n="narr"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>iye</l><r><s n="vblex"/><s n="iv"/><s n="prog"/><s n="narr"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>ine</l><r><s n="vblex"/><s n="iv"/><s n="prog"/><s n="narr"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>ine</l><r><s n="vblex"/><s n="iv"/><s n="prog"/><s n="narr"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>ine</l><r><s n="vblex"/><s n="iv"/><s n="prog"/><s n="narr"/><s n="p3"/><s n="pl"/></r></p></e> 
+    </pardef>
+
+    <pardef n="biaxaft/__vblex_iv">
+        <e><p><l></l><r><s n="vblex"/><s n="iv"/><s n="opt"/></r></p><par n="kir/__vblex"/></e>
+        <e><p><l>ima</l><r><s n="vblex"/><s n="iv"/><s n="opt"/><s n="narr"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>ayî</l><r><s n="vblex"/><s n="iv"/><s n="opt"/><s n="narr"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>a</l><r><s n="vblex"/><s n="iv"/><s n="opt"/><s n="narr"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>ana</l><r><s n="vblex"/><s n="iv"/><s n="opt"/><s n="narr"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>ana</l><r><s n="vblex"/><s n="iv"/><s n="opt"/><s n="narr"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>ana</l><r><s n="vblex"/><s n="iv"/><s n="opt"/><s n="narr"/><s n="p3"/><s n="pl"/></r></p></e> 
     </pardef>
 
     <pardef n="neaxaft/__vblex_iv">
@@ -13289,6 +13334,14 @@
     <e lm="weşandin"><p><l>neweşand</l><r>weşandin</r></p><par n="nekir/__vblex_tv"/></e>
     <e lm="weşandin"><p><l>naweşîn</l><r>weşandin</r></p><par n="nak/e__vblex_tv"/></e>
     <e lm="weşandin"><p><l>neweşîn</l><r>weşandin</r></p><par n="nek/e__vblex_tv"/></e>
+
+    <!-- qelandin; ; qeland; qelîn -->
+    <e lm="qelandin"><p><l>qeland</l><r>qelandin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="qelandin"><p><l>diqelîn</l><r>qelandin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="qelandin"><p><l>biqelîn</l><r>qelandin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="qelandin"><p><l>neqeland</l><r>qelandin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="qelandin"><p><l>naqelîn</l><r>qelandin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="qelandin"><p><l>neqelîn</l><r>qelandin</r></p><par n="nek/e__vblex_tv"/></e>
 
     <!-- -andin type verbs -->
 
