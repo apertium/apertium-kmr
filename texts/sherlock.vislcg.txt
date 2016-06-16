@@ -1,0 +1,9 @@
+"<Meheke>"
+	"meh" n f sg con ind @root #1->0
+"<Nîsanê>"
+	"nîsan" n f sg obl def @nmod:con #2->1
+"<bû>"
+	"bûn" vbcop past p3 sg @cop #3->1
+"<.>"
+	"." sent @punct #4->1
+
