@@ -1219,6 +1219,11 @@
     <!-- SECTION: Nouns -->
 
     <!-- New Feminines -->
+    <e lm="Mewlana"><i>Mewlan</i><par n ="nîvro__n_f"/></e>
+    <e lm="fîzîknas"><i>fîzîknas</i><par n="jin__n_f"/></e>
+    <e lm="zîndan"><i>zîndan</i><par n="jin__n_f"/></e>
+    <e lm="kendav"><i>kendav</i><par n="jin__n_f"/></e>
+    <e lm="îsot"><i>îsot</i><par n="jin__n_f"/></e>
     <e lm="kîlometre"><i>kîlometr</i><par n ="od/e__n"/></e>
     <e lm="Zerdeştî"><i>Zerdeşt</i><par n="piran/î__n_f"/></e>
     <e lm="gund"><i>gund</i><par n="jin__n_f"/></e>
@@ -1382,6 +1387,9 @@
 
     
     <!-- New Masculines -->
+    <e lm="Mewlana"><i>Mewlan</i><par n ="çiy/a__n_m"/></e>
+    <e lm="fîzîknas"><i>fîzîknas</i><par n="mirov__n_m"/></e>
+    <e lm="dimilî"><i>dimil</i><par n="xan/î__n_m"/></e>
     <e lm="kîlometre"><i>kîlometr</i><par n ="perç/e__n"/></e>
     <e lm="Zerdeştî"><i>Zerdeşt</i><par n="xan/î__n_m"/></e>
     <e lm="hewramî"><i>hewram</i><par n="xan/î__n_m"/></e>
@@ -12555,6 +12563,11 @@
     <e lm="HDP"><i>HDP</i><par n="YNK__n"/></e>
 
     <!-- SECTION: Proper nouns -->
+    <e lm="Baba"><i>Baba</i><par n="Salih__np"/></e>
+    <e lm="Hacî"><i>Hac</i><par n="Barzan/î__np"/></e>
+    <e lm="Saint"><i>Saint</i><par n="Zîn__np"/></e>
+    <e lm="Saint"><i>Saint</i><par n="Salih__np"/></e>
+    <e lm="ibn"><i>ibn</i><par n="Salih__np"/></e>
     <e lm="Medîne"><i>Medîn</i><par n="Tirkiy/e__np"/></e>
     <e lm="Öcalan"><i>Öcalan</i><par n="Salih__np"/></e>
     <e lm="Suhrewerdî"><i>Suhrewerd</i><par n="Barzan/î__np"/></e>
@@ -12920,6 +12933,11 @@
     <!-- SECTION: Adjectives -->
 
     <!-- new comparables -->
+    <e lm="xwerû"><i>xwerû</i><par n="nû__adj"/></e>
+    <e lm="sipî"><i>sipî</i><par n="nû__adj"/></e>
+    <e lm="serkeftî"><i>serkeftî</i><par n="nû__adj"/></e>
+    <e lm="kifş"><i>kifş</i><par n="nû__adj"/></e>
+    <e lm="mecbûr"><i>mecbûr</i><par n="nû__adj"/></e>
     <e lm="rizgar"><i>rizgar</i><par n="nû__adj"/></e>
     <e lm="şexsî"><i>şexsî</i><par n="nû__adj"/></e>
     <e lm="ewropayî"><i>ewropayî</i><par n="nû__adj"/></e>
@@ -12995,6 +13013,7 @@
     <e lm="pirr"><i>pirr</i><par n="nû__adj"/></e>
     
     <!-- new non-comparables -->
+    <e lm="zewicî"><i>zewicî</i><par n="kurdî__adj"/></e>
     <e lm="duwem"><i>duwem</i><par n="kurdî__adj"/></e>
     <e lm="Kurdistanî"><i>Kurdistanî</i><par n="kurdî__adj"/></e>
     <e lm="sêyemîn"><i>sêyemîn</i><par n="kurdî__adj"/></e>
