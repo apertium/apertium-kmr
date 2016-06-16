@@ -78,6 +78,7 @@
     <sdef n="quot"      c="Quote"/>
     <sdef n="guio" 	c="Hyphen"/>    
     <sdef n="cm"   	c="Comma"/>    
+    <sdef n="vaux"   	c="Auxiliary verb"/>    
   </sdefs>
 
   <pardefs>
@@ -798,6 +799,30 @@
         <e><p><l>bî</l><r>bûn<s n="vbcop"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e><!-- check later! -->
         <e><p><l>be</l><r>bûn<s n="vbcop"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>
+
+    <pardef n="/bûn__vaux">
+        <!-- Post-consonantal -->
+        <e><p><l>bûm</l><r>bûn<s n="vaux"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>bûyî</l><r>bûn<s n="vaux"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>bû</l><r>bûn<s n="vaux"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>bûn</l><r>bûn<s n="vaux"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>bûn</l><r>bûn<s n="vaux"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>bûn</l><r>bûn<s n="vaux"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e><p><l>dibûm</l><r>bûn<s n="vaux"/><s n="prog"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>dibûyî</l><r>bûn<s n="vaux"/><s n="prog"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>dibû</l><r>bûn<s n="vaux"/><s n="prog"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>dibûn</l><r>bûn<s n="vaux"/><s n="prog"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>dibûn</l><r>bûn<s n="vaux"/><s n="prog"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>dibûn</l><r>bûn<s n="vaux"/><s n="prog"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e><p><l>dibim</l><r>bûn<s n="vaux"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>dibî</l><r>bûn<s n="vaux"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>dibe</l><r>bûn<s n="vaux"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>dibin</l><r>bûn<s n="vaux"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>dibin</l><r>bûn<s n="vaux"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>dibin</l><r>bûn<s n="vaux"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+    </pardef>
+
+
 
 	<pardef n="/dan__vblex_tv">
 	<e><p><l>da</l><r>dan<s n="vblex"/><s n="tv"/><s n ="p3"/><s n="sg"/><s n="past"/></r></p></e>
