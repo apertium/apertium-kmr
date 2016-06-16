@@ -22,3 +22,30 @@
 "<.>"
 	"." sent @punct #7->5
 
+"<Şerlok>"
+	"Şerlok" np ant m sg nom @name #1->2
+"<Holmes>"
+	"Holmes" np ant m sg nom @nsubj #2->12
+"<li>"
+	"li" pr @case #3->4
+"<hêla>"
+	"hêl" n f sg con def @nmod #4->8
+"<serê>"
+	"ser" n m sg con def @nmod:con #5->4
+"<texte>"
+	"text" n m sg con def @nmod:con #6->5
+"<min>"
+	"ez" prn pers p1 mf sg obl @nmod:con #7->6
+"<sekinî bû>"
+	"sekinî bûn" vblex iv past p3 sg @conj #8->12
+"<û>"
+	"û" cnjcoo @cc #9->12
+"<li>"
+	"li" pr @case #10->11
+"<min>"
+	"ez" prn pers p1 mf sg obl @nmod #11->12
+"<dinihêrt>"
+	"*dinihêrt" vblex TD PD ND @x #12->0
+"<.>"
+	"." sent @punct #13->12
+
