@@ -4,14 +4,16 @@ LIST EOS = (sent) ;
 
 LIST N = n;
 LIST NP = (np top) (np ant) (np cog);
-LIST V = vblex vbser;
+LIST V = vaux vblex vbser;
 LIST Adv = adv;
 LIST Num = num;
 LIST CC = cnjcoo;
 LIST CS = cnjsub;
 LIST Interj = ij;
 LIST Pr = pr;
+LIST Post = post ;
 LIST Cop = vbcop ;
+LIST Det = det ;
 
 LIST A = adj (adj pst) (adj comp) (adj sup);
 LIST Apst = (adj pst);
@@ -22,13 +24,18 @@ LIST Nom = nom;
 LIST Eza = con;
 LIST Obl = obl;
 LIST Voc = voc;
+LIST TV = tv; 
 
 LIST Def = def;
 LIST Ind = ind;
+LIST Dem = dem;
+LIST PrfPrc = pp;
 
 LIST BI = "bi" ;
 LIST SPEECH-VERB = "axaftin" ;
 LIST LANG = "kurdî" ;
+LIST VE = "ve" ;
+LIST BÛN = "bûn" ; 
 
 SECTION
 
@@ -37,3 +44,21 @@ SELECT Eza IF (-1 Eza) (NOT 1 Eza);
 SELECT LANG IF (-1 BI) (1 SPEECH-VERB) ;
 
 SELECT Cop IF (0 Cop OR Eza) (1 EOS) ;
+
+REMOVE N + Dem IF (NOT -1 Det) ; 
+
+SELECT V IF (1 EOS) (NEGATE -1* V) ; 
+
+REMOVE N + Obl IF (NOT -1 Eza) (NOT -1 Pr) (NOT 1 Post)  (NOT 1* TV) ;
+
+SELECT BI IF (0 BI) ;
+
+SELECT VE IF (NOT -1 V LINK -1 BI) ;
+
+SELECT PrfPrc IF (1 BÛN) ;
+
+REMOVE PrfPrc IF (NOT 1 V) ;
+
+REMOVE Voc IF (-1 Pr ) ;
+
+REMOVE Voc IF (1 Post);

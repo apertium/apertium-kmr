@@ -499,6 +499,28 @@
       <e><p><l>eyê</l><r>e<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><s n="dem"/></r></p></e>
       <e><p><l>eyan</l><r>e<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><s n="dem"/></r></p></e>
      </pardef>
+
+    <pardef n="spêd/e__n_f">
+      <e><p><l>e</l><r>e<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
+      <e><p><l>ê</l><r>e<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>eya</l><r>e<s n="n"/><s n="f"/><s n="sg"/><s n="con"/><s n="def"/></r></p></e>
+        <e r="LR"><p><l>a</l><r>e<s n="n"/><s n="f"/><s n="sg"/><s n="con"/><s n="def"/></r></p></e>
+      <e><p><l>ê</l><r>e<s n="n"/><s n="f"/><s n="sg"/><s n="voc"/><s n="def"/></r></p></e>
+      <e><p><l>eyek</l><r>e<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e><p><l>eyekê</l><r>e<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><s n="ind"/></r></p></e>
+      <e><p><l>eyeke</l><r>e<s n="n"/><s n="f"/><s n="sg"/><s n="con"/><s n="ind"/></r></p></e>
+        <e r="LR"><p><l>ake</l><r>e<s n="n"/><s n="f"/><s n="sg"/><s n="con"/><s n="ind"/></r></p></e>
+      <e><p><l>e</l><r>e<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
+      <e><p><l>eyên</l><r>e<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><s n="def"/></r></p></e>
+      <e><p><l>eyên</l><r>e<s n="n"/><s n="f"/><s n="pl"/><s n="con"/><s n="def"/></r></p></e>
+      <e><p><l>eyên</l><r>e<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/><s n="def"/></r></p></e>
+      <e><p><l>eyin</l><r>e<s n="n"/><s n="f"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e><p><l>eyinan</l><r>e<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><s n="ind"/></r></p></e>
+      <e><p><l>eyine</l><r>e<s n="n"/><s n="f"/><s n="pl"/><s n="con"/><s n="ind"/></r></p></e>
+      <e><p><l>eyê</l><r>e<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><s n="dem"/></r></p></e>
+      <e><p><l>eyan</l><r>e<s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><s n="dem"/></r></p></e>
+     </pardef>
+
     <pardef n="şem/b__n">
       <e><p><l>b</l><r>b<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
         <e r="LR"><p><l/><r>b<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
@@ -804,6 +826,7 @@
         <e><p><l>bûm</l><r><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
         <e><p><l>bûyî</l><r><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
         <e><p><l>bû</l><r><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>bû</l><r><s n="pp"/></r></p></e>
         <e><p><l>bûn</l><r><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
         <e><p><l>bûn</l><r><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>bûn</l><r><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
@@ -1297,6 +1320,7 @@
     <!-- SECTION: Nouns -->
 
     <!-- New Feminines -->
+    <e lm="spêde"><i>spêd</i><par n ="spêd/e__n_f"/></e>
     <e lm="Mewlana"><i>Mewlan</i><par n ="nîvro__n_f"/></e>
     <e lm="fîzîknas"><i>fîzîknas</i><par n="jin__n_f"/></e>
     <e lm="zîndan"><i>zîndan</i><par n="jin__n_f"/></e>
@@ -13243,6 +13267,7 @@
     <e lm="vexwarin"><p><l>vedixw</l><r>vexwarin</r></p><par n="dik/e__vblex_tv"/></e>
 
     <e lm="berdewam bûn"><p><l>berdewam<b/></l><r>berdewam<b/></r></p><par n="/bûn__vblex"/></e>
+    <e lm="hişyar bûn"><p><l>hişyar<b/></l><r>hişyar<b/></r></p><par n="/bûn__vblex"/></e>
     <e lm="bûn"><i/><par n="/bûn__vaux"/></e>
     <e lm="bûn"><i/><par n="/bûn__vblex"/></e>
 
