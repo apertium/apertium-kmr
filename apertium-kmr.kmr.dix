@@ -854,11 +854,11 @@
         <e><p><l></l><r>bûn<s n="vaux"/></r></p><par n="/bûn"/></e>
     </pardef>
 
-	<pardef n="/dan__vblex_tv">
-	<e><p><l>da</l><r>dan<s n="vblex"/><s n="tv"/><s n ="p3"/><s n="sg"/><s n="past"/></r></p></e>
-	<e r="LR"><p><l>dan</l><r>dan<s n="vblex"/><s n="tv"/><s n ="p3"/><s n="pl"/><s n="past"/></r></p></e>
-	<e><p><l>din</l><r>dan<s n="vblex"/><s n="tv"/><s n ="p3"/><s n="pl"/><s n="past"/></r></p></e>
-        <e><p><l>daye</l><r>dan<s n="vblex"/><s n="tv"/><s n ="p3"/><s n="sg"/><s n="plu"/></r></p></e>
+    <pardef n="/dan__vblex_tv">
+	<e><p><l>da</l><r>dan<s n="vblex"/><s n="tv"/><s n="past"/><s n ="p3"/><s n="sg"/></r></p></e>
+	<e r="LR"><p><l>dan</l><r>dan<s n="vblex"/><s n="tv"/><s n="past"/><s n ="p3"/><s n="pl"/></r></p></e>
+	<e><p><l>din</l><r>dan<s n="vblex"/><s n="tv"/><s n="past"/><s n ="p3"/><s n="pl"/></r></p></e>
+        <e><p><l>daye</l><r>dan<s n="vblex"/><s n="tv"/><s n="plu"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="şo/__vblex">
