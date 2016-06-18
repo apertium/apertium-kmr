@@ -93,7 +93,7 @@ LIST @nsubj = @nsubj ;
 LIST @dobj = @dobj ;
 LIST @csubj = @csubj ;
 
-MAP @nsubj TARGET Obl IF (0C Obl) (1* TV + Past BARRIER V) ;
+MAP @nsubj TARGET NOMEN + Obl IF (0C Obl) (1* TV + Past BARRIER V) ;
 
 SECTION
 
