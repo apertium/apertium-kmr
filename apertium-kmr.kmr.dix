@@ -235,6 +235,12 @@
     </pardef>
 
     <!-- SECTION: Pronouns -->
+	<pardef n="herdu__prn">
+	  <e><p><l></l><r><s n="prn"/><s n="pl"/></r></p></e>
+	  <e><p><l>ya</l><r><s n="prn"/><s n="con"/><s n="pl"/></r></p></e>
+	  <e><p><l>yên</l><r><s n="prn"/><s n="con"/><s n="pl"/></r></p></e>
+	  <e><p><l>yan</l><r><s n="prn"/><s n="pl"/></r></p></e>
+	</pardef>
 
     <pardef n="çi__prn_itg">
       <e><p><l></l><r><s n="prn"/><s n="itg"/></r></p></e>
@@ -668,8 +674,8 @@
       <e><p><l>yekê</l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="obl"/><s n="ind"/></r></p></e>
       <e><p><l>yeke</l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="con"/><s n="ind"/></r></p></e>
       <e><p><l></l><r><s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
-      <e><p><l>yên</l><r><s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="obl"/><s n="def"/></r></p></e>
-      <e><p><l>yan</l><r><s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="con"/><s n="def"/></r></p></e>
+      <e><p><l>yên</l><r><s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="con"/><s n="def"/></r></p></e>
+      <e><p><l>yan</l><r><s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="obl"/><s n="def"/></r></p></e>
       <e><p><l>yên</l><r><s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="voc"/><s n="def"/></r></p></e>
       <e><p><l>yin</l><r><s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
       <e><p><l>yinan</l><r><s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="obl"/><s n="ind"/></r></p></e>
@@ -678,6 +684,28 @@
       <e r="LR"><p><l>ê</l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="obl"/><s n="dem"/></r></p></e>
       <e><p><l>yan</l><r><s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="obl"/><s n="dem"/></r></p></e>
      </pardef>
+
+     <pardef n="Rom/a__np">
+      <e><p><l>a</l><r>a<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
+      <e><p><l>ê</l><r>a<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="obl"/><s n="def"/></r></p></e>
+      <e><p><l>aya</l><r>a<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="con"/><s n="def"/></r></p></e>
+      <e><p><l>ayê</l><r>a<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="voc"/><s n="def"/></r></p></e>
+      <e><p><l>ayek</l><r>a<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e><p><l>ayekê</l><r>a<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="obl"/><s n="ind"/></r></p></e>
+      <e><p><l>ayeke</l><r>a<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="con"/><s n="ind"/></r></p></e>
+      <e><p><l>a</l><r>a<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
+      <e><p><l>ayên</l><r>a<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="con"/><s n="def"/></r></p></e>
+      <e><p><l>ên</l><r>a<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="con"/><s n="def"/></r></p></e>
+      <e><p><l>ayan</l><r>a<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="obl"/><s n="def"/></r></p></e>
+      <e><p><l>ayên</l><r>a<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="voc"/><s n="def"/></r></p></e>
+      <e><p><l>ayin</l><r>a<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e><p><l>ayinan</l><r>a<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="obl"/><s n="ind"/></r></p></e>
+      <e><p><l>ayine</l><r>a<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="con"/><s n="ind"/></r></p></e>
+      <e><p><l>ayê</l><r>a<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="obl"/><s n="dem"/></r></p></e>
+      <e r="LR"><p><l>ê</l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="obl"/><s n="dem"/></r></p></e>
+      <e><p><l>ayan</l><r>a<s n="np"/><s n="top"/><s n="f"/><s n="pl"/><s n="obl"/><s n="dem"/></r></p></e>
+     </pardef>
+
 
      <pardef n="Tirkiy/e__np">
       <e><p><l>e</l><r>e<s n="np"/><s n="top"/><s n="f"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
@@ -854,11 +882,49 @@
         <e><p><l></l><r>bûn<s n="vaux"/></r></p><par n="/bûn"/></e>
     </pardef>
 
-    <pardef n="/dan__vblex_tv">
-	<e><p><l>da</l><r>dan<s n="vblex"/><s n="tv"/><s n="past"/><s n ="p3"/><s n="sg"/></r></p></e>
-	<e r="LR"><p><l>dan</l><r>dan<s n="vblex"/><s n="tv"/><s n="past"/><s n ="p3"/><s n="pl"/></r></p></e>
-	<e><p><l>din</l><r>dan<s n="vblex"/><s n="tv"/><s n="past"/><s n ="p3"/><s n="pl"/></r></p></e>
-        <e><p><l>daye</l><r>dan<s n="vblex"/><s n="tv"/><s n="plu"/><s n="p3"/><s n="sg"/></r></p></e>
+    <pardef n="ma/n_vblex">
+        <e><p><l>m</l><r>n<s n="vblex"/><s n="iv"/><s n="past"/><s n="p1"/><s n="sg"/></e>
+        <e><p><l>y</l><r>n<s n="vblex"/><s n="iv"/><s n="past"/><s n="p2"/><s n="sg"/></e>
+        <e><p><l></l><r>n<s n="vblex"/><s n="iv"/><s n="past"/><s n="p3"/><s n="sg"/></e>
+        <e><p><l>n</l><r>n<s n="vblex"/><s n="iv"/><s n="past"/><s n="p1"/><s n="pl"/></e>
+        <e><p><l>n</l><r>n<s n="vblex"/><s n="iv"/><s n="past"/><s n="p2"/><s n="pl"/></e>
+        <e><p><l>n</l><r>n<s n="vblex"/><s n="iv"/><s n="past"/><s n="p3"/><s n="pl"/></e>
+        <e><p><l>me</l><r>n<s n="vblex"/><s n="iv"/><s n="narr"/><s n="p1"/><s n="sg"/></e>
+        <e><p><l>ye</l><r>n<s n="vblex"/><s n="iv"/><s n="narr"/><s n="p2"/><s n="sg"/></e>
+        <e><p><l>ye</l><r>n<s n="vblex"/><s n="iv"/><s n="narr"/><s n="p3"/><s n="sg"/></e>
+        <e><p><l>ne</l><r>n<s n="vblex"/><s n="iv"/><s n="narr"/><s n="p1"/><s n="pl"/></e>
+        <e><p><l>ne</l><r>n<s n="vblex"/><s n="iv"/><s n="narr"/><s n="p2"/><s n="pl"/></e>
+        <e><p><l>ne</l><r>n<s n="vblex"/><s n="iv"/><s n="narr"/><s n="p3"/><s n="pl"/></e>
+    </pardef>
+
+    <pardef n="dim/_vblex">
+        <e><p><l>am</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="prog"/><s n="p1"/><s n="sg"/></e>
+        <e><p><l>ayî</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="prog"/><s n="p2"/><s n="sg"/></e>
+        <e><p><l>a</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="prog"/><s n="p3"/><s n="sg"/></e>
+        <e><p><l>an</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="prog"/><s n="p1"/><s n="pl"/></e>
+        <e><p><l>an</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="prog"/><s n="p2"/><s n="pl"/></e>
+        <e><p><l>an</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="prog"/><s n="p3"/><s n="pl"/></e>
+        <e><p><l>ame</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="prog"/><s n="hab"/><s n="p1"/><s n="sg"/></e>
+        <e><p><l>ayî</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="prog"/><s n="hab"/><s n="p2"/><s n="sg"/></e>
+        <e><p><l>aye</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="prog"/><s n="hab"/><s n="p3"/><s n="sg"/></e>
+        <e><p><l>ane</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="prog"/><s n="hab"/><s n="p1"/><s n="pl"/></e>
+        <e><p><l>ane</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="prog"/><s n="hab"/><s n="p2"/><s n="pl"/></e>
+        <e><p><l>ane</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="prog"/><s n="hab"/><s n="p3"/><s n="pl"/></e>
+    </pardef>
+
+    <pardef n="bim/_vblex">
+        <e><p><l>ama</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="opt"/><s n="p1"/><s n="sg"/></e>
+        <e><p><l>ayayî</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="opt"/><s n="p2"/><s n="sg"/></e>
+        <e><p><l>aya</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="opt"/><s n="p3"/><s n="sg"/></e>
+        <e><p><l>ana</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="opt"/><s n="p1"/><s n="pl"/></e>
+        <e><p><l>ana</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="opt"/><s n="p2"/><s n="pl"/></e>
+        <e><p><l>ana</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="opt"/><s n="p3"/><s n="pl"/></e>
+        <e><p><l>ama</l><r><s n="vblex"/><s n="iv"/><s n="fpi"/><s n="p1"/><s n="sg"/></e>
+        <e><p><l>ayayî</l><r><s n="vblex"/><s n="iv"/><s n="fpi"/><s n="p2"/><s n="sg"/></e>
+        <e><p><l>aya</l><r><s n="vblex"/><s n="iv"/><s n="fpi"/><s n="p3"/><s n="sg"/></e>
+        <e><p><l>ana</l><r><s n="vblex"/><s n="iv"/><s n="fpi"/><s n="p1"/><s n="pl"/></e>
+        <e><p><l>ana</l><r><s n="vblex"/><s n="iv"/><s n="fpi"/><s n="p2"/><s n="pl"/></e>
+        <e><p><l>ana</l><r><s n="vblex"/><s n="iv"/><s n="fpi"/><s n="p3"/><s n="pl"/></e>
     </pardef>
 
     <pardef n="şo/__vblex">
@@ -1209,6 +1275,7 @@
     <e lm="jibona"><i>jibona</i><par n="gelo__cnjsub"/></e>
     <e lm="jibona ku"><i>jibona<b/>ku</i><par n="gelo__cnjsub"/></e>
     <e lm="ku"><i>ku</i><par n="gelo__cnjsub"/></e>
+    <e lm="ku" r="LR"><p><l>ko</l><r>ku</r></p><par n="gelo__cnjsub"/></e>
     <e lm="madem ku"><i>madem<b/>ku</i><par n="gelo__cnjsub"/></e>
     <e lm="mîna ku"><i>mîna<b/>ku</i><par n="gelo__cnjsub"/></e>
     <e lm="paşê ku"><i>paşê<b/>ku</i><par n="gelo__cnjsub"/></e>
@@ -1268,7 +1335,7 @@
 
 
     <!-- SECTION: Pronouns -->
-
+    <e lm="herdu"><i/><par n="herdu__prn"/></e>
     <e lm="ez"><i/><par n="/ez__prn"/></e>
     <e lm="tu"><i>t</i><par n="t/u__prn"/></e>
     <e lm="ew"><i/><par n="ew__prn"/></e>
@@ -1280,7 +1347,6 @@
     <e lm="xwe"><p><l>xo</l><r>xwe</r></p><par n="xwe__prn"/></e>
     <e lm="hev"><i>hev</i><par n="xwe__prn"/></e>
     <e lm="ku"><i>ku</i><par n="ku__prn"/></e>
-    <e lm="ku" r="LR"><p><l>ko</l><r>ku</r></p><par n="ku__prn"/></e>
     <e lm="çi"><i>çi</i><par n="çi__prn_itg"/></e>
     <!-- SECTION: Determiners -->
 
@@ -1288,6 +1354,7 @@
     <e lm="ew"><i></i><par n="/ew__det"/></e>
     <e lm="çend"><i>çend</i><par n="hindek__det"/></e>
     <e lm="her"><i>her</i><par n="her__det"/></e>
+    <e lm="herdu"><i>herdu</i><par n="her__det"/></e>
     <e lm="hin"><i>hin</i><par n="hindek__det"/></e>
     <e lm="hindek"><i>hindek</i><par n="hindek__det"/></e>
     <e lm="hindek" r="LR"><p><l>hinek</l><r>hindek</r></p><par n="hindek__det"/></e>
@@ -12682,6 +12749,7 @@
     <e lm="HDP"><i>HDP</i><par n="YNK__n"/></e>
 
     <!-- SECTION: Proper nouns -->
+    <e lm="Roma"><i>Rom</i><par n="Rom/a__np"/></e>
     <e lm="University"><i>University</i><par n="Kurdistan__np"/></e>
     <e lm="San"><i>San</i><par n="Salih__np"/></e>
     <e lm="Wetsin"><i>Wetsin</i><par n="Salih__np"/></e>
@@ -13993,6 +14061,7 @@
 
     <!-- gotin; got; bêj -->
     <e lm="gotin"><p><l>got</l><r>gotin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="gotin"><p><l>digot</l><r>gotin</r></p><par n="dikir/__vblex_tv"/></e>
     <e lm="gotin"><p><l>dibêj</l><r>gotin</r></p><par n="dik/e__vblex_tv"/></e>
     <e lm="gotin"><p><l>bibêj</l><r>gotin</r></p><par n="bik/e__vblex_tv"/></e>
     <e lm="gotin"><p><l>negot</l><r>gotin</r></p><par n="nekir/__vblex_tv"/></e>
@@ -14001,6 +14070,7 @@
      
     <!-- şiştin; ; şişt; şo -->
     <e lm="şiştin"><p><l>şişt</l><r>şiştin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="şiştin"><p><l>dişişt</l><r>şiştin</r></p><par n="dikir/__vblex_tv"/></e>
     <e lm="şiştin"><p><l>dişo</l><r>şiştin</r></p><par n="dişo/__vblex_tv"/></e>
     <e lm="şiştin"><p><l>bişo</l><r>şiştin</r></p><par n="bişo/__vblex_tv"/></e>
     <e lm="şiştin"><p><l>neşişt</l><r>şiştin</r></p><par n="nekir/__vblex_tv"/></e>
