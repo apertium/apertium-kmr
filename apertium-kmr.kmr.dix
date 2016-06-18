@@ -25,6 +25,7 @@
     <sdef n="vblex"   c="Verb"/>      
     <sdef n="vbhaver" c="Verb 'to exist'"/>      
     <sdef n="vbcop"   c="Copula"/>      
+    <sdef n="hab"   c="Habitual"/>   
     <sdef n="tv"      c="Transitive"/>     
     <sdef n="iv"      c="Intransitive"/>      
     <sdef n="m"       c="Masculine"/>     
@@ -882,49 +883,79 @@
         <e><p><l></l><r>bûn<s n="vaux"/></r></p><par n="/bûn"/></e>
     </pardef>
 
-    <pardef n="ma/n_vblex">
-        <e><p><l>m</l><r>n<s n="vblex"/><s n="iv"/><s n="past"/><s n="p1"/><s n="sg"/></e>
-        <e><p><l>y</l><r>n<s n="vblex"/><s n="iv"/><s n="past"/><s n="p2"/><s n="sg"/></e>
-        <e><p><l></l><r>n<s n="vblex"/><s n="iv"/><s n="past"/><s n="p3"/><s n="sg"/></e>
-        <e><p><l>n</l><r>n<s n="vblex"/><s n="iv"/><s n="past"/><s n="p1"/><s n="pl"/></e>
-        <e><p><l>n</l><r>n<s n="vblex"/><s n="iv"/><s n="past"/><s n="p2"/><s n="pl"/></e>
-        <e><p><l>n</l><r>n<s n="vblex"/><s n="iv"/><s n="past"/><s n="p3"/><s n="pl"/></e>
-        <e><p><l>me</l><r>n<s n="vblex"/><s n="iv"/><s n="narr"/><s n="p1"/><s n="sg"/></e>
-        <e><p><l>ye</l><r>n<s n="vblex"/><s n="iv"/><s n="narr"/><s n="p2"/><s n="sg"/></e>
-        <e><p><l>ye</l><r>n<s n="vblex"/><s n="iv"/><s n="narr"/><s n="p3"/><s n="sg"/></e>
-        <e><p><l>ne</l><r>n<s n="vblex"/><s n="iv"/><s n="narr"/><s n="p1"/><s n="pl"/></e>
-        <e><p><l>ne</l><r>n<s n="vblex"/><s n="iv"/><s n="narr"/><s n="p2"/><s n="pl"/></e>
-        <e><p><l>ne</l><r>n<s n="vblex"/><s n="iv"/><s n="narr"/><s n="p3"/><s n="pl"/></e>
+    <pardef n="da/n_vblex_tv">
+        <e><p><l></l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>ye</l><r><s n="vblex"/><s n="iv"/><s n="narr"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l><b/>bû</l><r><s n="vblex"/><s n="iv"/><s n="plu"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef>
 
-    <pardef n="dim/_vblex">
-        <e><p><l>am</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="prog"/><s n="p1"/><s n="sg"/></e>
-        <e><p><l>ayî</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="prog"/><s n="p2"/><s n="sg"/></e>
-        <e><p><l>a</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="prog"/><s n="p3"/><s n="sg"/></e>
-        <e><p><l>an</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="prog"/><s n="p1"/><s n="pl"/></e>
-        <e><p><l>an</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="prog"/><s n="p2"/><s n="pl"/></e>
-        <e><p><l>an</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="prog"/><s n="p3"/><s n="pl"/></e>
-        <e><p><l>ame</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="prog"/><s n="hab"/><s n="p1"/><s n="sg"/></e>
-        <e><p><l>ayî</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="prog"/><s n="hab"/><s n="p2"/><s n="sg"/></e>
-        <e><p><l>aye</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="prog"/><s n="hab"/><s n="p3"/><s n="sg"/></e>
-        <e><p><l>ane</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="prog"/><s n="hab"/><s n="p1"/><s n="pl"/></e>
-        <e><p><l>ane</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="prog"/><s n="hab"/><s n="p2"/><s n="pl"/></e>
-        <e><p><l>ane</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="prog"/><s n="hab"/><s n="p3"/><s n="pl"/></e>
+    <pardef n="bid/e_vblex_tv">
+        <e><p><l>im</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>im</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>î</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>î</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>e</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>e</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>in</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>in</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>in</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>in</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>in</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e><p><l>in</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
 
-    <pardef n="bim/_vblex">
-        <e><p><l>ama</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="opt"/><s n="p1"/><s n="sg"/></e>
-        <e><p><l>ayayî</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="opt"/><s n="p2"/><s n="sg"/></e>
-        <e><p><l>aya</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="opt"/><s n="p3"/><s n="sg"/></e>
-        <e><p><l>ana</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="opt"/><s n="p1"/><s n="pl"/></e>
-        <e><p><l>ana</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="opt"/><s n="p2"/><s n="pl"/></e>
-        <e><p><l>ana</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="opt"/><s n="p3"/><s n="pl"/></e>
-        <e><p><l>ama</l><r><s n="vblex"/><s n="iv"/><s n="fpi"/><s n="p1"/><s n="sg"/></e>
-        <e><p><l>ayayî</l><r><s n="vblex"/><s n="iv"/><s n="fpi"/><s n="p2"/><s n="sg"/></e>
-        <e><p><l>aya</l><r><s n="vblex"/><s n="iv"/><s n="fpi"/><s n="p3"/><s n="sg"/></e>
-        <e><p><l>ana</l><r><s n="vblex"/><s n="iv"/><s n="fpi"/><s n="p1"/><s n="pl"/></e>
-        <e><p><l>ana</l><r><s n="vblex"/><s n="iv"/><s n="fpi"/><s n="p2"/><s n="pl"/></e>
-        <e><p><l>ana</l><r><s n="vblex"/><s n="iv"/><s n="fpi"/><s n="p3"/><s n="pl"/></e>
+  <pardef n="did/e_vblex_tv">
+        <e><p><l>im</l><r><s n="vblex"/><s n="tv"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>î</l><r><s n="vblex"/><s n="tv"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>e</l><r><s n="vblex"/><s n="tv"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>in</l><r><s n="vblex"/><s n="tv"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>in</l><r><s n="vblex"/><s n="tv"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>in</l><r><s n="vblex"/><s n="tv"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="ma/n_vblex_iv">
+        <e><p><l>m</l><r>n<s n="vblex"/><s n="iv"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>y</l><r>n<s n="vblex"/><s n="iv"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l></l><r>n<s n="vblex"/><s n="iv"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>n</l><r>n<s n="vblex"/><s n="iv"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>n</l><r>n<s n="vblex"/><s n="iv"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>n</l><r>n<s n="vblex"/><s n="iv"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e><p><l>me</l><r>n<s n="vblex"/><s n="iv"/><s n="narr"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>ye</l><r>n<s n="vblex"/><s n="iv"/><s n="narr"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>ye</l><r>n<s n="vblex"/><s n="iv"/><s n="narr"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>ne</l><r>n<s n="vblex"/><s n="iv"/><s n="narr"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>ne</l><r>n<s n="vblex"/><s n="iv"/><s n="narr"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>ne</l><r>n<s n="vblex"/><s n="iv"/><s n="narr"/><s n="p3"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="dim/_vblex_iv">
+        <e><p><l>am</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="prog"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>ayî</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="prog"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>a</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="prog"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>an</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="prog"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>an</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="prog"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>an</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="prog"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e><p><l>ame</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="prog"/><s n="hab"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>ayî</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="prog"/><s n="hab"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>aye</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="prog"/><s n="hab"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>ane</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="prog"/><s n="hab"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>ane</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="prog"/><s n="hab"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>ane</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="prog"/><s n="hab"/><s n="p3"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="bim/_vblex_iv">
+        <e><p><l>ama</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="opt"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>ayayî</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="opt"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>aya</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="opt"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>ana</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="opt"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>ana</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="opt"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>ana</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="opt"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e><p><l>ama</l><r><s n="vblex"/><s n="iv"/><s n="fpi"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>ayayî</l><r><s n="vblex"/><s n="iv"/><s n="fpi"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>aya</l><r><s n="vblex"/><s n="iv"/><s n="fpi"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>ana</l><r><s n="vblex"/><s n="iv"/><s n="fpi"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>ana</l><r><s n="vblex"/><s n="iv"/><s n="fpi"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>ana</l><r><s n="vblex"/><s n="iv"/><s n="fpi"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="şo/__vblex">
@@ -13378,7 +13409,7 @@
     <e lm="axaftin" r="LR"><p><l>naxiv</l><r>axaftin</r></p><par n="naaxiv/e__vblex_iv"/></e>
 
 
-	<e lm="dan"><i/><par n ="/dan__vblex_tv"/></e>
+<!--	<e lm="dan"><i/><par n ="/dan__vblex_tv"/></e> -->
 
   </section>
   <section id="verbs" type="standard">
