@@ -5,6 +5,7 @@ LIST BOS = (>>>) (sent);
 
 LIST N = n;
 LIST Prop = np ;
+LIST Pron = prn ;
 LIST V = vaux vblex vbser vbcop;
 LIST Adv = adv;
 LIST Num = num;
@@ -93,7 +94,7 @@ LIST @nsubj = @nsubj ;
 LIST @dobj = @dobj ;
 LIST @csubj = @csubj ;
 
-MAP @nsubj TARGET NOMEN + Obl IF (0C Obl) (1* TV + Past BARRIER V) ;
+MAP @nsubj TARGET Pron + Obl IF (0C Obl) (1* TV + Past BARRIER V) ;
 
 SECTION
 
