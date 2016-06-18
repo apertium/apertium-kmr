@@ -1300,6 +1300,7 @@
     <e lm="yanî"><i>yanî</i><par n="ango__cnjadv"/></e>
     <e lm="û"><i>û</i><par n="û__cnjcoo"/></e>
     <e lm="lê"><i>lê</i><par n="û__cnjcoo"/></e>
+    <e lm="lê belê"><i>lê<b/>belê</i><par n="û__cnjcoo"/></e>
     <e lm="yan"><i>yan</i><par n="û__cnjcoo"/></e>
     <e lm="an"><i>an</i><par n="û__cnjcoo"/></e>
     <e lm="anjî"><i>anjî</i><par n="û__cnjcoo"/></e>
@@ -1328,6 +1329,7 @@
     <e lm="jibona ku"><i>jibona<b/>ku</i><par n="gelo__cnjsub"/></e>
     <e lm="ku"><i>ku</i><par n="gelo__cnjsub"/></e>
     <e lm="ku" r="LR"><p><l>ko</l><r>ku</r></p><par n="gelo__cnjsub"/></e>
+    <e lm="ku" r="LR"><p><l>kû</l><r>ku</r></p><par n="gelo__cnjsub"/></e>
     <e lm="madem ku"><i>madem<b/>ku</i><par n="gelo__cnjsub"/></e>
     <e lm="mîna ku"><i>mîna<b/>ku</i><par n="gelo__cnjsub"/></e>
     <e lm="paşê ku"><i>paşê<b/>ku</i><par n="gelo__cnjsub"/></e>
@@ -1343,6 +1345,8 @@
     <!-- SECTION: Prepositions -->
     <e lm="ji bona ku"><i>ji<b/>bona<b/>ku</i><par n="ba__pr"/></e>
     <e lm="digel"><i>digel</i><par n="ba__pr"/></e> 
+    <e lm="qasî"><i>qasî</i><par n="ba__pr"/></e> 
+    <e lm="bi qasî"><i>bi<b/>qasî</i><par n="ba__pr"/></e> 
     <e lm="derbarê"><i>derbarê</i><par n="ba__pr"/></e>   
     <e lm="navbera"><i>navbera</i><par n="ba__pr"/></e>   
     <e lm="wek"><i>wek</i><par n="ba__pr"/></e>   
@@ -1400,6 +1404,7 @@
     <e lm="hev"><i>hev</i><par n="xwe__prn"/></e>
     <e lm="ku"><i>ku</i><par n="ku__prn"/></e>
     <e lm="çi"><i>çi</i><par n="çi__prn_itg"/></e>
+    <e lm="kî"><i>kî</i><par n="çi__prn_itg"/></e>
     <!-- SECTION: Determiners -->
 
     <e lm="ev"><i></i><par n="/ev__det"/></e>
@@ -1446,6 +1451,7 @@
     <!-- SECTION: Nouns -->
 
     <!-- New Feminines -->
+    <e lm="hezar"><i>hezar</i><par n="jin__n_f"/></e>
     <e lm="welatparêz"><i>welatparêz</i><par n="jin__n_f"/></e>
     <e lm="Google"><i>Googl</i><par n ="od/e__n"/></e>
     <e lm="balinde"><i>balind</i><par n ="od/e__n"/></e>
@@ -13263,6 +13269,7 @@
     <!-- SECTION: Adjectives -->
 
     <!-- new comparables -->
+    <e lm="salî"><i>salî</i><par n="nû__adj"/></e>
     <e lm="qanûnî"><i>qanûnî</i><par n="nû__adj"/></e>
     <e lm="standard"><i>standard</i><par n="nû__adj"/></e>
     <e lm="sunî"><i>sunî</i><par n="nû__adj"/></e>
@@ -13432,6 +13439,7 @@
     <e lm="girêdayî" r="LR"><i>grêdayî</i><par n="kurdî__adj"/></e>
     <e lm="şiî"><i>şiî</i><par n="kurdî__adj"/></e>
     <e lm="din"><i>din</i><par n="kurdî__adj"/></e>
+    <e lm="din"><p><l>dî</l><r>din</r></p><par n="kurdî__adj"/></e>
     <e lm="hundirî"><i>hundirî</i><par n="kurdî__adj"/></e>
     <e lm="hundirîn"><i>hundirîn</i><par n="kurdî__adj"/></e>
     <e lm="girtî"><i>girtî</i><par n="kurdî__adj"/></e>
@@ -13477,6 +13485,10 @@
     <e lm="rewa"><i>rewa</i><par n="kurdî__adj"/></e>
 
     <!-- SECTION: Adverb entries -->
+    <e lm="hema"><i>hema</i><par n="niha__adv"/></e>
+    <e lm="na"><i>na</i><par n="niha__adv"/></e>
+    <e lm="belê"><i>belê</i><par n="niha__adv"/></e>
+    <e lm="hemî"><i>hemî</i><par n="niha__adv"/></e>
     <e lm="çima"><i>çima</i><par n="niha__adv"/></e>
     <e lm="herdem"><i>herdem</i><par n="niha__adv"/></e>
     <e lm="belkî"><i>belkî</i><par n="niha__adv"/></e>
@@ -13574,6 +13586,22 @@
 
   </section>
   <section id="verbs" type="standard">
+        <!-- pêve kirin; ; pêve kir; pêve..k -->
+    <e lm="pêve kirin" r="LR"><p><l>pêvekir</l><r>pêve<b/>kirin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="pêve kirin" r="LR"><p><l>pêvedik</l><r>pêve<b/>kirin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="pêve kirin" r="LR"><p><l>pêvebik</l><r>pêve<b/>kirin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="pêve kirin" r="LR"><p><l>pêvenekir</l><r>pêve<b/>kirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="pêve kirin" r="LR"><p><l>pêvedikir</l><r>pêve<b/>kirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="pêve kirin" r="LR"><p><l>pêvenak</l><r>pêve<b/>kirin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="pêve kirin" r="LR"><p><l>pêvenek</l><r>pêve<b/>kirin</r></p><par n="nek/e__vblex_tv"/></e>
+    <e lm="pêve kirin"><p><l>pêve<b/>kir</l><r>pêve<b/>kirin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="pêve kirin"><p><l>pêve<b/>dik</l><r>pêve<b/>kirin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="pêve kirin"><p><l>pêve<b/>bik</l><r>pêve<b/>kirin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="pêve kirin"><p><l>pêve<b/>nekir</l><r>pêve<b/>kirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="pêve kirin"><p><l>pêve<b/>dikir</l><r>pêve<b/>kirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="pêve kirin"><p><l>pêve<b/>nak</l><r>pêve<b/>kirin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="pêve kirin"><p><l>pêve<b/>nek</l><r>pêve<b/>kirin</r></p><par n="nek/e__vblex_tv"/></e>
+
         <!-- pêşketin; ; pêşket; pêş..kev -->
     <e lm="pêşketin"><p><l>pêşket</l><r>pêşketin</r></p><par n="kir/__vblex_tv"/></e>
     <e lm="pêşketin"><p><l>pêşdiket</l><r>pêşketin</r></p><par n="nekir/__vblex_tv"/></e>
