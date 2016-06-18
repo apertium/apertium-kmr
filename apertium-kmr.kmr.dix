@@ -885,7 +885,8 @@
 
     <pardef n="d/an_vblex_tv">
         <e><p><l>a</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>in</l><r><s n="vblex"/><s n="tv"/><s n="narr"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e><p><l>aye</l><r><s n="vblex"/><s n="tv"/><s n="narr"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>in</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
         <e><p><l><b/>bû</l><r><s n="vblex"/><s n="tv"/><s n="plu"/><s n="p3"/><s n="sg"/></r></p></e>
         <e><p><l><b/>bûn</l><r><s n="vblex"/><s n="tv"/><s n="plu"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
