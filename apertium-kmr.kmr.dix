@@ -1445,6 +1445,14 @@
     <!-- SECTION: Nouns -->
 
     <!-- New Feminines -->
+    <e lm="UTC"><i>UTC</i><par n="YNK__n"/></e>
+    <e lm="fahm"><i>fahm</i><par n="jin__n_f"/></e>
+    <e lm="cîran"><i>cîran</i><par n="jin__n_f"/></e>
+    <e lm="mane"><i>man</i><par n ="od/e__n"/></e>
+    <e lm="quşxane"><i>quşxan</i><par n ="od/e__n"/></e>
+    <e lm="cînav"><i>cînav</i><par n="jin__n_f"/></e>
+    <e lm="rexne"><i>rexn</i><par n ="od/e__n"/></e>
+    <e lm="derbaz"><i>derbaz</i><par n="jin__n_f"/></e>
     <e lm="kod"><i>kod</i><par n="jin__n_f"/></e>
     <e lm="Windows"><i>Windows</i><par n="jin__n_f"/></e>
     <e lm="bijîşk"><i>bijîşk</i><par n="jin__n_f"/></e>
@@ -1623,6 +1631,8 @@
 
     
     <!-- New Masculines -->
+    <e lm="cîran"><i>cîran</i><par n="mirov__n_m"/></e>
+    <e lm="cînav"><i>cînav</i><par n="mirov__n_m"/></e>
     <e lm="bajarok"><i>bajarok</i><par n="mirov__n_m"/></e>
     <e lm="bijîşk"><i>bijîşk</i><par n="mirov__n_m"/></e>
     <e lm="Mewlana"><i>Mewlan</i><par n ="çiy/a__n_m"/></e>
@@ -12799,6 +12809,7 @@
     <e lm="HDP"><i>HDP</i><par n="YNK__n"/></e>
 
     <!-- SECTION: Proper nouns -->
+    <e lm="II"><i>II</i><par n="Salih__np"/></e>
     <e lm="The"><i>Th</i><par n="Tirkiy/e__np"/></e>
     <e lm="New"><i>New</i><par n="Kurdistan__np"/></e>
     <e lm="Roma"><i>Rom</i><par n="Rom/a__np"/></e>
@@ -13179,6 +13190,16 @@
     <!-- SECTION: Adjectives -->
 
     <!-- new comparables -->
+    <e lm="pîr"><i>pîr</i><par n="nû__adj"/></e>
+    <e lm="xilas"><i>xilas</i><par n="nû__adj"/></e>
+    <e lm="kevneşopî"><i>kevneşopî</i><par n="nû__adj"/></e>
+    <e lm="mijûl"><i>mijûl</i><par n="nû__adj"/></e>
+    <e lm="germ"><i>germ</i><par n="nû__adj"/></e>
+    <e lm="bingehîn"><i>bingehîn</i><par n="nû__adj"/></e>
+    <e lm="fireh"><i>fireh</i><par n="nû__adj"/></e>
+    <e lm="devkî"><i>devkî</i><par n="nû__adj"/></e>
+    <e lm="xeynî"><i>xeynî</i><par n="nû__adj"/></e>
+    <e lm="temam"><i>temam</i><par n="nû__adj"/></e>
     <e lm="teybetî"><i>teybetî</i><par n="nû__adj"/></e>
     <e lm="nivîsî"><i>nivîsî</i><par n="nû__adj"/></e>
     <e lm="wenda"><i>wenda</i><par n="nû__adj"/></e>
@@ -13269,6 +13290,7 @@
     <e lm="pirr"><i>pirr</i><par n="nû__adj"/></e>
     
     <!-- new non-comparables -->
+    <e lm="peyda"><i>peyda</i><par n="kurdî__adj"/></e>
     <e lm="nivîskî"><i>nivîskî</i><par n="kurdî__adj"/></e>
     <e lm="zewicî"><i>zewicî</i><par n="kurdî__adj"/></e>
     <e lm="duwem"><i>duwem</i><par n="kurdî__adj"/></e>
@@ -13435,6 +13457,125 @@
 
   </section>
   <section id="verbs" type="standard">
+        <!-- kifşkirin; ; kifşkir; kifş..k -->
+    <e lm="kifşkirin"><p><l>kifşkir</l><r>kifşkirin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="kifşkirin"><p><l>kifşdik</l><r>kifşkirin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="kifşkirin"><p><l>kifşbik</l><r>kifşkirin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="kifşkirin"><p><l>kifşnekir</l><r>kifşkirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="kifşkirin"><p><l>kifşdikir</l><r>kifşkirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="kifşkirin"><p><l>kifşnak</l><r>kifşkirin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="kifşkirin"><p><l>kifşnek</l><r>kifşkirin</r></p><par n="nek/e__vblex_tv"/></e>
+    <e lm="kifşkirin" r="LR"><p><l>kifş<b/>kir</l><r>kifşkirin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="kifşkirin" r="LR"><p><l>kifş<b/>dik</l><r>kifşkirin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="kifşkirin" r="LR"><p><l>kifş<b/>bik</l><r>kifşkirin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="kifşkirin" r="LR"><p><l>kifş<b/>nekir</l><r>kifşkirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="kifşkirin" r="LR"><p><l>kifş<b/>dikir</l><r>kifşkirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="kifşkirin" r="LR"><p><l>kifş<b/>nak</l><r>kifşkirin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="kifşkirin" r="LR"><p><l>kifş<b/>nek</l><r>kifşkirin</r></p><par n="nek/e__vblex_tv"/></e>
+
+        <!-- rakirin; ; rakir; ra..k -->
+    <e lm="rakirin"><p><l>rakir</l><r>rakirin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="rakirin"><p><l>radik</l><r>rakirin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="rakirin"><p><l>rabik</l><r>rakirin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="rakirin"><p><l>ranekir</l><r>rakirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="rakirin"><p><l>radikir</l><r>rakirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="rakirin"><p><l>ranak</l><r>rakirin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="rakirin"><p><l>ranek</l><r>rakirin</r></p><par n="nek/e__vblex_tv"/></e>
+    <e lm="rakirin" r="LR"><p><l>ra<b/>kir</l><r>rakirin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="rakirin" r="LR"><p><l>ra<b/>dik</l><r>rakirin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="rakirin" r="LR"><p><l>ra<b/>bik</l><r>rakirin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="rakirin" r="LR"><p><l>ra<b/>nekir</l><r>rakirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="rakirin" r="LR"><p><l>ra<b/>dikir</l><r>rakirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="rakirin" r="LR"><p><l>ra<b/>nak</l><r>rakirin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="rakirin" r="LR"><p><l>ra<b/>nek</l><r>rakirin</r></p><par n="nek/e__vblex_tv"/></e>
+
+        <!-- qedexekirin; ; qedexekir; qedexe..k -->
+    <e lm="qedexekirin"><p><l>qedexekir</l><r>qedexekirin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="qedexekirin"><p><l>qedexedik</l><r>qedexekirin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="qedexekirin"><p><l>qedexebik</l><r>qedexekirin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="qedexekirin"><p><l>qedexenekir</l><r>qedexekirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="qedexekirin"><p><l>qedexedikir</l><r>qedexekirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="qedexekirin"><p><l>qedexenak</l><r>qedexekirin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="qedexekirin"><p><l>qedexenek</l><r>qedexekirin</r></p><par n="nek/e__vblex_tv"/></e>
+    <e lm="qedexekirin" r="LR"><p><l>qedexe<b/>kir</l><r>qedexekirin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="qedexekirin" r="LR"><p><l>qedexe<b/>dik</l><r>qedexekirin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="qedexekirin" r="LR"><p><l>qedexe<b/>bik</l><r>qedexekirin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="qedexekirin" r="LR"><p><l>qedexe<b/>nekir</l><r>qedexekirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="qedexekirin" r="LR"><p><l>qedexe<b/>dikir</l><r>qedexekirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="qedexekirin" r="LR"><p><l>qedexe<b/>nak</l><r>qedexekirin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="qedexekirin" r="LR"><p><l>qedexe<b/>nek</l><r>qedexekirin</r></p><par n="nek/e__vblex_tv"/></e>
+
+        <!-- cuda kirin; ; cuda kir; cuda..k -->
+    <e lm="cuda kirin" r="LR"><p><l>cudakir</l><r>cuda<b/>kirin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="cuda kirin" r="LR"><p><l>cudadik</l><r>cuda<b/>kirin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="cuda kirin" r="LR"><p><l>cudabik</l><r>cuda<b/>kirin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="cuda kirin" r="LR"><p><l>cudanekir</l><r>cuda<b/>kirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="cuda kirin" r="LR"><p><l>cudadikir</l><r>cuda<b/>kirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="cuda kirin" r="LR"><p><l>cudanak</l><r>cuda<b/>kirin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="cuda kirin" r="LR"><p><l>cudanek</l><r>cuda<b/>kirin</r></p><par n="nek/e__vblex_tv"/></e>
+    <e lm="cuda kirin"><p><l>cuda<b/>kir</l><r>cuda<b/>kirin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="cuda kirin"><p><l>cuda<b/>dik</l><r>cuda<b/>kirin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="cuda kirin"><p><l>cuda<b/>bik</l><r>cuda<b/>kirin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="cuda kirin"><p><l>cuda<b/>nekir</l><r>cuda<b/>kirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="cuda kirin"><p><l>cuda<b/>dikir</l><r>cuda<b/>kirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="cuda kirin"><p><l>cuda<b/>nak</l><r>cuda<b/>kirin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="cuda kirin"><p><l>cuda<b/>nek</l><r>cuda<b/>kirin</r></p><par n="nek/e__vblex_tv"/></e>
+
+        <!-- vegirtin; ; vegirt; ve..gir -->
+    <e lm="vegirtin"><p><l>vegirt</l><r>vegirtin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="vegirtin"><p><l>vedigirt</l><r>vegirtin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="vegirtin"><p><l>vedigir</l><r>vegirtin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="vegirtin"><p><l>vebigir</l><r>vegirtin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="vegirtin"><p><l>venegirt</l><r>vegirtin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="vegirtin"><p><l>venagir</l><r>vegirtin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="vegirtin"><p><l>venegir</l><r>vegirtin</r></p><par n="nek/e__vblex_tv"/></e>
+    <e lm="vegirtin" r="LR"><p><l>ve<b/>girt</l><r>vegirtin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="vegirtin" r="LR"><p><l>ve<b/>digirt</l><r>vegirtin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="vegirtin" r="LR"><p><l>ve<b/>digir</l><r>vegirtin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="vegirtin" r="LR"><p><l>ve<b/>bigir</l><r>vegirtin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="vegirtin" r="LR"><p><l>ve<b/>negirt</l><r>vegirtin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="vegirtin" r="LR"><p><l>ve<b/>nagir</l><r>vegirtin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="vegirtin" r="LR"><p><l>ve<b/>negir</l><r>vegirtin</r></p><par n="nek/e__vblex_tv"/></e>
+
+        <!-- bidest ketin; ; bidest ket; bidest..kev -->
+    <e lm="bidest ketin" r="LR"><p><l>bidest ket</l><r>bidestketin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="bidest ketin" r="LR"><p><l>bidest diket</l><r>bidestketin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="bidest ketin" r="LR"><p><l>bidest dikev</l><r>bidestketin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="bidest ketin" r="LR"><p><l>bidest bikev</l><r>bidestketin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="bidest ketin" r="LR"><p><l>bidest neket</l><r>bidestketin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="bidest ketin" r="LR"><p><l>bidest nakev</l><r>bidestketin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="bidest ketin" r="LR"><p><l>bidest nekev</l><r>bidestketin</r></p><par n="nek/e__vblex_tv"/></e>
+    <e lm="bidest ketin"><p><l>bidest <b/>ket</l><r>bidestketin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="bidest ketin"><p><l>bidest <b/>diket</l><r>bidestketin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="bidest ketin"><p><l>bidest <b/>dikev</l><r>bidestketin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="bidest ketin"><p><l>bidest <b/>bikev</l><r>bidestketin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="bidest ketin"><p><l>bidest <b/>neket</l><r>bidestketin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="bidest ketin"><p><l>bidest <b/>nakev</l><r>bidestketin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="bidest ketin"><p><l>bidest <b/>nekev</l><r>bidestketin</r></p><par n="nek/e__vblex_tv"/></e>
+
+        <!-- bidest xistin; ; bidest xist; bidest x..k -->
+    <e lm="bidest xistin" r="LR"><p><l>bidest xxist</l><r>bidest<b/>xistin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="bidest xistin" r="LR"><p><l>bidest xdix</l><r>bidest<b/>xistin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="bidest xistin" r="LR"><p><l>bidest xbix</l><r>bidest<b/>xistin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="bidest xistin" r="LR"><p><l>bidest xnexist</l><r>bidest<b/>xistin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="bidest xistin" r="LR"><p><l>bidest xdixist</l><r>bidest<b/>xistin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="bidest xistin" r="LR"><p><l>bidest xnax</l><r>bidest<b/>xistin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="bidest xistin" r="LR"><p><l>bidest xnex</l><r>bidest<b/>xistin</r></p><par n="nek/e__vblex_tv"/></e>
+    <e lm="bidest xistin"><p><l>bidest x<b/>xist</l><r>bidest<b/>xistin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="bidest xistin"><p><l>bidest x<b/>dix</l><r>bidest<b/>xistin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="bidest xistin"><p><l>bidest x<b/>bix</l><r>bidest<b/>xistin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="bidest xistin"><p><l>bidest x<b/>nexist</l><r>bidest<b/>xistin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="bidest xistin"><p><l>bidest x<b/>dixist</l><r>bidest<b/>xistin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="bidest xistin"><p><l>bidest x<b/>nax</l><r>bidest<b/>xistin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="bidest xistin"><p><l>bidest x<b/>nex</l><r>bidest<b/>xistin</r></p><par n="nek/e__vblex_tv"/></e>
+
+        <!-- nîşandan; ; nîşanda; nîşan..d -->
+    <e lm="nîşandan"><p><l>nîşand</l><r>nîşandan</r></p><par n="d/an_vblex_tv"/></e>
+    <e lm="nîşandan"><p><l>nîşandid</l><r>nîşandan</r></p><par n="did/an__vblex_tv"/></e>
+    <e lm="nîşandan"><p><l>nîşanbid</l><r>nîşandan</r></p><par n="bid/an__vblex_tv"/></e>
+    <e lm="nîşandan"><p><l>nîşanned</l><r>nîşandan</r></p><par n="ned/an_vblex_tv"/></e>
+    <e lm="nîşandan"><p><l>nîşannad</l><r>nîşandan</r></p><par n="nak/e__vblex_tv"/></e>
+
         <!-- wergerandin; ; wergerand; wergerîn -->
     <e lm="wergerandin"><p><l>wergerand</l><r>wergerandin</r></p><par n="kir/__vblex_tv"/></e>
     <e lm="wergerandin"><p><l>diwergerîn</l><r>wergerandin</r></p><par n="dik/e__vblex_tv"/></e>
@@ -13738,6 +13879,8 @@
     <e lm="girtin"><p><l>girt</l><r>girtin</r></p><par n="kir/__vblex_tv"/></e>
     <e lm="girtin"><p><l>digir</l><r>girtin</r></p><par n="dik/e__vblex_tv"/></e>
     <e lm="girtin"><p><l>bigir</l><r>girtin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="girtin" r="LR"><p><l>digr</l><r>girtin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="girtin" r="LR"><p><l>bigr</l><r>girtin</r></p><par n="bik/e__vblex_tv"/></e>
     <e lm="girtin"><p><l>negir</l><r>girtin</r></p><par n="nekir/__vblex_tv"/></e>
     <e lm="girtin"><p><l>nagir</l><r>girtin</r></p><par n="nak/e__vblex_tv"/></e>
     <e lm="girtin"><p><l>negir</l><r>girtin</r></p><par n="nek/e__vblex_tv"/></e>
@@ -14283,7 +14426,7 @@
     <e lm="man"><p><l>nemîn</l><r>man</r></p><par n="neaxiv/e__vblex_iv"/></e>
      
     <!-- dan; ; da; d -->
-    <e lm="dan"><p><l>da</l><r>dan</r></p><par n="d/an_vblex_tv"/></e>
+    <e lm="dan"><p><l>d</l><r>dan</r></p><par n="d/an_vblex_tv"/></e>
     <e lm="dan"><p><l>did</l><r>dan</r></p><par n="did/an__vblex_tv"/></e>
     <e lm="dan"><p><l>bid</l><r>dan</r></p><par n="bid/an__vblex_tv"/></e>
     <e lm="dan"><p><l>ned</l><r>dan</r></p><par n="ned/an_vblex_tv"/></e>
