@@ -883,13 +883,26 @@
         <e><p><l></l><r>bûn<s n="vaux"/></r></p><par n="/bûn"/></e>
     </pardef>
 
-    <pardef n="da/n_vblex_tv">
-        <e><p><l></l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>ye</l><r><s n="vblex"/><s n="iv"/><s n="narr"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l><b/>bû</l><r><s n="vblex"/><s n="iv"/><s n="plu"/><s n="p3"/><s n="sg"/></r></p></e>
+    <pardef n="d/an_vblex_tv">
+        <e><p><l>a</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>in</l><r><s n="vblex"/><s n="tv"/><s n="narr"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e><p><l><b/>bû</l><r><s n="vblex"/><s n="tv"/><s n="plu"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l><b/>bûn</l><r><s n="vblex"/><s n="tv"/><s n="plu"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
 
-    <pardef n="bid/e_vblex_tv">
+    <pardef n="ned/an_vblex_tv">
+        <e><p><l></l><r><s n="vblex"/><s n="tv"/><s n="neg"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>ye</l><r><s n="vblex"/><s n="tv"/><s n="neg"/><s n="narr"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l><b/>bû</l><r><s n="vblex"/><s n="tv"/><s n="neg"/><s n="plu"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>im</l><r><s n="vblex"/><s n="tv"/><s n="neg"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>î</l><r><s n="vblex"/><s n="tv"/><s n="neg"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>e</l><r><s n="vblex"/><s n="tv"/><s n="neg"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>in</l><r><s n="vblex"/><s n="tv"/><s n="neg"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>in</l><r><s n="vblex"/><s n="tv"/><s n="neg"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>in</l><r><s n="vblex"/><s n="tv"/><s n="neg"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="bid/an__vblex_tv">
         <e><p><l>im</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
         <e><p><l>im</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p1"/><s n="sg"/></r></p></e>
         <e><p><l>î</l><r><s n="vblex"/><s n="tv"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -904,13 +917,19 @@
         <e><p><l>in</l><r><s n="vblex"/><s n="tv"/><s n="fut"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
 
-  <pardef n="did/e_vblex_tv">
+  <pardef n="did/an__vblex_tv">
         <e><p><l>im</l><r><s n="vblex"/><s n="tv"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
         <e><p><l>î</l><r><s n="vblex"/><s n="tv"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
         <e><p><l>e</l><r><s n="vblex"/><s n="tv"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
         <e><p><l>in</l><r><s n="vblex"/><s n="tv"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
         <e><p><l>in</l><r><s n="vblex"/><s n="tv"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>in</l><r><s n="vblex"/><s n="tv"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e><p><l>im</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="prog"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>î</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="prog"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>a</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="prog"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>in</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="prog"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>in</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="prog"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>in</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="prog"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="ma/n_vblex_iv">
@@ -1277,6 +1296,7 @@
     <e lm="ango" r="LR"><p><l>anku</l><r>ango</r></p><par n="ango__cnjadv"/></e>
     <e lm="ango" r="LR"><p><l>anko</l><r>ango</r></p><par n="ango__cnjadv"/></e>
     <e lm="ango"><i>ango</i><par n="ango__cnjadv"/></e>
+    <e lm="yanî"><i>yanî</i><par n="ango__cnjadv"/></e>
     <e lm="û"><i>û</i><par n="û__cnjcoo"/></e>
     <e lm="lê"><i>lê</i><par n="û__cnjcoo"/></e>
     <e lm="yan"><i>yan</i><par n="û__cnjcoo"/></e>
@@ -13409,7 +13429,6 @@
     <e lm="axaftin" r="LR"><p><l>naxiv</l><r>axaftin</r></p><par n="naaxiv/e__vblex_iv"/></e>
 
 
-<!--	<e lm="dan"><i/><par n ="/dan__vblex_tv"/></e> -->
 
   </section>
   <section id="verbs" type="standard">
@@ -14125,10 +14144,10 @@
     <e lm="man"><p><l>nemîn</l><r>man</r></p><par n="neaxiv/e__vblex_iv"/></e>
      
     <!-- dan; ; da; d -->
-    <e lm="dan"><p><l>de</l><r>dan</r></p><par n="kir/__vblex_tv"/></e>
-    <e lm="dan"><p><l>did</l><r>dan</r></p><par n="dik/e__vblex_tv"/></e>
-    <e lm="dan"><p><l>bid</l><r>dan</r></p><par n="bik/e__vblex_tv"/></e>
-    <e lm="dan"><p><l>neda</l><r>dan</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="dan"><p><l>da</l><r>dan</r></p><par n="d/an_vblex_tv"/></e>
+    <e lm="dan"><p><l>did</l><r>dan</r></p><par n="did/an__vblex_tv"/></e>
+    <e lm="dan"><p><l>bid</l><r>dan</r></p><par n="bid/an__vblex_tv"/></e>
+    <e lm="dan"><p><l>ned</l><r>dan</r></p><par n="ned/an_vblex_tv"/></e>
     <e lm="dan"><p><l>nad</l><r>dan</r></p><par n="nak/e__vblex_tv"/></e>
     <e lm="dan"><p><l>ned</l><r>dan</r></p><par n="nek/e__vblex_tv"/></e>
 
