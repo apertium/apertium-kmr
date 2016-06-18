@@ -1445,6 +1445,18 @@
     <!-- SECTION: Nouns -->
 
     <!-- New Feminines -->
+    <e lm="tişt"><i>tişt</i><par n="jin__n_f"/></e>
+    <e lm="xwendevan"><i>xwendevan</i><par n="jin__n_f"/></e>
+    <e lm="derxistin"><i>derxistin</i><par n="jin__n_f"/></e>
+    <e lm="formul"><i>formul</i><par n="jin__n_f"/></e>
+    <e lm="şax"><i>şax</i><par n="jin__n_f"/></e>
+    <e lm="masî"><i>mas</i><par n="piran/î__n_f"/></e>
+    <e lm="cins"><i>cins</i><par n="jin__n_f"/></e>
+    <e lm="jînenîgarî"><i>jînenîgar</i><par n="piran/î__n_f"/></e>
+    <e lm="carî"><i>car</i><par n="piran/î__n_f"/></e>
+    <e lm="nîşandan"><i>nîşandan</i><par n="jin__n_f"/></e>
+    <e lm="rûsî"><i>rûs</i><par n="piran/î__n_f"/></e>
+    <e lm="riwek"><i>riwek</i><par n="jin__n_f"/></e>
     <e lm="UTC"><i>UTC</i><par n="YNK__n"/></e>
     <e lm="fahm"><i>fahm</i><par n="jin__n_f"/></e>
     <e lm="cîran"><i>cîran</i><par n="jin__n_f"/></e>
@@ -1631,6 +1643,8 @@
 
     
     <!-- New Masculines -->
+    <e lm="spanî"><i>span</i><par n="xan/î__n_m"/></e>
+    <e lm="rûsî"><i>rûs</i><par n="xan/î__n_m"/></e>
     <e lm="cîran"><i>cîran</i><par n="mirov__n_m"/></e>
     <e lm="cînav"><i>cînav</i><par n="mirov__n_m"/></e>
     <e lm="bajarok"><i>bajarok</i><par n="mirov__n_m"/></e>
@@ -12809,6 +12823,13 @@
     <e lm="HDP"><i>HDP</i><par n="YNK__n"/></e>
 
     <!-- SECTION: Proper nouns -->
+    <e lm="Dîvrîgiya"><i>Dîvrîgiya</i><par n="Bexda__np"/></e>
+    <e lm="Şemzînan"><i>Şemzînan</i><par n="Kurdistan__np"/></e>
+    <e lm="Sovyet"><i>Sovyet</i><par n="Kurdistan__np"/></e>
+    <e lm="Elkê"><i>Elkê</i><par n="Licê/__np"/></e>
+    <e lm="Çinar"><i>Çinar</i><par n="Salih__np"/></e>
+    <e lm="von"><i>von</i><par n="Salih__np"/></e>
+    <e lm="Pîrosa"><i>Pîrosa</i><par n="Bexda__np"/></e>
     <e lm="II"><i>II</i><par n="Salih__np"/></e>
     <e lm="The"><i>Th</i><par n="Tirkiy/e__np"/></e>
     <e lm="New"><i>New</i><par n="Kurdistan__np"/></e>
@@ -13190,6 +13211,18 @@
     <!-- SECTION: Adjectives -->
 
     <!-- new comparables -->
+    <e lm="texmînî"><i>texmînî</i><par n="nû__adj"/></e>
+    <e lm="pakij"><i>pakij</i><par n="nû__adj"/></e>
+    <e lm="çalak"><i>çalak</i><par n="nû__adj"/></e>
+    <e lm="xizan"><i>xizan</i><par n="nû__adj"/></e>
+    <e lm="fêrî"><i>fêrî</i><par n="nû__adj"/></e>
+    <e lm="rojî"><i>rojî</i><par n="nû__adj"/></e>
+    <e lm="kovî"><i>kovî</i><par n="nû__adj"/></e>
+    <e lm="edebî"><i>edebî</i><par n="nû__adj"/></e>
+    <e lm="spanî"><i>spanî</i><par n="nû__adj"/></e>
+    <e lm="xelas"><i>xelas</i><par n="nû__adj"/></e>
+    <e lm="rûsî"><i>rûsî</i><par n="nû__adj"/></e>
+    <e lm="xwezayî"><i>xwezayî</i><par n="nû__adj"/></e>
     <e lm="pîr"><i>pîr</i><par n="nû__adj"/></e>
     <e lm="xilas"><i>xilas</i><par n="nû__adj"/></e>
     <e lm="kevneşopî"><i>kevneşopî</i><par n="nû__adj"/></e>
@@ -13290,6 +13323,8 @@
     <e lm="pirr"><i>pirr</i><par n="nû__adj"/></e>
     
     <!-- new non-comparables -->
+    <e lm="danî"><i>danî</i><par n="kurdî__adj"/></e>
+    <e lm="dehan"><i>dehan</i><par n="kurdî__adj"/></e>
     <e lm="peyda"><i>peyda</i><par n="kurdî__adj"/></e>
     <e lm="nivîskî"><i>nivîskî</i><par n="kurdî__adj"/></e>
     <e lm="zewicî"><i>zewicî</i><par n="kurdî__adj"/></e>
@@ -13457,6 +13492,54 @@
 
   </section>
   <section id="verbs" type="standard">
+        <!-- destnîşan kirin; ; destnîşan kir; destnîşan..k -->
+    <e lm="destnîşan kirin" r="LR"><p><l>destnîşankir</l><r>destnîşan<b/>kirin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="destnîşan kirin" r="LR"><p><l>destnîşandik</l><r>destnîşan<b/>kirin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="destnîşan kirin" r="LR"><p><l>destnîşanbik</l><r>destnîşan<b/>kirin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="destnîşan kirin" r="LR"><p><l>destnîşannekir</l><r>destnîşan<b/>kirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="destnîşan kirin" r="LR"><p><l>destnîşandikir</l><r>destnîşan<b/>kirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="destnîşan kirin" r="LR"><p><l>destnîşannak</l><r>destnîşan<b/>kirin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="destnîşan kirin" r="LR"><p><l>destnîşannek</l><r>destnîşan<b/>kirin</r></p><par n="nek/e__vblex_tv"/></e>
+    <e lm="destnîşan kirin"><p><l>destnîşan<b/>kir</l><r>destnîşan<b/>kirin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="destnîşan kirin"><p><l>destnîşan<b/>dik</l><r>destnîşan<b/>kirin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="destnîşan kirin"><p><l>destnîşan<b/>bik</l><r>destnîşan<b/>kirin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="destnîşan kirin"><p><l>destnîşan<b/>nekir</l><r>destnîşan<b/>kirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="destnîşan kirin"><p><l>destnîşan<b/>dikir</l><r>destnîşan<b/>kirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="destnîşan kirin"><p><l>destnîşan<b/>nak</l><r>destnîşan<b/>kirin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="destnîşan kirin"><p><l>destnîşan<b/>nek</l><r>destnîşan<b/>kirin</r></p><par n="nek/e__vblex_tv"/></e>
+
+        <!-- navkirin; ; navkir; nav..k -->
+    <e lm="navkirin"><p><l>navkir</l><r>navkirin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="navkirin"><p><l>navdik</l><r>navkirin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="navkirin"><p><l>navbik</l><r>navkirin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="navkirin"><p><l>navnekir</l><r>navkirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="navkirin"><p><l>navdikir</l><r>navkirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="navkirin"><p><l>navnak</l><r>navkirin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="navkirin"><p><l>navnek</l><r>navkirin</r></p><par n="nek/e__vblex_tv"/></e>
+    <e lm="navkirin" r="LR"><p><l>nav<b/>kir</l><r>navkirin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="navkirin" r="LR"><p><l>nav<b/>dik</l><r>navkirin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="navkirin" r="LR"><p><l>nav<b/>bik</l><r>navkirin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="navkirin" r="LR"><p><l>nav<b/>nekir</l><r>navkirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="navkirin" r="LR"><p><l>nav<b/>dikir</l><r>navkirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="navkirin" r="LR"><p><l>nav<b/>nak</l><r>navkirin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="navkirin" r="LR"><p><l>nav<b/>nek</l><r>navkirin</r></p><par n="nek/e__vblex_tv"/></e>
+
+        <!-- carî kirin; ; carî kir; carî..k -->
+    <e lm="carî kirin" r="LR"><p><l>carîkir</l><r>carî<b/>kirin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="carî kirin" r="LR"><p><l>carîdik</l><r>carî<b/>kirin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="carî kirin" r="LR"><p><l>carîbik</l><r>carî<b/>kirin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="carî kirin" r="LR"><p><l>carînekir</l><r>carî<b/>kirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="carî kirin" r="LR"><p><l>carîdikir</l><r>carî<b/>kirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="carî kirin" r="LR"><p><l>carînak</l><r>carî<b/>kirin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="carî kirin" r="LR"><p><l>carînek</l><r>carî<b/>kirin</r></p><par n="nek/e__vblex_tv"/></e>
+    <e lm="carî kirin"><p><l>carî<b/>kir</l><r>carî<b/>kirin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="carî kirin"><p><l>carî<b/>dik</l><r>carî<b/>kirin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="carî kirin"><p><l>carî<b/>bik</l><r>carî<b/>kirin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="carî kirin"><p><l>carî<b/>nekir</l><r>carî<b/>kirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="carî kirin"><p><l>carî<b/>dikir</l><r>carî<b/>kirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="carî kirin"><p><l>carî<b/>nak</l><r>carî<b/>kirin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="carî kirin"><p><l>carî<b/>nek</l><r>carî<b/>kirin</r></p><par n="nek/e__vblex_tv"/></e>
+
         <!-- kifşkirin; ; kifşkir; kifş..k -->
     <e lm="kifşkirin"><p><l>kifşkir</l><r>kifşkirin</r></p><par n="kir/__vblex_tv"/></e>
     <e lm="kifşkirin"><p><l>kifşdik</l><r>kifşkirin</r></p><par n="dik/e__vblex_tv"/></e>
