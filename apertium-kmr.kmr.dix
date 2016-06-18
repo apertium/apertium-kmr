@@ -237,7 +237,7 @@
 
     <!-- SECTION: Pronouns -->
 	<pardef n="herdu__prn">
-	  <e><p><l></l><r><s n="prn"/><s n="pl"/></r></p></e>
+	  <e><p><l/><r><s n="prn"/><s n="pl"/></r></p></e>
 	  <e><p><l>ya</l><r><s n="prn"/><s n="con"/><s n="pl"/></r></p></e>
 	  <e><p><l>yên</l><r><s n="prn"/><s n="con"/><s n="pl"/></r></p></e>
 	  <e><p><l>yan</l><r><s n="prn"/><s n="pl"/></r></p></e>
@@ -1386,7 +1386,7 @@
 
 
     <!-- SECTION: Pronouns -->
-    <e lm="herdu"><i/><par n="herdu__prn"/></e>
+    <e lm="herdu"><i>herdu</i><par n="herdu__prn"/></e>
     <e lm="ez"><i/><par n="/ez__prn"/></e>
     <e lm="tu"><i>t</i><par n="t/u__prn"/></e>
     <e lm="ew"><i/><par n="ew__prn"/></e>
@@ -8102,7 +8102,6 @@
       <e lm="mijar"><i>mijar</i><par n="jin__n_f"/></e>
       <e lm="mijdar"><i>mijdar</i><par n="jin__n_f"/></e>
       <e lm="mijmij"><i>mijmij</i><par n="jin__n_f"/></e>
-      <e lm="#cmpnd# mijûl bi ... veî"><i>#cmpnd# mijûl bi ... ve</i><par n="piran/î__n_f"/></e>
       <e lm="mijûlahî"><i>mijûlah</i><par n="piran/î__n_f"/></e>
       <e lm="mijûlahî"><i>mijûlah</i><par n="piran/î__n_f"/></e>
       <e lm="mijûlî"><i>mijûl</i><par n="piran/î__n_f"/></e>
