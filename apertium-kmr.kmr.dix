@@ -311,6 +311,10 @@
       <e><p><l></l><r><s n="det"/><s n="qnt"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
 
+    <pardef n="çiqas__det"> 
+      <e><p><l></l><r><s n="det"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
+    </pardef>
+
     <pardef n="/ew__det">
       <e><p><l>ew</l><r>ew<s n="det"/><s n="dem"/><s n="mf"/><s n="sp"/><s n="nom"/></r></p></e>
       <e><p><l>wî</l><r>ew<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
@@ -1406,7 +1410,7 @@
     <e lm="çi"><i>çi</i><par n="çi__prn_itg"/></e>
     <e lm="kî"><i>kî</i><par n="çi__prn_itg"/></e>
     <!-- SECTION: Determiners -->
-
+    <e lm="çiqas"><i>çiqas</i><par n="çiqas__det"/></e>
     <e lm="ev"><i></i><par n="/ev__det"/></e>
     <e lm="ew"><i></i><par n="/ew__det"/></e>
     <e lm="çend"><i>çend</i><par n="hindek__det"/></e>
