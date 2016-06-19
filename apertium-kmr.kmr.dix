@@ -1459,6 +1459,10 @@
     <!-- SECTION: Nouns -->
 
     <!-- New Feminines -->
+    <e lm="Kürt"><i>Kürt</i><par n="jin__n_f"/></e>
+    <e lm="Manî"><i>Man</i><par n="piran/î__n_f"/></e>
+    <e lm="xoy"><i>xoy</i><par n="jin__n_f"/></e>
+    <e lm="rûs"><i>rûs</i><par n="jin__n_f"/></e>
     <e lm="hemwelatî"><i>hemwelat</i><par n="piran/î__n_f"/></e>
     <e lm="HTML"><i>HTML</i><par n="YNK__n"/></e>
     <e lm="proteîn"><i>proteîn</i><par n="jin__n_f"/></e>
@@ -1799,6 +1803,14 @@
 
     
     <!-- New Masculines -->
+    <e lm="beşdar"><i>beşdar</i><par n="mirov__n_m"/></e>
+    <e lm="Kürt"><i>Kürt</i><par n="mirov__n_m"/></e>
+    <e lm="serokkomar"><i>serokkomar</i><par n="mirov__n_m"/></e>
+    <e lm="Manî"><i>Man</i><par n="xan/î__n_m"/></e>
+    <e lm="leşkerî"><i>leşker</i><par n="xan/î__n_m"/></e>
+    <e lm="xwûda"><i>xwûd</i><par n ="çiy/a__n_m"/></e>
+    <e lm="çîya"><i>çîy</i><par n ="çiy/a__n_m"/></e>
+    <e lm="rûs"><i>rûs</i><par n="mirov__n_m"/></e>
     <e lm="hemwelatî"><i>hemwelat</i><par n="xan/î__n_m"/></e>
     <e lm="ewropayî"><i>ewropay</i><par n="xan/î__n_m"/></e>
     <e lm="Çeçen"><i>Çeçen</i><par n="mirov__n_m"/></e>
@@ -13050,6 +13062,7 @@
     <e lm="HDP"><i>HDP</i><par n="YNK__n"/></e>
 
     <!-- SECTION: Proper nouns -->
+    <e lm="yewnan"><i>yewnan</i><par n="Kurdistan__np"/></e>
     <e lm="Hikmet"><i>Hikmet</i><par n="Salih__np"/></e>
     <e lm="İnönü"><i>İnönü</i><par n="Salih__np"/></e>
     <e lm="Îrlenda"><i>Îrlenda</i><par n="Bexda__np"/></e>
@@ -13811,6 +13824,14 @@
     <!-- SECTION: Adjectives -->
 
     <!-- new comparables -->
+    <e lm="zîrek"><i>zîrek</i><par n="nû__adj"/></e>
+    <e lm="qenc"><i>qenc</i><par n="nû__adj"/></e>
+    <e lm="asûrî"><i>asûrî</i><par n="nû__adj"/></e>
+    <e lm="erênî"><i>erênî</i><par n="nû__adj"/></e>
+    <e lm="demekî"><i>demekî</i><par n="nû__adj"/></e>
+    <e lm="bindest"><i>bindes</i><par n="pêwis/t__adj"/></e>
+    <e lm="çendîn"><i>çendîn</i><par n="nû__adj"/></e>
+    <e lm="xebitî"><i>xebitî</i><par n="nû__adj"/></e>
     <e lm="holendî"><i>holendî</i><par n="nû__adj"/></e>
     <e lm="jêrî"><i>jêrî</i><par n="nû__adj"/></e>
     <e lm="makedonî"><i>makedonî</i><par n="nû__adj"/></e>
@@ -14093,6 +14114,8 @@
     <e lm="rewa"><i>rewa</i><par n="kurdî__adj"/></e>
 
     <!-- SECTION: Adverb entries -->
+    <e lm="zehf"><i>zehf</i><par n="niha__adv"/></e>
+    <e lm="berçav"><i>berçav</i><par n="niha__adv"/></e>
     <e lm="carina"><i>carina</i><par n="niha__adv"/></e>
     <e lm="hertimî"><i>hertimî</i><par n="niha__adv"/></e>
     <e lm="şunda"><i>şunda</i><par n="niha__adv"/></e>
