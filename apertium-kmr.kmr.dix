@@ -1547,13 +1547,20 @@
     <e lm="sed"><i>sed</i><par n="milyon__num"/></e>
 
     <!-- SECTION: Abbreviations -->
-
+    <e lm="z."><i>z.</i><par n="hwd__abbr"/></e> 
     <e lm="hwd"><i>hwd</i><par n="hwd__abbr"/></e> 
     <e lm="km"><i>km</i><par n="hwd__abbr"/></e> 
     <e lm="m"><i>m</i><par n="hwd__abbr"/></e> 
     <!-- SECTION: Nouns -->
 
     <!-- New Feminines -->
+    <e lm="psîkoanalîz"><i>psîkoanalîz</i><par n="jin__n_f"/></e>
+    <e lm="TKP"><i>TKP</i><par n="YNK__n"/></e>
+    <e lm="AKP"><i>AKP</i><par n="YNK__n"/></e>
+    <e lm="ARGK"><i>ARGK</i><par n="YNK__n"/></e>
+    <e lm="hêjmar"><i>hêjmar</i><par n="jin__n_f"/></e>
+    <e lm="hektar"><i>hektar</i><par n="jin__n_f"/></e>
+    <e lm="IBM"><i>IBM</i><par n="YNK__n"/></e>
     <e lm="Web"><i>Web</i><par n="jin__n_f"/></e>
     <e lm="garis"><i>garis</i><par n="jin__n_f"/></e>
     <e lm="dagir"><i>dagir</i><par n="jin__n_f"/></e>
@@ -1978,6 +1985,9 @@
 
     
     <!-- New Masculines -->
+    <e lm="Hîtît"><i>Hîtît</i><par n="mirov__n_m"/></e>
+    <e lm="keşîş"><i>keşîş</i><par n="mirov__n_m"/></e>
+    <e lm="psîkoanalîst"><i>psîkoanalîst</i><par n="mirov__n_m"/></e>
     <e lm="sasanî"><i>sasan</i><par n="xan/î__n_m"/></e>
     <e lm="aktor"><i>aktor</i><par n="mirov__n_m"/></e>
     <e lm="xizan"><i>xizan</i><par n="mirov__n_m"/></e>
@@ -13272,6 +13282,64 @@
     <e lm="HDP"><i>HDP</i><par n="YNK__n"/></e>
 
     <!-- SECTION: Proper nouns -->
+    <e lm="Nicolas"><i>Nicolas</i><par n="Salih__np"/></e>
+    <e lm="Noşîrwan"><i>Noşîrwan</i><par n="Salih__np"/></e>
+    <e lm="Nûreddîn"><i>Nûreddîn</i><par n="Salih__np"/></e>
+    <e lm="Nurullah"><i>Nurullah</i><par n="Salih__np"/></e>
+    <e lm="Omar"><i>Omar</i><par n="Salih__np"/></e>
+    <e lm="Oscar"><i>Oscar</i><par n="Salih__np"/></e>
+    <e lm="Papazyan"><i>Papazyan</i><par n="Salih__np"/></e>
+    <e lm="Qeyserî"><i>Qeyser</i><par n="Agir/î__np"/></e>
+    <e lm="Recep"><i>Recep</i><par n="Salih__np"/></e>
+    <e lm="Rojda"><i>Rojda</i><par n="Leyla__np"/></e>
+    <e lm="Sao"><i>Sao</i><par n="Salih__np"/></e>
+    <e lm="Schiller"><i>Schiller</i><par n="Salih__np"/></e>
+    <e lm="Şemdîn"><i>Şemdîn</i><par n="Kurdistan__np"/></e>
+    <e lm="Semra"><i>Semra</i><par n="Leyla__np"/></e>
+    <e lm="Şems"><i>Şems</i><par n="Salih__np"/></e>
+    <e lm="Şengal"><i>Şengal</i><par n="Kurdistan__np"/></e>
+    <e lm="Server"><i>Server</i><par n="Salih__np"/></e>
+    <e lm="Tennessee"><i>Tennesse</i><par n="Tirkiy/e__np"/></e>
+    <e lm="Tolstoy"><i>Tolstoy</i><par n="Salih__np"/></e>
+    <e lm="Trabzon"><i>Trabzon</i><par n="Kurdistan__np"/></e>
+    <e lm="Ukrayna"><i>Ukrayna</i><par n="Bexda__np"/></e>
+    <e lm="Vinci"><i>Vinci</i><par n="Salih__np"/></e>
+    <e lm="Walter"><i>Walter</i><par n="Salih__np"/></e>
+    <e lm="Williams"><i>Williams</i><par n="Salih__np"/></e>
+    <e lm="Xelîlî"><i>Xelîl</i><par n="Barzan/î__np"/></e>
+    <e lm="Yang"><i>Yang</i><par n="Salih__np"/></e>
+    <e lm="Yasîn"><i>Yasîn</i><par n="Salih__np"/></e>
+    <e lm="Yewnanîstan"><i>Yewnanîstan</i><par n="Kurdistan__np"/></e>
+    <e lm="Young"><i>Young</i><par n="Salih__np"/></e>
+    <e lm="Zakaria"><i>Zakaria</i><par n="Salih__np"/></e>
+    <e lm="Adnan"><i>Adnan</i><par n="Salih__np"/></e>
+    <e lm="Alexios"><i>Alexios</i><par n="Salih__np"/></e>
+    <e lm="André"><i>André</i><par n="Salih__np"/></e>
+    <e lm="Arnold"><i>Arnold</i><par n="Salih__np"/></e>
+    <e lm="Avşar"><i>Avşar</i><par n="Salih__np"/></e>
+    <e lm="Bruksel"><i>Bruksel</i><par n="Kurdistan__np"/></e>
+    <e lm="Çanakkale"><i>Çanakkal</i><par n="Tirkiy/e__np"/></e>
+    <e lm="Carolina"><i>Carolina</i><par n="Leyla__np"/></e>
+    <e lm="Cezayir"><i>Cezayir</i><par n="Kurdistan__np"/></e>
+    <e lm="Christian"><i>Christian</i><par n="Salih__np"/></e>
+    <e lm="Claude"><i>Claude</i><par n="Salih__np"/></e>
+    <e lm="Darwin"><i>Darwin</i><par n="Salih__np"/></e>
+    <e lm="Duran"><i>Duran</i><par n="Salih__np"/></e>
+    <e lm="Ebûbekir"><i>Ebûbekir</i><par n="Salih__np"/></e>
+    <e lm="Elîşêr"><i>Elîşêr</i><par n="Salih__np"/></e>
+    <e lm="Elîxan"><i>Elîxan</i><par n="Salih__np"/></e>
+    <e lm="Giovanni"><i>Giovanni</i><par n="Salih__np"/></e>
+    <e lm="Hamid"><i>Hamid</i><par n="Salih__np"/></e>
+    <e lm="Hamûrabî"><i>Hamûrab</i><par n="Barzan/î__np"/></e>
+    <e lm="Hardy"><i>Hardy</i><par n="Salih__np"/></e>
+    <e lm="Harrison"><i>Harrison</i><par n="Salih__np"/></e>
+    <e lm="Harvard"><i>Harvard</i><par n="Kurdistan__np"/></e>
+    <e lm="Işık"><i>Işık</i><par n="Salih__np"/></e>
+    <e lm="Izedîn"><i>Izedîn</i><par n="Salih__np"/></e>
+    <e lm="Janeiro"><i>Janeiro</i><par n="Kurdistan__np"/></e>
+    <e lm="Kahraman"><i>Kahraman</i><par n="Salih__np"/></e>
+    <e lm="Kirmanşah"><i>Kirmanşah</i><par n="Kurdistan__np"/></e>
+    <e lm="Kirmanşan"><i>Kirmanşan</i><par n="Kurdistan__np"/></e>
     <e lm="Mukriyanî"><i>Mukriyan</i><par n="Barzan/î__np"/></e>
     <e lm="Mîrza"><i>Mîrza</i><par n="Salih__np"/></e>
     <e lm="Dogan"><i>Dogan</i><par n="Salih__np"/></e>
@@ -14206,6 +14274,12 @@
     <!-- SECTION: Adjectives -->
 
     <!-- new comparables -->
+    <e lm="orijînal"><i>orijînal</i><par n="nû__adj"/></e>
+    <e lm="pozîtîf"><i>pozîtîf</i><par n="nû__adj"/></e>
+    <e lm="pozîtîv"><i>pozîtîv</i><par n="nû__adj"/></e>
+    <e lm="trajîk"><i>trajîk</i><par n="nû__adj"/></e>
+    <e lm="ûkraynî"><i>ûkraynî</i><par n="nû__adj"/></e>
+    <e lm="heteroseksuel"><i>heteroseksuel</i><par n="nû__adj"/></e>
     <e lm="tund"><i>tund</i><par n="nû__adj"/></e>
     <e lm="etnîkî"><i>etnîkî</i><par n="nû__adj"/></e>
     <e lm="tevlîhevî"><i>tevlîhevî</i><par n="nû__adj"/></e>
@@ -14655,6 +14729,54 @@
 
   </section>
   <section id="verbs" type="standard">
+        <!-- qeydkirin; ; qeydkir; qeyd..k -->
+    <e lm="qeydkirin"><p><l>qeydkir</l><r>qeydkirin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="qeydkirin"><p><l>qeyddik</l><r>qeydkirin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="qeydkirin"><p><l>qeydbik</l><r>qeydkirin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="qeydkirin"><p><l>qeydnekir</l><r>qeydkirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="qeydkirin"><p><l>qeyddikir</l><r>qeydkirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="qeydkirin"><p><l>qeydnak</l><r>qeydkirin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="qeydkirin"><p><l>qeydnek</l><r>qeydkirin</r></p><par n="nek/e__vblex_tv"/></e>
+    <e lm="qeydkirin" r="LR"><p><l>qeyd<b/>kir</l><r>qeydkirin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="qeydkirin" r="LR"><p><l>qeyd<b/>dik</l><r>qeydkirin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="qeydkirin" r="LR"><p><l>qeyd<b/>bik</l><r>qeydkirin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="qeydkirin" r="LR"><p><l>qeyd<b/>nekir</l><r>qeydkirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="qeydkirin" r="LR"><p><l>qeyd<b/>dikir</l><r>qeydkirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="qeydkirin" r="LR"><p><l>qeyd<b/>nak</l><r>qeydkirin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="qeydkirin" r="LR"><p><l>qeyd<b/>nek</l><r>qeydkirin</r></p><par n="nek/e__vblex_tv"/></e>
+
+        <!-- şehîdkirin; ; şehîdkir; şehîd..k -->
+    <e lm="şehîdkirin"><p><l>şehîdkir</l><r>şehîdkirin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="şehîdkirin"><p><l>şehîddik</l><r>şehîdkirin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="şehîdkirin"><p><l>şehîdbik</l><r>şehîdkirin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="şehîdkirin"><p><l>şehîdnekir</l><r>şehîdkirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="şehîdkirin"><p><l>şehîddikir</l><r>şehîdkirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="şehîdkirin"><p><l>şehîdnak</l><r>şehîdkirin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="şehîdkirin"><p><l>şehîdnek</l><r>şehîdkirin</r></p><par n="nek/e__vblex_tv"/></e>
+    <e lm="şehîdkirin" r="LR"><p><l>şehîd<b/>kir</l><r>şehîdkirin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="şehîdkirin" r="LR"><p><l>şehîd<b/>dik</l><r>şehîdkirin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="şehîdkirin" r="LR"><p><l>şehîd<b/>bik</l><r>şehîdkirin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="şehîdkirin" r="LR"><p><l>şehîd<b/>nekir</l><r>şehîdkirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="şehîdkirin" r="LR"><p><l>şehîd<b/>dikir</l><r>şehîdkirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="şehîdkirin" r="LR"><p><l>şehîd<b/>nak</l><r>şehîdkirin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="şehîdkirin" r="LR"><p><l>şehîd<b/>nek</l><r>şehîdkirin</r></p><par n="nek/e__vblex_tv"/></e>
+
+        <!-- behskirin; ; behskir; behs..k -->
+    <e lm="behskirin"><p><l>behskir</l><r>behskirin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="behskirin"><p><l>behsdik</l><r>behskirin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="behskirin"><p><l>behsbik</l><r>behskirin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="behskirin"><p><l>behsnekir</l><r>behskirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="behskirin"><p><l>behsdikir</l><r>behskirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="behskirin"><p><l>behsnak</l><r>behskirin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="behskirin"><p><l>behsnek</l><r>behskirin</r></p><par n="nek/e__vblex_tv"/></e>
+    <e lm="behskirin" r="LR"><p><l>behs<b/>kir</l><r>behskirin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="behskirin" r="LR"><p><l>behs<b/>dik</l><r>behskirin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="behskirin" r="LR"><p><l>behs<b/>bik</l><r>behskirin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="behskirin" r="LR"><p><l>behs<b/>nekir</l><r>behskirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="behskirin" r="LR"><p><l>behs<b/>dikir</l><r>behskirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="behskirin" r="LR"><p><l>behs<b/>nak</l><r>behskirin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="behskirin" r="LR"><p><l>behs<b/>nek</l><r>behskirin</r></p><par n="nek/e__vblex_tv"/></e>
+
         <!-- tevdan; ; tevda; tev..d -->
     <e lm="tevdan"><p><l>tevd</l><r>tevdan</r></p><par n="d/an_vblex_tv"/></e>
     <e lm="tevdan"><p><l>tevdid</l><r>tevdan</r></p><par n="did/an__vblex_tv"/></e>
