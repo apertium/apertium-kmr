@@ -792,12 +792,23 @@
       <e><p><l>îtir</l><r>î<s n="adj"/><s n="comp"/></r></p></e>
       <e><p><l>îtirîn</l><r>î<s n="adj"/><s n="sup"/></r></p></e>
       <e><p><l>iya</l><r>î<s n="adj"/><s n="pst"/><s n="con"/></r></p></e>
+      <e><p><l>iyê</l><r>î<s n="adj"/><s n="pst"/><s n="con"/></r></p></e>
     </pardef>
 
     <pardef n="nû__adj">
       <e><p><l></l><r><s n="adj"/><s n="pst"/></r></p></e>
       <e><p><l>tir</l><r><s n="adj"/><s n="comp"/></r></p></e>
       <e><p><l>tirîn</l><r><s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>ya</l><r><s n="adj"/><s n="pst"/><s n="con"/></r></p></e>
+      <e><p><l>yê</l><r><s n="adj"/><s n="pst"/><s n="con"/></r></p></e>
+    </pardef>
+
+    <pardef n="germ__adj">
+      <e><p><l></l><r><s n="adj"/><s n="pst"/></r></p></e>
+      <e><p><l>tir</l><r><s n="adj"/><s n="comp"/></r></p></e>
+      <e><p><l>tirîn</l><r><s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>a</l><r><s n="adj"/><s n="pst"/><s n="con"/></r></p></e>
+      <e><p><l>ê</l><r><s n="adj"/><s n="pst"/><s n="con"/></r></p></e>
     </pardef>
 
     <pardef n="pêwis/t__adj">
@@ -13857,215 +13868,215 @@
     <!-- SECTION: Adjectives -->
 
     <!-- new comparables -->
-    <e lm="zêdetirî"><i>zêdetirî</i><par n="nû__adj"/></e>
-    <e lm="şaş"><i>şaş</i><par n="nû__adj"/></e>
-    <e lm="curbecur"><i>curbecur</i><par n="nû__adj"/></e>
-    <e lm="zîrek"><i>zîrek</i><par n="nû__adj"/></e>
-    <e lm="qenc"><i>qenc</i><par n="nû__adj"/></e>
-    <e lm="asûrî"><i>asûrî</i><par n="nû__adj"/></e>
-    <e lm="erênî"><i>erênî</i><par n="nû__adj"/></e>
-    <e lm="demekî"><i>demekî</i><par n="nû__adj"/></e>
+    <e lm="zêdetirî"><i>zêdetirî</i><par n="navend/î__adj"/></e>
+    <e lm="şaş"><i>şaş</i><par n="germ__adj"/></e>
+    <e lm="curbecur"><i>curbecur</i><par n="germ__adj"/></e>
+    <e lm="zîrek"><i>zîrek</i><par n="germ__adj"/></e>
+    <e lm="qenc"><i>qenc</i><par n="germ__adj"/></e>
+    <e lm="asûrî"><i>asûrî</i><par n="navend/î__adj"/></e>
+    <e lm="erênî"><i>erênî</i><par n="navend/î__adj"/></e>
+    <e lm="demekî"><i>demekî</i><par n="navend/î__adj"/></e>
     <e lm="bindest"><i>bindes</i><par n="pêwis/t__adj"/></e>
-    <e lm="çendîn"><i>çendîn</i><par n="nû__adj"/></e>
-    <e lm="xebitî"><i>xebitî</i><par n="nû__adj"/></e>
-    <e lm="holendî"><i>holendî</i><par n="nû__adj"/></e>
-    <e lm="jêrî"><i>jêrî</i><par n="nû__adj"/></e>
-    <e lm="makedonî"><i>makedonî</i><par n="nû__adj"/></e>
-    <e lm="Amerîkayî"><i>Amerîkayî</i><par n="nû__adj"/></e>
-    <e lm="ortodoks"><i>ortodoks</i><par n="nû__adj"/></e>
-    <e lm="qefqazî"><i>qefqazî</i><par n="nû__adj"/></e>
-    <e lm="Albanî"><i>Albanî</i><par n="nû__adj"/></e>
-    <e lm="kulturî"><i>kulturî</i><par n="nû__adj"/></e>
-    <e lm="lazim"><i>lazim</i><par n="nû__adj"/></e>
-    <e lm="belavî"><i>belavî</i><par n="nû__adj"/></e>
-    <e lm="îroyî"><i>îroyî</i><par n="nû__adj"/></e>
+    <e lm="çendîn"><i>çendîn</i><par n="germ__adj"/></e>
+    <e lm="xebitî"><i>xebitî</i><par n="navend/î__adj"/></e>
+    <e lm="holendî"><i>holendî</i><par n="navend/î__adj"/></e>
+    <e lm="jêrî"><i>jêrî</i><par n="navend/î__adj"/></e>
+    <e lm="makedonî"><i>makedonî</i><par n="navend/î__adj"/></e>
+    <e lm="Amerîkayî"><i>Amerîkayî</i><par n="navend/î__adj"/></e>
+    <e lm="ortodoks"><i>ortodoks</i><par n="germ__adj"/></e>
+    <e lm="qefqazî"><i>qefqazî</i><par n="navend/î__adj"/></e>
+    <e lm="Albanî"><i>Albanî</i><par n="navend/î__adj"/></e>
+    <e lm="kulturî"><i>kulturî</i><par n="navend/î__adj"/></e>
+    <e lm="lazim"><i>lazim</i><par n="germ__adj"/></e>
+    <e lm="belavî"><i>belavî</i><par n="navend/î__adj"/></e>
+    <e lm="îroyî"><i>îroyî</i><par n="navend/î__adj"/></e>
     <e lm="mest"><i>mes</i><par n="pêwis/t__adj"/></e>
     <e lm="standart"><i>standar</i><par n="pêwis/t__adj"/></e>
     <e lm="taze"><i>taze</i><par n="nû__adj"/></e>
-    <e lm="estetîk"><i>estetîk</i><par n="nû__adj"/></e>
-    <e lm="hemdemî"><i>hemdemî</i><par n="nû__adj"/></e>
-    <e lm="nêr"><i>nêr</i><par n="nû__adj"/></e>
-    <e lm="nexweş"><i>nexweş</i><par n="nû__adj"/></e>
-    <e lm="teorîk"><i>teorîk</i><par n="nû__adj"/></e>
-    <e lm="aciz"><i>aciz</i><par n="nû__adj"/></e>
-    <e lm="êrîşî"><i>êrîşî</i><par n="nû__adj"/></e>
-    <e lm="ferhengî"><i>ferhengî</i><par n="nû__adj"/></e>
-    <e lm="îlahî"><i>îlahî</i><par n="nû__adj"/></e>
-    <e lm="organîk"><i>organîk</i><par n="nû__adj"/></e>
-    <e lm="fermanî"><i>fermanî</i><par n="nû__adj"/></e>
-    <e lm="xerîb"><i>xerîb</i><par n="nû__adj"/></e>
-    <e lm="katalonî"><i>katalonî</i><par n="nû__adj"/></e>
+    <e lm="estetîk"><i>estetîk</i><par n="germ__adj"/></e>
+    <e lm="hemdemî"><i>hemdemî</i><par n="navend/î__adj"/></e>
+    <e lm="nêr"><i>nêr</i><par n="germ__adj"/></e>
+    <e lm="nexweş"><i>nexweş</i><par n="germ__adj"/></e>
+    <e lm="teorîk"><i>teorîk</i><par n="germ__adj"/></e>
+    <e lm="aciz"><i>aciz</i><par n="germ__adj"/></e>
+    <e lm="êrîşî"><i>êrîşî</i><par n="navend/î__adj"/></e>
+    <e lm="ferhengî"><i>ferhengî</i><par n="navend/î__adj"/></e>
+    <e lm="îlahî"><i>îlahî</i><par n="navend/î__adj"/></e>
+    <e lm="organîk"><i>organîk</i><par n="germ__adj"/></e>
+    <e lm="fermanî"><i>fermanî</i><par n="navend/î__adj"/></e>
+    <e lm="xerîb"><i>xerîb</i><par n="germ__adj"/></e>
+    <e lm="katalonî"><i>katalonî</i><par n="navend/î__adj"/></e>
     <e lm="komunîst"><i>komunîs</i><par n="pêwis/t__adj"/></e>
-    <e lm="arktîk"><i>arktîk</i><par n="nû__adj"/></e>
-    <e lm="portûgalî"><i>portûgalî</i><par n="nû__adj"/></e>
-    <e lm="psîkologîk"><i>psîkologîk</i><par n="nû__adj"/></e>
-    <e lm="turîstîk"><i>turîstîk</i><par n="nû__adj"/></e>
-    <e lm="felsefîkî"><i>felsefîkî</i><par n="nû__adj"/></e>
+    <e lm="arktîk"><i>arktîk</i><par n="germ__adj"/></e>
+    <e lm="portûgalî"><i>portûgalî</i><par n="navend/î__adj"/></e>
+    <e lm="psîkologîk"><i>psîkologîk</i><par n="germ__adj"/></e>
+    <e lm="turîstîk"><i>turîstîk</i><par n="germ__adj"/></e>
+    <e lm="felsefîkî"><i>felsefîkî</i><par n="navend/î__adj"/></e>
     <e lm="kemalîst"><i>kemalîs</i><par n="pêwis/t__adj"/></e>
-    <e lm="kurdistanî"><i>kurdistanî</i><par n="nû__adj"/></e>
-    <e lm="cografîk"><i>cografîk</i><par n="nû__adj"/></e>
-    <e lm="hicrî"><i>hicrî</i><par n="nû__adj"/></e>
-    <e lm="hişyar"><i>hişyar</i><par n="nû__adj"/></e>
-    <e lm="nediyar"><i>nediyar</i><par n="nû__adj"/></e>
-    <e lm="folklorî"><i>folklorî</i><par n="nû__adj"/></e>
-    <e lm="qehweyî"><i>qehweyî</i><par n="nû__adj"/></e>
-    <e lm="çekdarî"><i>çekdarî</i><par n="nû__adj"/></e>
-    <e lm="Sindî"><i>Sindî</i><par n="nû__adj"/></e>
-    <e lm="têkildar"><i>têkildar</i><par n="nû__adj"/></e>
-    <e lm="biyolojîk"><i>biyolojîk</i><par n="nû__adj"/></e>
-    <e lm="germanî"><i>germanî</i><par n="nû__adj"/></e>
-    <e lm="lîberal"><i>lîberal</i><par n="nû__adj"/></e>
-    <e lm="romayî"><i>romayî</i><par n="nû__adj"/></e>
-    <e lm="rêzimanî"><i>rêzimanî</i><par n="nû__adj"/></e>
-    <e lm="oldar"><i>oldar</i><par n="nû__adj"/></e>
-    <e lm="şêrîn"><i>şêrîn</i><par n="nû__adj"/></e>
-    <e lm="Sokratesî"><i>Sokratesî</i><par n="nû__adj"/></e>
-    <e lm="polonî"><i>polonî</i><par n="nû__adj"/></e>
-    <e lm="gay"><i>gay</i><par n="nû__adj"/></e>
-    <e lm="dîyar"><i>dîyar</i><par n="nû__adj"/></e>
-    <e lm="radîkal"><i>radîkal</i><par n="nû__adj"/></e>
-    <e lm="Brîtanyayî"><i>Brîtanyayî</i><par n="nû__adj"/></e>
-    <e lm="teknîkî"><i>teknîkî</i><par n="nû__adj"/></e>
-    <e lm="American"><i>American</i><par n="nû__adj"/></e>
-    <e lm="arkeolojîk"><i>arkeolojîk</i><par n="nû__adj"/></e>
-    <e lm="avî"><i>avî</i><par n="nû__adj"/></e>
-    <e lm="wêjeyî"><i>wêjeyî</i><par n="nû__adj"/></e>
+    <e lm="kurdistanî"><i>kurdistanî</i><par n="navend/î__adj"/></e>
+    <e lm="cografîk"><i>cografîk</i><par n="germ__adj"/></e>
+    <e lm="hicrî"><i>hicrî</i><par n="navend/î__adj"/></e>
+    <e lm="hişyar"><i>hişyar</i><par n="germ__adj"/></e>
+    <e lm="nediyar"><i>nediyar</i><par n="germ__adj"/></e>
+    <e lm="folklorî"><i>folklorî</i><par n="navend/î__adj"/></e>
+    <e lm="qehweyî"><i>qehweyî</i><par n="navend/î__adj"/></e>
+    <e lm="çekdarî"><i>çekdarî</i><par n="navend/î__adj"/></e>
+    <e lm="Sindî"><i>Sindî</i><par n="navend/î__adj"/></e>
+    <e lm="têkildar"><i>têkildar</i><par n="germ__adj"/></e>
+    <e lm="biyolojîk"><i>biyolojîk</i><par n="germ__adj"/></e>
+    <e lm="germanî"><i>germanî</i><par n="navend/î__adj"/></e>
+    <e lm="lîberal"><i>lîberal</i><par n="germ__adj"/></e>
+    <e lm="romayî"><i>romayî</i><par n="navend/î__adj"/></e>
+    <e lm="rêzimanî"><i>rêzimanî</i><par n="navend/î__adj"/></e>
+    <e lm="oldar"><i>oldar</i><par n="germ__adj"/></e>
+    <e lm="şêrîn"><i>şêrîn</i><par n="germ__adj"/></e>
+    <e lm="Sokratesî"><i>Sokratesî</i><par n="navend/î__adj"/></e>
+    <e lm="polonî"><i>polonî</i><par n="navend/î__adj"/></e>
+    <e lm="gay"><i>gay</i><par n="germ__adj"/></e>
+    <e lm="dîyar"><i>dîyar</i><par n="germ__adj"/></e>
+    <e lm="radîkal"><i>radîkal</i><par n="germ__adj"/></e>
+    <e lm="Brîtanyayî"><i>Brîtanyayî</i><par n="navend/î__adj"/></e>
+    <e lm="teknîkî"><i>teknîkî</i><par n="navend/î__adj"/></e>
+    <e lm="American"><i>American</i><par n="germ__adj"/></e>
+    <e lm="arkeolojîk"><i>arkeolojîk</i><par n="germ__adj"/></e>
+    <e lm="avî"><i>avî</i><par n="navend/î__adj"/></e>
+    <e lm="wêjeyî"><i>wêjeyî</i><par n="navend/î__adj"/></e>
     <e lm="bê"><i>bê</i><par n="nû__adj"/></e>
-    <e lm="salî"><i>salî</i><par n="nû__adj"/></e>
-    <e lm="qanûnî"><i>qanûnî</i><par n="nû__adj"/></e>
-    <e lm="standard"><i>standard</i><par n="nû__adj"/></e>
-    <e lm="sunî"><i>sunî</i><par n="nû__adj"/></e>
-    <e lm="paşîn"><i>paşîn</i><par n="nû__adj"/></e>
-    <e lm="xerab"><i>xerab</i><par n="nû__adj"/></e>
+    <e lm="salî"><i>salî</i><par n="navend/î__adj"/></e>
+    <e lm="qanûnî"><i>qanûnî</i><par n="navend/î__adj"/></e>
+    <e lm="standard"><i>standard</i><par n="germ__adj"/></e>
+    <e lm="sunî"><i>sunî</i><par n="navend/î__adj"/></e>
+    <e lm="paşîn"><i>paşîn</i><par n="germ__adj"/></e>
+    <e lm="xerab"><i>xerab</i><par n="germ__adj"/></e>
     <e lm="cida"><i>cida</i><par n="nû__adj"/></e>
-    <e lm="hûrkirî"><i>hûrkirî</i><par n="nû__adj"/></e>
+    <e lm="hûrkirî"><i>hûrkirî</i><par n="navend/î__adj"/></e>
     <e lm="sade"><i>sade</i><par n="nû__adj"/></e>
     <e lm="tevlîhev"><i>tevlîhev</i><par n="nû__adj"/></e>
-    <e lm="navxweyî"><i>navxweyî</i><par n="nû__adj"/></e>
-    <e lm="paqij"><i>paqij</i><par n="nû__adj"/></e>
-    <e lm="stûr"><i>stûr</i><par n="nû__adj"/></e>
+    <e lm="navxweyî"><i>navxweyî</i><par n="navend/î__adj"/></e>
+    <e lm="paqij"><i>paqij</i><par n="germ__adj"/></e>
+    <e lm="stûr"><i>stûr</i><par n="germ__adj"/></e>
     <e lm="eşkere"><i>eşkere</i><par n="nû__adj"/></e>
-    <e lm="nerm"><i>nerm</i><par n="nû__adj"/></e>
-    <e lm="tropîk"><i>tropîk</i><par n="nû__adj"/></e>
-    <e lm="amerîkan"><i>amerîkan</i><par n="nû__adj"/></e>
-    <e lm="deryayî"><i>deryayî</i><par n="nû__adj"/></e>
-    <e lm="felsefî"><i>felsefî</i><par n="nû__adj"/></e>
-    <e lm="kîmyayî"><i>kîmyayî</i><par n="nû__adj"/></e>
-    <e lm="otonom"><i>otonom</i><par n="nû__adj"/></e>
-    <e lm="antîk"><i>antîk</i><par n="nû__adj"/></e>
-    <e lm="norwêcî"><i>norwêcî</i><par n="nû__adj"/></e>
-    <e lm="zikmakî"><i>zikmakî</i><par n="nû__adj"/></e>
-    <e lm="hemdem"><i>hemdem</i><par n="nû__adj"/></e>
-    <e lm="texmînî"><i>texmînî</i><par n="nû__adj"/></e>
-    <e lm="pakij"><i>pakij</i><par n="nû__adj"/></e>
-    <e lm="çalak"><i>çalak</i><par n="nû__adj"/></e>
-    <e lm="xizan"><i>xizan</i><par n="nû__adj"/></e>
-    <e lm="fêrî"><i>fêrî</i><par n="nû__adj"/></e>
-    <e lm="rojî"><i>rojî</i><par n="nû__adj"/></e>
-    <e lm="kovî"><i>kovî</i><par n="nû__adj"/></e>
-    <e lm="edebî"><i>edebî</i><par n="nû__adj"/></e>
-    <e lm="spanî"><i>spanî</i><par n="nû__adj"/></e>
-    <e lm="xelas"><i>xelas</i><par n="nû__adj"/></e>
-    <e lm="rûsî"><i>rûsî</i><par n="nû__adj"/></e>
-    <e lm="xwezayî"><i>xwezayî</i><par n="nû__adj"/></e>
-    <e lm="pîr"><i>pîr</i><par n="nû__adj"/></e>
-    <e lm="xilas"><i>xilas</i><par n="nû__adj"/></e>
-    <e lm="kevneşopî"><i>kevneşopî</i><par n="nû__adj"/></e>
-    <e lm="mijûl"><i>mijûl</i><par n="nû__adj"/></e>
-    <e lm="germ"><i>germ</i><par n="nû__adj"/></e>
-    <e lm="bingehîn"><i>bingehîn</i><par n="nû__adj"/></e>
+    <e lm="nerm"><i>nerm</i><par n="germ__adj"/></e>
+    <e lm="tropîk"><i>tropîk</i><par n="germ__adj"/></e>
+    <e lm="amerîkan"><i>amerîkan</i><par n="germ__adj"/></e>
+    <e lm="deryayî"><i>deryayî</i><par n="navend/î__adj"/></e>
+    <e lm="felsefî"><i>felsefî</i><par n="navend/î__adj"/></e>
+    <e lm="kîmyayî"><i>kîmyayî</i><par n="navend/î__adj"/></e>
+    <e lm="otonom"><i>otonom</i><par n="germ__adj"/></e>
+    <e lm="antîk"><i>antîk</i><par n="germ__adj"/></e>
+    <e lm="norwêcî"><i>norwêcî</i><par n="navend/î__adj"/></e>
+    <e lm="zikmakî"><i>zikmakî</i><par n="navend/î__adj"/></e>
+    <e lm="hemdem"><i>hemdem</i><par n="germ__adj"/></e>
+    <e lm="texmînî"><i>texmînî</i><par n="navend/î__adj"/></e>
+    <e lm="pakij"><i>pakij</i><par n="germ__adj"/></e>
+    <e lm="çalak"><i>çalak</i><par n="germ__adj"/></e>
+    <e lm="xizan"><i>xizan</i><par n="germ__adj"/></e>
+    <e lm="fêrî"><i>fêrî</i><par n="navend/î__adj"/></e>
+    <e lm="rojî"><i>rojî</i><par n="navend/î__adj"/></e>
+    <e lm="kovî"><i>kovî</i><par n="navend/î__adj"/></e>
+    <e lm="edebî"><i>edebî</i><par n="navend/î__adj"/></e>
+    <e lm="spanî"><i>spanî</i><par n="navend/î__adj"/></e>
+    <e lm="xelas"><i>xelas</i><par n="germ__adj"/></e>
+    <e lm="rûsî"><i>rûsî</i><par n="navend/î__adj"/></e>
+    <e lm="xwezayî"><i>xwezayî</i><par n="navend/î__adj"/></e>
+    <e lm="pîr"><i>pîr</i><par n="germ__adj"/></e>
+    <e lm="xilas"><i>xilas</i><par n="germ__adj"/></e>
+    <e lm="kevneşopî"><i>kevneşopî</i><par n="navend/î__adj"/></e>
+    <e lm="mijûl"><i>mijûl</i><par n="germ__adj"/></e>
+    <e lm="germ"><i>germ</i><par n="germ__adj"/></e>
+    <e lm="bingehîn"><i>bingehîn</i><par n="germ__adj"/></e>
     <e lm="fireh"><i>fireh</i><par n="nû__adj"/></e>
-    <e lm="devkî"><i>devkî</i><par n="nû__adj"/></e>
-    <e lm="xeynî"><i>xeynî</i><par n="nû__adj"/></e>
-    <e lm="temam"><i>temam</i><par n="nû__adj"/></e>
-    <e lm="teybetî"><i>teybetî</i><par n="nû__adj"/></e>
-    <e lm="nivîsî"><i>nivîsî</i><par n="nû__adj"/></e>
+    <e lm="devkî"><i>devkî</i><par n="navend/î__adj"/></e>
+    <e lm="xeynî"><i>xeynî</i><par n="navend/î__adj"/></e>
+    <e lm="temam"><i>temam</i><par n="germ__adj"/></e>
+    <e lm="teybetî"><i>teybetî</i><par n="navend/î__adj"/></e>
+    <e lm="nivîsî"><i>nivîsî</i><par n="navend/î__adj"/></e>
     <e lm="wenda"><i>wenda</i><par n="nû__adj"/></e>
-    <e lm="navnetewî"><i>navnetewî</i><par n="nû__adj"/></e>
-    <e lm="tevahî"><i>tevahî</i><par n="nû__adj"/></e>
-    <e lm="amadeyî"><i>amadeyî</i><par n="nû__adj"/></e>
-    <e lm="birîndar"><i>birîndar</i><par n="nû__adj"/></e>
-    <e lm="çandinî"><i>çandinî</i><par n="nû__adj"/></e>
-    <e lm="hişk"><i>hişk</i><par n="nû__adj"/></e>
-    <e lm="ecêb"><i>ecêb</i><par n="nû__adj"/></e>
+    <e lm="navnetewî"><i>navnetewî</i><par n="navend/î__adj"/></e>
+    <e lm="tevahî"><i>tevahî</i><par n="navend/î__adj"/></e>
+    <e lm="amadeyî"><i>amadeyî</i><par n="navend/î__adj"/></e>
+    <e lm="birîndar"><i>birîndar</i><par n="germ__adj"/></e>
+    <e lm="çandinî"><i>çandinî</i><par n="navend/î__adj"/></e>
+    <e lm="hişk"><i>hişk</i><par n="germ__adj"/></e>
+    <e lm="ecêb"><i>ecêb</i><par n="germ__adj"/></e>
     <e lm="xwerû"><i>xwerû</i><par n="nû__adj"/></e>
-    <e lm="sipî"><i>sipî</i><par n="nû__adj"/></e>
-    <e lm="serkeftî"><i>serkeftî</i><par n="nû__adj"/></e>
-    <e lm="kifş"><i>kifş</i><par n="nû__adj"/></e>
-    <e lm="mecbûr"><i>mecbûr</i><par n="nû__adj"/></e>
-    <e lm="rizgar"><i>rizgar</i><par n="nû__adj"/></e>
-    <e lm="şexsî"><i>şexsî</i><par n="nû__adj"/></e>
-    <e lm="ewropayî"><i>ewropayî</i><par n="nû__adj"/></e>
-    <e lm="rojhilatî"><i>rojhilatî</i><par n="nû__adj"/></e>
-    <e lm="seksî"><i>seksî</i><par n="nû__adj"/></e>
-    <e lm="bêdeng"><i>bêdeng</i><par n="nû__adj"/></e>
-    <e lm="japonî"><i>japonî</i><par n="nû__adj"/></e>
-    <e lm="Çekî"><i>Çekî</i><par n="nû__adj"/></e>
-    <e lm="normal"><i>normal</i><par n="nû__adj"/></e>
-    <e lm="modern"><i>modern</i><par n="nû__adj"/></e>
-    <e lm="hindî"><i>hindî</i><par n="nû__adj"/></e>
-    <e lm="veşartî"><i>veşartî</i><par n="nû__adj"/></e>
-    <e lm="sîyasî"><i>sîyasî</i><par n="nû__adj"/></e>
-    <e lm="rengîn"><i>rengîn</i><par n="nû__adj"/></e>
+    <e lm="sipî"><i>sipî</i><par n="navend/î__adj"/></e>
+    <e lm="serkeftî"><i>serkeftî</i><par n="navend/î__adj"/></e>
+    <e lm="kifş"><i>kifş</i><par n="germ__adj"/></e>
+    <e lm="mecbûr"><i>mecbûr</i><par n="germ__adj"/></e>
+    <e lm="rizgar"><i>rizgar</i><par n="germ__adj"/></e>
+    <e lm="şexsî"><i>şexsî</i><par n="navend/î__adj"/></e>
+    <e lm="ewropayî"><i>ewropayî</i><par n="navend/î__adj"/></e>
+    <e lm="rojhilatî"><i>rojhilatî</i><par n="navend/î__adj"/></e>
+    <e lm="seksî"><i>seksî</i><par n="navend/î__adj"/></e>
+    <e lm="bêdeng"><i>bêdeng</i><par n="germ__adj"/></e>
+    <e lm="japonî"><i>japonî</i><par n="navend/î__adj"/></e>
+    <e lm="Çekî"><i>Çekî</i><par n="navend/î__adj"/></e>
+    <e lm="normal"><i>normal</i><par n="germ__adj"/></e>
+    <e lm="modern"><i>modern</i><par n="germ__adj"/></e>
+    <e lm="hindî"><i>hindî</i><par n="navend/î__adj"/></e>
+    <e lm="veşartî"><i>veşartî</i><par n="navend/î__adj"/></e>
+    <e lm="sîyasî"><i>sîyasî</i><par n="navend/î__adj"/></e>
+    <e lm="rengîn"><i>rengîn</i><par n="germ__adj"/></e>
     <e lm="winda"><i>winda</i><par n="nû__adj"/></e>
-    <e lm="herêmî"><i>herêmî</i><par n="nû__adj"/></e>
-    <e lm="bidawî"><i>bidawî</i><par n="nû__adj"/></e>
+    <e lm="herêmî"><i>herêmî</i><par n="navend/î__adj"/></e>
+    <e lm="bidawî"><i>bidawî</i><par n="navend/î__adj"/></e>
     <e lm="rojane"><i>rojane</i><par n="nû__adj"/></e>
-    <e lm="piçûk"><i>piçûk</i><par n="nû__adj"/></e>
+    <e lm="piçûk"><i>piçûk</i><par n="germ__adj"/></e>
     <e lm="serbest"><i>serbes</i><par n="pêwis/t__adj"/></e>
     <e lm="cûda"><i>cûda</i><par n="nû__adj"/></e>
     <e lm="pêwîst"><i>pêwîs</i><par n="pêwis/t__adj"/></e>
-    <e lm="kesk"><i>kesk</i><par n="nû__adj"/></e>
-    <e lm="balkêş"><i>balkêş</i><par n="nû__adj"/></e>
-    <e lm="îslamî"><i>îslamî</i><par n="nû__adj"/></e>
-    <e lm="suryanî"><i>suryanî</i><par n="nû__adj"/></e>
-    <e lm="sîstematîk"><i>sîstematîk</i><par n="nû__adj"/></e>
-    <e lm="psîkolojîk"><i>psîkolojîk</i><par n="nû__adj"/></e>
-    <e lm="netewî"><i>netewî</i><par n="nû__adj"/></e>
+    <e lm="kesk"><i>kesk</i><par n="germ__adj"/></e>
+    <e lm="balkêş"><i>balkêş</i><par n="germ__adj"/></e>
+    <e lm="îslamî"><i>îslamî</i><par n="navend/î__adj"/></e>
+    <e lm="suryanî"><i>suryanî</i><par n="navend/î__adj"/></e>
+    <e lm="sîstematîk"><i>sîstematîk</i><par n="germ__adj"/></e>
+    <e lm="psîkolojîk"><i>psîkolojîk</i><par n="germ__adj"/></e>
+    <e lm="netewî"><i>netewî</i><par n="navend/î__adj"/></e>
     <e lm="hêja"><i>hêja</i><par n="nû__adj"/></e>
-    <e lm="rojavayî"><i>rojavayî</i><par n="nû__adj"/></e>
-    <e lm="swêdî"><i>swêdî</i><par n="nû__adj"/></e>
-    <e lm="Îslamî"><i>Îslamî</i><par n="nû__adj"/></e>
-    <e lm="ewropî"><i>ewropî</i><par n="nû__adj"/></e>
-    <e lm="îtalî"><i>îtalî</i><par n="nû__adj"/></e>
-    <e lm="grekî"><i>grekî</i><par n="nû__adj"/></e>
-    <e lm="amerîkî"><i>amerîkî</i><par n="nû__adj"/></e>
-    <e lm="kedî"><i>kedî</i><par n="nû__adj"/></e>
-    <e lm="demokratîk"><i>demokratîk</i><par n="nû__adj"/></e>
-    <e lm="atomî"><i>atomî</i><par n="nû__adj"/></e>
-    <e lm="profesyonel"><i>profesyonel</i><par n="nû__adj"/></e>
-    <e lm="çandî"><i>çandî</i><par n="nû__adj"/></e>
+    <e lm="rojavayî"><i>rojavayî</i><par n="navend/î__adj"/></e>
+    <e lm="swêdî"><i>swêdî</i><par n="navend/î__adj"/></e>
+    <e lm="Îslamî"><i>Îslamî</i><par n="navend/î__adj"/></e>
+    <e lm="ewropî"><i>ewropî</i><par n="navend/î__adj"/></e>
+    <e lm="îtalî"><i>îtalî</i><par n="navend/î__adj"/></e>
+    <e lm="grekî"><i>grekî</i><par n="navend/î__adj"/></e>
+    <e lm="amerîkî"><i>amerîkî</i><par n="navend/î__adj"/></e>
+    <e lm="kedî"><i>kedî</i><par n="navend/î__adj"/></e>
+    <e lm="demokratîk"><i>demokratîk</i><par n="germ__adj"/></e>
+    <e lm="atomî"><i>atomî</i><par n="navend/î__adj"/></e>
+    <e lm="profesyonel"><i>profesyonel</i><par n="germ__adj"/></e>
+    <e lm="çandî"><i>çandî</i><par n="navend/î__adj"/></e>
     <e lm="perwerde"><i>perwerde</i><par n="nû__adj"/></e>
-    <e lm="gelemperî"><i>gelemperî</i><par n="nû__adj"/></e>
-    <e lm="navneteweyî"><i>navneteweyî</i><par n="nû__adj"/></e>
-    <e lm="spî"><i>spî</i><par n="nû__adj"/></e>
+    <e lm="gelemperî"><i>gelemperî</i><par n="navend/î__adj"/></e>
+    <e lm="navneteweyî"><i>navneteweyî</i><par n="navend/î__adj"/></e>
+    <e lm="spî"><i>spî</i><par n="navend/î__adj"/></e>
     <e lm="serbixwe"><i>serbixwe</i><par n="nû__adj"/></e>
     <e lm="derve"><i>derve</i><par n="nû__adj"/></e>
     <e lm="çê"><i>çê</i><par n="nû__adj"/></e>
-    <e lm="romî"><i>romî</i><par n="nû__adj"/></e>
-    <e lm="olî"><i>olî</i><par n="nû__adj"/></e>
-    <e lm="hêdî"><i>hêdî</i><par n="nû__adj"/></e>
-    <e lm="zanistî"><i>zanistî</i><par n="nû__adj"/></e>
+    <e lm="romî"><i>romî</i><par n="navend/î__adj"/></e>
+    <e lm="olî"><i>olî</i><par n="navend/î__adj"/></e>
+    <e lm="hêdî"><i>hêdî</i><par n="navend/î__adj"/></e>
+    <e lm="zanistî"><i>zanistî</i><par n="navend/î__adj"/></e>
     <e lm="navendî"><i>navend</i><par n="navend/î__adj"/></e>
-    <e lm="îngilîzî"><i>îngilîzî</i><par n="nû__adj"/></e>
+    <e lm="îngilîzî"><i>îngilîzî</i><par n="navend/î__adj"/></e>
     <e lm="îngilîzî"><p><l>îngilîzî</l><r>înglîzî</r></p><par n="nû__adj"/></e>
-    <e lm="erebî"><i>erebî</i><par n="nû__adj"/></e>
+    <e lm="erebî"><i>erebî</i><par n="navend/î__adj"/></e>
     <e lm="taybet"><i>taybe</i><par n="pêwis/t__adj"/></e>
-    <e lm="dewlemend"><i>dewlemend</i><par n="nû__adj"/></e>
-    <e lm="reş"><i>reş</i><par n="nû__adj"/></e>
+    <e lm="dewlemend"><i>dewlemend</i><par n="germ__adj"/></e>
+    <e lm="reş"><i>reş</i><par n="germ__adj"/></e>
     <e lm="cuda"><i>cuda</i><par n="nû__adj"/></e>
-    <e lm="perîşan"><i>perîşan</i><par n="nû__adj"/></e>
-    <e lm="peywend"><i>peywend</i><par n="nû__adj"/></e>
-    <e lm="hazir"><i>hazir</i><par n="nû__adj"/></e>
-    <e lm="perîşan ; adjcomp ; miserable, wretched"><i>perîşan ; adjcomp ; miserable, wretched</i><par n="nû__adj"/></e>
-    <e lm="peywend ; adjcomp ; connected, related"><i>peywend ; adjcomp ; connected, related</i><par n="nû__adj"/></e>
-    <e lm="hazir; adjcomp ; ready"><i>hazir; adjcomp ; ready</i><par n="nû__adj"/></e>
+    <e lm="perîşan"><i>perîşan</i><par n="germ__adj"/></e>
+    <e lm="peywend"><i>peywend</i><par n="germ__adj"/></e>
+    <e lm="hazir"><i>hazir</i><par n="germ__adj"/></e>
+    <e lm="perîşan ; adjcomp ; miserable, wretched"><i>perîşan ; adjcomp ; miserable, wretched</i><par n="germ__adj"/></e>
+    <e lm="peywend ; adjcomp ; connected, related"><i>peywend ; adjcomp ; connected, related</i><par n="germ__adj"/></e>
+    <e lm="hazir; adjcomp ; ready"><i>hazir; adjcomp ; ready</i><par n="germ__adj"/></e>
     <e lm="amade"><i>amade</i><par n="nû__adj"/></e>
-    <e lm="navdar"><i>navdar</i><par n="nû__adj"/></e>
-    <e lm="kiritîk"><i>kiritîk</i><par n="nû__adj"/></e>
-    <e lm="kesekî"><i>kesekî</i><par n="nû__adj"/></e>
-    <e lm="diyar"><i>diyar</i><par n="nû__adj"/></e>
-    <e lm="pirr"><i>pirr</i><par n="nû__adj"/></e>
+    <e lm="navdar"><i>navdar</i><par n="germ__adj"/></e>
+    <e lm="kiritîk"><i>kiritîk</i><par n="germ__adj"/></e>
+    <e lm="kesekî"><i>kesekî</i><par n="navend/î__adj"/></e>
+    <e lm="diyar"><i>diyar</i><par n="germ__adj"/></e>
+    <e lm="pirr"><i>pirr</i><par n="germ__adj"/></e>
     
     <!-- new non-comparables -->
     <e lm="çaremîn"><i>çaremîn</i><par n="kurdî__adj"/></e>
@@ -14115,23 +14126,23 @@
     <e lm="sereke"><i>sereke</i><par n="kurdî__adj"/></e>
 
     <e lm="nû"><i>nû</i><par n="nû__adj"/></e>
-    <e lm="dudil"><i>dudil</i><par n="nû__adj"/></e>
-    <e lm="xirab"><i>xirab</i><par n="nû__adj"/></e>
-    <e lm="tûj"><i>tûj</i><par n="nû__adj"/></e>
-    <e lm="xembar"><i>xembar</i><par n="nû__adj"/></e>
-    <e lm="xembar"><i>xemdar</i><par n="nû__adj"/></e>
-    <e lm="ciddî"><i>ciddî</i><par n="nû__adj"/></e>
-    <e lm="cidî"><i>cidî</i><par n="nû__adj"/></e>
+    <e lm="dudil"><i>dudil</i><par n="germ__adj"/></e>
+    <e lm="xirab"><i>xirab</i><par n="germ__adj"/></e>
+    <e lm="tûj"><i>tûj</i><par n="germ__adj"/></e>
+    <e lm="xembar"><i>xembar</i><par n="germ__adj"/></e>
+    <e lm="xembar"><i>xemdar</i><par n="germ__adj"/></e>
+    <e lm="ciddî"><i>ciddî</i><par n="navend/î__adj"/></e>
+    <e lm="cidî"><i>cidî</i><par n="navend/î__adj"/></e>
     <e lm="hemû"><i>hemû</i><par n="nû__adj"/></e>
-    <e lm="biçûk"><i>biçûk</i><par n="nû__adj"/></e>
+    <e lm="biçûk"><i>biçûk</i><par n="germ__adj"/></e>
     <e lm="bêh"><i>bêh</i><par n="nû__adj"/></e>
-    <e lm="sor"><i>sor</i><par n="nû__adj"/></e>
-    <e lm="nizim"><i>nizim</i><par n="nû__adj"/></e>
-    <e lm="bilind"><i>bilind</i><par n="nû__adj"/></e>
-    <e lm="belek"><i>belek</i><par n="nû__adj"/></e>
+    <e lm="sor"><i>sor</i><par n="germ__adj"/></e>
+    <e lm="nizim"><i>nizim</i><par n="germ__adj"/></e>
+    <e lm="bilind"><i>bilind</i><par n="germ__adj"/></e>
+    <e lm="belek"><i>belek</i><par n="germ__adj"/></e>
     <e lm="belav"><i>belav</i><par n="nû__adj"/></e>
     <e lm="bedew"><i>bedew</i><par n="nû__adj"/></e>
-    <e lm="azad"><i>azad</i><par n="nû__adj"/></e>
+    <e lm="azad"><i>azad</i><par n="germ__adj"/></e>
     <e lm="pêwist"><i>pêwis</i><par n="pêwis/t__adj"/></e>
     <e lm="xurt"><i>xur</i><par n="pêwis/t__adj"/></e>
     <e lm="mezin"><i>mez</i><par n="mez/in__adj"/></e>
@@ -17138,44 +17149,44 @@
     <e lm="sist"><i>sis</i><par n="pêwis/t__adj"/></e>
     <e lm="zehmet"><i>zehme</i><par n="pêwis/t__adj"/></e>
     <e lm="berfireh"><i>berfireh</i><par n="nû__adj"/></e>
-    <e lm="bihêz"><i>bihêz</i><par n="nû__adj"/></e>
-    <e lm="biçûk"><i>biçûk</i><par n="nû__adj"/></e>
-    <e lm="dereng"><i>dereng</i><par n="nû__adj"/></e>
-    <e lm="dijwar"><i>dijwar</i><par n="nû__adj"/></e>
-    <e lm="dirêj"><i>dirêj</i><par n="nû__adj"/></e>
-    <e lm="dûr"><i>dûr</i><par n="nû__adj"/></e>
-    <e lm="giran"><i>giran</i><par n="nû__adj"/></e>
-    <e lm="girîng"><i>girîng</i><par n="nû__adj"/></e>
-    <e lm="hêsan"><i>hêsan</i><par n="nû__adj"/></e>
-    <e lm="jor"><i>jor</i><par n="nû__adj"/></e>
-    <e lm="kevn"><i>kevn</i><par n="nû__adj"/></e>
-    <e lm="kêm"><i>kêm</i><par n="nû__adj"/></e>
-    <e lm="kûr"><i>kûr</i><par n="nû__adj"/></e>
-    <e lm="lawaz"><i>lawaz</i><par n="nû__adj"/></e>
-    <e lm="nêzîk"><i>nêzîk</i><par n="nû__adj"/></e>
-    <e lm="nûjen"><i>nûjen</i><par n="nû__adj"/></e>
-    <e lm="pir"><i>pir</i><par n="nû__adj"/></e>
-    <e lm="pêşketî"><i>pêşketî</i><par n="nû__adj"/></e>
-    <e lm="pîroz"><i>pîroz</i><par n="nû__adj"/></e>
-    <e lm="qalind"><i>qalind</i><par n="nû__adj"/></e>
+    <e lm="bihêz"><i>bihêz</i><par n="germ__adj"/></e>
+    <e lm="biçûk"><i>biçûk</i><par n="germ__adj"/></e>
+    <e lm="dereng"><i>dereng</i><par n="germ__adj"/></e>
+    <e lm="dijwar"><i>dijwar</i><par n="germ__adj"/></e>
+    <e lm="dirêj"><i>dirêj</i><par n="germ__adj"/></e>
+    <e lm="dûr"><i>dûr</i><par n="germ__adj"/></e>
+    <e lm="giran"><i>giran</i><par n="germ__adj"/></e>
+    <e lm="girîng"><i>girîng</i><par n="germ__adj"/></e>
+    <e lm="hêsan"><i>hêsan</i><par n="germ__adj"/></e>
+    <e lm="jor"><i>jor</i><par n="germ__adj"/></e>
+    <e lm="kevn"><i>kevn</i><par n="germ__adj"/></e>
+    <e lm="kêm"><i>kêm</i><par n="germ__adj"/></e>
+    <e lm="kûr"><i>kûr</i><par n="germ__adj"/></e>
+    <e lm="lawaz"><i>lawaz</i><par n="germ__adj"/></e>
+    <e lm="nêzîk"><i>nêzîk</i><par n="germ__adj"/></e>
+    <e lm="nûjen"><i>nûjen</i><par n="germ__adj"/></e>
+    <e lm="pir"><i>pir</i><par n="germ__adj"/></e>
+    <e lm="pêşketî"><i>pêşketî</i><par n="navend/î__adj"/></e>
+    <e lm="pîroz"><i>pîroz</i><par n="germ__adj"/></e>
+    <e lm="qalind"><i>qalind</i><par n="germ__adj"/></e>
     <e lm="qelew"><i>qelew</i><par n="nû__adj"/></e>
-    <e lm="qirêj"><i>qirêj</i><par n="nû__adj"/></e>
-    <e lm="reben"><i>reben</i><par n="nû__adj"/></e>
-    <e lm="rind"><i>rind</i><par n="nû__adj"/></e>
-    <e lm="ronî"><i>ronî</i><par n="nû__adj"/></e>
-    <e lm="sar"><i>sar</i><par n="nû__adj"/></e>
-    <e lm="teng"><i>teng</i><par n="nû__adj"/></e>
-    <e lm="tijî"><i>tijî</i><par n="nû__adj"/></e>
-    <e lm="tirş"><i>tirş</i><par n="nû__adj"/></e>
-    <e lm="tund"><i>tund</i><par n="nû__adj"/></e>
-    <e lm="têr"><i>têr</i><par n="nû__adj"/></e>
+    <e lm="qirêj"><i>qirêj</i><par n="germ__adj"/></e>
+    <e lm="reben"><i>reben</i><par n="germ__adj"/></e>
+    <e lm="rind"><i>rind</i><par n="germ__adj"/></e>
+    <e lm="ronî"><i>ronî</i><par n="navend/î__adj"/></e>
+    <e lm="sar"><i>sar</i><par n="germ__adj"/></e>
+    <e lm="teng"><i>teng</i><par n="germ__adj"/></e>
+    <e lm="tijî"><i>tijî</i><par n="navend/î__adj"/></e>
+    <e lm="tirş"><i>tirş</i><par n="germ__adj"/></e>
+    <e lm="tund"><i>tund</i><par n="germ__adj"/></e>
+    <e lm="têr"><i>têr</i><par n="germ__adj"/></e>
     <e lm="vala"><i>vala</i><par n="nû__adj"/></e>
-    <e lm="xweş"><i>xweş</i><par n="nû__adj"/></e>
-    <e lm="xweşik"><i>xweşik</i><par n="nû__adj"/></e>
-    <e lm="zelal"><i>zelal</i><par n="nû__adj"/></e>
+    <e lm="xweş"><i>xweş</i><par n="germ__adj"/></e>
+    <e lm="xweşik"><i>xweşik</i><par n="germ__adj"/></e>
+    <e lm="zelal"><i>zelal</i><par n="germ__adj"/></e>
     <e lm="zêde"><i>zêde</i><par n="nû__adj"/></e>
     <e lm="zû"><i>zû</i><par n="nû__adj"/></e>
-    <e lm="şîrîn"><i>şîrîn</i><par n="nû__adj"/></e>
+    <e lm="şîrîn"><i>şîrîn</i><par n="germ__adj"/></e>
 
   </section>
   <section id="final" type="inconditional">
