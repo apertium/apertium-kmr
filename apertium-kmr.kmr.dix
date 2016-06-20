@@ -1554,6 +1554,19 @@
     <!-- SECTION: Nouns -->
 
     <!-- New Feminines -->
+    <e lm="parlamen"><i>parlamen</i><par n="jin__n_f"/></e>
+    <e lm="vîtamîn"><i>vîtamîn</i><par n="jin__n_f"/></e>
+    <e lm="aktor"><i>aktor</i><par n="jin__n_f"/></e>
+    <e lm="Apple"><i>Appl</i><par n ="od/e__n"/></e>
+    <e lm="bexdenûs"><i>bexdenûs</i><par n="jin__n_f"/></e>
+    <e lm="hukmet"><i>hukmet</i><par n="jin__n_f"/></e>
+    <e lm="Tora"><i>Tor</i><par n ="nîvro__n_f"/></e>
+    <e lm="çete"><i>çet</i><par n ="od/e__n"/></e>
+    <e lm="nexweşxane"><i>nexweşxan</i><par n ="od/e__n"/></e>
+    <e lm="îl"><i>îl</i><par n="jin__n_f"/></e>
+    <e lm="sîmbol"><i>sîmbol</i><par n="jin__n_f"/></e>
+    <e lm="yekgirtî"><i>yekgirt</i><par n="piran/î__n_f"/></e>
+    <e lm="Mehname"><i>Mehnam</i><par n ="od/e__n"/></e>
     <e lm="Xezal"><i>Xezal</i><par n="jin__n_f"/></e>
     <e lm="bidestxistin"><i>bidestxistin</i><par n="jin__n_f"/></e>
     <e lm="dolmeh"><i>dolmeh</i><par n="jin__n_f"/></e>
@@ -1956,6 +1969,10 @@
 
     
     <!-- New Masculines -->
+    <e lm="sasanî"><i>sasan</i><par n="xan/î__n_m"/></e>
+    <e lm="aktor"><i>aktor</i><par n="mirov__n_m"/></e>
+    <e lm="xizan"><i>xizan</i><par n="mirov__n_m"/></e>
+    <e lm="zembîlfiroş"><i>zembîlfiroş</i><par n="mirov__n_m"/></e>
     <e lm="Sumer"><i>Sumer</i><par n="mirov__n_m"/></e>
     <e lm="Sunî"><i>Sun</i><par n="xan/î__n_m"/></e>
     <e lm="Akad"><i>Akad</i><par n="mirov__n_m"/></e>
@@ -13246,6 +13263,43 @@
     <e lm="HDP"><i>HDP</i><par n="YNK__n"/></e>
 
     <!-- SECTION: Proper nouns -->
+    <e lm="Nils"><i>Nils</i><par n="Salih__np"/></e>
+    <e lm="Qizil"><i>Qizil</i><par n="Kurdistan__np"/></e>
+    <e lm="Smith"><i>Smith</i><par n="Salih__np"/></e>
+    <e lm="Şûayb"><i>Şûayb</i><par n="Salih__np"/></e>
+    <e lm="Tûnis"><i>Tûnis</i><par n="Kurdistan__np"/></e>
+    <e lm="Türkeş"><i>Türkeş</i><par n="Salih__np"/></e>
+    <e lm="Wilson"><i>Wilson</i><par n="Salih__np"/></e>
+    <e lm="Aleksander"><i>Aleksander</i><par n="Salih__np"/></e>
+    <e lm="Alkan"><i>Alkan</i><par n="Salih__np"/></e>
+    <e lm="Anne"><i>Anne</i><par n="Leyla__np"/></e>
+    <e lm="Beethoven"><i>Beethoven</i><par n="Salih__np"/></e>
+    <e lm="Bêkes"><i>Bêkes</i><par n="Salih__np"/></e>
+    <e lm="Bêrîvan"><i>Bêrîvan</i><par n="Salih__np"/></e>
+    <e lm="Kazim"><i>Kazim</i><par n="Salih__np"/></e>
+    <e lm="Nasir"><i>Nasir</i><par n="Salih__np"/></e>
+    <e lm="sovyet"><i>sovyet</i><par n="Kurdistan__np"/></e>
+    <e lm="Xoresan"><i>Xoresan</i><par n="Kurdistan__np"/></e>
+    <e lm="Angeles"><i>Angeles</i><par n="Kurdistan__np"/></e>
+    <e lm="Entax"><i>Entax</i><par n="Kurdistan__np"/></e>
+    <e lm="Evdila"><i>Evdila</i><par n="Salih__np"/></e>
+    <e lm="Serd"><i>Serd</i><par n="Kurdistan__np"/></e>
+    <e lm="Yarsan"><i>Yarsan</i><par n="Kurdistan__np"/></e>
+    <e lm="Yasna"><i>Yasna</i><par n="Leyla__np"/></e>
+    <e lm="Montenegro"><i>Montenegro</i><par n="Kurdistan__np"/></e>
+    <e lm="Mustafayev"><i>Mustafayev</i><par n="Salih__np"/></e>
+    <e lm="Evdile"><i>Evdile</i><par n="Salih__np"/></e>
+    <e lm="Gabon"><i>Gabon</i><par n="Kurdistan__np"/></e>
+    <e lm="Gustav"><i>Gustav</i><par n="Salih__np"/></e>
+    <e lm="Hans"><i>Hans</i><par n="Salih__np"/></e>
+    <e lm="Hemo"><i>Hemo</i><par n="Salih__np"/></e>
+    <e lm="Îshaq"><i>Îshaq</i><par n="Salih__np"/></e>
+    <e lm="Luristan"><i>Luristan</i><par n="Kurdistan__np"/></e>
+    <e lm="Virginia"><i>Virginia</i><par n="Bexda__np"/></e>
+    <e lm="Erdal"><i>Erdal</i><par n="Salih__np"/></e>
+    <e lm="Pierre"><i>Pierre</i><par n="Salih__np"/></e>
+    <e lm="Husein"><i>Husein</i><par n="Salih__np"/></e>
+    <e lm="Qaso"><i>Qaso</i><par n="Salih__np"/></e>
     <e lm="Suleyman"><i>Suleyman</i><par n="Salih__np"/></e>
     <e lm="Yezîd"><i>Yezîd</i><par n="Salih__np"/></e>
     <e lm="Alp"><i>Alp</i><par n="Salih__np"/></e>
@@ -14132,6 +14186,11 @@
     <!-- SECTION: Adjectives -->
 
     <!-- new comparables -->
+    <e lm="orjînal"><i>orjînal</i><par n="nû__adj"/></e>
+    <e lm="swîsrî"><i>swîsrî</i><par n="nû__adj"/></e>
+    <e lm="amerîkayî"><i>amerîkayî</i><par n="nû__adj"/></e>
+    <e lm="eleqedar"><i>eleqedar</i><par n="nû__adj"/></e>
+    <e lm="asîmîle"><i>asîmîle</i><par n="nû__adj"/></e>
     <e lm="Swîsreyî"><i>Swîsreyî</i><par n="nû__adj"/></e>
     <e lm="tarîxî"><i>tarîxî</i><par n="nû__adj"/></e>
     <e lm="aktîf"><i>aktîf</i><par n="nû__adj"/></e>
@@ -14375,6 +14434,7 @@
     <e lm="pirr"><i>pirr</i><par n="germ__adj"/></e>
     
     <!-- new non-comparables -->
+    <e lm="pêncemîn"><i>pêncemîn</i><par n="kurdî__adj"/></e>
     <e lm="bes"><i>bes</i><par n="kurdî__adj"/></e>
     <e lm="çaremîn"><i>çaremîn</i><par n="kurdî__adj"/></e>
     <e lm="baştirîn"><i>baştirîn</i><par n="kurdî__adj"/></e>
@@ -14571,6 +14631,22 @@
 
   </section>
   <section id="verbs" type="standard">
+        <!-- xemilandin; ; xemiland; xemilîn -->
+    <e lm="xemilandin"><p><l>xemiland</l><r>xemilandin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="xemilandin"><p><l>dixemilîn</l><r>xemilandin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="xemilandin"><p><l>bixemilîn</l><r>xemilandin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="xemilandin"><p><l>nexemiland</l><r>xemilandin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="xemilandin"><p><l>naxemilîn</l><r>xemilandin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="xemilandin"><p><l>nexemilîn</l><r>xemilandin</r></p><par n="nek/e__vblex_tv"/></e>
+
+        <!-- xapandin; ; xapand; xapîn -->
+    <e lm="xapandin"><p><l>xapand</l><r>xapandin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="xapandin"><p><l>dixapîn</l><r>xapandin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="xapandin"><p><l>bixapîn</l><r>xapandin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="xapandin"><p><l>nexapand</l><r>xapandin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="xapandin"><p><l>naxapîn</l><r>xapandin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="xapandin"><p><l>nexapîn</l><r>xapandin</r></p><par n="nek/e__vblex_tv"/></e>
+
         <!-- wêrankirin; ; wêrankir; wêran..k -->
     <e lm="wêrankirin"><p><l>wêrankir</l><r>wêrankirin</r></p><par n="kir/__vblex_tv"/></e>
     <e lm="wêrankirin"><p><l>wêrandik</l><r>wêrankirin</r></p><par n="dik/e__vblex_tv"/></e>
