@@ -1068,6 +1068,53 @@
         <e><p><l>n</l><r><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
     </pardef> 
 
+    <pardef n="bez/î__vblex_iv">
+        <e><p><l>îm</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>î</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>î</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>în</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>în</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>în</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e> 
+        <e><p><l>îme</l><r><s n="vblex"/><s n="iv"/><s n="narr"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>iye</l><r><s n="vblex"/><s n="iv"/><s n="narr"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>ye</l><r><s n="vblex"/><s n="iv"/><s n="narr"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>îne</l><r><s n="vblex"/><s n="iv"/><s n="narr"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>îne</l><r><s n="vblex"/><s n="iv"/><s n="narr"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>îne</l><r><s n="vblex"/><s n="iv"/><s n="narr"/><s n="p3"/><s n="pl"/></r></p></e> 
+    </pardef>
+
+    <pardef n="dibez/î__vblex_iv">
+        <e><p><l></l><r><s n="vblex"/><s n="iv"/></r></p><par n="dik/e__vblex"/></e>
+        <e><p><l>îm</l><r><s n="vblex"/><s n="iv"/><s n="prog"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>î</l><r><s n="vblex"/><s n="iv"/><s n="prog"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>î</l><r><s n="vblex"/><s n="iv"/><s n="prog"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>în</l><r><s n="vblex"/><s n="iv"/><s n="prog"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>în</l><r><s n="vblex"/><s n="iv"/><s n="prog"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>în</l><r><s n="vblex"/><s n="iv"/><s n="prog"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e> 
+        <e><p><l>îme</l><r><s n="vblex"/><s n="tv"/><s n="prog"/><s n="narr"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>îye</l><r><s n="vblex"/><s n="tv"/><s n="prog"/><s n="narr"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>îye</l><r><s n="vblex"/><s n="tv"/><s n="prog"/><s n="narr"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>îne</l><r><s n="vblex"/><s n="tv"/><s n="prog"/><s n="narr"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>îne</l><r><s n="vblex"/><s n="tv"/><s n="prog"/><s n="narr"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>îne</l><r><s n="vblex"/><s n="tv"/><s n="prog"/><s n="narr"/><s n="p3"/><s n="pl"/></r></p></e> 
+    </pardef>
+
+    <pardef n="bibez/î__vblex_iv">
+        <e><p><l></l><r><s n="vblex"/><s n="iv"/></r></p><par n="bik/e__vblex"/></e>
+        <e><p><l>iyama</l><r><s n="vblex"/><s n="tv"/><s n="fpi"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>iyayî</l><r><s n="vblex"/><s n="tv"/><s n="fpi"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>iya</l><r><s n="vblex"/><s n="tv"/><s n="fpi"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>iyana</l><r><s n="vblex"/><s n="tv"/><s n="fpi"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>iyana</l><r><s n="vblex"/><s n="tv"/><s n="fpi"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>iyana</l><r><s n="vblex"/><s n="tv"/><s n="fpi"/><s n="p3"/><s n="pl"/></r></p></e> 
+        <e><p><l>iyama</l><r><s n="vblex"/><s n="tv"/><s n="opt"/><s n="narr"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>iyayî</l><r><s n="vblex"/><s n="tv"/><s n="opt"/><s n="narr"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>iya</l><r><s n="vblex"/><s n="tv"/><s n="opt"/><s n="narr"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>iyana</l><r><s n="vblex"/><s n="tv"/><s n="opt"/><s n="narr"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>iyana</l><r><s n="vblex"/><s n="tv"/><s n="opt"/><s n="narr"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>iyana</l><r><s n="vblex"/><s n="tv"/><s n="opt"/><s n="narr"/><s n="p3"/><s n="pl"/></r></p></e> 
+    </pardef>
+
     <pardef n="kir/__vblex_tv">
         <e><p><l></l><r><s n="vblex"/><s n="tv"/></r></p><par n="kir/__vblex"/></e>
         <e><p><l>ime</l><r><s n="vblex"/><s n="tv"/><s n="narr"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -14274,6 +14321,69 @@
 
   </section>
   <section id="verbs" type="standard">
+    <!-- ruhvegerîn; ; ruhveger; ruhveger -->
+    <e lm="ruhvegerîn"><p><l>ruhveger</l><r>ruhvegerîn</r></p><par n="bez/î__vblex_iv"/></e>
+    <e lm="ruhvegerîn"><p><l>ruhvediger</l><r>ruhvegerîn</r></p><par n="dibez/î__vblex_iv"/></e>
+    <e lm="ruhvegerîn"><p><l>ruhvebiger</l><r>ruhvegerîn</r></p><par n="bibez/î__vblex_iv"/></e>
+
+    <!-- dagerîn; ; dager; dager -->
+    <e lm="dagerîn"><p><l>dager</l><r>dagerîn</r></p><par n="bez/î__vblex_iv"/></e>
+    <e lm="dagerîn"><p><l>dadiger</l><r>dagerîn</r></p><par n="dibez/î__vblex_iv"/></e>
+    <e lm="dagerîn"><p><l>dabiger</l><r>dagerîn</r></p><par n="bibez/î__vblex_iv"/></e>
+
+    <!-- hilgerîn; ; hilger; hilger -->
+    <e lm="hilgerîn"><p><l>hilger</l><r>hilgerîn</r></p><par n="bez/î__vblex_iv"/></e>
+    <e lm="hilgerîn"><p><l>hildiger</l><r>hilgerîn</r></p><par n="dibez/î__vblex_iv"/></e>
+    <e lm="hilgerîn"><p><l>hilbiger</l><r>hilgerîn</r></p><par n="bibez/î__vblex_iv"/></e>
+
+    <!-- tevgerîn; ; tevger; tevger -->
+    <e lm="tevgerîn"><p><l>tevger</l><r>tevgerîn</r></p><par n="bez/î__vblex_iv"/></e>
+    <e lm="tevgerîn"><p><l>tevdiger</l><r>tevgerîn</r></p><par n="dibez/î__vblex_iv"/></e>
+    <e lm="tevgerîn"><p><l>tevbiger</l><r>tevgerîn</r></p><par n="bibez/î__vblex_iv"/></e>
+
+    <!-- jêgerîn; ; jêger; jêger -->
+    <e lm="jêgerîn"><p><l>jêger</l><r>jêgerîn</r></p><par n="bez/î__vblex_iv"/></e>
+    <e lm="jêgerîn"><p><l>jêdiger</l><r>jêgerîn</r></p><par n="dibez/î__vblex_iv"/></e>
+    <e lm="jêgerîn"><p><l>jêbiger</l><r>jêgerîn</r></p><par n="bibez/î__vblex_iv"/></e>
+
+   <!-- bergerîn; ; berger; berger -->
+    <e lm="bergerîn"><p><l>berger</l><r>bergerîn</r></p><par n="bez/î__vblex_iv"/></e>
+    <e lm="bergerîn"><p><l>berdiger</l><r>bergerîn</r></p><par n="dibez/î__vblex_iv"/></e>
+    <e lm="bergerîn"><p><l>berbiger</l><r>bergerîn</r></p><par n="bibez/î__vblex_iv"/></e>
+
+    <!-- lêgerîn; ; lêger; lêger -->
+    <e lm="lêgerîn"><p><l>lêger</l><r>lêgerîn</r></p><par n="bez/î__vblex_iv"/></e>
+    <e lm="lêgerîn"><p><l>lêdiger</l><r>lêgerîn</r></p><par n="dibez/î__vblex_iv"/></e>
+    <e lm="lêgerîn"><p><l>lêbiger</l><r>lêgerîn</r></p><par n="bibez/î__vblex_iv"/></e>
+
+    <!-- libergerîn; ; liberger; liberger -->
+    <e lm="libergerîn"><p><l>liberger</l><r>libergerîn</r></p><par n="bez/î__vblex_iv"/></e>
+    <e lm="libergerîn"><p><l>liberdiger</l><r>libergerîn</r></p><par n="dibez/î__vblex_iv"/></e>
+    <e lm="libergerîn"><p><l>liberbiger</l><r>libergerîn</r></p><par n="bibez/î__vblex_iv"/></e>
+    <e lm="libergerîn" r="LR"><p><l>liber<b/>ger</l><r>libergerîn</r></p><par n="bez/î__vblex_iv"/></e>
+    <e lm="libergerîn" r="LR"><p><l>liber<b/>diger</l><r>libergerîn</r></p><par n="dibez/î__vblex_iv"/></e>
+    <e lm="libergerîn" r="LR"><p><l>liber<b/>biger</l><r>libergerîn</r></p><par n="bibez/î__vblex_iv"/></e>
+
+    <!-- wergerîn; ; werger; werger -->
+    <e lm="wergerîn"><p><l>werger</l><r>wergerîn</r></p><par n="bez/î__vblex_iv"/></e>
+    <e lm="wergerîn"><p><l>werdiger</l><r>wergerîn</r></p><par n="dibez/î__vblex_iv"/></e>
+    <e lm="wergerîn"><p><l>werbiger</l><r>wergerîn</r></p><par n="bibez/î__vblex_iv"/></e>
+
+    <!-- vegerîn; ; veger; veger -->
+    <e lm="vegerîn"><p><l>veger</l><r>vegerîn</r></p><par n="bez/î__vblex_iv"/></e>
+    <e lm="vegerîn"><p><l>vediger</l><r>vegerîn</r></p><par n="dibez/î__vblex_iv"/></e>
+    <e lm="vegerîn"><p><l>vebiger</l><r>vegerîn</r></p><par n="bibez/î__vblex_iv"/></e>
+
+    <!-- gerîn; ; ger; ger -->
+    <e lm="gerîn"><p><l>ger</l><r>gerîn</r></p><par n="bez/î__vblex_iv"/></e>
+    <e lm="gerîn"><p><l>diger</l><r>gerîn</r></p><par n="dibez/î__vblex_iv"/></e>
+    <e lm="gerîn"><p><l>biger</l><r>gerîn</r></p><par n="bibez/î__vblex_iv"/></e>
+
+    <!-- bezîn; ; bez; bez -->
+    <e lm="bezîn"><p><l>bez</l><r>bezîn</r></p><par n="bez/î__vblex_iv"/></e>
+    <e lm="bezîn"><p><l>dibez</l><r>bezîn</r></p><par n="dibez/î__vblex_iv"/></e>
+    <e lm="bezîn"><p><l>bibez</l><r>bezîn</r></p><par n="bibez/î__vblex_iv"/></e>
+
         <!-- zêdekirin; ; zêdekir; zêde..k -->
     <e lm="zêdekirin"><p><l>zêdekir</l><r>zêdekirin</r></p><par n="kir/__vblex_tv"/></e>
     <e lm="zêdekirin"><p><l>zêdedik</l><r>zêdekirin</r></p><par n="dik/e__vblex_tv"/></e>
@@ -15651,6 +15761,16 @@
     <e lm="nihêrtin"><p><l>nenihêrt</l><r>nihêrtin</r></p><par n="neaxaft/__vblex_iv"/></e>
     <e lm="nihêrtin"><p><l>nanihêr</l><r>nihêrtin</r></p><par n="naaxiv/e__vblex_iv"/></e>
     <e lm="nihêrtin"><p><l>nenihêr</l><r>nihêrtin</r></p><par n="neaxiv/e__vblex_iv"/></e>
+
+    <!-- gerîn; ; ger; ger -->
+    <e lm="gerîn"><p><l>ger</l><r>gerîn</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="gerîn"><p><l>diger</l><r>gerîn</r></p><par n="dikir/__vblex_tv"/></e>
+    <e lm="gerîn"><p><l>diger</l><r>gerîn</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="gerîn"><p><l>biger</l><r>gerîn</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="gerîn"><p><l>neger</l><r>gerîn</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="gerîn"><p><l>nager</l><r>gerîn</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="gerîn"><p><l>neger</l><r>gerîn</r></p><par n="nek/e__vblex_tv"/></e>
+
 
     <!-- kirin; ; kir; k -->
     <e lm="kirin"><p><l>kir</l><r>kirin</r></p><par n="kir/__vblex_tv"/></e>
