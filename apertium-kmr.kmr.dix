@@ -1554,6 +1554,15 @@
     <!-- SECTION: Nouns -->
 
     <!-- New Feminines -->
+    <e lm="Web"><i>Web</i><par n="jin__n_f"/></e>
+    <e lm="garis"><i>garis</i><par n="jin__n_f"/></e>
+    <e lm="dagir"><i>dagir</i><par n="jin__n_f"/></e>
+    <e lm="qedr"><i>qedr</i><par n="jin__n_f"/></e>
+    <e lm="serjimar"><i>serjimar</i><par n="jin__n_f"/></e>
+    <e lm="edîtorî"><i>edîtor</i><par n="piran/î__n_f"/></e>
+    <e lm="lîst"><i>lîst</i><par n="jin__n_f"/></e>
+    <e lm="rojnamê"><i>rojnam</i><par n ="od/e__n"/></e>
+    <e lm="birayêt"><i>birayêt</i><par n="jin__n_f"/></e>
     <e lm="parlamen"><i>parlamen</i><par n="jin__n_f"/></e>
     <e lm="vîtamîn"><i>vîtamîn</i><par n="jin__n_f"/></e>
     <e lm="aktor"><i>aktor</i><par n="jin__n_f"/></e>
@@ -13263,6 +13272,17 @@
     <e lm="HDP"><i>HDP</i><par n="YNK__n"/></e>
 
     <!-- SECTION: Proper nouns -->
+    <e lm="Mukriyanî"><i>Mukriyan</i><par n="Barzan/î__np"/></e>
+    <e lm="Mîrza"><i>Mîrza</i><par n="Salih__np"/></e>
+    <e lm="Dogan"><i>Dogan</i><par n="Salih__np"/></e>
+    <e lm="Engels"><i>Engels</i><par n="Salih__np"/></e>
+    <e lm="Muawiye"><i>Muawiye</i><par n="Salih__np"/></e>
+    <e lm="roma"><i>roma</i><par n="Bexda__np"/></e>
+    <e lm="samî"><i>sam</i><par n="Barzan/î__np"/></e>
+    <e lm="Bulbul"><i>Bulbul</i><par n="Salih__np"/></e>
+    <e lm="Badîn"><i>Badîn</i><par n="Kurdistan__np"/></e>
+    <e lm="Ebas"><i>Ebas</i><par n="Salih__np"/></e>
+    <e lm="Xan"><i>Xan</i><par n="Salih__np"/></e>
     <e lm="Nils"><i>Nils</i><par n="Salih__np"/></e>
     <e lm="Qizil"><i>Qizil</i><par n="Kurdistan__np"/></e>
     <e lm="Smith"><i>Smith</i><par n="Salih__np"/></e>
@@ -14186,6 +14206,10 @@
     <!-- SECTION: Adjectives -->
 
     <!-- new comparables -->
+    <e lm="tund"><i>tund</i><par n="nû__adj"/></e>
+    <e lm="etnîkî"><i>etnîkî</i><par n="nû__adj"/></e>
+    <e lm="tevlîhevî"><i>tevlîhevî</i><par n="nû__adj"/></e>
+    <e lm="Kurdish"><i>Kurdish</i><par n="nû__adj"/></e>
     <e lm="orjînal"><i>orjînal</i><par n="nû__adj"/></e>
     <e lm="swîsrî"><i>swîsrî</i><par n="nû__adj"/></e>
     <e lm="amerîkayî"><i>amerîkayî</i><par n="nû__adj"/></e>
@@ -14631,6 +14655,13 @@
 
   </section>
   <section id="verbs" type="standard">
+        <!-- tevdan; ; tevda; tev..d -->
+    <e lm="tevdan"><p><l>tevd</l><r>tevdan</r></p><par n="d/an_vblex_tv"/></e>
+    <e lm="tevdan"><p><l>tevdid</l><r>tevdan</r></p><par n="did/an__vblex_tv"/></e>
+    <e lm="tevdan"><p><l>tevbid</l><r>tevdan</r></p><par n="bid/an__vblex_tv"/></e>
+    <e lm="tevdan"><p><l>tevned</l><r>tevdan</r></p><par n="ned/an_vblex_tv"/></e>
+    <e lm="tevdan"><p><l>tevnad</l><r>tevdan</r></p><par n="nak/e__vblex_tv"/></e>
+
         <!-- xemilandin; ; xemiland; xemilîn -->
     <e lm="xemilandin"><p><l>xemiland</l><r>xemilandin</r></p><par n="kir/__vblex_tv"/></e>
     <e lm="xemilandin"><p><l>dixemilîn</l><r>xemilandin</r></p><par n="dik/e__vblex_tv"/></e>
