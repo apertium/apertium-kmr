@@ -1462,6 +1462,10 @@
     <!-- SECTION: Nouns -->
 
     <!-- New Feminines -->
+    <e lm="kurmanc"><i>kurmanc</i><par n="jin__n_f"/></e>
+    <e lm="Unit"><i>Unit</i><par n="jin__n_f"/></e>
+    <e lm="îngîlîzî"><i>îngîlîz</i><par n="piran/î__n_f"/></e>
+    <e lm="pêşkêşî"><i>pêşkêş</i><par n="piran/î__n_f"/></e>
     <e lm="cild"><i>cild</i><par n="jin__n_f"/></e>
     <e lm="kulîlkdar"><i>kulîlkdar</i><par n="jin__n_f"/></e>
     <e lm="dî"><i>d</i><par n="piran/î__n_f"/></e>
@@ -1811,6 +1815,10 @@
 
     
     <!-- New Masculines -->
+    <e lm="kurmanc"><i>kurmanc</i><par n="mirov__n_m"/></e>
+    <e lm="îngîlîzî"><i>îngîlîz</i><par n="xan/î__n_m"/></e>
+    <e lm="seranser"><i>seranser</i><par n="mirov__n_m"/></e>
+    <e lm="siwar"><i>siwar</i><par n="mirov__n_m"/></e>
     <e lm="qurban"><i>qurban</i><par n="mirov__n_m"/></e>
     <e lm="kulîlkdar"><i>kulîlkdar</i><par n="mirov__n_m"/></e>
     <e lm="beşdar"><i>beşdar</i><par n="mirov__n_m"/></e>
@@ -13072,6 +13080,10 @@
     <e lm="HDP"><i>HDP</i><par n="YNK__n"/></e>
 
     <!-- SECTION: Proper nouns -->
+    <e lm="World"><i>World</i><par n="Kurdistan__np"/></e>
+    <e lm="mîtanî"><i>mîtan</i><par n="Agir/î__np"/></e>
+    <e lm="Kerboran"><i>Kerboran</i><par n="Kurdistan__np"/></e>
+    <e lm="Kopa"><i>Kopa</i><par n="Bexda__np"/></e>
     <e lm="Sirşîw"><i>Sirşîw</i><par n="Kurdistan__np"/></e>
     <e lm="Ûnis"><i>Ûnis</i><par n="Salih__np"/></e>
     <e lm="Sêmêl"><i>Sêmêl</i><par n="Kurdistan__np"/></e>
@@ -13844,6 +13856,8 @@
     <!-- SECTION: Adjectives -->
 
     <!-- new comparables -->
+    <e lm="zêdetirî"><i>zêdetirî</i><par n="nû__adj"/></e>
+    <e lm="şaş"><i>şaş</i><par n="nû__adj"/></e>
     <e lm="curbecur"><i>curbecur</i><par n="nû__adj"/></e>
     <e lm="zîrek"><i>zîrek</i><par n="nû__adj"/></e>
     <e lm="qenc"><i>qenc</i><par n="nû__adj"/></e>
@@ -14053,6 +14067,7 @@
     <e lm="pirr"><i>pirr</i><par n="nû__adj"/></e>
     
     <!-- new non-comparables -->
+    <e lm="çaremîn"><i>çaremîn</i><par n="kurdî__adj"/></e>
     <e lm="baştirîn"><i>baştirîn</i><par n="kurdî__adj"/></e>
     <e lm="şeşem"><i>şeşem</i><par n="kurdî__adj"/></e>
     <e lm="dewletî"><i>dewletî</i><par n="kurdî__adj"/></e>
@@ -14135,6 +14150,7 @@
     <e lm="rewa"><i>rewa</i><par n="kurdî__adj"/></e>
 
     <!-- SECTION: Adverb entries -->
+    <e lm="rasterast"><i>rasterast</i><par n="niha__adv"/></e>
     <e lm="zehf"><i>zehf</i><par n="niha__adv"/></e>
     <e lm="berçav"><i>berçav</i><par n="niha__adv"/></e>
     <e lm="carina"><i>carina</i><par n="niha__adv"/></e>
@@ -14246,6 +14262,22 @@
 
   </section>
   <section id="verbs" type="standard">
+        <!-- zêdekirin; ; zêdekir; zêde..k -->
+    <e lm="zêdekirin"><p><l>zêdekir</l><r>zêdekirin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="zêdekirin"><p><l>zêdedik</l><r>zêdekirin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="zêdekirin"><p><l>zêdebik</l><r>zêdekirin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="zêdekirin"><p><l>zêdenekir</l><r>zêdekirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="zêdekirin"><p><l>zêdedikir</l><r>zêdekirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="zêdekirin"><p><l>zêdenak</l><r>zêdekirin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="zêdekirin"><p><l>zêdenek</l><r>zêdekirin</r></p><par n="nek/e__vblex_tv"/></e>
+    <e lm="zêdekirin" r="LR"><p><l>zêde<b/>kir</l><r>zêdekirin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="zêdekirin" r="LR"><p><l>zêde<b/>dik</l><r>zêdekirin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="zêdekirin" r="LR"><p><l>zêde<b/>bik</l><r>zêdekirin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="zêdekirin" r="LR"><p><l>zêde<b/>nekir</l><r>zêdekirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="zêdekirin" r="LR"><p><l>zêde<b/>dikir</l><r>zêdekirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="zêdekirin" r="LR"><p><l>zêde<b/>nak</l><r>zêdekirin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="zêdekirin" r="LR"><p><l>zêde<b/>nek</l><r>zêdekirin</r></p><par n="nek/e__vblex_tv"/></e>
+
         <!-- qatilkirin; ; qatilkir; qatil..k -->
     <e lm="qatilkirin"><p><l>qatilkir</l><r>qatilkirin</r></p><par n="kir/__vblex_tv"/></e>
     <e lm="qatilkirin"><p><l>qatildik</l><r>qatilkirin</r></p><par n="dik/e__vblex_tv"/></e>
