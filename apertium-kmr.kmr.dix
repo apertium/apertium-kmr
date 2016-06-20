@@ -1041,7 +1041,6 @@
         <e><p><l>m</l><r><s n="plu"/><s n="p1"/><s n="sg"/></r></p></e>
     </pardef> 
 
-
     <pardef n="dik/e__vblex">
         <e><p><l></l><r><s n="pri"/></r></p><par n="k/e__vblex"/></e>
     </pardef> 
@@ -1114,6 +1113,37 @@
         <e><p><l>iyana</l><r><s n="vblex"/><s n="tv"/><s n="opt"/><s n="narr"/><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>iyana</l><r><s n="vblex"/><s n="tv"/><s n="opt"/><s n="narr"/><s n="p3"/><s n="pl"/></r></p></e> 
     </pardef>
+
+    <pardef n="/danîn__vblex_tv">
+        <e><p><l>danîm</l><r>danîn<s n="vblex"/><s n="tv"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>danî</l><r>danîn<s n="vblex"/><s n="tv"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>danî</l><r>danîn<s n="vblex"/><s n="tv"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>danîn</l><r>danîn<s n="vblex"/><s n="tv"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>danîn</l><r>danîn<s n="vblex"/><s n="tv"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>danîn</l><r>danîn<s n="vblex"/><s n="tv"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e> 
+        <e><p><l>danîme</l><r>danîn<s n="vblex"/><s n="tv"/><s n="narr"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>daniye</l><r>danîn<s n="vblex"/><s n="tv"/><s n="narr"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>danye</l><r>danîn<s n="vblex"/><s n="tv"/><s n="narr"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>danîne</l><r>danîn<s n="vblex"/><s n="tv"/><s n="narr"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>danîne</l><r>danîn<s n="vblex"/><s n="tv"/><s n="narr"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>danîne</l><r>danîn<s n="vblex"/><s n="tv"/><s n="narr"/><s n="p3"/><s n="pl"/></r></p></e> 
+        <e><p><l>datîn</l><r>danîn<s n="vblex"/><s n="tv"/></r></p><par n="dik/e__vblex"/></e>
+        <e><p><l>didanîm</l><r>danîn<s n="vblex"/><s n="tv"/><s n="prog"/><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>didanî</l><r>danîn<s n="vblex"/><s n="tv"/><s n="prog"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>didanî</l><r>danîn<s n="vblex"/><s n="tv"/><s n="prog"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>didanîn</l><r>danîn<s n="vblex"/><s n="tv"/><s n="prog"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>didanîn</l><r>danîn<s n="vblex"/><s n="tv"/><s n="prog"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>didanîn</l><r>danîn<s n="vblex"/><s n="tv"/><s n="prog"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e> 
+        <e><p><l>didanîme</l><r>danîn<s n="vblex"/><s n="tv"/><s n="prog"/><s n="narr"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>didanîye</l><r>danîn<s n="vblex"/><s n="tv"/><s n="prog"/><s n="narr"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>didanîye</l><r>danîn<s n="vblex"/><s n="tv"/><s n="prog"/><s n="narr"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>didanîne</l><r>danîn<s n="vblex"/><s n="tv"/><s n="prog"/><s n="narr"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>didanîne</l><r>danîn<s n="vblex"/><s n="tv"/><s n="prog"/><s n="narr"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>didanîne</l><r>danîn<s n="vblex"/><s n="tv"/><s n="prog"/><s n="narr"/><s n="p3"/><s n="pl"/></r></p></e> 
+        <e><p><l>dîn</l><r><s n="vblex"/><s n="tv"/></r></p><par n="bik/e__vblex"/></e>
+        <e><p><l>dên</l><r><s n="vblex"/><s n="tv"/></r></p><par n="bik/e__vblex"/></e>
+        <e><p><l>deyn</l><r><s n="vblex"/><s n="tv"/></r></p><par n="bik/e__vblex"/></e>
+    </pardef> 
 
     <pardef n="kir/__vblex_tv">
         <e><p><l></l><r><s n="vblex"/><s n="tv"/></r></p><par n="kir/__vblex"/></e>
@@ -14318,9 +14348,10 @@
     <e lm="axaftin" r="LR"><p><l>naxiv</l><r>axaftin</r></p><par n="naaxiv/e__vblex_iv"/></e>
 
 
-
+d/îne__vblex_tv
   </section>
   <section id="verbs" type="standard">
+
     <!-- ruhvegerîn; ; ruhveger; ruhveger -->
     <e lm="ruhvegerîn"><p><l>ruhveger</l><r>ruhvegerîn</r></p><par n="bez/î__vblex_iv"/></e>
     <e lm="ruhvegerîn"><p><l>ruhvediger</l><r>ruhvegerîn</r></p><par n="dibez/î__vblex_iv"/></e>
@@ -14383,6 +14414,8 @@
     <e lm="bezîn"><p><l>bez</l><r>bezîn</r></p><par n="bez/î__vblex_iv"/></e>
     <e lm="bezîn"><p><l>dibez</l><r>bezîn</r></p><par n="dibez/î__vblex_iv"/></e>
     <e lm="bezîn"><p><l>bibez</l><r>bezîn</r></p><par n="bibez/î__vblex_iv"/></e>
+
+    <e lm="danîn"><p><l></l><r></r></p><par n="/danîn__vblex_tv"/></e>
 
         <!-- zêdekirin; ; zêdekir; zêde..k -->
     <e lm="zêdekirin"><p><l>zêdekir</l><r>zêdekirin</r></p><par n="kir/__vblex_tv"/></e>
