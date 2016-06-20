@@ -312,7 +312,7 @@
     </pardef>
 
     <pardef n="çiqas__det"> 
-      <e><p><l></l><r><s n="det"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l></l><r><s n="det"/><s n="itg"/></r></p></e>
     </pardef>
 
     <pardef n="/ew__det">
@@ -1385,6 +1385,7 @@
  
     <!-- SECTION: Conjunctions -->
     <e lm="heger"><i>heger</i><par n="ango__cnjadv"/></e>
+    <e lm="heger" r="LR"><p><l>eger</l><r>heger</r></p><par n="ango__cnjadv"/></e>
     <e lm="heger" r="LR"><p><l>heke</l><r>heger</r></p><par n="ango__cnjadv"/></e>
     <e lm="heger" r="LR"><p><l>heker</l><r>heger</r></p><par n="ango__cnjadv"/></e>
     <e lm="heger" r="LR"><p><l>heka</l><r>heger</r></p><par n="ango__cnjadv"/></e>
@@ -1507,6 +1508,7 @@
     <e lm="kî"><i>kî</i><par n="çi__prn_itg"/></e>
     <!-- SECTION: Determiners -->
     <e lm="çiqas"><i>çiqas</i><par n="çiqas__det"/></e>
+    <e lm="kîjan"><i>kîjan</i><par n="çiqas__det"/></e>
     <e lm="ev"><i></i><par n="/ev__det"/></e>
     <e lm="ew"><i></i><par n="/ew__det"/></e>
     <e lm="çend"><i>çend</i><par n="hindek__det"/></e>
@@ -1551,6 +1553,15 @@
     <!-- SECTION: Nouns -->
 
     <!-- New Feminines -->
+    <e lm="zêdeyî"><i>zêdey</i><par n="piran/î__n_f"/></e>
+    <e lm="hember"><i>hember</i><par n="jin__n_f"/></e>
+    <e lm="koçber"><i>koçber</i><par n="jin__n_f"/></e>
+    <e lm="cih"><i>cih</i><par n="jin__n_f"/></e>
+    <e lm="niştecihên"><i>niştecihên</i><par n="jin__n_f"/></e>
+    <e lm="şîrove"><i>şîrov</i><par n ="od/e__n"/></e>
+    <e lm="genim"><i>genim</i><par n="jin__n_f"/></e>
+    <e lm="hundir"><i>hundir</i><par n="jin__n_f"/></e>
+    <e lm="koçî"><i>koç</i><par n="piran/î__n_f"/></e>
     <e lm="kurmanc"><i>kurmanc</i><par n="jin__n_f"/></e>
     <e lm="Unit"><i>Unit</i><par n="jin__n_f"/></e>
     <e lm="îngîlîzî"><i>îngîlîz</i><par n="piran/î__n_f"/></e>
@@ -1904,6 +1915,10 @@
 
     
     <!-- New Masculines -->
+    <e lm="koçber"><i>koçber</i><par n="mirov__n_m"/></e>
+    <e lm="niştecihên"><i>niştecihên</i><par n="mirov__n_m"/></e>
+    <e lm="hundir"><i>hundir</i><par n="mirov__n_m"/></e>
+    <e lm="koçî"><i>koç</i><par n="xan/î__n_m"/></e>
     <e lm="kurmanc"><i>kurmanc</i><par n="mirov__n_m"/></e>
     <e lm="îngîlîzî"><i>îngîlîz</i><par n="xan/î__n_m"/></e>
     <e lm="seranser"><i>seranser</i><par n="mirov__n_m"/></e>
@@ -13945,6 +13960,9 @@
     <!-- SECTION: Adjectives -->
 
     <!-- new comparables -->
+    <e lm="tevayî"><i>tevayî</i><par n="nû__adj"/></e>
+    <e lm="kevnar"><i>kevnar</i><par n="nû__adj"/></e>
+    <e lm="herwekî"><i>herwekî</i><par n="nû__adj"/></e>
     <e lm="zêdetirî"><i>zêdetir</i><par n="navend/î__adj"/></e>
     <e lm="şaş"><i>şaş</i><par n="germ__adj"/></e>
     <e lm="curbecur"><i>curbecur</i><par n="germ__adj"/></e>
@@ -14156,6 +14174,7 @@
     <e lm="pirr"><i>pirr</i><par n="germ__adj"/></e>
     
     <!-- new non-comparables -->
+    <e lm="bes"><i>bes</i><par n="kurdî__adj"/></e>
     <e lm="çaremîn"><i>çaremîn</i><par n="kurdî__adj"/></e>
     <e lm="baştirîn"><i>baştirîn</i><par n="kurdî__adj"/></e>
     <e lm="şeşem"><i>şeşem</i><par n="kurdî__adj"/></e>
@@ -14239,6 +14258,8 @@
     <e lm="rewa"><i>rewa</i><par n="kurdî__adj"/></e>
 
     <!-- SECTION: Adverb entries -->
+    <e lm="hertim"><i>hertim</i><par n="niha__adv"/></e>
+    <e lm="bes"><i>bes</i><par n="niha__adv"/></e>
     <e lm="rasterast"><i>rasterast</i><par n="niha__adv"/></e>
     <e lm="zehf"><i>zehf</i><par n="niha__adv"/></e>
     <e lm="berçav"><i>berçav</i><par n="niha__adv"/></e>
