@@ -14748,6 +14748,14 @@
 
   </section>
   <section id="verbs" type="standard">
+        <!-- dihewandin; ; dihewand; dihewîn -->
+    <e lm="dihewandin"><p><l>dihewand</l><r>dihewandin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="dihewandin"><p><l>didihewîn</l><r>dihewandin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="dihewandin"><p><l>bidihewîn</l><r>dihewandin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="dihewandin"><p><l>nedihewand</l><r>dihewandin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="dihewandin"><p><l>nadihewîn</l><r>dihewandin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="dihewandin"><p><l>nedihewîn</l><r>dihewandin</r></p><par n="nek/e__vblex_tv"/></e>
+
         <!-- qeydkirin; ; qeydkir; qeyd..k -->
     <e lm="qeydkirin"><p><l>qeydkir</l><r>qeydkirin</r></p><par n="kir/__vblex_tv"/></e>
     <e lm="qeydkirin"><p><l>qeyddik</l><r>qeydkirin</r></p><par n="dik/e__vblex_tv"/></e>
