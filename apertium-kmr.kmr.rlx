@@ -51,8 +51,12 @@ LIST JÊ = "<jê>"i;
 LIST JI = "ji";
 LIST RE = "re";
 LIST HETA = "heta" ;
+LIST Preadv = preadv;
+
 
 SET NOMEN = N | Prop ;
+
+SET NPNHA = N | Prop | Det | Preadv | A ;
 
 SECTION
 
@@ -99,6 +103,8 @@ SELECT JI IF (0 JÊ) (1 RE);
 SELECT Pers IF (0 Pers OR Dem); 
 
 SELECT Neg IF ( 0 Neg OR Vbcop) (NOT 1 EOS) (NEGATE -1* V) (1* V);
+
+SELECT Pr IF (0 DI) (1* Post BARRIER (*) - NPNHA);
 
 SECTION
 
