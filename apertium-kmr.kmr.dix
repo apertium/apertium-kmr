@@ -841,6 +841,17 @@
 
         </pardef> -->
     
+
+    <pardef n="k/e__vblex">
+        <e><p><l>im</l><r><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>î</l><r><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>e</l><r><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l></l><r><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>in</l><r><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>in</l><r><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>in</l><r><s n="p3"/><s n="pl"/></r></p></e>
+    </pardef> 
+
     <pardef n="/bûn">
         <e><p><l>bûm</l><r><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
         <e><p><l>bûyî</l><r><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -863,7 +874,9 @@
         <e><p><l>dibin</l><r><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
         <e><p><l>dibin</l><r><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>dibin</l><r><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
-    </pardef>
+	<e><p><l>bib</l><r><s n="prs"/></r></p><par n="k/e__vblex"/></e>
+	<e><p><l>bib</l><r><s n="fut"/></r></p><par n="k/e__vblex"/></e>
+</pardef>
 
     <pardef n="/bûn__vbcop">
         <!-- Post-consonantal -->
@@ -1011,16 +1024,6 @@
         <e><p><l>iya<b/>bû</l><r><s n="vblex"/><s n="plu"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef> 
 
-    <pardef n="k/e__vblex">
-        <e><p><l>im</l><r><s n="p1"/><s n="sg"/></r></p></e>
-        <e><p><l>î</l><r><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l>e</l><r><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l></l><r><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>in</l><r><s n="p1"/><s n="pl"/></r></p></e>
-        <e><p><l>in</l><r><s n="p2"/><s n="pl"/></r></p></e>
-        <e><p><l>in</l><r><s n="p3"/><s n="pl"/></r></p></e>
-    </pardef> 
-
     <pardef n="kir/__vblex">
         <e><p><l>in</l><r><s n="inf"/></r></p></e>
         <e><p><l>î</l><r><s n="pp"/></r></p></e>
@@ -1047,6 +1050,7 @@
 
     <pardef n="bik/e__vblex">
         <e><p><l></l><r><s n="prs"/></r></p><par n="k/e__vblex"/></e>
+        <e><p><l></l><r><s n="fut"/></r></p><par n="k/e__vblex"/></e>
         <e><p><l>e</l><r><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
         <e><p><l>in</l><r><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
     </pardef> 
@@ -1063,6 +1067,7 @@
 
     <pardef n="bişo/__vblex">
         <e><p><l></l><r><s n="prs"/></r></p><par n="şo/__vblex"/></e>
+        <e><p><l></l><r><s n="fut"/></r></p><par n="şo/__vblex"/></e>
         <e><p><l></l><r><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
         <e><p><l>n</l><r><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
     </pardef> 
@@ -1099,7 +1104,8 @@
     </pardef>
 
     <pardef n="bibez/î__vblex_iv">
-        <e><p><l></l><r><s n="vblex"/><s n="iv"/></r></p><par n="bik/e__vblex"/></e>
+	    <e><p><l></l><r><s n="vblex"/><s n="iv"/><s n="fut"/></r></p><par n="bik/e__vblex"/></e>
+	    <e><p><l></l><r><s n="vblex"/><s n="iv"/><s n="prs"/></r></p><par n="bik/e__vblex"/></e>
         <e><p><l>iyama</l><r><s n="vblex"/><s n="tv"/><s n="fpi"/><s n="p1"/><s n="sg"/></r></p></e>
         <e><p><l>iyayî</l><r><s n="vblex"/><s n="tv"/><s n="fpi"/><s n="p2"/><s n="sg"/></r></p></e>
         <e><p><l>iya</l><r><s n="vblex"/><s n="tv"/><s n="fpi"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -14703,7 +14709,7 @@
     <e lm="anîn"><p><l></l><r>anîn</r></p><par n="/anîn__vblex_tv"/></e>
 
     <e lm="bûn"><i/><par n="/bûn__vbcop"/></e>
-    <e lm="çêbûn"><p><l/><r>çê</r></p><par n="/bûn__vbcop"/></e>
+    <e lm="çêbûn"><p><l>çê</l><r>çê</r></p><par n="/bûn__vbcop"/></e>
     <e lm="hebûn"><p><l></l><r>hebûn</r></p><par n="/hebûn__vbhaver"/></e>
     <e lm="hatin"><p><l></l><r>hatin</r></p><par n="/hatin__vblex_iv"/></e>
 

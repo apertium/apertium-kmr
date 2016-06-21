@@ -21,7 +21,8 @@ LIST A = adj (adj pst) (adj comp) (adj sup);
 LIST Apst = (adj pst);
 LIST Acomp = (adj comp);
 LIST Asup = (adj sup);
-
+LIST Neg = neg ; 
+LIST Vbcop = vbcop;
 LIST Nom = nom;
 LIST Eza = con;
 LIST Obl = obl;
@@ -37,7 +38,8 @@ LIST CS = cnjsub;
 LIST Pers = pers;
 
 LIST Past = past ;
-
+LIST Fut = fut ;
+LIST Prs = prs ; 
 LIST BI = "bi" ;
 LIST SPEECH-VERB = "axaftin" ;
 LIST LANG = "kurdî" ;
@@ -87,6 +89,8 @@ SELECT Post IF (0 RE) (-1 JÊ);
 SELECT JI IF (0 JÊ) (1 RE);
 
 SELECT Pers IF (0 Pers OR Dem); 
+
+SELECT Neg IF ( 0 Neg OR Vbcop) (NOT 1 EOS) (NEGATE -1* V) (1* V);
 
 SECTION
 
