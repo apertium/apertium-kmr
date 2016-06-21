@@ -49,10 +49,15 @@ LIST BÛ = "<bû>"i ;
 LIST JÊ = "<jê>"i;
 LIST JI = "ji";
 LIST RE = "re";
+LIST HETA = "heta" ;
 
 SET NOMEN = N | Prop ;
 
 SECTION
+
+SELECT HETA IF (0 HETA OR Eza) ;
+
+REMOVE Voc IF (0 Voc OR Obl) (-1 Eza);
 
 SELECT Eza IF (-1 Eza) (NOT 1 Eza);
 
