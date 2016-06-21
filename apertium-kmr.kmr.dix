@@ -83,7 +83,14 @@
   </sdefs>
 
   <pardefs>
-    <!-- SECTION: Punctuation -->
+      
+<!-- SECTION: Preadverbs  -->
+
+    <pardef n="gelek__preadv">
+	    <e><p><l/><r><s n="preadv"/></r></p></e>
+    </pardef>
+
+<!-- SECTION: Punctuation -->
 
     <pardef n="numeros">
       <e><re>[0-9]+([.,][0-9]+)?</re><p><l/><r><s n="num"/></r></p></e>
@@ -14276,6 +14283,10 @@
     <e lm="Mesûd"><i>Mesûd</i><par n="Salih__np"/></e>
     <e lm="Barzanî"><i>Barzan</i><par n="Barzan/î__np"/></e>
     <e lm="Tîrêj"><i>Tîrêj</i><par n="Tîrêj__np"/></e>
+
+    <!-- SECTION: Preadverbs -->
+    
+    <e lm="gelek"><i>gelek</i><par n="gelek__preadv"/></e>
 
     <!-- SECTION: Adjectives -->
 
