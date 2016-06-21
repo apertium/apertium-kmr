@@ -46,6 +46,7 @@ LIST LANG = "kurdî" ;
 LIST VE = "ve" ;
 LIST BÛN = "bûn" ; 
 LIST BÛ = "<bû>"i ;
+LIST DI = "<di>"i ;
 LIST JÊ = "<jê>"i;
 LIST JI = "ji";
 LIST RE = "re";
@@ -72,6 +73,8 @@ SELECT V IF (1 EOS) (NEGATE -1* V) ;
 REMOVE NOMEN + Obl IF (NOT -1 Eza) (NOT -1 Pr) (NOT 1 Post)  (NOT 1* TV) ;
 
 SELECT BI IF (0 BI) ;
+
+SELECT Det IF (0 Det OR Pron) (1 N + Obl + Dem);
 
 SELECT VE IF (NOT -1 V LINK -1 BI) ;
 
@@ -103,7 +106,7 @@ LIST @nsubj = @nsubj ;
 LIST @dobj = @dobj ;
 LIST @csubj = @csubj ;
 
-MAP @nsubj TARGET Pron + Obl IF (0C Obl) (1* TV + Past BARRIER V) ;
+MAP @nsubj TARGET Pron + Obl IF (0C Obl) (1* TV + Past BARRIER V) (NOT -1 Pr) (NOT 1 Post);
 
 SECTION
 
