@@ -58,7 +58,7 @@ LIST Dash = "-";
 
 SET NOMEN = N | Prop ;
 
-SET NPNHA = N | Prop | Det | Preadv | A ;
+SET NPNHA = N | Num | Prop | Det | Preadv | A | Eza ;
 
 SECTION
 
@@ -76,7 +76,7 @@ REMOVE N + Dem IF (NOT -1 Det) ;
 
 SELECT V IF (1 EOS) (NEGATE -1* V) ; 
 
-REMOVE NOMEN + Obl IF (NOT -1 Eza) (NOT -1 Pr) (NOT 1 Post)  (NOT 1* TV) ;
+REMOVE NOMEN + Obl IF (Not -1 Dash) (NOT -1 Eza) (NOT -1 Pr) (NOT 1 Post)  (NOT 1* TV) ;
 
 SELECT BI IF (0 BI) ;
 
@@ -96,7 +96,7 @@ SELECT Aux IF (-1 PrfPrc);
 
 REMOVE Nom IF (-1 Pr);
 
-REMOVE Nom IF (-1 Eza);
+REMOVE Nom IF (-1 Eza) (NOT 1 CC) (NOT 2 Eza);
 
 SELECT Post IF (0 RE) (-1 JÊ);
 
@@ -113,6 +113,8 @@ SELECT Post IF (0 DE) (-1* Pr BARRIER (*) - NPNHA);
 SELECT Pron IF (0 Pron OR Det) (1 Pr);
 
 REMOVE Dem IF (0 Prop) (NOT -1 Det) ;
+
+SELECT A IF (0 N OR A) (NOT 0 Obl) (-1 Eza);
 
 SECTION
 

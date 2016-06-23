@@ -1568,6 +1568,7 @@
     <!-- SECTION: Nouns -->
 
     <!-- New Feminines -->
+    <e lm="YN"><i>YN</i><par n="YNK__n"/></e>
     <e lm="Burjuvazî"><i>Burjuvaz</i><par n="piran/î__n_f"/></e>
     <e lm="netew"><i>netew</i><par n="jin__n_f"/></e>
     <e lm="psîkoanalîz"><i>psîkoanalîz</i><par n="jin__n_f"/></e>
@@ -14295,6 +14296,7 @@
     <!-- SECTION: Adjectives -->
 
     <!-- new comparables -->
+    <e lm="polîtîk"><i>polîtîk</i><par n="nû__adj"/></e>
     <e lm="esefnak"><i>esefnak</i><par n="nû__adj"/></e>
     <e lm="mihim"><i>mihim</i><par n="nû__adj"/></e>
     <e lm="orijînal"><i>orijînal</i><par n="nû__adj"/></e>
