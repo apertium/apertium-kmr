@@ -53,6 +53,7 @@ LIST RE = "re";
 LIST DE = "<de>";
 LIST HETA = "heta" ;
 LIST Preadv = preadv;
+LIST Dash = "-";
 
 
 SET NOMEN = N | Prop ;
@@ -108,6 +109,10 @@ SELECT Neg IF ( 0 Neg OR Vbcop) (NOT 1 EOS) (NEGATE -1* V) (1* V);
 SELECT Pr IF (0 DI) (1* Post BARRIER (*) - NPNHA);
 
 SELECT Post IF (0 DE) (-1* Pr BARRIER (*) - NPNHA);
+
+SELECT Pron IF (0 Pron OR Det) (1 Pr);
+
+REMOVE Dem IF (0 Prop) (NOT -1 Det) ;
 
 SECTION
 

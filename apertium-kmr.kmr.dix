@@ -1568,6 +1568,8 @@
     <!-- SECTION: Nouns -->
 
     <!-- New Feminines -->
+    <e lm="Burjuvazî"><i>Burjuvaz</i><par n="piran/î__n_f"/></e>
+    <e lm="netew"><i>netew</i><par n="jin__n_f"/></e>
     <e lm="psîkoanalîz"><i>psîkoanalîz</i><par n="jin__n_f"/></e>
     <e lm="TKP"><i>TKP</i><par n="YNK__n"/></e>
     <e lm="AKP"><i>AKP</i><par n="YNK__n"/></e>
@@ -13296,6 +13298,7 @@
     <e lm="HDP"><i>HDP</i><par n="YNK__n"/></e>
 
     <!-- SECTION: Proper nouns -->
+    <e lm="Frensa"><i>Frensa</i><par n="Bexda__np"/></e>
     <e lm="Nicolas"><i>Nicolas</i><par n="Salih__np"/></e>
     <e lm="Noşîrwan"><i>Noşîrwan</i><par n="Salih__np"/></e>
     <e lm="Nûreddîn"><i>Nûreddîn</i><par n="Salih__np"/></e>
