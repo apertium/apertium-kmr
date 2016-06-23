@@ -114,7 +114,7 @@ SELECT Pron IF (0 Pron OR Det) (1 Pr);
 
 REMOVE Dem IF (0 Prop) (NOT -1 Det) ;
 
-SELECT A IF (0 N OR A) (NOT 0 Obl) (-1 Eza);
+SELECT A IF (0 N OR A) (NOT 0 Obl) (-1 Obl);
 
 SECTION
 
