@@ -55,6 +55,16 @@ LIST HETA = "heta" ;
 LIST Preadv = preadv;
 LIST Dash = "-";
 
+LIST P1 = p1;
+LIST P2 = p2 ;
+LIST P3 = p3;
+LIST Pl = pl;
+LIST Sg = sg;
+LIST Pri = pri;
+
+LIST Hûn = "hûn";
+LIST Ew = "ew";
+LIST Em = "em";
 
 SET NOMEN = N | Prop ;
 
@@ -115,6 +125,8 @@ SELECT Pron IF (0 Pron OR Det) (1 Pr);
 REMOVE Dem IF (0 Prop) (NOT -1 Det) ;
 
 SELECT A IF (0 N OR A) (NOT 0 Obl) (-1 Obl);
+
+SELECT P3 IF (0 Pri + Pl) (0 P1 OR P2 OR P3) (NOT -1* Hûn + Nom) ( NOT -1* Em + Nom) ; 
 
 SECTION
 
