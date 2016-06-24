@@ -1,41 +1,43 @@
-DELIMITERS = "<.>" "<!>" "<?>";
+DELIMITERS = "<.>" "<!>" "<?>" ;
 
-LIST EOS = (<<<) (sent) ;
-LIST BOS = (>>>) (sent);
+LIST EOS = (<<<) sent ;
+LIST BOS = (>>>) sent ;
 
-LIST N = n;
+LIST N = n ;
 LIST Prop = np ;
 LIST Pron = prn ;
-LIST V = vaux vblex vbser vbcop;
-LIST Adv = adv;
-LIST Num = num;
-LIST CC = cnjcoo;
-LIST CS = cnjsub;
-LIST Interj = ij;
-LIST Pr = pr;
+LIST V = vaux vblex vbser vbcop ;
+LIST Adv = adv ;
+LIST Num = num ;
+LIST Sent = sent ;
+LIST CC = cnjcoo ;
+LIST CS = cnjsub ;
+LIST Interj = ij ;
+LIST Pr = pr ;
 LIST Post = post ;
 LIST Cop = vbcop ;
 LIST Det = det ;
+LIST Preadv = preadv ;
+LIST Unk = "\*.*"i ;
 
-LIST A = adj (adj pst) (adj comp) (adj sup);
-LIST Apst = (adj pst);
-LIST Acomp = (adj comp);
-LIST Asup = (adj sup);
+LIST A = adj ;
+LIST Apst = (adj pst) ;
+LIST Acomp = (adj comp) ;
+LIST Asup = (adj sup) ;
 LIST Neg = neg ; 
-LIST Vbcop = vbcop;
-LIST Nom = nom;
-LIST Eza = con;
-LIST Obl = obl;
-LIST Voc = voc;
-LIST TV = tv; 
+LIST Nom = nom ;
+LIST Eza = con ;
+LIST Obl = obl ;
+LIST Voc = voc ;
+LIST TV = tv ; 
 
-LIST Def = def;
-LIST Ind = ind;
-LIST Dem = dem;
-LIST PrfPrc = pp;
-LIST Aux = vaux;
-LIST CS = cnjsub;
-LIST Pers = pers;
+LIST Def = def ;
+LIST Ind = ind ;
+LIST Dem = dem ;
+LIST PrfPrc = pp ;
+LIST Aux = vaux ;
+LIST CS = cnjsub ;
+LIST Pers = pers ;
 
 LIST Past = past ;
 LIST Fut = fut ;
@@ -44,43 +46,50 @@ LIST BI = "bi" ;
 LIST SPEECH-VERB = "axaftin" ;
 LIST LANG = "kurdî" ;
 LIST VE = "ve" ;
-LIST BÛN = "bûn" ; 
-LIST BÛ = "<bû>"i ;
-LIST DI = "<di>"i ;
-LIST JÊ = "<jê>"i;
-LIST JI = "ji";
-LIST RE = "re";
-LIST DE = "<de>";
+LIST Bûn = "bûn" ; 
+LIST Bû = "<bû>"i ;
+LIST Di = "<di>"i ;
+LIST JÊ = "<jê>"i ;
+LIST JI = "ji" ;
+LIST RE = "re" ;
+LIST De = "<de>" ;
 LIST HETA = "heta" ;
-LIST Preadv = preadv;
-LIST Dash = "-";
+LIST Dash = "-" ;
 
-LIST P1 = p1;
+LIST P1 = p1 ;
 LIST P2 = p2 ;
-LIST P3 = p3;
-LIST Pl = pl;
-LIST Sg = sg;
-LIST Pri = pri;
+LIST P3 = p3 ;
+LIST Pl = pl ;
+LIST Sg = sg ;
+LIST Pri = pri ;
 
-LIST Hûn = "hûn";
-LIST Ew = "ew";
-LIST Em = "em";
+LIST Hûn = "hûn" ;
+LIST Ew = "ew" ;
+LIST Em = "em" ;
+LIST Gelek = "gelek" ;
+LIST Ko = "<ko>"i ;
+
+LIST Fin = pri prs ; # Complete
 
 SET NOMEN = N | Prop ;
 
-SET NPNHA = N | Num | Prop | Det | Preadv | A | Eza ;
+SET NPNHA = N | Num | Prop | Det | Preadv | A | Eza | Unk ;
+
+SET WORD = N | Num | Prop | V | A | Det | Pron | Preadv | Adv | Unk | Sent | Cop | Aux | CS | CC ;
+
+SET CLB = Fin | CS | CC ;
 
 SECTION
 
 SELECT HETA IF (0 HETA OR Eza) ;
 
-REMOVE Voc IF (0 Voc OR Obl) (-1 Eza);
+REMOVE Voc IF (0 Voc OR Obl) (-1 Eza) ;
 
-SELECT Eza IF (-1 Eza) (NOT 1 Eza);
+SELECT Eza IF (-1 Eza) (NOT 1 Eza) ;
 
 SELECT LANG IF (-1 BI) (1 SPEECH-VERB) ;
 
-SELECT Cop IF (0 Cop OR Eza) (1 EOS) (NOT -1 PrfPrc);
+SELECT Cop IF (0 Cop OR Eza) (1 EOS) (NOT -1 PrfPrc) ;
 
 REMOVE N + Dem IF (NOT -1 Det) ; 
 
@@ -90,43 +99,45 @@ REMOVE NOMEN + Obl IF (Not -1 Dash) (NOT -1 Eza) (NOT -1 Pr) (NOT 1 Post)  (NOT 
 
 SELECT BI IF (0 BI) ;
 
-SELECT Det IF (0 Det OR Pron) (1 N + Obl + Dem);
+SELECT Det IF (0 Det OR Pron) (1 N + Obl + Dem) ;
 
 SELECT VE IF (NOT -1 V LINK -1 BI) ;
 
-SELECT PrfPrc IF (1 BÛN) ;
+SELECT PrfPrc IF (1 Bûn) ;
 
 REMOVE PrfPrc IF (NOT 1 V) ;
 
 REMOVE Voc IF (-1 Pr ) ;
 
-REMOVE Voc IF (1 Post);
+REMOVE Voc IF (1 Post) ;
 
-SELECT Aux IF (-1 PrfPrc);
+SELECT Aux IF (-1 PrfPrc) ;
 
-REMOVE Nom IF (-1 Pr);
+REMOVE Nom IF (-1 Pr) ;
 
-REMOVE Nom IF (-1 Eza) (NOT 1 CC) (NOT 2 Eza);
+REMOVE Nom IF (-1 Eza) (NOT 1 CC) (NOT 2 Eza) ;
 
-SELECT Post IF (0 RE) (-1 JÊ);
+SELECT Post IF (0 RE) (-1 JÊ) ;
 
-SELECT JI IF (0 JÊ) (1 RE);
+SELECT JI IF (0 JÊ) (1 RE) ;
 
-SELECT Pers IF (0 Pers OR Dem); 
+SELECT Pers IF (0 Pers OR Dem) ; 
 
-SELECT Neg IF ( 0 Neg OR Vbcop) (NOT 1 EOS) (NEGATE -1* V) (1* V);
+SELECT Neg IF ( 0 Neg OR Cop) (NOT 1 EOS) (NEGATE -1* V) (1* V) ;
 
-SELECT Pr IF (0 DI) (1* Post BARRIER (*) - NPNHA);
+SELECT Pr IF (0 Di) (1* Post BARRIER WORD - NPNHA) ;
 
-SELECT Post IF (0 DE) (-1* Pr BARRIER (*) - NPNHA);
+SELECT Post IF (0 De) (-1* Pr BARRIER WORD - NPNHA) ;
 
-SELECT Pron IF (0 Pron OR Det) (1 Pr);
+SELECT Pron IF (0 Pron OR Det) (1 Pr) ;
 
 REMOVE Dem IF (0 Prop) (NOT -1 Det) ;
 
-SELECT A IF (0 N OR A) (NOT 0 Obl) (-1 Obl);
+SELECT A IF (0 N OR A) (NOT 0 Obl) (-1 Obl) ;
 
 SELECT P3 IF (0 Pri + Pl) (0 P1 OR P2 OR P3) (NOT -1* Hûn + Nom) ( NOT -1* Em + Nom) ; 
+
+SELECT Preadv IF (0 Gelek) (1C A) ;
 
 SECTION
 
@@ -134,8 +145,16 @@ LIST @nsubj = @nsubj ;
 LIST @dobj = @dobj ;
 LIST @csubj = @csubj ;
 
-MAP @nsubj TARGET Pron + Obl IF (0C Obl) (1* TV + Past BARRIER V) (NOT -1 Pr) (NOT 1 Post);
+MAP @nsubj TARGET Pron + Obl IF (0C Obl) (1* TV + Past BARRIER CLB OR Pers + Obl) (NOT -1 Pr) (NOT 1 Post) (NOT -1 Eza) ;
 
 SECTION
 
-SELECT V IF (0 BÛ);
+SELECT V IF (0 Bû) ;
+
+SELECT CS IF (0 Ko) ;
+
+REMOVE Obl IF (-1 BOS) (0 Nom OR Obl) (1 EOS) ;
+
+REMOVE Eza IF (1C Fin) ;
+
+REMOVE Det IF (0 Pron OR Det) (NOT 1 Dem) ;

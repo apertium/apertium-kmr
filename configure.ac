@@ -32,25 +32,6 @@ PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version, [], [PKG_CH
 #                          
 #PKG_CHECK_HFST
 
-AC_PATH_PROG(HFSTLEXC, hfst-lexc, no)
-if test x$ac_cv_path_HFSTLEXC = x
-then
-  AC_MSG_ERROR([You don't have hfst-lexc installed.])
-fi
-if test x$ac_cv_path_HFSTLEXC = xno
-then
-  AC_MSG_ERROR([You don't have hfst-lexc installed.])
-fi
-
-AC_PATH_PROG(HFSTTWOL, hfst-twolc, no)
-if test x$ac_cv_path_HFSTTWOL = x
-then
-  AC_MSG_ERROR([You don't have hfst-twolc installed.])
-fi
-if test x$ac_cv_path_HFSTTWOL = xno
-then
-  AC_MSG_ERROR([You don't have hfst-twolc installed.])
-fi
 
 AC_PATH_PROG(CGCOMP, cg-comp, no)
 if test x$ac_cv_path_CGCOMP = x

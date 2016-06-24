@@ -98,7 +98,8 @@
     </pardef>
 
     <pardef n="separa">
-      <e><re>[.\?;:!…]+</re><p><l/><r><s n="sent"/></r></p></e>
+      <e><re>[\?;:…]</re><p><l/><r><s n="sent"/></r></p></e>
+      <e><re>[.!]+</re><p><l/><r><s n="sent"/></r></p></e>
     </pardef>
 
     <pardef n="guio">
@@ -1869,6 +1870,7 @@
     <e lm="Çekî"><i>Çek</i><par n="piran/î__n_f"/></e>
     <e lm="masi"><i>masi</i><par n="jin__n_f"/></e>
     <e lm="Inglîzî"><i>Inglîz</i><par n="piran/î__n_f"/></e>
+    <e lm="Inglîzî"><i>Inglîz</i><par n="xan/î__n_m"/></e> <!-- FIXME -->
     <e lm="hilberîn"><i>hilberîn</i><par n="jin__n_f"/></e>
     <e lm="jîyan"><i>jîyan</i><par n="jin__n_f"/></e>
     <e lm="DYE"><i>DYE</i><par n="DYA__n"/></e>
@@ -2145,7 +2147,6 @@
     <e lm="gurcî"><i>gurc</i><par n="xan/î__n_m"/></e>
     <e lm="îbranî"><i>îbran</i><par n="xan/î__n_m"/></e>
     <e lm="fîlozof"><i>fîlozof</i><par n="mirov__n_m"/></e>
-    <e lm="Inglîzî"><i>Inglîz</i><par n="xan/î__n_m"/></e>
     <e lm="zanîn"><i>zanîn</i><par n="mirov__n_m"/></e>
     <e lm="elewî"><i>elew</i><par n="xan/î__n_m"/></e>
     <e lm="înglîzî"><i>înglîz</i><par n="xan/î__n_m"/></e>
@@ -10208,7 +10209,7 @@
       <e lm="rarotongî"><i>rarotong</i><par n="piran/î__n_f"/></e>
       <e lm="raser"><i>raser</i><par n="jin__n_f"/></e>
       <e lm="rast"><i>rast</i><par n="jin__n_f"/></e>
-      <e lm="rasterê"><i>raster</i><par n="od/e__n"/></e>
+      <e lm="rasterê"><i>raster</i><par n="od/e__n"/></e> <!-- FIXME! -->
       <e lm="rastgeh"><i>rastgeh</i><par n="jin__n_f"/></e>
       <e lm="rastnivîsîn"><i>rastnivîsîn</i><par n="jin__n_f"/></e>
       <e lm="rastî"><i>rast</i><par n="piran/î__n_f"/></e>
@@ -13543,7 +13544,8 @@
     <e lm="Planck"><i>Planck</i><par n="Salih__np"/></e>
     <e lm="Sargon"><i>Sargon</i><par n="Salih__np"/></e>
     <e lm="Stanford"><i>Stanford</i><par n="Kurdistan__np"/></e>
-    <e lm="tirkiyê"><i>tirkiyê</i><par n="Licê/__np"/></e>
+    <e lm="Tirkiyê"><i>Tirkiyê</i><par n="Licê/__np"/></e>
+    <e lm="Ingilterê"><i>Ingilterê</i><par n="Licê/__np"/></e>
     <e lm="Turkey"><i>Turkey</i><par n="Kurdistan__np"/></e>
     <e lm="Varto"><i>Varto</i><par n="Salih__np"/></e>
     <e lm="Yildirim"><i>Yildirim</i><par n="Salih__np"/></e>
