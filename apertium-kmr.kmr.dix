@@ -1272,6 +1272,32 @@
         <e><p><l></l><r><s n="vblex"/><s n="iv"/><s n="neg"/></r></p><par n="bik/e__vblex"/></e>
     </pardef>
 
+    <pardef n="çû/n__vblex">
+        <e><p><l></l><r><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>yî</l><r><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>m</l><r><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>n</l><r><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>n</l><r><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>n</l><r><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e><p><l>ye</l><r><s n="narr"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>yiye</l><r><s n="narr"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>me</l><r><s n="narr"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>ne</l><r><s n="narr"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>ne</l><r><s n="narr"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>ne</l><r><s n="narr"/><s n="p3"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="çû/n__vblex_iv">
+        <e><p><l></l><r><s n="vblex"/><s n="iv"/></r></p><par n="çû/n__vblex"/></e>
+    </pardef>
+
+    <pardef n="diçû/n__vblex_iv">
+        <e><p><l></l><r><s n="vblex"/><s n="iv"/><s n="prog"/></r></p><par n="çû/n__vblex"/></e>
+    </pardef>
+
+    <pardef n="neçû/n__vblex_iv">
+        <e><p><l></l><r><s n="vblex"/><s n="iv"/><s n="neg"/></r></p><par n="çû/n__vblex"/></e>
+    </pardef>
 
     <pardef n="/hebûn__vbhaver">
         <e><p><l>hebûn</l><r><s n="vbhaver"/><s n="inf"/></r></p></e>
@@ -1563,12 +1589,19 @@
 
     <!-- SECTION: Abbreviations -->
     <e lm="z."><i>z.</i><par n="hwd__abbr"/></e> 
+    <e lm="b."><i>z.</i><par n="hwd__abbr"/></e> 
+    <e lm="e. s."><i>e.<b/>s.</i><par n="hwd__abbr"/></e> 
+    <e lm="m."><i>z.</i><par n="hwd__abbr"/></e> 
     <e lm="hwd"><i>hwd</i><par n="hwd__abbr"/></e> 
     <e lm="km"><i>km</i><par n="hwd__abbr"/></e> 
     <e lm="m"><i>m</i><par n="hwd__abbr"/></e> 
     <!-- SECTION: Nouns -->
 
     <!-- New Feminines -->
+    <e lm="vegerî"><i>veger</i><par n="piran/î__n_f"/></e>
+    <e lm="nas"><i>nas</i><par n="jin__n_f"/></e>
+    <e lm="awa"><i>aw</i><par n ="nîvro__n_f"/></e>
+    <e lm="yekî"><i>yek</i><par n="piran/î__n_f"/></e>
     <e lm="YN"><i>YN</i><par n="YNK__n"/></e>
     <e lm="Burjuvazî"><i>Burjuvaz</i><par n="piran/î__n_f"/></e>
     <e lm="netew"><i>netew</i><par n="jin__n_f"/></e>
@@ -2004,6 +2037,7 @@
 
     
     <!-- New Masculines -->
+    <e lm="yekî"><i>yek</i><par n="xan/î__n_m"/></e>
     <e lm="Hîtît"><i>Hîtît</i><par n="mirov__n_m"/></e>
     <e lm="keşîş"><i>keşîş</i><par n="mirov__n_m"/></e>
     <e lm="psîkoanalîst"><i>psîkoanalîst</i><par n="mirov__n_m"/></e>
@@ -14298,6 +14332,8 @@
     <!-- SECTION: Adjectives -->
 
     <!-- new comparables -->
+    <e lm="bêhempa"><i>bêhempa</i><par n="nû__adj"/></e>
+    <e lm="zana"><i>zana</i><par n="nû__adj"/></e>
     <e lm="pirrnetewî"><i>pirrnetewî</i><par n="nû__adj"/></e>
     <e lm="polîtîk"><i>polîtîk</i><par n="nû__adj"/></e>
     <e lm="esefnak"><i>esefnak</i><par n="nû__adj"/></e>
@@ -14560,6 +14596,7 @@
     <e lm="pirr"><i>pirr</i><par n="germ__adj"/></e>
     
     <!-- new non-comparables -->
+    <e lm="ewil"><i>ewil</i><par n="kurdî__adj"/></e>
     <e lm="pêncemîn"><i>pêncemîn</i><par n="kurdî__adj"/></e>
     <e lm="bes"><i>bes</i><par n="kurdî__adj"/></e>
     <e lm="çaremîn"><i>çaremîn</i><par n="kurdî__adj"/></e>
@@ -14645,6 +14682,13 @@
     <e lm="rewa"><i>rewa</i><par n="kurdî__adj"/></e>
 
     <!-- SECTION: Adverb entries -->
+    <e lm="ewqas"><i>ewqas</i><par n="niha__adv"/></e>
+    <e lm="bidest"><i>bidest</i><par n="niha__adv"/></e>
+    <e lm="bicih"><i>bicih</i><par n="niha__adv"/></e>
+    <e lm="hêj"><i>hêj</i><par n="niha__adv"/></e>
+    <e lm="paş"><i>paş</i><par n="niha__adv"/></e>
+    <e lm="bikar"><i>bikar</i><par n="niha__adv"/></e>
+    <e lm="têde"><i>têde</i><par n="niha__adv"/></e>
     <e lm="hertim"><i>hertim</i><par n="niha__adv"/></e>
     <e lm="bes"><i>bes</i><par n="niha__adv"/></e>
     <e lm="rasterast"><i>rasterast</i><par n="niha__adv"/></e>
@@ -14731,13 +14775,11 @@
     <e lm="anîn"><p><l></l><r>anîn</r></p><par n="/anîn__vblex_tv"/></e>
 
     <e lm="bûn"><i/><par n="/bûn__vbcop"/></e>
-    <e lm="çêbûn"><p><l>çê</l><r>çê</r></p><par n="/bûn__vbcop"/></e>
     <e lm="hebûn"><p><l></l><r>hebûn</r></p><par n="/hebûn__vbhaver"/></e>
     <e lm="hatin"><p><l></l><r>hatin</r></p><par n="/hatin__vblex_iv"/></e>
 
     <e lm="jîn"><p><l>dij</l><r>jîn</r></p><par n="diaxiv/e__vblex_iv"/></e>
     <e lm="nivîn"><p><l>diniv</l><r>nivîn</r></p><par n="diaxiv/e__vblex_iv"/></e>
-    <e lm="çûn"><p><l>diç</l><r>çûn</r></p><par n="diaxiv/e__vblex_iv"/></e>
     <e lm="xebitîn"><p><l>dixebit</l><r>xebitîn</r></p><par n="diaxiv/e__vblex_iv"/></e>
     <e lm="rabûn"><p><l>radib</l><r>rabûn</r></p><par n="diaxiv/e__vblex_iv"/></e>
     <e lm="man"><p><l>dimîn</l><r>man</r></p><par n="diaxiv/e__vblex_iv"/></e>
@@ -14746,7 +14788,8 @@
     <e lm="xwendin" r="LR"><p><l>dixwên</l><r>xwendin</r></p><par n="dik/e__vblex_tv"/></e>
     <e lm="vexwarin"><p><l>vedixw</l><r>vexwarin</r></p><par n="dik/e__vblex_tv"/></e>
     <e lm="rabûn"><p><l>ra<b/></l><r>ra<b/></r></p><par n="/bûn__vblex"/></e>
-    <e lm="çêbûn"><p><l>çê<b/></l><r>çê<b/></r></p><par n="/bûn__vblex"/></e>
+    <e lm="çêbûn"><p><l>çê</l><r>çê</r></p><par n="/bûn__vblex"/></e>
+    <e lm="çêbûn" r="LR"><p><l>çê<b/></l><r>çê</r></p><par n="/bûn__vblex"/></e>
     <e lm="berdewam bûn"><p><l>berdewam<b/></l><r>berdewam<b/></r></p><par n="/bûn__vblex"/></e>
     <e lm="sekinî bûn"><p><l>sekinî<b/></l><r>sekinî<b/></r></p><par n="/bûn__vblex"/></e>
     <e lm="hişyar bûn"><p><l>hişyar<b/></l><r>hişyar<b/></r></p><par n="/bûn__vblex"/></e>
@@ -14757,6 +14800,15 @@
 
   </section>
   <section id="verbs" type="standard">
+
+        <!-- çûn; ; çû; diç -->
+    <e lm="çûn"><p><l>diç</l><r>çûn</r></p><par n="diaxiv/e__vblex_iv"/></e>
+    <e lm="çûn"><p><l>biç</l><r>çûn</r></p><par n="biaxiv/e__vblex_iv"/></e>
+    <e lm="çûn"><p><l>çû</l><r>çûn</r></p><par n="çû/n__vblex_iv"/></e>
+    <e lm="çûn"><p><l>neçû</l><r>çûn</r></p><par n="neçû/n__vblex_iv"/></e>
+    <e lm="çûn"><p><l>naçû</l><r>çûn</r></p><par n="neçû/n__vblex_iv"/></e>
+    <e lm="çûn"><p><l>diçû</l><r>çûn</r></p><par n="diçû/n__vblex_iv"/></e>
+
         <!-- dihewandin; ; dihewand; dihewîn -->
     <e lm="dihewandin"><p><l>dihewand</l><r>dihewandin</r></p><par n="kir/__vblex_tv"/></e>
     <e lm="dihewandin"><p><l>didihewîn</l><r>dihewandin</r></p><par n="dik/e__vblex_tv"/></e>
