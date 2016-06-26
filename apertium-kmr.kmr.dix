@@ -1612,6 +1612,35 @@
     <!-- SECTION: Nouns -->
 
     <!-- New Feminines -->
+    <e lm="herikîn"><i>herikîn</i><par n="jin__n_f"/></e>
+    <e lm="kifşkirin"><i>kifşkirin</i><par n="jin__n_f"/></e>
+    <e lm="serjimêr"><i>serjimêr</i><par n="jin__n_f"/></e>
+    <e lm="vac"><i>vac</i><par n="jin__n_f"/></e>
+    <e lm="xweserî"><i>xweser</i><par n="piran/î__n_f"/></e>
+    <e lm="helbijartin"><i>helbijartin</i><par n="jin__n_f"/></e>
+    <e lm="kevneşop"><i>kevneşop</i><par n="jin__n_f"/></e>
+    <e lm="qurm"><i>qurm</i><par n="jin__n_f"/></e>
+    <e lm="sarincok"><i>sarincok</i><par n="jin__n_f"/></e>
+    <e lm="berevanî"><i>berevan</i><par n="piran/î__n_f"/></e>
+    <e lm="bibîranîn"><i>bibîranîn</i><par n="jin__n_f"/></e>
+    <e lm="derxûn"><i>derxûn</i><par n="jin__n_f"/></e>
+    <e lm="firîn"><i>firîn</i><par n="jin__n_f"/></e>
+    <e lm="faşîzm"><i>faşîzm</i><par n="jin__n_f"/></e>
+    <e lm="firehbûn"><i>firehbûn</i><par n="jin__n_f"/></e>
+    <e lm="bîrdozî"><i>bîrdoz</i><par n="piran/î__n_f"/></e>
+    <e lm="ayîn"><i>ayîn</i><par n="jin__n_f"/></e>
+    <e lm="karanîn"><i>karanîn</i><par n="jin__n_f"/></e>
+    <e lm="zayend"><i>zayend</i><par n="jin__n_f"/></e>
+    <e lm="pertûk"><i>pertûk</i><par n="jin__n_f"/></e>
+    <e lm="evîndar"><i>evîndar</i><par n="jin__n_f"/></e>
+    <e lm="perav"><i>perav</i><par n="jin__n_f"/></e>
+    <e lm="devang"><i>devang</i><par n="jin__n_f"/></e>
+    <e lm="paşnav"><i>paşnav</i><par n="jin__n_f"/></e>
+    <e lm="sedrenc"><i>sedrenc</i><par n="jin__n_f"/></e>
+    <e lm="stîl"><i>stîl</i><par n="jin__n_f"/></e>
+    <e lm="wergirtin"><i>wergirtin</i><par n="jin__n_f"/></e>
+    <e lm="hundur"><i>hundur</i><par n="jin__n_f"/></e>
+    <e lm="destek"><i>destek</i><par n="jin__n_f"/></e>
     <e lm="rûbar"><i>rûbar</i><par n="jin__n_f"/></e>
     <e lm="welat"><i>welat</i><par n="jin__n_f"/></e>
     <e lm="çûyîn"><i>çûyîn</i><par n="jin__n_f"/></e>
@@ -2213,6 +2242,10 @@
 
     
     <!-- New Masculines -->
+    <e lm="damezrîner"><i>damezrîner</i><par n="mirov__n_m"/></e>
+    <e lm="bajar"><i>bajar</i><par n="mirov__n_m"/></e>
+    <e lm="yezdan"><i>yezdan</i><par n="mirov__n_m"/></e>
+    <e lm="xir"><i>xir</i><par n="mirov__n_m"/></e>
     <e lm="avanî"><i>avan</i><par n="xan/î__n_m"/></e>
     <e lm="cîgir"><i>cîgir</i><par n="mirov__n_m"/></e>
     <e lm="nevî"><i>nev</i><par n="xan/î__n_m"/></e>
@@ -13654,6 +13687,7 @@
     <e lm="HDP"><i>HDP</i><par n="YNK__n"/></e>
 
     <!-- SECTION: Proper nouns -->
+    <e lm="Îrland"><i>Îrland</i><par n="Kurdistan__np"/></e>
     <e lm="Entab"><i>Entab</i><par n="Kurdistan__np"/></e>
     <e lm="Dîjle"><i>Dîjl</i><par n="Tirkiy/e__np"/></e>
     <e lm="Mereş"><i>Mereş</i><par n="Kurdistan__np"/></e>
@@ -14675,6 +14709,9 @@
     <!-- SECTION: Adjectives -->
 
     <!-- new comparables -->
+    <e lm="alîgir"><i>alîgir</i><par n="nû__adj"/></e>
+    <e lm="navîn"><i>navîn</i><par n="nû__adj"/></e>
+    <e lm="xwestek"><i>xwestek</i><par n="nû__adj"/></e>
     <e lm="dûz"><i>dûz</i><par n="nû__adj"/></e>
     <e lm="Hollandî"><i>Hollandî</i><par n="nû__adj"/></e>
     <e lm="kesanî"><i>kesanî</i><par n="nû__adj"/></e>
