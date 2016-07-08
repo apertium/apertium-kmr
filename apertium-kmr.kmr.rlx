@@ -53,8 +53,10 @@ LIST JÊ = "<jê>"i ;
 LIST JI = "ji" ;
 LIST RE = "re" ;
 LIST De = "<de>" ;
+LIST Gelo = "<gelo>"i;
 LIST HETA = "heta" ;
 LIST Dash = "-" ;
+LIST Pirs = "?";
 
 LIST P1 = p1 ;
 LIST P2 = p2 ;
@@ -149,11 +151,13 @@ MAP @nsubj TARGET Pron + Obl IF (0C Obl) (1* TV + Past BARRIER CLB OR Pers + Obl
 
 SECTION
 
+SELECT CS IF (0 Gelo) (-1 BOS);
+
 SELECT V IF (0 Bû) ;
 
 SELECT CS IF (0 Ko) ;
 
-REMOVE Obl IF (-1 BOS) (0 Nom OR Obl) (1 EOS) ;
+REMOVE Obl IF (-1 BOS) (0 Nom OR Obl) (1 EOS) (1* Pirs);
 
 REMOVE Eza IF (1C Fin) ;
 
