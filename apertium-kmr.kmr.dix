@@ -1600,6 +1600,7 @@
 
     <e lm="yekem"><i>yekem</i><par n="yekem__num"/></e>
     <e lm="hezar"><i>hezar</i><par n="milyon__num"/></e>
+    <e lm="bîst"><i>bîst</i><par n="milyon__num"/></e>
     <e lm="milyon"><i>milyon</i><par n="milyon__num"/></e>
     <e lm="sed"><i>sed</i><par n="milyon__num"/></e>
     <e lm="pencî"><i>pencî</i><par n="milyon__num"/></e>
@@ -1617,6 +1618,7 @@
 
     <!-- New Feminines -->
     <e lm="berpirsyarî"><i>berpirsyar</i><par n="piran/î__n_f"/></e>
+    <e lm="dijî"><i>dij</i><par n="piran/î__n_f"/></e>
     <e lm="rastkirin"><i>rastkirin</i><par n="jin__n_f"/></e>
     <e lm="reformkirin"><i>reformkirin</i><par n="jin__n_f"/></e>
     <e lm="saman"><i>saman</i><par n="jin__n_f"/></e>
@@ -16674,6 +16676,14 @@
     <e lm="gerîn"><p><l>biger</l><r>gerîn</r></p><par n="bibez/î__vblex_iv"/></e>
     <e lm="gerîn"><p><l>diger</l><r>gerîn</r></p><par n="diaxiv/e__vblex_iv"/></e>
 
+    <!-- zewicîn; ;zewic;zewic -->
+    <e lm="zewicîn"><p><l>zewic</l><r>zewicîn</r></p><par n="bez/î__vblex_iv"/></e>
+    <e lm="zewicîn"><p><l>nezewic</l><r>zewicîn</r></p><par n="nebez/î__vblex_iv"/></e>
+    <e lm="zewicîn"><p><l>nazewic</l><r>zewicîn</r></p><par n="nebez/î__vblex_iv"/></e>
+    <e lm="zewicîn"><p><l>dizewic</l><r>zewicîn</r></p><par n="dibez/î__vblex_iv"/></e>
+    <e lm="zewicîn"><p><l>dizewic</l><r>zewicîn</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="zewicîn"><p><l>bizewic</l><r>zewicîn</r></p><par n="bibez/î__vblex_iv"/></e>
+
     <!-- bezîn; ; bez; bez -->
     <e lm="bezîn"><p><l>bez</l><r>bezîn</r></p><par n="bez/î__vblex_iv"/></e>
     <e lm="bezîn"><p><l>nebez</l><r>bezîn</r></p><par n="nebez/î__vblex_iv"/></e>
@@ -16682,6 +16692,14 @@
     <e lm="bezîn"><p><l>dibez</l><r>bezîn</r></p><par n="dik/e__vblex_tv"/></e>
     <e lm="bezîn"><p><l>bibez</l><r>bezîn</r></p><par n="bibez/î__vblex_iv"/></e>
 
+    <!-- herikîn; ; herik;herik -->
+    <e lm="herikîn"><p><l>herik</l><r>herikîn</r></p><par n="bez/î__vblex_iv"/></e>
+    <e lm="herikîn"><p><l>neherik</l><r>herikîn</r></p><par n="nebez/î__vblex_iv"/></e>
+    <e lm="herikîn"><p><l>naherik</l><r>herikîn</r></p><par n="nebez/î__vblex_iv"/></e>
+    <e lm="herikîn"><p><l>diherik</l><r>herikîn</r></p><par n="dibez/î__vblex_iv"/></e>
+    <e lm="herikîn"><p><l>diherik</l><r>herikîn</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="herikîn"><p><l>biherik</l><r>herikîn</r></p><par n="bibez/î__vblex_iv"/></e>
+ 
     <!-- guherîn; ; guher;guher -->
     <e lm="guherîn"><p><l>guher</l><r>guherîn</r></p><par n="bez/î__vblex_iv"/></e>
     <e lm="guherîn"><p><l>neguher</l><r>guherîn</r></p><par n="nebez/î__vblex_iv"/></e>
@@ -17918,6 +17936,15 @@
     <e lm="darizandin"><p><l>nadarizîn</l><r>darizandin</r></p><par n="nak/e__vblex_tv"/></e>
     <e lm="darizandin"><p><l>nedarizîn</l><r>darizandin</r></p><par n="nek/e__vblex_tv"/></e>
 
+    <!-- gihîştin; ; ..ket; ..kev -->
+    <e lm="gihîştin"><p><l>gihîşt</l><r>gihîştin</r></p><par n="axaft/__vblex_iv"/></e>
+    <e lm="gihîştin"><p><l>digihîşt</l><r>gihîştin</r></p><par n="diaxaft/__vblex_iv"/></e>
+    <e lm="gihîştin"><p><l>digihîj</l><r>gihîştin</r></p><par n="diaxiv/e__vblex_iv"/></e>
+    <e lm="gihîştin"><p><l>bigihîj</l><r>gihîştin</r></p><par n="biaxiv/e__vblex_iv"/></e>
+    <e lm="gihîştin"><p><l>negihîj</l><r>gihîştin</r></p><par n="neaxaft/__vblex_iv"/></e>
+    <e lm="gihîştin"><p><l>nagihîj</l><r>gihîştin</r></p><par n="naaxiv/e__vblex_iv"/></e>
+    <e lm="gihîştin"><p><l>negihîj</l><r>gihîştin</r></p><par n="neaxiv/e__vblex_iv"/></e>
+
     <!-- raketin; ; ra..ket; ra..kev -->
     <e lm="raketin"><p><l>raket</l><r>raketin</r></p><par n="axaft/__vblex_iv"/></e>
     <e lm="raketin"><p><l>radiket</l><r>raketin</r></p><par n="diaxaft/__vblex_iv"/></e>
@@ -17926,6 +17953,15 @@
     <e lm="ketin"><p><l>ranekev</l><r>raketin</r></p><par n="neaxaft/__vblex_iv"/></e>
     <e lm="ketin"><p><l>ranakev</l><r>raketin</r></p><par n="naaxiv/e__vblex_iv"/></e>
     <e lm="ketin"><p><l>ranekev</l><r>raketin</r></p><par n="neaxiv/e__vblex_iv"/></e>
+
+    <!-- mirin; ; mir; mir -->
+    <e lm="mirin"><p><l>mir</l><r>mirin</r></p><par n="axaft/__vblex_iv"/></e>
+    <e lm="mirin"><p><l>dimir</l><r>mirin</r></p><par n="diaxaft/__vblex_iv"/></e>
+    <e lm="mirin"><p><l>dimir</l><r>mirin</r></p><par n="diaxiv/e__vblex_iv"/></e>
+    <e lm="mirin"><p><l>bimir</l><r>mirin</r></p><par n="biaxiv/e__vblex_iv"/></e>
+    <e lm="mirin"><p><l>nemir</l><r>mirin</r></p><par n="neaxaft/__vblex_iv"/></e>
+    <e lm="mirin"><p><l>namir</l><r>mirin</r></p><par n="naaxiv/e__vblex_iv"/></e>
+    <e lm="mirin"><p><l>nemir</l><r>mirin</r></p><par n="neaxiv/e__vblex_iv"/></e>
 
     <!-- ketin; ; ket; kev -->
     <e lm="ketin"><p><l>ket</l><r>ketin</r></p><par n="axaft/__vblex_iv"/></e>
@@ -18009,6 +18045,7 @@
     <!-- karîn; ; kar; kar -->
     <e lm="karîn"><p><l>dikar</l><r>karîn</r></p><par n="dik/e__vblex_tv"/></e>
     <e lm="karîn"><p><l>kar</l><r>karîn</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="karîn"><p><l>nikar</l><r>karîn</r></p><par n="nek/e__vblex_tv"/></e>
 
     <!-- anîn type LVCs -->
     <e lm="bikaranîn"><p><l>bikar</l><r>bikaranîn</r></p><par n="/anîn__vblex_tv"/></e>
@@ -18318,7 +18355,10 @@
     <e lm="xwestin"><p><l>nexwest</l><r>xwestin</r></p><par n="nekir/__vblex_tv"/></e>
     <e lm="xwestin"><p><l>naxwaz</l><r>xwestin</r></p><par n="nak/e__vblex_tv"/></e>
     <e lm="xwestin"><p><l>nexwaz</l><r>xwestin</r></p><par n="nek/e__vblex_tv"/></e>
-
+    <e lm="xwestin" r="LR"><p><l>dixwez</l><r>xwestin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="xwestin" r="LR"><p><l>bixwez</l><r>xwestin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="xwestin" r="LR"><p><l>naxwez</l><r>xwestin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="xwestin" r="LR"><p><l>nexwez</l><r>xwestin</r></p><par n="nek/e__vblex_tv"/></e>
     <!-- belavkirin; ; belavkir; belav..k -->
     <e lm="belavkirin"><p><l>belavkir</l><r>belavkirin</r></p><par n="kir/__vblex_tv"/></e>
     <e lm="belavkirin"><p><l>belavdik</l><r>belavkirin</r></p><par n="dik/e__vblex_tv"/></e>

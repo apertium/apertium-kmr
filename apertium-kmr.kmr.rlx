@@ -146,8 +146,11 @@ SECTION
 LIST @nsubj = @nsubj ;
 LIST @dobj = @dobj ;
 LIST @csubj = @csubj ;
+LIST @qst = @qst ;
 
 MAP @nsubj TARGET Pron + Obl IF (0C Obl) (1* TV + Past BARRIER CLB OR Pers + Obl) (NOT -1 Pr) (NOT 1 Post) (NOT -1 Eza) ;
+
+#ADD (@qst) FV IF (*1 Pirs) ;
 
 SECTION
 
