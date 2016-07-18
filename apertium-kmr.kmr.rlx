@@ -54,6 +54,7 @@ LIST JI = "ji" ;
 LIST RE = "re" ;
 LIST De = "<de>" ;
 LIST Gelo = "<gelo>"i;
+LIST Dema = "<dema>";
 LIST HETA = "heta" ;
 LIST Dash = "-" ;
 LIST Pirs = "?";
@@ -75,7 +76,7 @@ LIST Fin = pri prs ; # Complete
 
 SET NOMEN = N | Prop ;
 
-SET NPNHA = N | Num | Prop | Det | Preadv | A | Eza | Unk ;
+SET NPNHA = N | Num | Prop | Pron | Det | Preadv | A | Eza | Unk ;
 
 SET WORD = N | Num | Prop | V | A | Det | Pron | Preadv | Adv | Unk | Sent | Cop | Aux | CS | CC ;
 
@@ -140,6 +141,8 @@ SELECT A IF (0 N OR A) (NOT 0 Obl) (-1 Obl) ;
 SELECT P3 IF (0 Pri + Pl) (0 P1 OR P2 OR P3) (NOT -1* Hûn + Nom) ( NOT -1* Em + Nom) ; 
 
 SELECT Preadv IF (0 Gelek) (1C A) ;
+
+SELECT N IF (0 Dema) (-1 Pr);
 
 SECTION
 
