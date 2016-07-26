@@ -867,7 +867,8 @@
         <e><p><l>bûyî</l><r><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
         <e><p><l>bû</l><r><s n="pp"/></r></p></e>
         <e><p><l>bû</l><r><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>biwa</l><r><s n="narr"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>bûye</l><r><s n="narr"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e r="LR"><p><l>biwa</l><r><s n="narr"/><s n="p3"/><s n="sg"/></r></p></e>
         <e><p><l>bûn</l><r><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
         <e><p><l>bûn</l><r><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>bûn</l><r><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
@@ -2326,6 +2327,7 @@
     
     <!-- New Masculines -->
     <e lm="berx"><i>berx</i><par n="mirov__n_m"/></e>
+    <e lm="asl"><i>asl</i><par n="mirov__n_m"/></e>
     <e lm="keya"><i>key</i><par n ="çiy/a__n_m"/></e>
     <e lm="kol"><i>kol</i><par n="mirov__n_m"/></e>
     <e lm="berd"><i>berd</i><par n="mirov__n_m"/></e>
@@ -13795,6 +13797,7 @@
     <e lm="HDP"><i>HDP</i><par n="YNK__n"/></e>
 
     <!-- SECTION: Proper nouns -->
+    <e lm="Semzinan"><i>Semzinan</i><par n="Kurdistan__np"/></e>
     <e lm="Rûhanî"><i>Rûhan</i><par n="Barzan/î__np"/></e>
     <e lm="Îrland"><i>Îrland</i><par n="Kurdistan__np"/></e>
     <e lm="Entab"><i>Entab</i><par n="Kurdistan__np"/></e>
@@ -14521,6 +14524,7 @@
     <e lm="Diya"><i>Diya</i><par n="Salih__np"/></e>
     <e lm="Meryem"><i>Meryem</i><par n="Zîn__np"/></e>
     <e lm="Diyarbekr"><i>Diyarbekr</i><par n="Kurdistan__np"/></e>
+    <e lm="Miks"><i>Miks</i><par n="Kurdistan__np"/></e>
     <e lm="Hradiště"><i>Hradiště</i><par n="Kurdistan__np"/></e>
     <e lm="Pîran"><i>Pîran</i><par n="Kurdistan__np"/></e>
     <e lm="Şemrex"><i>Şemrex</i><par n="Kurdistan__np"/></e>
@@ -15620,6 +15624,7 @@
     <e lm="rabûn" r="LR"><p><l>ra<b/></l><r>ra</r></p><par n="/bûn__vblex"/></e>
     <e lm="çêbûn"><p><l>çê</l><r>çê</r></p><par n="/bûn__vblex"/></e>
     <e lm="çêbûn" r="LR"><p><l>çê<b/></l><r>çê</r></p><par n="/bûn__vblex"/></e>
+    <e lm="ji dayîk bûn"><p><l>ji<b/>dayîk<b/></l><r>ji<b/>dayîk<b/></r></p><par n="/bûn__vblex"/></e>
     <e lm="teqez bûn"><p><l>teqez<b/></l><r>teqez</r></p><par n="/bûn__vblex"/></e>
     <e lm="teqezbûn" r="LR"><p><l>teqez</l><r>teqez</r></p><par n="/bûn__vblex"/></e>
     <e lm="berdewam bûn"><p><l>berdewam<b/></l><r>berdewam<b/></r></p><par n="/bûn__vblex"/></e>
