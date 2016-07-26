@@ -146,6 +146,12 @@ SELECT Preadv IF (0 Gelek) (1C A) ;
 
 SELECT N IF (0 Dema) (-1 Pr);
 
+SELECT Sg IF (0 N + Sg OR N + Pl) (1 TV + Past + Sg);
+
+SELECT Pl IF (0 N + Pl OR N + Pl) (1 TV + Past + Pl);
+
+SELECT P3 IF (0 P1 OR P2 OR P3) (NOT -1 Pron);
+
 SECTION
 
 LIST @nsubj = @nsubj ;
