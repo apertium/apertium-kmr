@@ -572,7 +572,7 @@
       <e><p><l>eke</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="con"/><s n="ind"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
       <e><p><l>ên</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><s n="def"/></r></p></e>
-      <e><p><l>an</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="con"/><s n="def"/></r></p></e>
+      <e><p><l>an</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><s n="def"/></r></p></e>
       <e><p><l>ên</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="voc"/><s n="def"/></r></p></e>
       <e><p><l>in</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
       <e><p><l>inan</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><s n="ind"/></r></p></e>
@@ -868,6 +868,8 @@
         <e><p><l>bû</l><r><s n="pp"/></r></p></e>
         <e><p><l>bû</l><r><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
         <e><p><l>bûye</l><r><s n="narr"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>bûne</l><r><s n="narr"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e r="LR"><p><l>bûna</l><r><s n="narr"/><s n="p3"/><s n="pl"/></r></p></e>
         <e r="LR"><p><l>biwa</l><r><s n="narr"/><s n="p3"/><s n="sg"/></r></p></e>
         <e><p><l>bûn</l><r><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
         <e><p><l>bûn</l><r><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>

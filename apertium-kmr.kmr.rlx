@@ -19,7 +19,7 @@ LIST Cop = vbcop ;
 LIST Det = det ;
 LIST Preadv = preadv ;
 LIST Unk = "\*.*"i ;
-
+LIST Emph = emph;
 LIST A = adj ;
 LIST Apst = (adj pst) ;
 LIST Acomp = (adj comp) ;
@@ -49,6 +49,7 @@ LIST VE = "ve" ;
 LIST Bûn = "bûn" ; 
 LIST Bû = "<bû>"i ;
 LIST Di = "<di>"i ;
+LIST Jî = "<jî>"i ;
 LIST JÊ = "<jê>"i ;
 LIST JI = "ji" ;
 LIST RE = "re" ;
@@ -90,7 +91,7 @@ REMOVE Voc IF (0 Voc OR Obl) (-1 Eza) ;
 
 SELECT Sg IF (0 Sg OR Pl) (1 Cop + Sg);
 
-SELECT Eza IF (-1 Eza) (NOT 1 Eza) ;
+SELECT Eza IF (-1 Eza) (NOT 1 Eza) (NOT 1 EOS);
 
 SELECT LANG IF (-1 BI) (1 SPEECH-VERB) ;
 
@@ -126,6 +127,8 @@ SELECT Post IF (0 RE) (-1 JÊ) ;
 
 SELECT JI IF (0 JÊ) (1 RE) ;
 
+SELECT Emph IF (0 Jî) (NOT 1 TV);
+
 SELECT Pers IF (0 Pers OR Dem) ; 
 
 SELECT Neg IF ( 0 Neg OR Cop) (NOT 1 EOS) (NEGATE -1* V) (1* V) ;
@@ -151,6 +154,8 @@ SELECT Sg IF (0 N + Sg OR N + Pl) (1 TV + Past + Sg);
 SELECT Pl IF (0 N + Pl OR N + Pl) (1 TV + Past + Pl);
 
 SELECT P3 IF (0 P1 OR P2 OR P3) (NOT -1 Pron);
+
+SELECT Cop IF (0 Aux OR Cop) (-1 Pron);
 
 SECTION
 
