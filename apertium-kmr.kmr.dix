@@ -262,6 +262,12 @@
       <e r="LR"><p><l><b/>dê</l><r><j/>dê<s n="fut"/></r></p></e>
     </pardef>
 
+
+    <pardef n="S__dê__enc">
+      <e><p><l/><r/></p></e>
+      <e r="LR"><p><l><b/>dê</l><r><j/>dê<s n="fut"/></r></p></e>
+    </pardef>
+
     <pardef n="/ez__prn">
       <e><p><l>ez</l><r>ez<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p><par n="S__ê_dê__enc"/></e>
       <e><p><l>min</l><r>ez<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="obl"/></r></p></e>
@@ -274,6 +280,8 @@
 
     <pardef n="ew__prn">
       <e><p><l>ew</l><r>ew<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p><par n="S__ê_dê__enc"/></e>
+      <e><p><l>wî</l><r>ew<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="obl"/></r></p><par n="S__dê__enc"/></e>
+      <e><p><l>wê</l><r>ew<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="obl"/></r></p><par n="S__dê__enc"/></e>
     </pardef>
 
     <pardef n="/em__prn">
@@ -571,7 +579,7 @@
       <e><p><l>ekê</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><s n="ind"/></r></p></e>
       <e><p><l>eke</l><r><s n="n"/><s n="f"/><s n="sg"/><s n="con"/><s n="ind"/></r></p></e>
       <e><p><l></l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
-      <e><p><l>ên</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><s n="def"/></r></p></e>
+      <e><p><l>ên</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="con"/><s n="def"/></r></p></e>
       <e><p><l>an</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="obl"/><s n="def"/></r></p></e>
       <e><p><l>ên</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="voc"/><s n="def"/></r></p></e>
       <e><p><l>in</l><r><s n="n"/><s n="f"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
@@ -929,6 +937,7 @@
         <e><p><l>a</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
         <e><p><l>aye</l><r><s n="vblex"/><s n="tv"/><s n="narr"/><s n="p3"/><s n="sg"/></r></p></e>
         <e><p><l>in</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e><p><l>an</l><r><s n="vblex"/><s n="tv"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
         <e><p><l><b/>bû</l><r><s n="vblex"/><s n="tv"/><s n="plu"/><s n="p3"/><s n="sg"/></r></p></e>
         <e><p><l><b/>bûn</l><r><s n="vblex"/><s n="tv"/><s n="plu"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
@@ -2329,6 +2338,7 @@
     
     <!-- New Masculines -->
     <e lm="berx"><i>berx</i><par n="mirov__n_m"/></e>
+    <e lm="hukm"><i>hukm</i><par n="mirov__n_m"/></e>
     <e lm="asl"><i>asl</i><par n="mirov__n_m"/></e>
     <e lm="keya"><i>key</i><par n ="çiy/a__n_m"/></e>
     <e lm="kol"><i>kol</i><par n="mirov__n_m"/></e>
@@ -14815,6 +14825,7 @@
     <e lm="Mihemed"><i>Mihemed</i><par n="Salih__np"/></e>
     <e lm="Mesûd"><i>Mesûd</i><par n="Salih__np"/></e>
     <e lm="Barzanî"><i>Barzan</i><par n="Barzan/î__np"/></e>
+    <e lm="Wanlî"><i>Wanl</i><par n="Barzan/î__np"/></e>
     <e lm="Tîrêj"><i>Tîrêj</i><par n="Tîrêj__np"/></e>
 
     <!-- SECTION: Preadverbs -->
@@ -14827,11 +14838,13 @@
     <e lm="neteweperest"><i>neteweperes</i><par n="pêwis/t__adj"/></e>
     <e lm="reformxwaz"><i>reformxwaz</i><par n="germ__adj"/></e>
     <e lm="taktîkî"><i>taktîk</i><par n="navend/î__adj"/></e>
+    <e lm="xeyabî"><i>xeyab</i><par n="navend/î__adj"/></e>
     <e lm="teqez"><i>teqez</i><par n="germ__adj"/></e>
     <e lm="berdar"><i>berdar</i><par n="germ__adj"/></e>
     <e lm="binax"><i>binax</i><par n="germ__adj"/></e>
     <e lm="tirşîn"><i>tirşîn</i><par n="germ__adj"/></e>
     <e lm="ketî"><i>ket</i><par n="navend/î__adj"/></e>
+    <e lm="giyabî"><i>giyab</i><par n="navend/î__adj"/></e>
     <e lm="livok"><i>livok</i><par n="germ__adj"/></e>
     <e lm="girêdayî"><i>girêday</i><par n="navend/î__adj"/></e>
     <e lm="kelh"><i>kelh</i><par n="germ__adj"/></e>
@@ -15934,6 +15947,18 @@
     <e lm="dengdan"><p><l>dengned</l><r>dengdan</r></p><par n="ned/an_vblex_tv"/></e>
     <e lm="dengdan"><p><l>dengnad</l><r>dengdan</r></p><par n="nak/e__vblex_tv"/></e>
 
+        <!-- hewldan; ; hewlda; hewl..d -->
+    <e lm="hewldan"><p><l>hewld</l><r>hewldan</r></p><par n="d/an_vblex_tv"/></e>
+    <e lm="hewldan"><p><l>hewldid</l><r>hewldan</r></p><par n="did/an__vblex_tv"/></e>
+    <e lm="hewldan"><p><l>hewlbid</l><r>hewldan</r></p><par n="bid/an__vblex_tv"/></e>
+    <e lm="hewldan"><p><l>hewlned</l><r>hewldan</r></p><par n="ned/an_vblex_tv"/></e>
+    <e lm="hewldan"><p><l>hewlnad</l><r>hewldan</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="hewldan"><p><l>hewl<b/>d</l><r>hewldan</r></p><par n="d/an_vblex_tv"/></e>
+    <e lm="hewldan"><p><l>hewl<b/>did</l><r>hewldan</r></p><par n="did/an__vblex_tv"/></e>
+    <e lm="hewldan"><p><l>hewl<b/>bid</l><r>hewldan</r></p><par n="bid/an__vblex_tv"/></e>
+    <e lm="hewldan"><p><l>hewl<b/>ned</l><r>hewldan</r></p><par n="ned/an_vblex_tv"/></e>
+    <e lm="hewldan"><p><l>hewl<b/>nad</l><r>hewldan</r></p><par n="nak/e__vblex_tv"/></e>
+
         <!-- dengkirin; ; dengkir; deng..k -->
     <e lm="dengkirin"><p><l>dengkir</l><r>dengkirin</r></p><par n="kir/__vblex_tv"/></e>
     <e lm="dengkirin"><p><l>dengdik</l><r>dengkirin</r></p><par n="dik/e__vblex_tv"/></e>
@@ -16364,6 +16389,14 @@
     <e lm="çûn"><p><l>neçû</l><r>çûn</r></p><par n="neçû/n__vblex_iv"/></e>
     <e lm="çûn"><p><l>naçû</l><r>çûn</r></p><par n="neçû/n__vblex_iv"/></e>
     <e lm="çûn"><p><l>diçû</l><r>çûn</r></p><par n="diçû/n__vblex_iv"/></e>
+
+        <!-- derçû ; derçû derdiç -->
+    <e lm="derçûn"><p><l>derdiç</l><r>derçûn</r></p><par n="diaxiv/e__vblex_iv"/></e>
+    <e lm="derçûn"><p><l>derbiç</l><r>derçûn</r></p><par n="biaxiv/e__vblex_iv"/></e>
+    <e lm="derçûn"><p><l>derçû</l><r>derçûn</r></p><par n="çû/n__vblex_iv"/></e>
+    <e lm="derçûn"><p><l>derneçû</l><r>derçûn</r></p><par n="neçû/n__vblex_iv"/></e>
+    <e lm="derçûn"><p><l>dernaçû</l><r>derçûn</r></p><par n="neçû/n__vblex_iv"/></e>
+    <e lm="derçûn"><p><l>derdiçû</l><r>derçûn</r></p><par n="diçû/n__vblex_iv"/></e>
 
         <!-- dihewandin; ; dihewand; dihewîn -->
     <e lm="dihewandin"><p><l>dihewand</l><r>dihewandin</r></p><par n="kir/__vblex_tv"/></e>

@@ -5,6 +5,7 @@ LIST BOS = (>>>) sent ;
 
 LIST N = n ;
 LIST Prop = np ;
+LIST Ant = ant;
 LIST Pron = prn ;
 LIST V = vaux vblex vbser vbcop ;
 LIST Adv = adv ;
@@ -38,12 +39,16 @@ LIST PrfPrc = pp ;
 LIST Aux = vaux ;
 LIST CS = cnjsub ;
 LIST Pers = pers ;
+LIST Rel = rel ;
 
 LIST Past = past ;
 LIST Fut = fut ;
 LIST Prs = prs ; 
 LIST BI = "bi" ;
 LIST SPEECH-VERB = "axaftin" ;
+LIST DO-VERB = "kirin";
+LIST BUY-VERB = "kirîn";
+LIST TEACHER = "mamoste";
 LIST LANG = "kurdî" ;
 LIST VE = "ve" ;
 LIST Bûn = "bûn" ; 
@@ -73,7 +78,7 @@ LIST Em = "em" ;
 LIST Gelek = "gelek" ;
 LIST Ko = "<ko>"i ;
 
-LIST Fin = pri prs ; # Complete
+LIST Fin = pri past fut narr ; # Complete
 
 SET NOMEN = N | Prop ;
 
@@ -84,6 +89,10 @@ SET WORD = N | Num | Prop | V | A | Det | Pron | Preadv | Adv | Unk | Sent | Cop
 SET CLB = Fin | CS | CC ;
 
 SECTION
+
+SELECT Nom IF (0 TEACHER) (1 Ant); 
+
+SELECT Sg IF (0 N + Nom) (0 Sg OR Pl) (1 Ant);
 
 SELECT HETA IF (0 HETA OR Eza) ;
 
@@ -153,9 +162,19 @@ SELECT Sg IF (0 N + Sg OR N + Pl) (1 TV + Past + Sg);
 
 SELECT Pl IF (0 N + Pl OR N + Pl) (1 TV + Past + Pl);
 
-SELECT P3 IF (0 P1 OR P2 OR P3) (NOT -1 Pron);
+SELECT P3 IF (0 P1 OR P2 OR P3) (NOT -1* Pron + P1) (NOT -1* Pron + P2);
 
 SELECT Cop IF (0 Aux OR Cop) (-1 Pron);
+
+SELECT DO-VERB IF (0 DO-VERB OR BUY-VERB);
+
+REMOVE Voc IF (0 Obl OR Voc) (-1 Eza);
+
+SELECT Eza IF (0 Eza OR Voc) (1 Obl);
+
+SELECT CS IF (0 CS OR Pron + Rel) (1* Prs);
+
+SELECT Prs IF (-1* CS LINK -1* Fin);
 
 SECTION
 
