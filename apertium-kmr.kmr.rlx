@@ -41,6 +41,7 @@ LIST CS = cnjsub ;
 LIST Pers = pers ;
 LIST Rel = rel ;
 
+LIST Comma = cm ;
 LIST Past = past ;
 LIST Fut = fut ;
 LIST Prs = prs ; 
@@ -106,11 +107,13 @@ SELECT LANG IF (-1 BI) (1 SPEECH-VERB) ;
 
 SELECT Cop IF (0 Cop OR Eza) (1 EOS) (NOT -1 PrfPrc) ;
 
+SELECT Ant IF (0 N OR Ant) (-1 Ant + Eza);
+
 REMOVE N + Dem IF (NOT -1 Det) ; 
 
 SELECT V IF (1 EOS) (NEGATE -1* V) ; 
 
-REMOVE NOMEN + Obl IF (Not -1 Dash) (NOT -1 Eza) (NOT -1 Pr) (NOT 1 Post)  (NOT 1* TV) ;
+REMOVE NOMEN + Obl IF (Not -1 Dash) (NOT -1 Eza) (NOT -1 Pr) (NOT 1 Post)  (NOT 1* TV) (NOT -1 V);
 
 SELECT BI IF (0 BI) ;
 
@@ -176,16 +179,22 @@ SELECT CS IF (0 CS OR Pron + Rel) (1* Prs);
 
 SELECT Prs IF (-1* CS LINK -1* Fin);
 
+REMOVE Voc IF (NOT -1 Comma) (1 EOS);
+
 SECTION
 
 LIST @nsubj = @nsubj ;
 LIST @dobj = @dobj ;
 LIST @csubj = @csubj ;
 LIST @qst = @qst ;
+LIST @nmod:dat = @nmod:dat ;
+
 
 MAP @nsubj TARGET Pron + Obl IF (0C Obl) (1* TV + Past BARRIER CLB OR Pers + Obl) (NOT -1 Pr) (NOT 1 Post) (NOT -1 Eza) ;
 
 #ADD (@qst) FV IF (*1 Pirs) ;
+
+MAP @nmod:dat TARGET NOMEN + Obl IF (NOT -1* Pr BARRIER V) (NOT 1 Post) (NOT -0* TV BARRIER V) (NOT -1 Eza);
 
 SECTION
 

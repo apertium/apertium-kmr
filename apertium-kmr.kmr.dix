@@ -94,7 +94,13 @@
 
     <pardef n="numeros">
       <e><re>[0-9]+([.,][0-9]+)?</re><p><l/><r><s n="num"/></r></p></e>
-      <e><re>[0-9]+</re><p><l>an</l><r><s n="num"/><s n="pl"/><s n="obl"/></r></p></e>
+      <e><re>[0-9]+'?</re><p><l>an</l><r><s n="num"/><s n="pl"/><s n="obl"/></r></p></e>
+      <e><re>[0-9]+'?</re><p><l>yan</l><r><s n="num"/><s n="pl"/><s n="obl"/></r></p></e>
+      <e><re>[0-9]+'?</re><p><l>î</l><r><s n="num"/></r></p></e>
+      <e><re>[0-9]+'?</re><p><l>ê</l><r><s n="num"/></r></p></e>
+      <e><re>[0-9]+'?</re><p><l>yê</l><r><s n="num"/></r></p></e>
+      <e><re>[0-9]+'?</re><p><l>a</l><r><s n="num"/></r></p></e>
+<!-- FIX ME: grammatical info -->
     </pardef>
 
     <pardef n="separa">
@@ -1356,6 +1362,9 @@
         <e><p><l>hatî</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
         <e><p><l>hat</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
         <e><p><l>hatibû</l><r><s n="vblex"/><s n="iv"/><s n="plu"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e r="LR"><p><l>hatîye</l><r><s n="vblex"/><s n="iv"/><s n="narr"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e r="LR"><p><l>hatîye</l><r><s n="vblex"/><s n="iv"/><s n="narr"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e r="LR"><p><l>hatîme</l><r><s n="vblex"/><s n="iv"/><s n="narr"/><s n="p1"/><s n="sg"/></r></p></e>
         <e><p><l>hatin</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
         <e><p><l>hatin</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>hatin</l><r><s n="vblex"/><s n="iv"/><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
@@ -13861,6 +13870,7 @@
     <e lm="Walter"><i>Walter</i><par n="Salih__np"/></e>
     <e lm="Williams"><i>Williams</i><par n="Salih__np"/></e>
     <e lm="Xelîlî"><i>Xelîl</i><par n="Barzan/î__np"/></e>
+    <e lm="Xanî"><i>Xan</i><par n="Barzan/î__np"/></e>
     <e lm="Yang"><i>Yang</i><par n="Salih__np"/></e>
     <e lm="Yasîn"><i>Yasîn</i><par n="Salih__np"/></e>
     <e lm="Yewnanîstan"><i>Yewnanîstan</i><par n="Kurdistan__np"/></e>
