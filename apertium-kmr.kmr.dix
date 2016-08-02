@@ -781,6 +781,12 @@
       <e><p><l>ê</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="con"/></r></p></e>
     </pardef> 
 
+    <pardef n="Simko__np">
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>yê</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="con"/></r></p></e>
+    </pardef> 
+
     <pardef n="Zîn__np">
       <e><p><l></l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>ê</l><r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
@@ -13818,6 +13824,8 @@
     <e lm="HDP"><i>HDP</i><par n="YNK__n"/></e>
 
     <!-- SECTION: Proper nouns -->
+    <e lm="Ferho"><i>Ferho</i><par n="Simko__np"/></e>
+    <e lm="Simko"><i>Simko</i><par n="Simko__np"/></e>
     <e lm="Semzinan"><i>Semzinan</i><par n="Kurdistan__np"/></e>
     <e lm="Rûhanî"><i>Rûhan</i><par n="Barzan/î__np"/></e>
     <e lm="Îrland"><i>Îrland</i><par n="Kurdistan__np"/></e>
@@ -14835,6 +14843,7 @@
     <e lm="Mihemed"><i>Mihemed</i><par n="Salih__np"/></e>
     <e lm="Mesûd"><i>Mesûd</i><par n="Salih__np"/></e>
     <e lm="Barzanî"><i>Barzan</i><par n="Barzan/î__np"/></e>
+    <e lm="Medenî"><i>Meden</i><par n="Barzan/î__np"/></e>
     <e lm="Wanlî"><i>Wanl</i><par n="Barzan/î__np"/></e>
     <e lm="Tîrêj"><i>Tîrêj</i><par n="Tîrêj__np"/></e>
 

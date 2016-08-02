@@ -109,6 +109,8 @@ SELECT Cop IF (0 Cop OR Eza) (1 EOS) (NOT -1 PrfPrc) ;
 
 SELECT Ant IF (0 N OR Ant) (-1 Ant + Eza);
 
+SELECT Ant IF (0 N OR Ant) (1 Ant) (NOT 1 Eza);
+
 REMOVE N + Dem IF (NOT -1 Det) ; 
 
 SELECT V IF (1 EOS) (NEGATE -1* V) ; 
