@@ -2352,6 +2352,8 @@
 
     
     <!-- New Masculines -->
+    <e lm="fars"><i>fars</i><par n="mirov__n_m"/></e>
+    <e lm="kral"><i>kral</i><par n="mirov__n_m"/></e>
     <e lm="berx"><i>berx</i><par n="mirov__n_m"/></e>
     <e lm="hukm"><i>hukm</i><par n="mirov__n_m"/></e>
     <e lm="asl"><i>asl</i><par n="mirov__n_m"/></e>
@@ -14840,6 +14842,8 @@
     <e lm="Şirnex"><i>Şirnex</i><par n="Kurdistan__np"/></e>
 
     <e lm="Salih"><i>Salih</i><par n="Salih__np"/></e>
+    <e lm="Kûruş"><i>Kûruş</i><par n="Salih__np"/></e>
+    <e lm="Kûruş" r="LR"><p><l>Kuras</l><r>Kûruş</r></p><par n="Salih__np"/></e>
     <e lm="Mihemed"><i>Mihemed</i><par n="Salih__np"/></e>
     <e lm="Mesûd"><i>Mesûd</i><par n="Salih__np"/></e>
     <e lm="Barzanî"><i>Barzan</i><par n="Barzan/î__np"/></e>
@@ -16789,6 +16793,14 @@
     <e lm="herikîn"><p><l>diherik</l><r>herikîn</r></p><par n="diaxiv/e__vblex_iv"/></e>
     <e lm="herikîn"><p><l>biherik</l><r>herikîn</r></p><par n="bibez/î__vblex_iv"/></e>
  
+    <!-- kenîn; ; ken;ken -->
+    <e lm="kenîn"><p><l>ken</l><r>kenîn</r></p><par n="bez/î__vblex_iv"/></e>
+    <e lm="kenîn"><p><l>neken</l><r>kenîn</r></p><par n="nebez/î__vblex_iv"/></e>
+    <e lm="kenîn"><p><l>naken</l><r>kenîn</r></p><par n="nebez/î__vblex_iv"/></e>
+    <e lm="kenîn"><p><l>diken</l><r>kenîn</r></p><par n="dibez/î__vblex_iv"/></e>
+    <e lm="kenîn"><p><l>diken</l><r>kenîn</r></p><par n="diaxiv/e__vblex_iv"/></e>
+    <e lm="kenîn"><p><l>biken</l><r>kenîn</r></p><par n="bibez/î__vblex_iv"/></e>
+
     <!-- sekinîn; ; sekin;sekin -->
     <e lm="sekinîn"><p><l>sekin</l><r>sekinîn</r></p><par n="bez/î__vblex_iv"/></e>
     <e lm="sekinîn"><p><l>nesekin</l><r>sekinîn</r></p><par n="nebez/î__vblex_iv"/></e>
