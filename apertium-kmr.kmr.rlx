@@ -57,6 +57,7 @@ LIST Bû = "<bû>"i ;
 LIST Di = "<di>"i ;
 LIST Jî = "<jî>"i ;
 LIST JÊ = "<jê>"i ;
+LIST LÊ = "<lê>"i ;
 LIST JI = "ji" ;
 LIST RE = "re" ;
 LIST De = "<de>" ;
@@ -90,6 +91,8 @@ SET WORD = N | Num | Prop | V | A | Det | Pron | Preadv | Adv | Unk | Sent | Cop
 SET CLB = Fin | CS | CC ;
 
 SECTION
+
+REMOVE CC IF (0 LÊ OR CC)(-1* CC BARRIER V);
 
 SELECT Nom IF (0 TEACHER) (1 Ant); 
 

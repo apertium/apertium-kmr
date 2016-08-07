@@ -193,8 +193,10 @@
 
     <pardef n="/li__pr">
       <e><p><l>li</l><r>li<s n="pr"/></r></p></e>
-      <e><p><l>lê</l><r>li<s n="pr"/><j/>ew<s n="prn"/><s n="dem"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>lê</l><r>li<s n="pr"/><j/>ew<s n="prn"/><s n="dem"/><s n="mf"/><s n="sg"/><s n="obl"/></r></p></e><!--
       <e><p><l>lê</l><r>li<s n="pr"/><j/>ew<s n="prn"/><s n="dem"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>lê</l><r>li<s n="pr"/><j/>ew<s n="prn"/><s n="dem"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
+      <e><p><l>lê</l><r>li<s n="pr"/><j/>ew<s n="prn"/><s n="dem"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>-->
     </pardef>
 
     <pardef n="de__post">
@@ -2377,6 +2379,8 @@
 
     
     <!-- New Masculines -->
+    <e lm="musîbet"><i>musîbet</i><par n="mirov__n_m"/></e>
+    <e lm="musîbet"><p><l>misîbet</l><r>musîbet</r></p><par n="mirov__n_m"/></e>
     <e lm="awak"><i>awak</i><par n="mirov__n_m"/></e>
     <e lm="fars"><i>fars</i><par n="mirov__n_m"/></e>
     <e lm="kral"><i>kral</i><par n="mirov__n_m"/></e>
@@ -14886,6 +14890,7 @@
     <!-- new comparables -->
     <e lm="neteweperest"><i>neteweperes</i><par n="pêwis/t__adj"/></e>
     <e lm="reformxwaz"><i>reformxwaz</i><par n="germ__adj"/></e>
+    <e lm="xemxwar"><i>xemxwar</i><par n="germ__adj"/></e>
     <e lm="taktîkî"><i>taktîk</i><par n="navend/î__adj"/></e>
     <e lm="xeyabî"><i>xeyab</i><par n="navend/î__adj"/></e>
     <e lm="teqez"><i>teqez</i><par n="germ__adj"/></e>
@@ -15634,6 +15639,7 @@
     <e lm="hemû"><i>hemû</i><par n="niha__adv"/></e>
     <e lm="herî"><i>herî</i><par n="niha__adv"/></e>
     <e lm="niha"><i>niha</i><par n="niha__adv"/></e>
+    <e lm="walê"><i>walê</i><par n="niha__adv"/></e>
     <e lm="ne"><i>ne</i><par n="ne__adv"/></e>
     <e lm="paşî"><i>paşî</i><par n="niha__adv"/></e>
     <e lm="piştre"><i>piştre</i><par n="niha__adv"/></e>
