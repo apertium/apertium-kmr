@@ -110,6 +110,8 @@ SELECT LANG IF (-1 BI) (1 SPEECH-VERB) ;
 
 SELECT Cop IF (0 Cop OR Eza) (1 EOS) (NOT -1 PrfPrc) ;
 
+SELECT A IF (0 A or V) (-1 Eza);
+
 SELECT Ant IF (0 N OR Ant) (-1 Ant + Eza);
 
 SELECT Ant IF (0 N OR Ant) (1 Ant) (NOT 1 Eza);

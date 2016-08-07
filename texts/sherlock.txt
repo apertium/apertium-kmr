@@ -22,7 +22,7 @@ Baniwê got: Ne ji ber sermayê ez direcifim
 Baniwê rûyê xwe bi tûleke reş girti bû û hela hingê ew ji ber rûyê xwe ranekirî bû.
 Wextê ew rakir me zanî ko mêvana me jinikekê sih salî bû û ji niho de spî bi pora wê keti bû û ji qermîçekên rûyê wê xuya dikir ko jinik di heycaneke mezin de bû.
 Holmes got-ê: Xanim xwe ewçend aciz meke; Xwedê kerîm e, salê ezê dermanê der¬ dê te bibînim.
-Jinikê got: Mîrza tu nizanî ez di çi halî de me; tiştê ko hâte serê min ne hâte serê tukesî. 
+Jinikê got: Mîrza tu nizanî ez di çi halî de me; tiştê ko hate serê min ne hate serê tukesî. 
 Heke te ez ji tariya ko ez tê de pûyan im, derêxistim, $alê ezê bikarim ji bin barê te rabim. îro bi min re tu tişt nîne. 
 Di vê çendê de ez dikim bizewicim, hingê min pêre de hebit.
 Holmes: Min ji te tu tişt navê. 
@@ -41,7 +41,7 @@ Qesir di eyalela Sariyê di Stok moranê de ye.
 Di wexlê bavê zirbavê min de hêj çend pêre hebûn. 
 Wîewjî xwarin û gava dît ko ji kurê wî re tiştek ne maye "rabû ew xiste dibistana tibiyê û ew kire diktor. 
 Pistî mirina bavê wî zirbavê min rabû çû Hindistanê û li wêj derê bi bijîşkiyê mijûl bû. 
-Rojekê li xulamê xwe ê hindî hâte xezebê; li wî xist û mêrik mir. 
+Rojekê li xulamê xwe ê hindî hate xezebê; li wî xist û mêrik mir. 
 Zirbavê min midekî dirêj li hep sê ma û jê vegeriya Ingiller.\
 Dr. Rwe.. lot gava li Hindistanê bû diya
 min. biya gênêral Stonêr, ji xwe re anî bû.
@@ -168,7 +168,7 @@ Holmes: Işê jehrê?...
 Stonêr: Tebîb cane wê qelaşt, lê hûr
 lê tu Şop\ jehrê xuya ne kir.
 Holmes: Yanî sebeba mirina wê bi 1 1 awa¬
-yî ne hâte seh kirin.
+yî ne hate seh kirin.
 Stonêr: Belê, ne haie seh kirin
 Holmes:)Kerem ke, çîroka xwe bibe serî.
 Stonêr: Ev bûne du sal ko xweha min çû
@@ -194,13 +194,10 @@ damayî ma; dida eqilê xwe. Piştî gavekê gote
 keçikê: Divêt îro em herin Stokmoranê û bêî
 ko zirbavê te bi me bihese em wan odan bibinin
 Stonêr: Ji xwe dilê zirbavê min hebû ko
-tro dakeve bajêr. Honê bi rahetî bikarin bi îşê
-xwe mijûl bibin.
+tro dakeve bajêr. Honê bi rahetî bikarin bi îşê xwe mijûl bibin.
 Holmes: Bas e, emê tev de herin Stokmo¬
 ranê. Tiwê bi xwe çi bikî?
-Stonêr: Hemîn ez hatime bajêr. Ilin îşên
-min hene, ezê wan pêk binim û bi trêna nîvro
-ezê vegerim gund.
+Stonêr: Hemîn ez hatime bajêr. Ilin îşên min hene, ezê wan pêk binim û bi trêna nîvro ezê vegerim gund.
 Banû Stonêr rabû, rûyê xwe bi îzara xwe
 a stûr girt; xalir ji haziran xwest û bi rê ket.
 Holmes ji hevalê xwe pirsî: Çi dikeve serê
@@ -210,7 +207,7 @@ girtî, dengekî fikandinê, zencîrek dikeve erdê.
 Em di vê şlexaliyê de bûn ko derî ji niş-
 kekevê vebû û zilamekî bejinbilind li me der
 bû. Pistî ko çavên xwe li me gerand, bi denge¬
-kî hişk gote me: Iiï ji we Holmesje?
+kî hişk gote me: Iiî ji we Holmesje?
 Holmes lê vegerand: Şerlok Holmes ez bi
 xwe me. Lê min cenabê te nas ne kir.
 Zilamê bejinbilind: EzJ)r. Rweylot im, ji
@@ -248,9 +245,7 @@ bû yek. Holmes gote hevalê xwe Wetsin:
 Min wesiyelnama jinikê dît. Li gora
 wesiyetnamê piştî ziwaca keçikan ji Dr. Rwey¬
 lot re salê ji 500 zêrî bêtir' tiştek namîne; ev
-jî têra wî nake. Êdî îşê me ne li hire lê li
-¶
-Stokmoranê ye. Hûr-mûrên me bide hev; em
+jî têra wî nake. Êdî îşê me ne li hire lê li Stokmoranê ye. Hûr-mûrên me bide hev; em
 bi rê bikevin. Heke le-şejderba xwe jî bi xwe re
 anî min ji te gelek minet e.
 Em li trênê siwar bûn û gava em gihàstin
@@ -339,7 +334,7 @@ hewa odê hatiye çêkirin diviya ho di dîwarê
 ko dide bexçê de bihala çêkirin; ne ko di dî¬
 warê ko dide odeke din....
 Stonêrê: Ji xwe ev kulek jî vê paşiyê
-hâte çêkirin, berê nîn bû. Wextê ko di odê
+hate çêkirin, berê nîn bû. Wextê ko di odê
 de tamîratin çêkirin...
 Holmes: Tamîratine ecêb, zengilekî derewîn,
 ¶
@@ -368,8 +363,7 @@ bike. Nemaze tistek heye, ez dixwazin lê hûr
 bibim.
 Holmes li ber kursî sekinî, li ser telikan
 rûnist, kûrsî û di pey re qenefe seh kir. Wex¬
-lê îşê xwe lemam kir, şelîtek bi destî ve
-rabû û gote haziran:
+lê îşê xwe lemam kir, şelîtek bi destî ve rabû û gote haziran:
 Ev şelît, zolek çerm e, pê seyan girê-
 didin. Lê ecêb cire ev holê li hev herbiliye û
 bûye girêk girêk
@@ -415,8 +409,7 @@ kir cira xwe bidî ber pencerê
 û bi wî awayi elam bidî me
 ko Dr. Rweylot xwe kişandiye
 ¶
-oda xwe. Em îşê xwe dizanin. Êdî divêt em
-ji hev veqetin. Heke Dr. Rweylot em bi hev re
+oda xwe. Em îşê xwe dizanin. Êdî divêt em ji hev veqetin. Heke Dr. Rweylot em bi hev re
 dîtin îşê me ji serî heta binî xerab dibe. Bi
 xatirê te û sîretên min ji bîr meke.
 Em vegeriya bûn otêlê û me li riya Dr.
@@ -456,7 +449,7 @@ ew kire tenişla xwe. Piştî ko me cibên xwe
 girtin Holmes çiravemirad.
 Di sikûn û bêdengiya şevê de mirov sehiw
 digiri. Çend caran me dengê leyrina kir. Carekê
-pencereke me ji der ve hâte xirmişandin. Ew sîp
+pencereke me ji der ve hate xirmişandin. Ew sîp
 bi xwe bû, ji xwe re digeriya. Ji dur ve dengê
 saeta dêrê dihate bihîstin. Saetê dwanzde, yek,
 dido lêxislin. Em hêj di cihê xwe de rûni.sli
@@ -527,7 +520,7 @@ dolab girt. Şingîniyek ji
 dolabê hat.
 ¶
 Belê Dr.^ Rweylot^ bi vî [awayî, bi
-pêvidana ïtîarê xwe miri bû. Banû
+pêvidana îtîarê xwe miri bû. Banû
 Stonêr jî gihaşti bû selamelê. Lê hin
 tist hene ko ji xwendevanan re bi te¬
 mamî ne eşkere ne. Emê wan ji devê
@@ -560,25 +553,10 @@ dizanin, « şelîta belek » mare belek bû.
 Cûlyayê, gava mar pê ve da ew dîti dû.
 Dengê zencîrê jî dengê girtina deriyê
 dolaba hesinîn e, ma lê de şik heye.
-¶
-Heçî Hêlên; piştî ko wê jî qerara
-xwe da ko bizewice zirbavê wê d
-oda wê de hin tamîrat
-behane kirin û ew anî
-oda xweha wê da ko
-bikare di qulê re mar
-berde ser wê. Carekê
-ceriband, mar bi keçîkê
-ve ne da. Keçik hat û
-em serwext kirin. Sevê-
-dî Dr.dîsan mar di qulê
-re daxisle odê. Lê her¬
-wekî tujdizanî, min li se¬
-rê mêr xist, mar bi sûn
-de vegeriya û ji ber êşa
-xwe bi xwediyê xwe, bi
-Dr. Rweylot ve da û
-xwe li serê wî pêçand.
-Heke ji mirina Dr.
-Rweylot berpirsiyarek
-hebe; ew jî ez im
+
+Heçî Hêlên; piştî ko wê jî qerara xwe da ko bizewice zirbavê wê di oda wê de hin tamîrat behane kirin û ew anî oda xweha wê da ko bikare di qulê re mar berde ser wê. Carekê ceriband, mar bi keçîkê ve ne da. 
+Keçik hat û em serwext kirin. 
+Sevêdî Dr.dîsan mar di qulê re daxisle odê. 
+Lê herwekî tujdizanî, min li serê mêr xist, mar bi sûn de vegeriya û ji ber êşa xwe bi xwediyê xwe, bi Dr. Rweylot ve da û xwe li serê wî pêçand.
+Heke ji mirina Dr. Rweylot berpirsiyarek hebe; ew jî ez im
+
