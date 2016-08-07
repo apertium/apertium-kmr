@@ -5,6 +5,7 @@ LIST BOS = (>>>) sent ;
 
 LIST N = n ;
 LIST Prop = np ;
+LIST Top = top ;
 LIST Ant = ant;
 LIST Pron = prn ;
 LIST V = vaux vblex vbser vbcop ;
@@ -84,9 +85,9 @@ LIST Fin = pri past fut narr ; # Complete
 
 SET NOMEN = N | Prop ;
 
-SET NPNHA = N | Num | Prop | Pron | Det | Preadv | A | Eza | Unk ;
+SET NPNHA = N | Num | Prop | Pron | Det | Preadv | A | Eza | Unk | Top ;
 
-SET WORD = N | Num | Prop | V | A | Det | Pron | Preadv | Adv | Unk | Sent | Cop | Aux | CS | CC ;
+SET WORD = N | Num | Prop | V | A | Det | Pron | Preadv | Adv | Unk | Sent | Cop | Aux | CS  ;
 
 SET CLB = Fin | CS | CC ;
 
@@ -98,11 +99,13 @@ SELECT Nom IF (0 TEACHER) (1 Ant);
 
 SELECT Sg IF (0 N + Nom) (0 Sg OR Pl) (1 Ant);
 
+SELECT Sg IF (0 N) (0 Sg OR Pl) (NOT 1* V + Pl BARRIER N + Pl);
+
 SELECT HETA IF (0 HETA OR Eza) ;
 
 REMOVE Voc IF (0 Voc OR Obl) (-1 Eza) ;
 
-SELECT Sg IF (0 Sg OR Pl) (1 Cop + Sg);
+SELECT Sg IF (0 Sg OR Pl) (NOT 0 Post)  (1 Cop + Sg);
 
 SELECT Eza IF (-1 Eza) (NOT 1 Eza) (NOT 1 EOS);
 
@@ -198,7 +201,7 @@ LIST @dobj = @dobj ;
 LIST @csubj = @csubj ;
 LIST @qst = @qst ;
 LIST @nmod:dat = @nmod:dat ;
-
+LIST @nmod:poss = @nmod:poss ;
 
 MAP @nsubj TARGET Pron + Obl IF (0C Obl) (1* TV + Past BARRIER CLB OR Pers + Obl) (NOT -1 Pr) (NOT 1 Post) (NOT -1 Eza) ;
 
@@ -207,6 +210,8 @@ MAP @nsubj TARGET Pron + Obl IF (0C Obl) (1* TV + Past BARRIER CLB OR Pers + Obl
 MAP @nmod:dat TARGET NOMEN + Obl IF (NOT -1* Pr BARRIER V) (NOT 1 Post) (NEGATE 0* TV BARRIER V) (NOT -1 Eza);
 
 MAP @dobj TARGET NOMEN + Obl IF (NOT -1 Eza)(NOT -1* Pr BARRIER V) (NOT 1 Post) (1* TV BARRIER V);
+
+MAP @nmod:poss TARGET NOMEN + Obl IF (-1 Eza) ;
 
 SECTION
 
