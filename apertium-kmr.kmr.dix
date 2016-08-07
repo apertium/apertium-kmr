@@ -2183,7 +2183,7 @@
     <e lm="Google"><i>Googl</i><par n ="od/e__n"/></e>
     <e lm="balinde"><i>balind</i><par n ="od/e__n"/></e>
     <e lm="şêr"><i>şêr</i><par n="jin__n_f"/></e>
-    <e lm="wext"><i>wext</i><par n="jin__n_f"/></e>
+<!--<e lm="wext"><i>wext</i><par n="jin__n_f"/></e>-->
     <e lm="Şikak"><i>Şikak</i><par n="jin__n_f"/></e>
     <e lm="ron"><i>ron</i><par n="jin__n_f"/></e>
     <e lm="xwandin"><i>xwandin</i><par n="jin__n_f"/></e>
@@ -2406,6 +2406,7 @@
 
     
     <!-- New Masculines -->
+    <e lm="meymûn"><i>meymûn</i><par n="mirov__n_m"/></e>
     <e lm="tamîrat"><i>tamîrat</i><par n="mirov__n_m"/></e>
     <e lm="musîbet"><i>musîbet</i><par n="mirov__n_m"/></e>
     <e lm="musîbet"><p><l>misîbet</l><r>musîbet</r></p><par n="mirov__n_m"/></e>
@@ -2813,7 +2814,8 @@
     <e lm="cur"><i>cur</i><par n="mirov__n_m"/></e>
     <e lm="perwaz"><i>perwaz</i><par n="mirov__n_m"/></e>
     <e lm="pereng"><i>pereng</i><par n="mirov__n_m"/></e>
-    <e lm="pere"><i>per</i><par n ="perç/e__n"/></e>
+    <e lm="pêre"><p><l>per</l><r>pêr</r></p><par n ="perç/e__n"/></e>
+    <e lm="pêre"><i>pêr</i><par n ="perç/e__n"/></e>
     <e lm="pez"><i>pez</i><par n="mirov__n_m"/></e>
     <e lm="peykan"><i>peykan</i><par n="mirov__n_m"/></e>
     <e lm="welatî"><i>welat</i><par n="xan/î__n_m"/></e>
@@ -3916,9 +3918,6 @@
       <e lm="pengir"><i>pengir</i><par n="mirov__n_m"/></e>
       <e lm="pep"><i>pep</i><par n="mirov__n_m"/></e>
       <e lm="per"><i>per</i><par n="mirov__n_m"/></e>
-      <e lm="per"><i>per</i><par n="mirov__n_m"/></e>
-      <e lm="per"><i>per</i><par n="mirov__n_m"/></e>
-      <e lm="pere"><i>per</i><par n="perç/e__n"/></e>
       <e lm="pergal"><i>pergal</i><par n="mirov__n_m"/></e>
       <e lm="perr"><i>perr</i><par n="mirov__n_m"/></e>
       <e lm="perrik"><i>perrik</i><par n="mirov__n_m"/></e>
@@ -13885,6 +13884,7 @@
 
     <!-- SECTION: Proper nouns -->
     <e lm="Stokmoran"><i>Stokmoran</i><par n="Kurdistan__np"/></e>
+    <e lm="Stokmoran"><p><l>Stok<b/>Moran</l><r>Stokmoran</r></p><par n="Kurdistan__np"/></e>
     <e lm="Cûlya"><i>Cûlya</i><par n="Leyla__np"/></e>
     <e lm="Ferho"><i>Ferho</i><par n="Simko__np"/></e>
     <e lm="Simko"><i>Simko</i><par n="Simko__np"/></e>
