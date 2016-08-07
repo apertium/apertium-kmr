@@ -495,6 +495,27 @@
       <e><p><l>î</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><s n="dem"/></r></p></e>
       <e><p><l>an</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><s n="dem"/></r></p></e>
     </pardef>
+
+      <pardef n="aw/a__n_m">
+      <e><p><l>a</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
+      <e><p><l>a</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><s n="def"/></r></p></e>
+      <e><p><l>yê</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="con"/><s n="def"/></r></p></e>
+      <e><p><l>o</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="voc"/><s n="def"/></r></p></e>
+      <e><p><l>ak</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e><p><l>akî</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><s n="ind"/></r></p></e>
+      <e><p><l>akî</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="con"/><s n="ind"/></r></p></e>
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
+      <e><p><l>yan</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><s n="def"/></r></p></e>
+      <e><p><l>yên</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="con"/><s n="def"/></r></p></e>
+      <e><p><l>yên</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="voc"/><s n="def"/></r></p></e>
+      <e><p><l>yin</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e><p><l>yinan</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><s n="ind"/></r></p></e>
+      <e><p><l>yine</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="con"/><s n="ind"/></r></p></e>
+      <e><p><l>yî</l><r><s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><s n="dem"/></r></p></e>
+      <e><p><l>yan</l><r><s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><s n="dem"/></r></p></e>
+    </pardef>
+
+
     <pardef n="piran/î__n_f">
       <e><p><l>î</l><r>î<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
       <e><p><l>iyê</l><r>î<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><s n="def"/></r></p></e>
@@ -1220,15 +1241,19 @@
         <e><p><l>ine</l><r><s n="vblex"/><s n="tv"/><s n="prog"/><s n="narr"/><s n="p3"/><s n="pl"/></r></p></e> 
     </pardef>
 
-    <pardef n="bikir/__vblex_tv">
-        <e><p><l></l><r><s n="vblex"/><s n="tv"/><s n="opt"/></r></p><par n="kir/__vblex"/></e>
-        <e><p><l>ima</l><r><s n="vblex"/><s n="tv"/><s n="opt"/><s n="narr"/><s n="p1"/><s n="sg"/></r></p></e>
-        <e><p><l>ayî</l><r><s n="vblex"/><s n="tv"/><s n="opt"/><s n="narr"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l>a</l><r><s n="vblex"/><s n="tv"/><s n="opt"/><s n="narr"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>ana</l><r><s n="vblex"/><s n="tv"/><s n="opt"/><s n="narr"/><s n="p1"/><s n="pl"/></r></p></e>
-        <e><p><l>ana</l><r><s n="vblex"/><s n="tv"/><s n="opt"/><s n="narr"/><s n="p2"/><s n="pl"/></r></p></e>
-        <e><p><l>ana</l><r><s n="vblex"/><s n="tv"/><s n="opt"/><s n="narr"/><s n="p3"/><s n="pl"/></r></p></e> 
+    <pardef n="bikir/__vblex">
+        <e><p><l>ima</l><r><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>ayî</l><r><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>a</l><r><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>ana</l><r><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>ana</l><r><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>ana</l><r><s n="p3"/><s n="pl"/></r></p></e> 
     </pardef>
+
+    <pardef n="bikir/__vblex_tv">
+        <e><p><l></l><r><s n="vblex"/><s n="tv"/><s n="opt"/></r></p><par n="bikir/__vblex"/></e>
+    </pardef>
+
 
     <pardef n="dik/e__vblex_tv">
         <e><p><l></l><r><s n="vblex"/><s n="tv"/></r></p><par n="dik/e__vblex"/></e>
@@ -1915,7 +1940,7 @@
     <e lm="tolhildan"><i>tolhildan</i><par n="jin__n_f"/></e>
     <e lm="vegerî"><i>veger</i><par n="piran/î__n_f"/></e>
     <e lm="nas"><i>nas</i><par n="jin__n_f"/></e>
-    <e lm="awa"><i>aw</i><par n ="nîvro__n_f"/></e>
+    <e lm="awa"><i>aw</i><par n ="aw/a__n_m"/></e>
     <e lm="yekî"><i>yek</i><par n="piran/î__n_f"/></e>
     <e lm="YN"><i>YN</i><par n="YNK__n"/></e>
     <e lm="Burjuvazî"><i>Burjuvaz</i><par n="piran/î__n_f"/></e>
@@ -2352,6 +2377,7 @@
 
     
     <!-- New Masculines -->
+    <e lm="awak"><i>awak</i><par n="mirov__n_m"/></e>
     <e lm="fars"><i>fars</i><par n="mirov__n_m"/></e>
     <e lm="kral"><i>kral</i><par n="mirov__n_m"/></e>
     <e lm="berx"><i>berx</i><par n="mirov__n_m"/></e>
@@ -18169,7 +18195,7 @@
     <!-- karîn; ; kar; kar -->
     <e lm="karîn"><p><l>dikar</l><r>karîn</r></p><par n="dik/e__vblex_tv"/></e>
     <e lm="karîn"><p><l>kar</l><r>karîn</r></p><par n="dik/e__vblex_tv"/></e>
-    <e lm="karîn"><p><l>nikar</l><r>karîn</r></p><par n="nek/e__vblex_tv"/></e>
+    <e lm="karîn"><p><l>nikar</l><r>karîn</r></p><par n="nak/e__vblex_tv"/></e>
 
     <!-- anîn type LVCs -->
     <e lm="bikaranîn"><p><l>bikar</l><r>bikaranîn</r></p><par n="/anîn__vblex_tv"/></e>
@@ -18245,6 +18271,7 @@
     <e lm="kirin"><p><l>dik</l><r>kirin</r></p><par n="dik/e__vblex_tv"/></e>
     <e lm="kirin"><p><l>bik</l><r>kirin</r></p><par n="bik/e__vblex_tv"/></e>
     <e lm="kirin"><p><l>nekir</l><r>kirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="kirin"><p><l>bikir</l><r>kirin</r></p><par n="bikir/__vblex_tv"/></e>
     <e lm="kirin"><p><l>nak</l><r>kirin</r></p><par n="nak/e__vblex_tv"/></e>
     <e lm="kirin"><p><l>nek</l><r>kirin</r></p><par n="nek/e__vblex_tv"/></e>
 
@@ -18599,6 +18626,10 @@
     <e lm="zanîn"><p><l>nizan</l><r>zanîn</r></p><par n="nak/e__vblex_tv"/></e>
     <e lm="zanîn"><p><l>nezan</l><r>zanîn</r></p><par n="nek/e__vblex_tv"/></e>
      
+
+    <!-- xuyan; ; xuya; xuyîn -->
+    <e lm="xuyan"><p><l>dixuy</l><r>xuyan</r></p><par n="diaxiv/e__vblex_iv"/></e>
+
     <!-- man; ; ma; mîn -->
     <e lm="man"><p><l>ma</l><r>man</r></p><par n="axaft/__vblex_iv"/></e>
     <e lm="man"><p><l>dimîn</l><r>man</r></p><par n="diaxiv/e__vblex_iv"/></e>
