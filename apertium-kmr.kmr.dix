@@ -544,6 +544,9 @@
       <e><p><l>eya</l><r>e<s n="n"/><s n="f"/><s n="sg"/><s n="con"/><s n="def"/></r></p></e>
         <e r="LR"><p><l>a</l><r>e<s n="n"/><s n="f"/><s n="sg"/><s n="con"/><s n="def"/></r></p></e>
       <e><p><l>eyê</l><r>e<s n="n"/><s n="f"/><s n="sg"/><s n="voc"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>ek</l><r>e<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e r="LR"><p><l>ekê</l><r>e<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><s n="ind"/></r></p></e>
+      <e r="LR"><p><l>eke</l><r>e<s n="n"/><s n="f"/><s n="sg"/><s n="con"/><s n="ind"/></r></p></e>
       <e><p><l>eyek</l><r>e<s n="n"/><s n="f"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
       <e><p><l>eyekê</l><r>e<s n="n"/><s n="f"/><s n="sg"/><s n="obl"/><s n="ind"/></r></p></e>
       <e><p><l>eyeke</l><r>e<s n="n"/><s n="f"/><s n="sg"/><s n="con"/><s n="ind"/></r></p></e>
@@ -2225,6 +2228,7 @@
     <e lm="quşxane"><i>quşxan</i><par n ="od/e__n"/></e>
     <e lm="cînav"><i>cînav</i><par n="jin__n_f"/></e>
     <e lm="rexne"><i>rexn</i><par n ="od/e__n"/></e>
+    <e lm="rexne"><p><l>rehn</l><r>rexn</r></p><par n ="od/e__n"/></e>
     <e lm="derbaz"><i>derbaz</i><par n="jin__n_f"/></e>
     <e lm="kod"><i>kod</i><par n="jin__n_f"/></e>
     <e lm="Windows"><i>Windows</i><par n="jin__n_f"/></e>

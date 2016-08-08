@@ -95,6 +95,8 @@ SECTION
 
 REMOVE CC IF (0 LÊ OR CC)(-1* CC BARRIER V);
 
+SELECT CC IF (0 LÊ OR CC) (1C Pron); 
+
 SELECT Nom IF (0 TEACHER) (1 Ant); 
 
 SELECT Pl IF (0C N) (0 Sg OR Pl) (1 V + Pl);
@@ -115,7 +117,7 @@ SELECT LANG IF (-1 BI) (1 SPEECH-VERB) ;
 
 SELECT Cop IF (0 Cop OR Eza) (1 EOS) (NOT -1 PrfPrc) ;
 
-SELECT A IF (0 A or V) (-1 Eza);
+SELECT A IF (0C A or V) (-1 Eza);
 
 SELECT Ant IF (0 N OR Ant) (-1 Ant + Eza);
 
@@ -198,6 +200,7 @@ REMOVE Voc IF (NOT -1 Comma) (1 EOS);
 
 SECTION
 
+LIST @amod = @amod ;
 LIST @nsubj = @nsubj ;
 LIST @dobj = @dobj ;
 LIST @csubj = @csubj ;
@@ -213,7 +216,9 @@ MAP @nmod:dat TARGET NOMEN + Obl IF (NOT -1* Pr BARRIER V) (NOT 1 Post) (NEGATE 
 
 MAP @dobj TARGET NOMEN + Obl IF (NOT -1 Eza)(NOT -1* Pr BARRIER V) (NOT 1 Post) (1* TV BARRIER V);
 
-MAP @nmod:poss TARGET NOMEN + Obl IF (-1 Eza) ;
+MAP @nmod:poss TARGET NOMEN + Obl IF (-1C Eza) ;
+
+MAP @amod TARGET A IF (-1C Eza);
 
 SECTION
 
