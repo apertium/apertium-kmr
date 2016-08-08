@@ -207,6 +207,8 @@ LIST @csubj = @csubj ;
 LIST @qst = @qst ;
 LIST @nmod:dat = @nmod:dat ;
 LIST @nmod:poss = @nmod:poss ;
+LIST @nmod = @nmod ;
+
 
 MAP @nsubj TARGET Pron + Obl IF (0C Obl) (1* TV + Past BARRIER CLB OR Pers + Obl) (NOT -1 Pr) (NOT 1 Post) (NOT -1 Eza) ;
 
@@ -219,6 +221,8 @@ MAP @dobj TARGET NOMEN + Obl IF (NOT -1 Eza)(NOT -1* Pr BARRIER V) (NOT 1 Post) 
 MAP @nmod:poss TARGET NOMEN + Obl IF (-1C Eza) ;
 
 MAP @amod TARGET A IF (-1C Eza);
+
+MAP @nmod TARGET N IF (-1C Pr);
 
 SECTION
 
