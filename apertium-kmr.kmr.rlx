@@ -8,7 +8,7 @@ LIST Prop = np ;
 LIST Top = top ;
 LIST Ant = ant;
 LIST Pron = prn ;
-LIST V = vaux vblex vbser vbcop ;
+LIST V = vaux vblex vbser vbcop vbhaver ;
 LIST Adv = adv ;
 LIST Num = num ;
 LIST Sent = sent ;
@@ -96,6 +96,8 @@ SECTION
 REMOVE CC IF (0 LÊ OR CC)(-1* CC BARRIER V);
 
 SELECT Nom IF (0 TEACHER) (1 Ant); 
+
+SELECT Pl IF (0C N) (0 Sg OR Pl) (1 V + Pl);
 
 SELECT Sg IF (0 N + Nom) (0 Sg OR Pl) (1 Ant);
 
