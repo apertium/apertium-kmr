@@ -99,7 +99,7 @@ SELECT Nom IF (0 TEACHER) (1 Ant);
 
 SELECT Sg IF (0 N + Nom) (0 Sg OR Pl) (1 Ant);
 
-SELECT Sg IF (0 N) (0 Sg OR Pl) (NOT 1* V + Pl BARRIER N + Pl);
+SELECT Sg IF (0C N) (0 Sg OR Pl) (NOT 1* V + Pl BARRIER N + Pl);
 
 SELECT HETA IF (0 HETA OR Eza) ;
 
@@ -215,6 +215,8 @@ MAP @nmod:poss TARGET NOMEN + Obl IF (-1 Eza) ;
 
 SECTION
 
+SELECT Det IF (0 Adv OR Det) (1 N);
+
 SELECT CS IF (0 Gelo) (-1 BOS);
 
 SELECT V IF (0 Bû) ;
@@ -225,4 +227,4 @@ REMOVE Obl IF (-1 BOS) (0 Nom OR Obl) (1 EOS) (1* Pirs);
 
 REMOVE Eza IF (1C Fin) ;
 
-REMOVE Det IF (0 Pron OR Det) (NOT 1 Dem) ;
+REMOVE Det IF (0 Pron OR Det + Dem) (NOT 1 Dem) ;
