@@ -46,6 +46,7 @@ LIST Comma = cm ;
 LIST Past = past ;
 LIST Fut = fut ;
 LIST Prs = prs ; 
+LIST DÊ = "dê" ;
 LIST BI = "bi" ;
 LIST SPEECH-VERB = "axaftin" ;
 LIST DO-VERB = "kirin";
@@ -198,6 +199,14 @@ SELECT Prs IF (-1* CS LINK -1* Fin);
 
 REMOVE Voc IF (NOT -1 Comma) (1 EOS);
 
+SELECT Fut IF (-1* DÊ); 
+
+SELECT P1 IF (0 V + Pl) (-1* Pron + P1 BARRIER V OR Pron);
+
+SELECT P1 IF (0 V + Pl) (-1* V + P1 BARRIER Pron OR N); 
+
+SELECT Fut IF (0C V) (-1C* V + Fut);
+
 SECTION
 
 LIST @amod = @amod ;
@@ -225,6 +234,8 @@ MAP @amod TARGET A IF (-1C Eza);
 MAP @nmod TARGET N IF (-1C Pr);
 
 SECTION
+
+SELECT V IF (0C V OR N) (-1 Adv);
 
 SELECT Det IF (0 Adv OR Det) (1 N);
 

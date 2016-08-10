@@ -1461,8 +1461,6 @@
         <e><p><l>nehatine</l><r><s n="vblex"/><s n="iv"/><s n="neg"/><s n="perf"/><s n="p1"/><s n="pl"/></r></p></e>
         <e><p><l>nehatine</l><r><s n="vblex"/><s n="iv"/><s n="neg"/><s n="perf"/><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>nehatine</l><r><s n="vblex"/><s n="iv"/><s n="neg"/><s n="perf"/><s n="p3"/><s n="pl"/></r></p></e>
-        <e><p><l>here</l><r><s n="vblex"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l>herin</l><r><s n="vblex"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>were</l><r><s n="vblex"/><s n="iv"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
         <e><p><l>werin</l><r><s n="vblex"/><s n="iv"/><s n="imp"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
@@ -14923,6 +14921,7 @@
     <!-- SECTION: Adjectives -->
 
     <!-- new comparables -->
+    <e lm="bihemil"><i>bihemil</i><par n="germ__adj"/></e>
     <e lm="neteweperest"><i>neteweperes</i><par n="pêwis/t__adj"/></e>
     <e lm="reformxwaz"><i>reformxwaz</i><par n="germ__adj"/></e>
     <e lm="xemxwar"><i>xemxwar</i><par n="germ__adj"/></e>
@@ -16477,6 +16476,7 @@
         <!-- çûn; ; çû; diç -->
     <e lm="çûn"><p><l>diç</l><r>çûn</r></p><par n="diaxiv/e__vblex_iv"/></e>
     <e lm="çûn"><p><l>biç</l><r>çûn</r></p><par n="biaxiv/e__vblex_iv"/></e>
+    <e lm="çûn"><p><l>her</l><r>çûn</r></p><par n="biaxiv/e__vblex_iv"/></e>
     <e lm="çûn"><p><l>çû</l><r>çûn</r></p><par n="çû/n__vblex_iv"/></e>
     <e lm="çûn"><p><l>neçû</l><r>çûn</r></p><par n="neçû/n__vblex_iv"/></e>
     <e lm="çûn"><p><l>naçû</l><r>çûn</r></p><par n="neçû/n__vblex_iv"/></e>
