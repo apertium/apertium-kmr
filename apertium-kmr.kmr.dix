@@ -891,6 +891,16 @@
       <e><p><l>ê</l><r><s n="adj"/><s n="pst"/><s n="con"/></r></p></e>
     </pardef>
 
+    <pardef n="dewlemen/d__adj">
+      <e><p><l>d</l><r>d<s n="adj"/><s n="pst"/></r></p></e>
+      <e><p><l>tir</l><r>d<s n="adj"/><s n="comp"/></r></p></e>
+      <e><p><l>tirîn</l><r>d<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>da</l><r>d<s n="adj"/><s n="pst"/><s n="con"/></r></p></e>
+      <e><p><l>dê</l><r>d<s n="adj"/><s n="pst"/><s n="con"/></r></p></e>
+    </pardef>
+
+
+
     <pardef n="pêwis/t__adj">
       <e><p><l>t</l><r>t<s n="adj"/><s n="pst"/></r></p></e>
       <e><p><l>tir</l><r>t<s n="adj"/><s n="comp"/></r></p></e>
@@ -927,7 +937,7 @@
         <e><p><l>î</l><r><s n="p2"/><s n="sg"/></r></p></e>
         <e><p><l>e</l><r><s n="p3"/><s n="sg"/></r></p></e>
         <e><p><l></l><r><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>in</l><r><s n="p1"/><s n="pl"/></r></p></e>
+<!--        <e><p><l>in</l><r><s n="p1"/><s n="pl"/></r></p></e>-->
         <e><p><l>in</l><r><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>in</l><r><s n="p3"/><s n="pl"/></r></p></e>
     </pardef> 
@@ -1109,10 +1119,16 @@
         <e><p><l>iya<b/>bû</l><r><s n="vblex"/><s n="plu"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef> 
 
-    <pardef n="kir/__vblex">
+    <pardef n="kir/__vblex"> 
+        <e><p><l>im</l><r><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>î</l><r><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l></l><r><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>in</l><r><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>in</l><r><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>in</l><r><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
         <e><p><l>in</l><r><s n="inf"/></r></p></e>
         <e><p><l>î</l><r><s n="pp"/></r></p></e>
-        <e><p><l></l><r><s n="past"/></r></p><par n="k/e__vblex"/></e>
+<!--        <e><p><l></l><r><s n="past"/></r></p><par n="k/e__vblex"/></e>-->
 <!--    <e><p><l>iye</l><r><s n="perf"/></r></p></e>  CHECK LATER -->
         <e><p><l>ibû</l><r><s n="plu"/></r></p><par n="şo/__vblex"/></e>
         <e><p><l>ibim</l><r><s n="fpi"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -1696,6 +1712,8 @@
     <!-- SECTION: Nouns -->
 
     <!-- New Feminines -->
+    <e lm="nufus"><i>nufus</i><par n="jin__n_f"/></e>
+    <e lm="mikafat"><i>mikafat</i><par n="jin__n_f"/></e>
     <e lm="tûl"><i>tûl</i><par n="jin__n_f"/></e>
     <e lm="banû"><i>ban</i><par n="ban/û__n_f"/></e>
     <e lm="pîrek"><i>pîrek</i><par n="jin__n_f"/></e>
@@ -15462,7 +15480,7 @@
     <e lm="îngilîzî"><p><l>îngilîzî</l><r>înglîzî</r></p><par n="nû__adj"/></e>
     <e lm="erebî"><i>ereb</i><par n="navend/î__adj"/></e>
     <e lm="taybet"><i>taybe</i><par n="pêwis/t__adj"/></e>
-    <e lm="dewlemend"><i>dewlemend</i><par n="germ__adj"/></e>
+    <e lm="dewlemend"><i>dewlemen</i><par n="dewlemen/d__adj"/></e>
     <e lm="reş"><i>reş</i><par n="germ__adj"/></e>
     <e lm="cuda"><i>cuda</i><par n="nû__adj"/></e>
     <e lm="perîşan"><i>perîşan</i><par n="germ__adj"/></e>
@@ -15743,6 +15761,14 @@
 
   </section>
   <section id="verbs" type="standard">
+        <!-- heşifandin; ; heşifand; heşifîn -->
+    <e lm="heşifandin"><p><l>heşifand</l><r>heşifandin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="heşifandin"><p><l>diheşifîn</l><r>heşifandin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="heşifandin"><p><l>biheşifîn</l><r>heşifandin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="heşifandin"><p><l>neheşifand</l><r>heşifandin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="heşifandin"><p><l>naheşifîn</l><r>heşifandin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="heşifandin"><p><l>neheşifîn</l><r>heşifandin</r></p><par n="nek/e__vblex_tv"/></e>
+
         <!-- cîbicî kirin; ; cîbicî kir; cîbicî..k -->
     <e lm="cîbicî kirin" r="LR"><p><l>cîbicîkir</l><r>cîbicî<b/>kirin</r></p><par n="kir/__vblex_tv"/></e>
     <e lm="cîbicî kirin" r="LR"><p><l>cîbicîdik</l><r>cîbicî<b/>kirin</r></p><par n="dik/e__vblex_tv"/></e>
@@ -16477,7 +16503,7 @@
     <e lm="çûn"><p><l>diç</l><r>çûn</r></p><par n="diaxiv/e__vblex_iv"/></e>
     <e lm="çûn"><p><l>biç</l><r>çûn</r></p><par n="biaxiv/e__vblex_iv"/></e>
     <e lm="çûn"><p><l>her</l><r>çûn</r></p><par n="biaxiv/e__vblex_iv"/></e>
-    <e lm="çûn"><p><l>çû</l><r>çûn</r></p><par n="çû/n__vblex_iv"/></e>
+<!-- <e lm="çûn"><p><l>çû</l><r>çûn</r></p><par n="çû/n__vblex_iv"/></e>-->
     <e lm="çûn"><p><l>neçû</l><r>çûn</r></p><par n="neçû/n__vblex_iv"/></e>
     <e lm="çûn"><p><l>naçû</l><r>çûn</r></p><par n="neçû/n__vblex_iv"/></e>
     <e lm="çûn"><p><l>diçû</l><r>çûn</r></p><par n="diçû/n__vblex_iv"/></e>

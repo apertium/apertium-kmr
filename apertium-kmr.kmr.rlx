@@ -9,7 +9,9 @@ LIST Top = top ;
 LIST Ant = ant;
 LIST Pron = prn ;
 LIST V = vaux vblex vbser vbcop vbhaver ;
+LIST Vaux = vaux ;
 LIST Adv = adv ;
+LIST Narr = narr ;
 LIST Num = num ;
 LIST Sent = sent ;
 LIST CC = cnjcoo ;
@@ -32,7 +34,7 @@ LIST Eza = con ;
 LIST Obl = obl ;
 LIST Voc = voc ;
 LIST TV = tv ; 
-
+LIST NONTV = iv vbcop vaux vbhaver ;
 LIST Def = def ;
 LIST Ind = ind ;
 LIST Dem = dem ;
@@ -48,6 +50,7 @@ LIST Fut = fut ;
 LIST Prs = prs ; 
 LIST DÊ = "dê" ;
 LIST BI = "bi" ;
+LIST SELF = "xwe" ; 
 LIST SPEECH-VERB = "axaftin" ;
 LIST DO-VERB = "kirin";
 LIST BUY-VERB = "kirîn";
@@ -176,7 +179,7 @@ SELECT Preadv IF (0 Gelek) (1C A) ;
 
 SELECT N IF (0 Dema) (-1 Pr);
 
-SELECT Sg IF (0 N + Sg OR N + Pl) (1 TV + Past + Sg);
+SELECT Sg IF (0C N + Sg OR N + Pl) (1 TV + Past + Sg);
 
 SELECT Pl IF (0 N + Pl OR N + Pl) (1 TV + Past + Pl);
 
@@ -207,6 +210,8 @@ SELECT P1 IF (0 V + Pl) (-1* V + P1 BARRIER Pron OR N);
 
 SELECT Fut IF (0C V) (-1C* V + Fut);
 
+SELECT SELF + Pron IF (0C N OR SELF) (-1 Eza) (1* TV BARRIER NONTV);
+
 SECTION
 
 LIST @amod = @amod ;
@@ -227,7 +232,7 @@ MAP @nmod:dat TARGET NOMEN + Obl IF (NOT -1* Pr BARRIER V) (NOT 1 Post) (NEGATE 
 
 MAP @dobj TARGET NOMEN + Obl IF (NOT -1 Eza)(NOT -1* Pr BARRIER V) (NOT 1 Post) (1* TV BARRIER V);
 
-MAP @nmod:poss TARGET NOMEN + Obl IF (-1C Eza) ;
+MAP @nmod:poss TARGET Pron + Obl OR Pron + SELF OR NOMEN + Obl IF (-1C Eza) ;
 
 MAP @amod TARGET A IF (-1C Eza);
 
@@ -237,9 +242,13 @@ SECTION
 
 SELECT V IF (0C V OR N) (-1 Adv);
 
+SELECT Cop IF (0C Cop OR Vaux) (NOT -1* PrfPrc); 
+
 SELECT Det IF (0 Adv OR Det) (1 N);
 
 SELECT CS IF (0 Gelo) (-1 BOS);
+
+SELECT NONTV IF (0C TV OR NONTV) (NOT 0 Past) (NOT 0 Narr) (NOT -1* Obl);
 
 SELECT V IF (0 Bû) ;
 
