@@ -43,6 +43,7 @@ LIST Aux = vaux ;
 LIST CS = cnjsub ;
 LIST Pers = pers ;
 LIST Rel = rel ;
+LIST Ref = ref ;
 
 LIST Comma = cm ;
 LIST Past = past ;
@@ -152,6 +153,10 @@ SELECT Aux IF (-1 PrfPrc) ;
 REMOVE Nom IF (-1 Pr) ;
 
 REMOVE Nom IF (-1 Eza) (NOT 1 CC) (NOT 2 Eza) ;
+
+SELECT Ref IF (0C N + Obl OR Ref) (-1 Eza);
+
+SELECT Eza IF (0 N + Voc OR N + Eza) (1 Obl OR Ref); 
 
 SELECT Post IF (0 RE) (-1 JÊ) ;
 
