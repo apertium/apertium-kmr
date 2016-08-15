@@ -156,13 +156,19 @@ REMOVE Nom IF (-1 Eza) (NOT 1 CC) (NOT 2 Eza) ;
 
 SELECT Ref IF (0C N + Obl OR Ref) (-1 Eza);
 
-SELECT Eza IF (0 N + Voc OR N + Eza) (1 Obl OR Ref); 
+SELECT Eza IF (0C N + Voc OR N + Eza) (1 Obl OR Ref); 
 
 SELECT Post IF (0 RE) (-1 JÊ) ;
 
 SELECT JI IF (0 JÊ) (1 RE) ;
 
 SELECT Emph IF (0 Jî) (NOT 1 TV);
+
+REMOVE Emph IF (0 Emph OR Pr) (-1C Emph);
+
+SELECT JI IF (0 JI OR N) (1 Obl);
+
+SELECT Eza IF (0C Eza OR Voc) (-1 CC) (-2 N); 
 
 SELECT Pers IF (0 Pers OR Dem) ; 
 
@@ -171,6 +177,12 @@ SELECT Neg IF ( 0 Neg OR Cop) (NOT 1 EOS) (NEGATE -1* V) (1* V) ;
 SELECT Pr IF (0 Di) (1* Post BARRIER WORD - NPNHA) ;
 
 SELECT Post IF (0 De) (-1* Pr BARRIER WORD - NPNHA) ;
+
+SELECT Pr IF (1*C Post BARRIER WORD - NPNHA) ;
+
+SELECT Post IF (-1*C Pr BARRIER WORD - NPNHA) ;
+
+
 
 SELECT Pron IF (0 Pron OR Det) (1 Pr) ;
 
@@ -199,7 +211,7 @@ SELECT DO-VERB IF (0 DO-VERB OR BUY-VERB);
 
 REMOVE Voc IF (0 Obl OR Voc) (-1 Eza);
 
-SELECT Eza IF (0 Eza OR Voc) (1 Obl);
+SELECT Eza IF (0C Eza OR Voc) (1 Obl);
 
 SELECT CS IF (0 CS OR Pron + Rel) (1* Prs);
 
@@ -238,6 +250,8 @@ MAP @nmod:dat TARGET NOMEN + Obl IF (NOT -1* Pr BARRIER V) (NOT 1 Post) (NEGATE 
 MAP @dobj TARGET NOMEN + Obl IF (NOT -1 Eza)(NOT -1* Pr BARRIER V) (NOT 1 Post) (1* TV BARRIER V);
 
 MAP @nmod:poss TARGET Pron + Obl OR Pron + SELF OR NOMEN + Obl IF (-1C Eza) ;
+
+MAP @nmod:poss TARGET NOMEN + Eza IF (-1C Eza);
 
 MAP @amod TARGET A IF (-1C Eza);
 
