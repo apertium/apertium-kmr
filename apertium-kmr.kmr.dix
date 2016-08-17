@@ -13906,6 +13906,7 @@
     <e lm="Sarî"><i>Sar</i><par n="Agir/î__np"/></e>
     <e lm="Stokmoran"><i>Stokmoran</i><par n="Kurdistan__np"/></e>
     <e lm="Stokmoran"><p><l>Stok<b/>Moran</l><r>Stokmoran</r></p><par n="Kurdistan__np"/></e>
+    <e lm="Stokmoran" r="LR"><p><l>Stok<b/>moran</l><r>Stokmoran</r></p><par n="Kurdistan__np"/></e>
     <e lm="Cûlya"><i>Cûlya</i><par n="Leyla__np"/></e>
     <e lm="Ferho"><i>Ferho</i><par n="Simko__np"/></e>
     <e lm="Simko"><i>Simko</i><par n="Simko__np"/></e>

@@ -35,6 +35,7 @@ LIST Obl = obl ;
 LIST Voc = voc ;
 LIST TV = tv ; 
 LIST NONTV = iv vbcop vaux vbhaver ;
+LIST Previous = past narr pp ; 
 LIST Def = def ;
 LIST Ind = ind ;
 LIST Dem = dem ;
@@ -221,13 +222,17 @@ REMOVE Voc IF (NOT -1 Comma) (1 EOS);
 
 SELECT Fut IF (-1* DÊ); 
 
-SELECT P1 IF (0 V + Pl) (-1* Pron + P1 BARRIER V OR Pron);
+SELECT P1 IF (0 V + Pl) (NOT 0 Past OR Narr) (-1* Pron + P1 BARRIER V OR Pron);
 
-SELECT P1 IF (0 V + Pl) (-1* V + P1 BARRIER Pron OR N); 
+SELECT P1 IF (0 V + Pl)(NOT 0 Past OR Narr) (-1* V + P1 BARRIER Pron OR N); 
+
+SELECT P3 IF (0 V + Pl) (0 Previous) (Not -1* Pron + P1 + Obl OR Pron + P2 + Obl);
 
 SELECT Fut IF (0C V) (-1C* V + Fut);
 
 SELECT SELF + Pron IF (0C N OR SELF) (-1 Eza) (1* TV BARRIER NONTV);
+
+REMOVE Voc IF (0C Voc OR Obl) (-1 V) (1 CC);
 
 SECTION
 
@@ -239,7 +244,7 @@ LIST @qst = @qst ;
 LIST @nmod:dat = @nmod:dat ;
 LIST @nmod:poss = @nmod:poss ;
 LIST @nmod = @nmod ;
-
+LIST @case = @case ;
 
 MAP @nsubj TARGET Pron + Obl IF (0C Obl) (1* TV + Past BARRIER CLB OR Pers + Obl) (NOT -1 Pr) (NOT 1 Post) (NOT -1 Eza) ;
 
@@ -256,6 +261,8 @@ MAP @nmod:poss TARGET NOMEN + Eza IF (-1C Eza);
 MAP @amod TARGET A IF (-1C Eza);
 
 MAP @nmod TARGET N IF (-1C Pr);
+
+MAP @case TARGET Pr OR Post ;
 
 SECTION
 
