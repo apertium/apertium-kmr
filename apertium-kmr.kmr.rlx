@@ -201,7 +201,8 @@ SELECT Sg IF (0C N + Sg OR N + Pl) (1 TV + Past + Sg);
 
 SELECT Pl IF (0 N + Pl OR N + Pl) (1 TV + Past + Pl);
 
-SELECT P3 IF (0 P1 OR P2 OR P3) (NOT -1* Pron + P1) (NOT -1* Pron + P2);
+SELECT P3 IF (0C V) (0 P1 OR P2 OR P3) (NOT -1* Pron + P1) (NOT -1* Pron + P2);
+
 
 SELECT P3 IF (0 P1 OR P2 OR P3) (NOT 0 TV) (NOT -1* Pron + P1 + Nom) (NOT -1* Pron + P1 + Nom) ;
 
@@ -224,9 +225,11 @@ SELECT Fut IF (-1* DÊ);
 
 SELECT P1 IF (0 V + Pl) (NOT 0 Past OR Narr) (-1* Pron + P1 BARRIER V OR Pron);
 
-SELECT P1 IF (0 V + Pl)(NOT 0 Past OR Narr) (-1* V + P1 BARRIER Pron OR N); 
+SELECT P1 IF (0C V + Pl)(NOT 0 Past OR Narr) (-1* V + P1 BARRIER Pron OR N); 
 
-SELECT P3 IF (0 V + Pl) (0 Previous) (Not -1* Pron + P1 + Obl OR Pron + P2 + Obl);
+SELECT P3 IF (0C V + Pl) (0 Previous) (Not -1* Pron + P1 + Obl OR Pron + P2 + Obl);
+
+SELECT A IF (0C A OR V) (-1 Eza);
 
 SELECT Fut IF (0C V) (-1C* V + Fut);
 
