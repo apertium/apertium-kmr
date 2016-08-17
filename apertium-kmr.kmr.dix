@@ -18709,6 +18709,8 @@
     <e lm="man"><p><l>nema</l><r>man</r></p><par n="neaxaft/__vblex_iv"/></e>
     <e lm="man"><p><l>namîn</l><r>man</r></p><par n="naaxiv/e__vblex_iv"/></e>
     <e lm="man"><p><l>nemîn</l><r>man</r></p><par n="neaxiv/e__vblex_iv"/></e>
+    <e lm="man"><p><l>dim</l><r>man</r></p><par n="dim/_vblex_iv"/></e>
+
      
     <!-- dan; ; da; d -->
     <e lm="dan"><p><l>d</l><r>dan</r></p><par n="d/an_vblex_tv"/></e>
