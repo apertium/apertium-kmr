@@ -235,6 +235,10 @@ SELECT Fut IF (0C V) (-1C* V + Fut);
 
 SELECT SELF + Pron IF (0C N OR SELF) (-1 Eza) (1* TV BARRIER NONTV);
 
+SELECT Ant IF (0C N OR Ant) (-1 CC) (-2 Pron + Pers);
+
+SELECT Ant IF (0C N OR Ant) (-1 CC) (-2C Ant);
+
 REMOVE Voc IF (0C Voc OR Obl) (-1 V) (1 CC);
 
 SECTION
