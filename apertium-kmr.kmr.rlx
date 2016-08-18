@@ -91,6 +91,8 @@ LIST Fin = pri past fut narr ; # Complete
 
 SET NOMEN = N | Prop ;
 
+SET ACTOR = N | Prop | Pron + Pers ;
+
 SET NPNHA = N | Num | Prop | Pron | Det | Preadv | A | Eza | Unk | Top ;
 
 SET WORD = N | Num | Prop | V | A | Det | Pron | Preadv | Adv | Unk | Sent | Cop | Aux | CS  ;
@@ -272,6 +274,8 @@ MAP @amod TARGET A IF (-1C Eza);
 MAP @nmod TARGET N IF (-1C Pr);
 
 MAP @case TARGET Pr OR Post ;
+
+MAP @dobj TARGET ACTOR + Nom IF (-1C* NOMEN + Obl) (1C* TV + Past);
 
 SECTION
 
