@@ -241,6 +241,8 @@ SELECT Ant IF (0C N OR Ant) (-1 CC) (-2C Ant);
 
 REMOVE Voc IF (0C Voc OR Obl) (-1 V) (1 CC);
 
+SELECT Pr IF (1* CC BARRIER WORD - NPNHA LINK 1* Pr BARRIER WORD - NPNHA);
+
 SECTION
 
 LIST @amod = @amod ;
