@@ -89,6 +89,8 @@ LIST Ko = "<ko>"i ;
 
 LIST Fin = pri past fut narr ; # Complete
 
+LIST NON-ERG-FIN = pri fut ;
+
 SET NOMEN = N | Prop ;
 
 SET NP-HEAD = N | Prop | Pron + Pers ;
@@ -275,7 +277,9 @@ MAP @nmod TARGET N IF (-1C Pr);
 
 MAP @case TARGET Pr OR Post ;
 
-MAP @dobj TARGET NP-HEAD + Nom IF (-1C* NP-HEAD + Obl) (1C* TV + Past);
+MAP @dobj TARGET NP-HEAD + Nom IF (-1C* NP-HEAD + Obl) (1C* TV + Past OR TV + Narr);
+
+MAP @dobj TARGEt NP-HEAD + Obl IF (-1C* NP-HEAD + Nom) (1C* TV + NON-ERG-FIN) (NOT -1 Pr);
 
 SECTION
 
