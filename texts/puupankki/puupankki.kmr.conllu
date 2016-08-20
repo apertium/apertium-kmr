@@ -103,3 +103,23 @@
 7	bikira	kirin	_	vblex	tv|opt|p3|sg	3	ccomp	_	_
 8	.	.	_	sent	_	7	punct	_	_
 
+1	Ez	ez	_	prn	pers|p1|mf|sg|nom	2	nsubj	_	_
+2	kenîm	kenîn	_	vblex	iv|past|p1|sg	0	root	_	_
+3	û	û	_	cnjcoo	_	2	cc	_	_
+4	min	ez	_	prn	pers|p1|mf|sg|obl	5	nsubj	_	_
+5	got	gotin	_	vblex	tv|past|p3|sg	2	conj	_	_
+6	:	:	_	sent	_	2	punct	_	_
+7	Ma	ma	_	qst	_	11	discourse	_	_
+8	çi	çi	_	prn	itg	11	nsubj	_	_
+9	li	li	_	pr	_	10	case	_	_
+10	me	em	_	prn	pers|p1|mf|pl|obl	11	nmod	_	_
+11	qewimî	qewimin	_	vblex	iv|pp	2	x	_	_
+12	;	;	_	sent	_	11	punct	_	_
+13	agir	agir	_	n	m|sg|nom|def	17	nsubj	_	_
+14	bi	bi	_	pr	_	15	case	_	_
+15	xaniyê	xanî	_	n	m|sg|con|def	17	nmod	_	_
+16	me	em	_	prn	pers|p1|mf|pl|obl	15	nmod:poss	_	_
+17	ket	ketin	_	vblex	iv|past|p3|sg	11	parataxis	_	_
+18	?	?	_	sent	_	17	punct	_	_
+19	...	...	_	sent	_	17	punct	_	_
+

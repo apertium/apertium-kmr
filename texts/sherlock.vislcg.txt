@@ -188,72 +188,46 @@
 	"." sent @punct #8->7
 
 "<Ez>"
-	"ez" prn pers p1 mf sg nom
+	"ez" prn pers p1 mf sg nom @nsubj #1->2
 "<kenîm>"
-	"kenîn" vblex iv past p1 sg
+	"kenîn" vblex iv past p1 sg @root #2->0
 "<û>"
-	"û" cnjcoo @cc 
+	"û" cnjcoo @cc #3->2
 "<min>"
-	"ez" prn pers p1 mf sg obl @nsubj  
-;	"min" n f sg nom def 
-;	"min" n f pl nom def 
-;	"mîn" n f sg nom def 
-;	"mîn" n f pl nom def 
+	"ez" prn pers p1 mf sg obl @nsubj #4->5
 "<got>"
-	"gotin" vblex tv past p3 sg
+	"gotin" vblex tv past p3 sg @conj #5->2
 "<:>"
-	":" sent @punct 
+	":" sent @punct #6->2
 "<Ma>"
-	"ma" qst
-	"me" n f sg con def
-	"man" vblex iv past p3 sg
+	"ma" qst @discourse #7->11
 "<çi>"
-	"çi" prn itg
+	"çi" prn itg @nsubj #8->11
 "<li>"
-	"li" pr @case 
+	"li" pr @case #9->10
 "<me>"
-	"em" prn pers p1 mf pl obl 
-;	"me" n f sg nom def 
-;	"me" n f pl nom def 
-;	"mê" adj pst 
-;	"me" n f sg obl def 
-;	"bûn" vbcop pri p1 sg 
+	"em" prn pers p1 mf pl obl @nmod #10->11
 "<qewimî>"
-	"qewimin" vblex iv past p2 sg
-;	"qewimin" vblex iv pp 
+	"qewimin" vblex iv pp @x #11->2
 "<;>"
-	";" sent @punct 
+	";" sent @punct #12->11
 "<agir>"
-	"agir" n m sg nom def 
-;	"agir" n m pl nom def 
-;	"agir" n m sg obl def  
+	"agir" n m sg nom def @nsubj #13->17
 "<bi>"
-	"bi" pr @case  
-;	"bûn" vbcop prs p3 sg 
-;	"bûn" vaux prs p3 sg 
-;	"bî" n f sg nom def 
-;	"bî" n f pl nom def 
+	"bi" pr @case #14->15
 "<xaniyê>"
-	"xanî" n m sg con def @nmod 
+	"xanî" n m sg con def @nmod #15->17
 "<me>"
-	"em" prn pers p1 mf pl obl @nmod:poss  
-;	"me" n f sg nom def 
-;	"me" n f pl nom def 
-;	"mê" adj pst 
-;	"me" n f sg obl def 
-;	"bûn" vbcop pri p1 sg 
+	"em" prn pers p1 mf pl obl @nmod:poss #16->15
 "<ket>"
-	"ket" n f sg nom def
-	"ket" n f pl nom def
-	"ketin" vblex iv past p3 sg
+	"ketin" vblex iv past p3 sg @parataxis #17->11
 "<?>"
-	"?" sent @punct 
+	"?" sent @punct #18->17
 "<...>"
-	"..." sent @punct 
+	"..." sent @punct #19->17
 
 "<Holmes>"
-	"Holmes" np ant m sg obl @dobj 
-	"Holmes" np ant m sg nom
+	"Holmes" np ant m sg nom @nsubj
 "<:>"
 	":" sent @punct 
 "<Xanimeke>"
@@ -288,13 +262,8 @@
 	"xuyan" vblex iv pri p3 sg
 "<ko>"
 	"ku" cnjsub 
-;	"k" n m sg voc def 
-;	"ko" n m sg obl def @nmod:dat  
-;	"ko" n m sg nom def 
-;	"ko" n m pl nom def 
 "<gelek>"
-	"gelek" preadv 
-;	"gel" n m sg nom ind 
+	"gelek" preadv @advmod
 "<xemxwar>"
 	"xemxwar" adj pst
 "<e>"
