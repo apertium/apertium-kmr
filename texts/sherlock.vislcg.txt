@@ -413,42 +413,25 @@
 	"." sent @punct #14->2
 
 "<Tu>"
-	"tu" prn pers p2 mf sg nom
-;	"tû" n f sg nom def
-;	"tû" n f pl nom def
+	"tu" prn pers p2 mf sg nom @nsubj #1->2
 "<dikarî>"
-	"karîn" vblex tv pri p2 sg
+	"karîn" vblex tv pri p2 sg @root #2->0
 "<her>"
-	"her" det ind mf sg @det
-;	"her" adv
-;	"her" n m sg obl def
-;	"her" n m sg nom def
-;	"her" n m pl nom def
-;	"çûn" vblex iv fut p3 sg
-;	"çûn" vblex iv prs p3 sg
+	"her" det ind mf sg @det #3->4
 "<tiştî>"
-	"tişt" n m sg obl dem @dobj
+	"tişt" n m sg obl dem @dobj #4->
 "<ji>"
-	"ji" pr @case
-	"jî" emph
-	"jî" n m sg obl def @dobj
-	"jî" n m sg nom def
-	"jî" n m pl nom def
+	"ji" pr @case #5->
 "<pêş>"
-	"pêş" adv @advmod
+	"pêş" adj @x #6->
 "<wî>"
-	"ew" prn pers p3 m sg obl
-;	"ew" prn dem m sg obl
-;	"ew" det dem m sg obl
+	"ew" prn pers p3 m sg obl @nmod #7->
 "<ve>"
-	"ve" post @case
-	"ev" prn dem f sg obl
-;	"ev" det dem f sg obl @det
+	"ev" prn dem f sg obl @x #8->
 "<bibêjî>"
-	"gotin" vblex tv fut p2 sg
-	"gotin" vblex tv prs p2 sg
+	"gotin" vblex tv prs p2 sg @ccomp #9->
 "<.>"
-	"." sent @punct
+	"." sent @punct #10->2
 
 "<Lê>"
 	"lê" cnjcoo @cc
