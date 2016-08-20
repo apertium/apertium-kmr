@@ -244,32 +244,28 @@
 	"." sent @punct #8->7
 
 "<Walê>"
-	"walê" adv @advmod 
+	"walê" adv @advmod #1->2
 "<dixuye>"
-	"xuyan" vblex iv pri p3 sg
+	"xuyan" vblex iv pri p3 sg @root #2->0
 "<ko>"
-	"ku" cnjsub 
+	"ku" cnjsub @mark #3->5
 "<gelek>"
-	"gelek" preadv @advmod
+	"gelek" preadv @advmod #4->5
 "<xemxwar>"
-	"xemxwar" adj pst
+	"xemxwar" adj pst @ccomp #5->2
 "<e>"
-	"yê" con m sg
-	"bûn" vbcop pri p3 sg @cop 
+	"bûn" vbcop pri p3 sg @cop #6->5
 "<û>"
-	"û" cnjcoo @cc 
+	"û" cnjcoo @cc #7->5
 "<misîbetin>"
-	"musîbet" n m pl nom ind
+	"musîbet" n m pl nom ind @nsubj #8->11
 "<lê>"
-	"li" pr @case 
-		"ew" prn dem mf sg obl
-;	"lê" cnjcoo 
+	"li" pr @case #9->10
+		"ew" prn dem mf sg obl @nmod #10->11
 "<qewimîne>"
-	"qewimîn" n f sg obl def @nmod 
-;	"qewimîn" n f sg obl dem 
-;	"qewimîn" n f sg voc def 
+	"qewimin" vblex iv narr p3 pl @conj #11->5
 "<.>"
-	"." sent @punct 
+	"." sent @punct #12->2
  
 "<Di>"
 	"di" pr @case  

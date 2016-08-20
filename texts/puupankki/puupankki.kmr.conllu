@@ -132,3 +132,17 @@
 7	kiriye	kirin	_	vblex	tv|narr|p3|sg	1	parataxis	_	_
 8	.	.	_	sent	_	7	punct	_	_
 
+1	Walê	walê	_	adv	_	2	advmod	_	_
+2	dixuye	xuyan	_	vblex	iv|pri|p3|sg	0	root	_	_
+3	ko	ku	_	cnjsub	_	5	mark	_	_
+4	gelek	gelek	_	preadv	_	5	advmod	_	_
+5	xemxwar	xemxwar	_	adj	pst	2	ccomp	_	_
+6	e	bûn	_	vbcop	pri|p3|sg	5	cop	_	_
+7	û	û	_	cnjcoo	_	5	cc	_	_
+8	misîbetin	musîbet	_	n	m|pl|nom|ind	11	nsubj	_	_
+9-10	lê	_	_	_	_	_	_	_	_
+9	_	li	_	pr	_	10	case	_	_
+10	_	ew	_	prn	dem|mf|sg|obl	11	nmod	_	_
+11	qewimîne	qewimin	_	vblex	iv|narr|p3|pl	5	conj	_	_
+12	.	.	_	sent	_	2	punct	_	_
+
