@@ -94,3 +94,12 @@
 17	kirî	kirin	_	vblex	tv|past|p2|sg	7	ccomp	_	_
 18	.	.	_	sent	_	7	punct	_	_
 
+1	Lê	lê	_	cnjcoo	_	3	cc	_	_
+2	min	ez	_	prn	pers|p1|mf|sg|obl	3	nsubj	_	_
+3	nikarî bû	karîn	_	vblex	tv|neg|plu|p3|sg	0	root	_	_
+4	bi	bi	_	pr	_	5	case	_	_
+5	awakî	awa	_	n	m|sg|obl|ind	7	nmod	_	_
+6	din	din	_	adj	_	5	amod	_	_
+7	bikira	kirin	_	vblex	tv|opt|p3|sg	3	ccomp	_	_
+8	.	.	_	sent	_	7	punct	_	_
+

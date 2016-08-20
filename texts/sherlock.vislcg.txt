@@ -171,48 +171,21 @@
 	"." sent @punct #18->7
  
 "<Lê>"
-	"lê" cnjcoo @cc  
-;	"li" pr 
-;		"ew" prn dem mf sg obl
+	"lê" cnjcoo @cc #1->3
 "<min>"
-	"ez" prn pers p1 mf sg obl
-;	"min" n f sg nom def 
-;	"min" n f pl nom def 
-;	"mîn" n f sg nom def 
-;	"mîn" n f pl nom def 
-"<nikarî>"
-	"karîn" vblex tv pp 
-"<bû>"
-	"bûn" vbcop past p3 sg @cop    
-;	"bûn" vbcop pp 
-;	"bûn" vaux pp 
-;	"bû" n f pl nom def 
-;	"bû" n f sg nom def  
-;	"bûn" vaux past p3 sg   
+	"ez" prn pers p1 mf sg obl @nsubj #2->3
+"<nikarî bû>"
+	"karîn" vblex tv neg plu p3 sg @root #3->0
 "<bi>"
-	"bi" pr @case  
-;	"bûn" vbcop prs p3 sg 
-;	"bûn" vaux prs p3 sg 
-;	"bî" n f sg nom def 
-;	"bî" n f pl nom def 
+	"bi" pr @case #4->5
 "<awakî>"
-	"awa" n m sg obl ind @nmod 
-	"awa" n m sg con ind @nmod 
-;	"awak" n m sg obl dem 
+	"awa" n m sg obl ind @nmod #5->7
 "<din>"
-	"din" adj
-	"" vblex tv fut p3 sg
-	"" vblex tv prs p3 sg
-	"dan" vblex tv past p3 pl
-	"dîn" n m sg obl def
-;	"dîn" n m sg nom def 
-;	"dîn" n m pl nom def 
-;	"dîn" n f sg nom def 
-;	"dîn" n f pl nom def 
+	"din" adj @amod #6->5
 "<bikira>"
-	"kirin" vblex tv opt p3 sg
+	"kirin" vblex tv opt p3 sg @ccomp #7->3
 "<.>"
-	"." sent @punct 
+	"." sent @punct #8->7
 
 "<Ez>"
 	"ez" prn pers p1 mf sg nom
@@ -19724,5 +19697,3 @@
 "<.>"
 	"." sent @punct 
 
-"<.>"
-	"." sent @punct 
