@@ -937,7 +937,7 @@
         <e><p><l>î</l><r><s n="p2"/><s n="sg"/></r></p></e>
         <e><p><l>e</l><r><s n="p3"/><s n="sg"/></r></p></e>
         <e><p><l></l><r><s n="p3"/><s n="sg"/></r></p></e>
-<!--        <e><p><l>in</l><r><s n="p1"/><s n="pl"/></r></p></e>-->
+        <e><p><l>in</l><r><s n="p1"/><s n="pl"/></r></p></e>
         <e><p><l>in</l><r><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>in</l><r><s n="p3"/><s n="pl"/></r></p></e>
     </pardef> 
@@ -1178,8 +1178,15 @@
         <e><p><l>in</l><r><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>in</l><r><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
         <e><p><l>in</l><r><s n="inf"/></r></p></e>
+         <e><p><l>ime</l><r><s n="narr"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>iye</l><r><s n="narr"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>e</l><r><s n="narr"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>ine</l><r><s n="narr"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>ine</l><r><s n="narr"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>ine</l><r><s n="narr"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e><p><l>ine</l><r><s n="inf"/></r></p></e>
         <e><p><l>î</l><r><s n="pp"/></r></p></e>
-<!--        <e><p><l></l><r><s n="past"/></r></p><par n="k/e__vblex"/></e>-->
+<!--        <e><p><l></l><r><s n="narr"/></r></p><par n="k/e__vblex"/></e>-->
 <!--    <e><p><l>iye</l><r><s n="perf"/></r></p></e>  CHECK LATER -->
         <e><p><l>ibû</l><r><s n="plu"/></r></p><par n="şo/__vblex"/></e>
         <e><p><l>ibim</l><r><s n="fpi"/><s n="p1"/><s n="sg"/></r></p></e>
