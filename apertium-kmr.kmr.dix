@@ -1119,6 +1119,48 @@
         <e><p><l>iya<b/>bû</l><r><s n="vblex"/><s n="plu"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef> 
 
+    <pardef n="kar/în_past">
+        <e r="LR"><p><l>ibû</l><r><s n="plu"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e r="LR"><p><l>ibûyî</l><r><s n="plu"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e r="LR"><p><l>ibûm</l><r><s n="plu"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e r="LR"><p><l>ibûn</l><r><s n="plu"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e r="LR"><p><l>ibûn</l><r><s n="plu"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e r="LR"><p><l>ibûn</l><r><s n="plu"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>î<b/>bû</l><r><s n="plu"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>î<b/>bûyî</l><r><s n="plu"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>î<b/>bûm</l><r><s n="plu"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>î<b/>bûn</l><r><s n="plu"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>î<b/>bûn</l><r><s n="plu"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e><p><l>î<b/>bûn</l><r><s n="plu"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e><p><l>î</l><r><s n="pp"/></r></p></e>
+    </pardef>
+
+    <pardef n="nikar/în_past">
+        <e r="LR"><p><l>ibû</l><r><s n="neg"/><s n="plu"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e r="LR"><p><l>ibûyî</l><r><s n="neg"/><s n="plu"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e r="LR"><p><l>ibûm</l><r><s n="neg"/><s n="plu"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e r="LR"><p><l>ibûn</l><r><s n="neg"/><s n="plu"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e r="LR"><p><l>ibûn</l><r><s n="neg"/><s n="plu"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e r="LR"><p><l>ibûn</l><r><s n="neg"/><s n="plu"/><s n="p2"/><s n="pl"/></r></p></e>
+        <e><p><l>î<b/>bû</l><r><s n="neg"/><s n="plu"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>î<b/>bûyî</l><r><s n="neg"/><s n="plu"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>î<b/>bûm</l><r><s n="neg"/><s n="plu"/><s n="p1"/><s n="sg"/></r></p></e>
+        <e><p><l>î<b/>bûn</l><r><s n="neg"/><s n="plu"/><s n="p1"/><s n="pl"/></r></p></e>
+        <e><p><l>î<b/>bûn</l><r><s n="neg"/><s n="plu"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e><p><l>î<b/>bûn</l><r><s n="neg"/><s n="plu"/><s n="p3"/><s n="pl"/></r></p></e>
+        <e><p><l>î</l><r><s n="neg"/><s n="pp"/></r></p></e>
+    </pardef>
+
+
+    <pardef n="plu_tv">
+        <e><p><l></l><r><s n="vblex"/><s n="tv"/></r></p><par n="kar/în_past"/></e>
+    </pardef>
+
+    <pardef n="plu__neg_iv">
+        <e><p><l></l><r><s n="vblex"/><s n="iv"/></r></p><par n="kar/în_past"/></e>
+    </pardef>
+
+
     <pardef n="kir/__vblex"> 
         <e><p><l>im</l><r><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
         <e><p><l>î</l><r><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -1126,12 +1168,6 @@
         <e><p><l>in</l><r><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
         <e><p><l>in</l><r><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>in</l><r><s n="past"/><s n="p3"/><s n="pl"/></r></p></e>
-        <e><p><l>ime</l><r><s n="narr"/><s n="p1"/><s n="sg"/></r></p></e>
-        <e><p><l>iye</l><r><s n="narr"/><s n="p2"/><s n="sg"/></r></p></e>
-        <e><p><l>e</l><r><s n="narr"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>ine</l><r><s n="narr"/><s n="p1"/><s n="pl"/></r></p></e>
-        <e><p><l>ine</l><r><s n="narr"/><s n="p2"/><s n="pl"/></r></p></e>
-        <e><p><l>ine</l><r><s n="narr"/><s n="p3"/><s n="pl"/></r></p></e>
         <e><p><l>in</l><r><s n="inf"/></r></p></e>
         <e><p><l>î</l><r><s n="pp"/></r></p></e>
 <!--        <e><p><l></l><r><s n="past"/></r></p><par n="k/e__vblex"/></e>-->
@@ -1182,6 +1218,7 @@
     <pardef n="bez/î__vblex">
         <e><p><l>îm</l><r><s n="past"/><s n="p1"/><s n="sg"/></r></p></e>
         <e><p><l>î</l><r><s n="past"/><s n="p2"/><s n="sg"/></r></p></e>
+        <e><p><l>î</l><r><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
         <e><p><l>î</l><r><s n="past"/><s n="p3"/><s n="sg"/></r></p></e>
         <e><p><l>în</l><r><s n="past"/><s n="p1"/><s n="pl"/></r></p></e>
         <e><p><l>în</l><r><s n="past"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -1267,13 +1304,14 @@
         <e><p><l>didanîne</l><r>danîn<s n="vblex"/><s n="tv"/><s n="prog"/><s n="narr"/><s n="p1"/><s n="pl"/></r></p></e>
         <e><p><l>didanîne</l><r>danîn<s n="vblex"/><s n="tv"/><s n="prog"/><s n="narr"/><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>didanîne</l><r>danîn<s n="vblex"/><s n="tv"/><s n="prog"/><s n="narr"/><s n="p3"/><s n="pl"/></r></p></e> 
-        <e><p><l>dîn</l><r><s n="vblex"/><s n="tv"/></r></p><par n="bik/e__vblex"/></e>
+<!--   <e><p><l>dîn</l><r><s n="vblex"/><s n="tv"/></r></p><par n="bik/e__vblex"/></e>
         <e><p><l>dên</l><r><s n="vblex"/><s n="tv"/></r></p><par n="bik/e__vblex"/></e>
-        <e><p><l>deyn</l><r><s n="vblex"/><s n="tv"/></r></p><par n="bik/e__vblex"/></e>
+        <e><p><l>deyn</l><r><s n="vblex"/><s n="tv"/></r></p><par n="bik/e__vblex"/></e>-->
     </pardef> 
 
     <pardef n="kir/__vblex_tv">
         <e><p><l></l><r><s n="vblex"/><s n="tv"/></r></p><par n="kir/__vblex"/></e>
+        <e><p><l></l><r><s n="vblex"/><s n="tv"/></r></p><par n="plu_tv"/></e>
         <e><p><l>ime</l><r><s n="vblex"/><s n="tv"/><s n="narr"/><s n="p1"/><s n="sg"/></r></p></e>
         <e><p><l>iyî</l><r><s n="vblex"/><s n="tv"/><s n="narr"/><s n="p2"/><s n="sg"/></r></p></e>
         <e><p><l>iye</l><r><s n="vblex"/><s n="tv"/><s n="narr"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -18286,6 +18324,8 @@
     <e lm="karîn"><p><l>dikar</l><r>karîn</r></p><par n="dik/e__vblex_tv"/></e>
     <e lm="karîn"><p><l>kar</l><r>karîn</r></p><par n="dik/e__vblex_tv"/></e>
     <e lm="karîn"><p><l>nikar</l><r>karîn</r></p><par n="nak/e__vblex_tv"/></e>
+
+
 
     <!-- anîn type LVCs -->
     <e lm="bikaranîn"><p><l>bikar</l><r>bikaranîn</r></p><par n="/anîn__vblex_tv"/></e>
