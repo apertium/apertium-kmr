@@ -146,3 +146,24 @@
 11	qewimîne	qewimin	_	vblex	iv|narr|p3|pl	5	conj	_	_
 12	.	.	_	sent	_	2	punct	_	_
 
+1	Di	di	_	pr	_	2	case	_	_
+2	oda	ode	_	n	f|sg|con|def	5	nmod	_	_
+3	mêvanan	mêvan	_	n	m|pl|obl|def	2	nmod:poss	_	_
+4	de	de	_	post	_	2	case	_	_
+5	rûnistiye	rûniştin	_	vblex	iv|narr|p2|sg	0	root	_	_
+6	.	.	_	sent	_	5	punct	_	_
+
+1	Min	ez	_	prn	pers|p1|mf|sg|obl	3	nsubj	_	_
+2	dil	dil	_	n	m|sg|obl|def	3	compound	_	_
+3	kir	kirin	_	vblex	tv|past|p3|sg	0	root	_	_
+4	ko	ku	_	cnjsub	_	12	mark	_	_
+5	em	em	_	prn	pers|p1|mf|pl|nom	12	nsubj	_	_
+6	bi	bi	_	pr	_	7	case	_	_
+7	hev	hev	_	prn	ref|mf|sp	12	nmod	_	_
+8	re	re	_	post	_	7	case	_	_
+9	guhdariya	guhdarî	_	n	f|sg|con|def	12	dobj	_	_
+10	wê	ew	_	det	dem|f|sg|obl	11	det	_	_
+11	xanimê	xanim	_	n	f|sg|obl|dem	9	nmod:poss	_	_
+12	bikin	kirin	_	vblex	tv|prs|p1|pl	3	ccomp	_	_
+13	.	.	_	sent	_	3	punct	_	_
+
