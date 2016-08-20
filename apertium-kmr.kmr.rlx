@@ -45,6 +45,7 @@ LIST CS = cnjsub ;
 LIST Pers = pers ;
 LIST Rel = rel ;
 LIST Ref = ref ;
+LIST Quot = rquot lquot ;
 
 LIST Comma = cm ;
 LIST Past = past ;
@@ -98,6 +99,8 @@ SET NP-HEAD = N | Prop | Pron + Pers ;
 SET NPNHA = N | Num | Prop | Pron | Det | Preadv | A | Eza | Unk | Top ;
 
 SET WORD = N | Num | Prop | V | A | Det | Pron | Preadv | Adv | Unk | Sent | Cop | Aux | CS  ;
+
+SET PUNCT = Sent | Comma | Quot ; 
 
 SET CLB = Fin | CS | CC ;
 
@@ -258,6 +261,10 @@ LIST @nmod:dat = @nmod:dat ;
 LIST @nmod:poss = @nmod:poss ;
 LIST @nmod = @nmod ;
 LIST @case = @case ;
+LIST @punct = @punct ;
+LIST @cc = @cc ; 
+LIST @det = @det ;
+LIST @advmod = @advmod ;
 
 MAP @nsubj TARGET Pron + Obl IF (0C Obl) (1* TV + Past BARRIER CLB OR Pers + Obl) (NOT -1 Pr) (NOT 1 Post) (NOT -1 Eza) ;
 
@@ -277,9 +284,17 @@ MAP @nmod TARGET N IF (-1C Pr);
 
 MAP @case TARGET Pr OR Post ;
 
-MAP @dobj TARGET NP-HEAD + Nom IF (-1C* NP-HEAD + Obl) (1C* TV + Past OR TV + Narr);
+MAP @dobj TARGET NP-HEAD + Nom IF (-1C* NP-HEAD + Obl) (1C* TV + Past OR TV + Narr) (NOT -1 Pr) ;
 
-MAP @dobj TARGEt NP-HEAD + Obl IF (-1C* NP-HEAD + Nom) (1C* TV + NON-ERG-FIN) (NOT -1 Pr);
+MAP @dobj TARGET NP-HEAD + Obl IF (-1C* NP-HEAD + Nom) (1C* TV + NON-ERG-FIN) (NOT -1 Pr);
+
+MAP @punct TARGET PUNCT ;
+
+MAP @cc TARGET CC ; 
+
+MAP @det TARGET Det ;
+
+MAP @advmod TARGET Adv ;
 
 SECTION
 
