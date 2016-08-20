@@ -18258,7 +18258,16 @@
     <e lm="ketin"><p><l>nekev</l><r>ketin</r></p><par n="neaxaft/__vblex_iv"/></e>
     <e lm="ketin"><p><l>nakev</l><r>ketin</r></p><par n="naaxiv/e__vblex_iv"/></e>
     <e lm="ketin"><p><l>nekev</l><r>ketin</r></p><par n="neaxiv/e__vblex_iv"/></e>
-    
+
+     <!-- rûniştin; ; rûnişt; rûn -->
+    <e lm="rûniştin"><p><l>rûnişt</l><r>rûniştin</r></p><par n="axaft/__vblex_iv"/></e>
+    <e lm="rûniştin"><p><l>dirûnişt</l><r>rûniştin</r></p><par n="diaxaft/__vblex_iv"/></e>
+    <e lm="rûniştin"><p><l>dirûn</l><r>rûniştin</r></p><par n="diaxiv/e__vblex_iv"/></e>
+    <e lm="rûniştin"><p><l>birûn</l><r>rûniştin</r></p><par n="biaxiv/e__vblex_iv"/></e>
+    <e lm="rûniştin"><p><l>nerûn</l><r>rûniştin</r></p><par n="neaxaft/__vblex_iv"/></e>
+    <e lm="rûniştin"><p><l>narûn</l><r>rûniştin</r></p><par n="naaxiv/e__vblex_iv"/></e>
+    <e lm="rûniştin"><p><l>nerûn</l><r>rûniştin</r></p><par n="neaxiv/e__vblex_iv"/></e>
+
     <!-- axaftin; ; axaft; axiv -->
     <e lm="axaftin"><p><l>axaft</l><r>axaftin</r></p><par n="axaft/__vblex_iv"/></e>
     <e lm="axaftin"><p><l>diaxaft</l><r>axaftin</r></p><par n="diaxaft/__vblex_iv"/></e>
