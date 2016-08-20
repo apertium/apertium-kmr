@@ -1311,7 +1311,7 @@
 
     <pardef n="kir/__vblex_tv">
         <e><p><l></l><r><s n="vblex"/><s n="tv"/></r></p><par n="kir/__vblex"/></e>
-        <e><p><l></l><r><s n="vblex"/><s n="tv"/></r></p><par n="plu_tv"/></e>
+        <e><p><l></l><r></r></p><par n="plu_tv"/></e>
         <e><p><l>ime</l><r><s n="vblex"/><s n="tv"/><s n="narr"/><s n="p1"/><s n="sg"/></r></p></e>
         <e><p><l>iyî</l><r><s n="vblex"/><s n="tv"/><s n="narr"/><s n="p2"/><s n="sg"/></r></p></e>
         <e><p><l>iye</l><r><s n="vblex"/><s n="tv"/><s n="narr"/><s n="p3"/><s n="sg"/></r></p></e>
