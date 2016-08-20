@@ -121,20 +121,17 @@
 	"." sent @punct #14->13
 
 "<Diviya bû>"
-	"divêtin" vblex plu p3 sg
+	"divêtin" vblex plu p3 sg @root #1->0
 "<tiştekî>"
-	"tişt" n m sg obl ind @nmod:dat MAP:275
-	"tişt" n m sg con ind
+	"tişt" n m sg con ind @nsubj #2->4
 "<mihim>"
-	"mihim" adj pst
+	"mihim" adj pst @amod #3->2
 "<qewimî>"
-	"qewimin" vblex iv past p2 sg SELECT:126
-;	"qewimin" vblex iv pp SELECT:126
+	"qewimin" vblex iv pp @ccomp #4->1
 "<biwa>"
-	"bûn" vbcop narr p3 sg @cop SELECT:132 MAP:301
-;	"bûn" vaux narr p3 sg SELECT:132
+	"bûn" vaux narr p3 sg @aux #5->4
 "<.>"
-	"." sent @punct MAP:293
+	"." sent @punct #6->1
 
 "<Holmes>"
 	"Holmes" np ant m sg obl @nmod:dat MAP:275
