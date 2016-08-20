@@ -1156,9 +1156,18 @@
         <e><p><l></l><r><s n="vblex"/><s n="tv"/></r></p><par n="kar/în_past"/></e>
     </pardef>
 
-    <pardef n="plu__neg_iv">
+    <pardef n="plu_neg_tv">
+        <e><p><l></l><r><s n="vblex"/><s n="tv"/></r></p><par n="nikar/în_past"/></e>
+    </pardef>
+
+    <pardef n="plu_iv">
         <e><p><l></l><r><s n="vblex"/><s n="iv"/></r></p><par n="kar/în_past"/></e>
     </pardef>
+
+    <pardef n="plu_neg_iv">
+        <e><p><l></l><r><s n="vblex"/><s n="iv"/></r></p><par n="nikar/în_past"/></e>
+    </pardef>
+
 
 
     <pardef n="kir/__vblex"> 
@@ -1354,6 +1363,7 @@
 
     <pardef n="nekir/__vblex_tv">
         <e><p><l></l><r><s n="vblex"/><s n="tv"/><s n="neg"/></r></p><par n="kir/__vblex"/></e>
+        <e><p><l></l><r></r></p><par n="plu_neg_tv"/></e>
     </pardef>
 
     <pardef n="nak/e__vblex_tv">
@@ -1382,6 +1392,7 @@
 
     <pardef n="axaft/__vblex_iv">
         <e><p><l></l><r><s n="vblex"/><s n="iv"/></r></p><par n="kir/__vblex"/></e>
+        <e><p><l></l><r></r></p><par n="plu_iv"/></e>
     </pardef>
 
     <pardef n="diaxiv/e__vblex_iv">
@@ -1416,6 +1427,7 @@
 
     <pardef n="neaxaft/__vblex_iv">
         <e><p><l></l><r><s n="vblex"/><s n="iv"/><s n="neg"/></r></p><par n="kir/__vblex"/></e>
+        <e><p><l></l><r></r></p><par n="plu_neg_iv"/></e>
     </pardef>
 
     <pardef n="naaxiv/e__vblex_iv">
