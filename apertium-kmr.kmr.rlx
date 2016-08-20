@@ -123,7 +123,7 @@ SELECT HETA IF (0 HETA OR Eza) ;
 
 REMOVE Voc IF (0 Voc OR Obl) (-1 Eza) ;
 
-SELECT Sg IF (0 Sg OR Pl) (NOT 0 Post)  (1 Cop + Sg);
+SELECT Sg IF (0 Sg OR Pl) (NOT 0 PrfPrc) (NOT 0 Post)  (1 Cop + Sg);
 
 SELECT Eza IF (-1 Eza) (NOT 1 Eza) (NOT 1 EOS);
 
