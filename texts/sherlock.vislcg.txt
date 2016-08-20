@@ -227,34 +227,21 @@
 	"..." sent @punct #19->17
 
 "<Holmes>"
-	"Holmes" np ant m sg nom @nsubj
+	"Holmes" np ant m sg nom @root #1->0
 "<:>"
-	":" sent @punct 
+	":" sent @punct #2->1
 "<Xanimeke>"
-	"xanim" n f sg obl ind @dobj 
-	"xanim" n f sg con ind
+	"xanim" n f sg obl ind @nsubj #3->7
 "<ciwan>"
-	"ciwan" adj pst
-	"ciwan" n m sg obl def
-;	"ciwan" n m sg nom def 
-;	"ciwan" n m pl nom def 
-;	"ciwan" n f sg nom def 
-;	"ciwan" n f pl nom def 
+	"ciwan" adj pst @amod #4->3
 "<desta>"
-	"dest" n f sg con def
-	"deste" n f sg con def
+	"dest" n f sg con def @compound #5->7
 "<me>"
-	"em" prn pers p1 mf pl obl @nmod:poss  
-;	"me" n f sg nom def 
-;	"me" n f pl nom def 
-;	"mê" adj pst 
-;	"me" n f sg obl def 
-;	"bûn" vbcop pri p1 sg 
+	"em" prn pers p1 mf pl obl @dobj #6->7
 "<kiriye>"
-	"kirin" vblex tv narr p3 sg 
-;	"kirîn" vblex tv narr p2 sg 
+	"kirin" vblex tv narr p3 sg @parataxis #7->1
 "<.>"
-	"." sent @punct 
+	"." sent @punct #8->7
 
 "<Walê>"
 	"walê" adv @advmod 

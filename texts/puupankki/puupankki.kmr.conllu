@@ -123,3 +123,12 @@
 18	?	?	_	sent	_	17	punct	_	_
 19	...	...	_	sent	_	17	punct	_	_
 
+1	Holmes	Holmes	_	np	ant|m|sg|nom	0	root	_	_
+2	:	:	_	sent	_	1	punct	_	_
+3	Xanimeke	xanim	_	n	f|sg|obl|ind	7	nsubj	_	_
+4	ciwan	ciwan	_	adj	pst	3	amod	_	_
+5	desta	dest	_	n	f|sg|con|def	7	compound	_	_
+6	me	em	_	prn	pers|p1|mf|pl|obl	7	dobj	_	_
+7	kiriye	kirin	_	vblex	tv|narr|p3|sg	1	parataxis	_	_
+8	.	.	_	sent	_	7	punct	_	_
+
