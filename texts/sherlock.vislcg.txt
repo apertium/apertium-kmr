@@ -181,7 +181,7 @@
 ;	"mîn" n f sg nom def 
 ;	"mîn" n f pl nom def 
 "<nikarî>"
-	"karîn" vblex tv neg pri p2 sg
+	"karîn" vblex tv pp 
 "<bû>"
 	"bûn" vbcop past p3 sg @cop    
 ;	"bûn" vbcop pp 
