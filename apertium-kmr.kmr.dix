@@ -1773,6 +1773,7 @@
     <e lm="hwd"><i>hwd</i><par n="hwd__abbr"/></e> 
     <e lm="km"><i>km</i><par n="hwd__abbr"/></e> 
     <e lm="m"><i>m</i><par n="hwd__abbr"/></e> 
+    <e lm="Dr."><i>Dr.</i><par n="hwd__abbr"/></e> 
     <!-- SECTION: Nouns -->
 
     <!-- New Feminines -->
@@ -13970,6 +13971,7 @@
     <e lm="HDP"><i>HDP</i><par n="YNK__n"/></e>
 
     <!-- SECTION: Proper nouns -->
+    <e lm="Hêlên"><i>Hêlên</i><par n="Zîn__np"/></e>
     <e lm="Nazê"><i>Nazê</i><par n="Leyla__np"/></e>
     <e lm="Sarî"><i>Sar</i><par n="Agir/î__np"/></e>
     <e lm="Stokmoran"><i>Stokmoran</i><par n="Kurdistan__np"/></e>
@@ -15355,6 +15357,7 @@
     <e lm="zindî"><i>zind</i><par n="navend/î__adj"/></e>
     <e lm="tevayî"><i>tevay</i><par n="navend/î__adj"/></e>
     <e lm="kevnar"><i>kevnar</i><par n="germ__adj"/></e>
+    <e lm="kevnar"><p><l>kevinar</l><r>kevnar</r></p><par n="germ__adj"/></e>
     <e lm="herwekî"><i>herwek</i><par n="navend/î__adj"/></e>
     <e lm="zêdetirî"><i>zêdetir</i><par n="navend/î__adj"/></e>
     <e lm="şaş"><i>şaş</i><par n="germ__adj"/></e>
@@ -18248,6 +18251,16 @@
     <e lm="raketin"><p><l>ranekev</l><r>raketin</r></p><par n="neaxaft/__vblex_iv"/></e>
     <e lm="raketin"><p><l>ranakev</l><r>raketin</r></p><par n="naaxiv/e__vblex_iv"/></e>
     <e lm="raketin"><p><l>ranekev</l><r>raketin</r></p><par n="neaxiv/e__vblex_iv"/></e>
+
+    <!-- reciftin; ; ..recift; ..recif -->
+    <e lm="reciftin"><p><l>recift</l><r>reciftin</r></p><par n="axaft/__vblex_iv"/></e>
+    <e lm="reciftin"><p><l>direcift</l><r>reciftin</r></p><par n="diaxaft/__vblex_iv"/></e>
+    <e lm="reciftin"><p><l>direcif</l><r>reciftin</r></p><par n="diaxiv/e__vblex_iv"/></e>
+    <e lm="reciftin"><p><l>birecif</l><r>reciftin</r></p><par n="biaxiv/e__vblex_iv"/></e>
+    <e lm="reciftin"><p><l>nerecif</l><r>reciftin</r></p><par n="neaxaft/__vblex_iv"/></e>
+    <e lm="reciftin"><p><l>narecif</l><r>reciftin</r></p><par n="naaxiv/e__vblex_iv"/></e>
+    <e lm="reciftin"><p><l>nerecif</l><r>reciftin</r></p><par n="neaxiv/e__vblex_iv"/></e>
+
 
     <!-- mirin; ; mir; mir -->
     <e lm="mirin"><p><l>mir</l><r>mirin</r></p><par n="axaft/__vblex_iv"/></e>
