@@ -574,7 +574,6 @@
 	"jinik" n f sg con ind
 "<sih>"
 	"sîh" n f sg nom def
-;	"sîh" n f pl nom def
 "<salî>"
 	"salî" adj pst
 "<bû>"
@@ -583,10 +582,6 @@
 	"û" cnjcoo @cc
 "<ji>"
 	"ji" pr @case
-	"jî" emph
-	"jî" n m sg obl def @nmod:dat
-	"jî" n m sg nom def
-	"jî" n m pl nom def
 "<niho>"
 	"niha" adv @advmod
 "<de>"
@@ -636,12 +631,11 @@
 	"." sent @punct
 
 "<Holmes>"
-	"Holmes" np ant m sg obl @dobj
-	"Holmes" np ant m sg nom
+	"Holmes" np ant m sg obl @nsubj #1->2
 "<got>"
-	"gotin" vblex tv past p3 sg
+	"gotin" vblex tv past p3 sg @root #2->0
 "<->"
-	"-" guio
+	"-" guio 
 "<ê>"
 	"yê" con m sg
 "<:>"
@@ -651,27 +645,16 @@
 ;	"xanim" n f pl nom def
 "<xwe>"
 	"xwe" prn ref mf sp
-	"xwê" n m sg obl def @dobj
-	"xwê" n m sg nom def
-	"xwê" n m pl nom def
-	"xwe" n f sg obl def @dobj
-	"xwe" n f sg nom def
-	"xwe" n f pl nom def
 "<ewçend>"
 	"*ewçend"
 "<aciz>"
 	"aciz" adj pst
 "<meke>"
-	"me" n f sg obl ind
-	"me" n f sg con ind
+	"kirin" vblex tv neg imp p2 sg @parataxis #->2
 "<;>"
 	";" sent @punct
 "<Xwedê>"
-	"Xweda" n m sg con def
-	"xwedê" n m sg obl def
-	"xwedê" n m sg nom def
-	"xweda" n m sg con def
-;	"xwedê" n m pl nom def
+	"Xweda" n m sg nom def
 "<kerîm>"
 	"kerîm" n m sg obl def
 ;	"kerîm" n m pl nom def
