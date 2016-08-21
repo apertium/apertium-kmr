@@ -1133,81 +1133,67 @@
 	"." sent @punct
 
 "<Holmes>"
-	"Holmes" np ant m sg obl @dobj
-	"Holmes" np ant m sg nom
+	"Holmes" np ant m sg nom @nsubj #1->4
 "<serê>"
-	"ser" n m sg con def
-	"sêr" n f sg voc def
-	"sêr" n f sg obl def @dobj
-;	"sêr" n f sg obl dem
+	"ser" n m sg con def @dobj #2->4
 "<xwe>"
-	"xwe" prn ref mf sp
+	"xwe" prn ref mf sp @nmod:poss #3->2
 "<hejand>"
-	"hejandin" vblex tv past p3 sg
+	"hejandin" vblex tv past p3 sg @conj #4->6
 "<û>"
-	"û" cnjcoo @cc
+	"û" cnjcoo @cc #5->4
 "<got>"
-	"gotin" vblex tv past p3 sg
+	"gotin" vblex tv past p3 sg @root #6->0
 "<:>"
-	":" sent @punct
+	":" sent @punct #7
 "<ev>"
-	"ev" det dem mf sp nom @det
+	"ev" det dem mf sp nom @det #8->9
 "<nav>"
- 	"nav" n m sg nom dem
+ 	"nav" n m sg nom dem @nsubj
 "<ji>"
-	"ji" pr @case
-;	"jî" n m sg obl def
-;	"jî" emph
-;	"jî" n m pl nom def
-;	"jî" n m sg nom def
+	"ji" pr @case #9->10
 "<min>"
-	"ez" prn pers p1 mf sg obl
+	"ez" prn pers p1 mf sg obl @nmod #10
 "<re>"
-	"re" post @case
+	"re" post @case #11->10
 "<ne>"
-	"bûn" vbcop pri p1 pl @cop
+	"ne" adv neg @neg #12->14
 "<î>"
 	"bûn" vbcop pri p2 sg @cop
 "<nenas>"
-	"nenas" adj pst
+	"nenas" adj pst @parataxis 
 "<e>"
 	"bûn" vbcop pri p3 sg @cop
-;	"yê" con m sg
 "<.>"
 	"." sent @punct
 
 "<Jinikê>"
-	"jinik" n f sg voc def
-;	"jinik" n f sg obl dem
-;	"jinik" n f sg obl def
+ 	"jinik" n f sg obl def
 "<:>"
 	":" sent @punct
 "<Ev>"
-	"ev" det dem mf sp nom @det
-;	"ev" prn dem mf sp nom
+	"ev" det dem mf sp nom @det #3->4
 "<malbat>"
-	"malbat" n f sg nom def
+	"malbat" n f sg nom def @nsubj #4->5 
 "<yek>"
-	"yek" num sg nom def
+	"yek" num sg nom def 
 "<ji>"
-	"ji" pr @case
+	"ji" pr @case #6->7
 "<malbatên>"
-	"malbat" n f pl con def
+	"malbat" n f pl con def @nmod #6->5
 "<Ingilterê>"
-	"Ingilterê" np top f sg nom def
+	"Ingiltere" np top f sg obl def @nmod:poss #7->6
 "<en>"
-	"yê" con mf pl
+	"yê" con mf pl @x #8->6
 "<dewlementir>"
-	"dewlemend" adj comp @amod
+	"dewlemend" adj comp @amod #9->6
 "<bû>"
-	"bûn" vbcop past p3 sg @cop
+	"bûn" vbcop past p3 sg @cop #10->5
 "<.>"
-	"." sent @punct
+	"." sent @punct #11->5
 
 "<Lê>"
 	"lê" cnjcoo @cc
-	"li" pr @case
-		"ew" prn dem mf sg obl
 "<niho>"
 	"niha" adv @advmod
 "<tu>"
@@ -1223,15 +1209,9 @@
 	"ew" prn dem mf pl obl @nmod:poss
 ;	"ew" det dem mf pl obl @det
 "<ne>"
-	"bûn" vbcop pri p3 pl @cop
-;	"ne" adv neg
-;	"bûn" vbcop pri p1 pl
-;	"bûn" vbcop pri p2 pl
+	"ne" adv neg
 "<maye>"
-	"may" n m sg con def
-	"may" n f sg obl def @nmod:dat
-;	"may" n f sg obl dem
-;	"may" n f sg voc def
+	"man" vblex iv neg narr p3 sg 
 "<;>"
 	";" sent @punct
 "<ji>"
