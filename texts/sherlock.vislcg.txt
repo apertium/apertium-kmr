@@ -940,48 +940,35 @@
 	"." sent @punct
 
 "<Heke>"
-	"heke" cnjsub
-	"heger" cnjadv
-	"hek" n m sg con def
-	"hêk" n f sg obl def @dobj
-	"hêk" n f sg voc def
-;	"hêk" n f sg obl dem
+	"heke" cnjsub @mark #1->6
 "<min>"
-	"ez" prn pers p1 mf sg obl
+	"ez" prn pers p1 mf sg obl @nsubj #2->6
 "<işê>"
-	"îş" n m sg con def
+	"îş" n m sg con def @dobj #3->6
 "<te>"
- 	"tu" prn pers p2 mf sg obl
+ 	"tu" prn pers p2 mf sg obl @nmod:poss #4->3
 "<safî>"
-	"safî" adj pst @amod
+	"safî" adj pst @compound #5->6
 "<kir>"
-	"kirin" vblex tv past p3 sg
+	"kirin" vblex tv past p3 sg @ccomp #6->12
 "<,>"
-	"," cm @punct
+	"," cm @punct #7->6
 "<emelê>"
-	"emel" n m sg con def
+	"emel" n m sg con def @nsubj #8->12
 "<min>"
-	"ez" prn pers p1 mf sg obl
-;	"min" n f pl nom def
-;	"mîn" n f pl nom def
-;	"min" n f sg nom def
-;	"mîn" n f sg nom def
+	"ez" prn pers p1 mf sg obl @nmod:poss #9->8
 "<bi>"
-	"bi" pr @case
-;	"bûn" vbcop prs p3 sg
-;	"bûn" vaux prs p3 sg
-;	"bî" n f sg nom def
-;	"bî" n f pl nom def
+	"bi" pr @case #10->11
 "<xwe>"
-	"xwe" prn ref mf sp
+	"xwe" prn ref mf sp @nmod #11->12
 "<mikafata>"
-	"mikafat" n f sg con def
+	"mikafat" n f sg con def @root #12->0
 "<min>"
-	"ez" prn pers p1 mf sg obl @nmod:poss
+	"ez" prn pers p1 mf sg obl @nmod:poss #13->12
 "<e>"
-	"bûn" vbcop pri p3 sg @cop
+	"bûn" vbcop pri p3 sg @cop #14->12
 "<.>"
-	"." sent @punct
+	"." sent @punct #15->12
 
 "<Bi tenê>"
 	"bi tenê" pr @case
