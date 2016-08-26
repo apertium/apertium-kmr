@@ -1411,66 +1411,42 @@
 	"." sent @punct #18->16
 
 "<Rojekê>"
-	"roj" n f sg obl ind @nmod:dat
-	"roj" n f sg con ind
+	"roj" n f sg obl ind @nmod #1->7 
 "<li>"
-	"li" pr @case
+	"li" pr @case #2->3
 "<xulamê>"
-	"xulam" n m sg con def @nmod
+	"xulam" n m sg con def @nmod #3->7
 "<xwe>"
-	"xwe" prn ref mf sp @nmod:poss
-;	"xwê" n m sg nom def
-;	"xwê" n m pl nom def
-;	"xwe" n f sg nom def
-;	"xwe" n f pl nom def
-;	"xwê" n m sg obl def
-;	"xwe" n f sg obl def
+	"xwe" prn ref mf sp @nmod:poss #4->3
 "<ê>"
-	"yê" con m sg
+	"yê" con m sg @x #5->3
 "<hindî>"
-	"hindî" adj pst @amod
-;	"hindî" n f sg nom def
-;	"hindî" n f pl nom def
+	"hindî" adj pst @amod #6->4
 "<hate>"
-	"hatin" vblex iv perf p3 sg
+	"hatin" vblex iv perf p3 sg @root #7->0
 "<xezebê>"
-	"xezeb" n f sg obl def @dobj
-;	"xezeb" n f sg obl dem
-;	"xezeb" n f sg voc def
+	"xezeb" n f sg obl def @nmod #8->7
 "<;>"
-	";" sent @punct
+	";" sent @punct #9->7
 "<li>"
-	"li" pr @case
+	"li" pr @case #10->11
 "<wî>"
-	"ew" prn pers p3 m sg obl
-;	"ew" prn dem m sg obl
-;	"ew" det dem m sg obl
+	"ew" prn pers p3 m sg obl @nmod #11->
 "<xist>"
-	"xistin" vblex tv past p3 sg
+	"xistin" vblex tv past p3 sg @conj #12->7
 "<û>"
-	"û" cnjcoo @cc
+	"û" cnjcoo @cc #13->7
 "<mêrik>"
-	"mêrik" n m sg nom def
-;	"mêrik" n m pl nom def
-;	"mêrik" n m sg obl def
+	"mêrik" n m sg nom def @nsubj #14->15
 "<mir>"
-	"mirin" vblex iv past p3 sg
-	"mîr" n m sg nom def
-	"mîr" n m pl nom def
-	"mîr" n f sg nom def
-	"mîr" n f pl nom def
-;	"mîr" n m sg obl def
+	"mirin" vblex iv past p3 sg @conj #15->7
 "<.>"
-	"." sent @punct
+	"." sent @punct #16->7
 
 "<Zirbavê>"
 	"zirbav" n m sg con def
 "<min>"
 	"ez" prn pers p1 mf sg obl @nmod:poss
-;	"min" n f sg nom def
-;	"min" n f pl nom def
-;	"mîn" n f sg nom def
-;	"mîn" n f pl nom def
 "<midekî>"
 	"*midekî"
 "<dirêj>"
