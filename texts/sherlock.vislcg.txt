@@ -1202,12 +1202,8 @@
 ;	"tû" n f pl nom def
 "<tiştê>"
 	"tişt" n m sg con def
-;	"tişt" n f sg obl dem
-;	"tişt" n f sg obl def
-;	"tişt" n f sg voc def
 "<wan>"
 	"ew" prn dem mf pl obl @nmod:poss
-;	"ew" det dem mf pl obl @det
 "<ne>"
 	"ne" adv neg
 "<maye>"
@@ -1216,178 +1212,95 @@
 	";" sent @punct
 "<ji>"
 	"ji" pr @case
-	"jî" emph
-	"jî" n m pl nom def
-	"jî" n m sg nom def
-;	"jî" n m sg obl def
 "<çend>"
-	"çend" adv @advmod
 	"çend" det qnt mf sp @det
 "<donim>"
-	"*donim"
+	"donim" n m sg obl def
 "<erd>"
 	"erd" n f sg nom def
-;	"erd" n f pl nom def
 "<û>"
 	"û" cnjcoo @cc
 "<qesrekê>"
 	"qesr" n f sg con ind
-;	"qesr" n f sg obl ind
 "<pê>"
 	"bi" pr @case
 		"ew" prn dem m sg obl
-	"bi" pr @case
-		"ew" prn dem f sg obl
-;	"pê" n m sg obl def
-;	"pê" n m sg nom def
-;	"pê" n m pl nom def
 "<ve>"
 	"ve" post @case
-;	"ev" prn dem f sg obl
-;	"ev" det dem f sg obl
 "<.>"
 	"." sent @punct
 
 "<Qesirekê>"
-	"qesir" n f sg obl ind @nmod:dat
-	"qesir" n f sg con ind
+	"qesir" n f sg con ind @nsubj #1->11
 "<kevinare>"
-	"*kevinare"
+	"kevnare" adj pst @amod #2->1
 "<,>"
-	"," cm @punct
+	"," cm @punct #3->11
 "<berî>"
-	"berî" pr @case
-	"berî" cnjsub
-	"berî" adv @advmod
-	"berî" n f pl nom def
-	"bêrî" n f sg nom def
-	"bêrî" n f pl nom def
-	"berî" n f sg nom def
-;	"ber" n m sg obl dem
+	"berî" pr @case #4->9 
 "<du>"
-	"dû" n m sg obl def
-;	"du" num pl nom def
-;	"dû" n m sg nom def
-;	"dû" n m pl nom def
+	"du" num pl nom def @compound #5->6
 "<sed>"
-	"sed" num pl
-	"sed" n m sg obl def @nmod:dat
-	"sed" n m sg nom def @dobj
-	"sed" n m pl nom def @dobj
+	"sed" num pl @nummod #6->9
 "<û>"
-	"û" cnjcoo @cc
+	"û" cnjcoo @cc #7->6
 "<hin>"
-	"hin" det qnt mf sp @det
-;	"hîn" n m sg obl def
-;	"hîn" n m sg nom def
-;	"hîn" n m pl nom def
-;	"hîn" n f sg nom def
-;	"hîn" n f pl nom def
+	"hin" det qnt mf sp @det #8->9
 "<salan>"
-	"sal" n f pl obl dem @nmod:dat
-	"sal" n f pl obl def @nmod:dat
+	"sal" n f pl obl def @nmod #9->11
 "<hate>"
-	"hatin" vblex iv perf p3 sg
+	"hatin" vblex iv perf p3 sg @aux #10->11
 "<ava kirin>"
-	"avakirin" vblex tv past p3 pl
-;	"avakirin" vblex tv inf
-;	"avakirin" vblex tv past p1 pl
-;	"avakirin" vblex tv past p2 pl
+	"avakirin" vblex tv inf @root #11->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #12->11
 
 "<Lê>"
-	"li" pr @case
-		"ew" prn dem mf sg obl
-;	"lê" cnjcoo
+	"lê" cnjcoo @conj #1->6
 "<ew>"
-	"ew" prn pers p3 mf sg nom
-;	"ew" prn dem mf sp nom
-;	"ew" det dem mf sp nom
+	"ew" prn pers p3 mf sg nom @nsubj #3->6
 "<jî>"
-	"jî" emph
-;	"jî" n m sg obl def
-;	"jî" n m pl nom def
-;	"jî" n m sg nom def
+	"jî" emph @advmod #3->6
 "<di>"
-	"di" pr @case
-;	"din" adj
-;	"dî" n f sg nom def
-;	"dî" n f pl nom def
+	"di" pr @case #4->6
 "<bin>"
-	"bin" n m sg obl def @nmod
+	"bin" n m sg obl def @nmod  WHAT IS THIS
 ;	"bin" n m pl nom def
 ;	"bin" n m sg nom def
 "<barê>"
-	"bar" n m sg con def
-;	"bare" n f sg obl def
+	"bar" n m sg con def @root #6->0
 "<rehneke>"
-	"rexne" n f sg con ind @nmod:poss
-;	"rexne" n f sg obl ind
+	"rexne" n f sg con ind @nmod:poss #7->6
 "<giran>"
-	"giran" adj pst @amod
-	"gir" n f pl obl def @nmod:poss
-	"gir" n m pl obl def @nmod:poss
-	"gîr" n f pl obl def @nmod:poss
-;	"gir" n m pl obl dem
-;	"gir" n f pl obl dem
-;	"gîr" n f pl obl dem
+	"giran" adj pst @amod #8->7
 "<de>"
-	"de" post @case
-;	"de" n f sg obl def
-;	"dê" fut
-;	"de" pr
-;	"de" n f pl nom def
-;	"de" n f sg nom def
+	"de" post @case #9->6
 "<ye>"
-	"bûn" vbcop pri p3 sg @cop
-;	"yê" con m sg
+	"bûn" vbcop pri p3 sg @cop #10->6
 "<.>"
-	"." sent @punct
+	"." sent @punct #11->6
 
 "<Qesir>"
 	"qesir" n f sg nom def
-;	"qesir" n f pl nom def
 "<di>"
 	"di" pr @case
-;	"din" adj
-;	"dî" n f sg nom def
-;	"dî" n f pl nom def
 "<eyaleta>"
 	"eyalet" n f sg con def @nmod
 "<Sariyê>"
 	"Sarî" np top f sg obl def @nmod:poss
-	"sarî" n f sg obl def @nmod:poss
-;	"sarî" n f sg voc def
-;	"sarî" n f sg obl dem
-;	"Sarî" np top f sg obl dem
 "<di>"
 	"di" pr @case
-;	"din" adj
-;	"dî" n f sg nom def
-;	"dî" n f pl nom def
 "<Stokmoranê>"
 	"Stokmoran" np top f sg obl def
-;	"Stokmoran" np top f sg voc def
-;	"Stokmoran" np top f sg obl dem
 "<de>"
 	"de" post @case
-;	"de" n f sg obl def
-;	"dê" fut
-;	"de" pr
-;	"de" n f pl nom def
-;	"de" n f sg nom def
 "<ye>"
 	"bûn" vbcop pri p3 sg @cop
-;	"yê" con m sg
 "<.>"
 	"." sent @punct
 
 "<Di>"
 	"di" pr @case
-;	"din" adj
-;	"dî" n f sg nom def
-;	"dî" n f pl nom def
 "<wextê>"
 	"wext" n m sg con def @nmod
 "<bavê>"
@@ -1396,27 +1309,14 @@
 	"zirbav" n m sg con def @nmod:poss
 "<min>"
 	"ez" prn pers p1 mf sg obl @nmod:poss
-;	"min" n f sg nom def
-;	"min" n f pl nom def
-;	"mîn" n f sg nom def
-;	"mîn" n f pl nom def
 "<de>"
 	"de" post @case
-;	"de" n f sg obl def
-;	"dê" fut
-;	"de" pr
-;	"de" n f pl nom def
-;	"de" n f sg nom def
 "<hêj>"
 	"hêj" adv @advmod
 "<çend>"
 	"çend" det qnt mf sp @det
-;	"çend" adv @advmod
 "<pêre>"
 	"pêre" n m pl nom def
-;	"pêre" n m sg obl def
-;	"pêre" n m sg con def
-;	"pêre" n m sg nom def
 "<hebûn>"
 	"hebûn" vbhaver past p3 pl
 ;	"hebûn" n f sg nom def

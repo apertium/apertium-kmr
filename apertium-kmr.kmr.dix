@@ -15834,6 +15834,22 @@
 
   </section>
   <section id="verbs" type="standard">
+        <!-- spas kirin; ; spas kir; spas..k -->
+    <e lm="spas kirin" r="LR"><p><l>spaskir</l><r>spas<b/>kirin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="spas kirin" r="LR"><p><l>spasdik</l><r>spas<b/>kirin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="spas kirin" r="LR"><p><l>spasbik</l><r>spas<b/>kirin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="spas kirin" r="LR"><p><l>spasnekir</l><r>spas<b/>kirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="spas kirin" r="LR"><p><l>spasdikir</l><r>spas<b/>kirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="spas kirin" r="LR"><p><l>spasnak</l><r>spas<b/>kirin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="spas kirin" r="LR"><p><l>spasnek</l><r>spas<b/>kirin</r></p><par n="nek/e__vblex_tv"/></e>
+    <e lm="spas kirin"><p><l>spas<b/>kir</l><r>spas<b/>kirin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="spas kirin"><p><l>spas<b/>dik</l><r>spas<b/>kirin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="spas kirin"><p><l>spas<b/>bik</l><r>spas<b/>kirin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="spas kirin"><p><l>spas<b/>nekir</l><r>spas<b/>kirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="spas kirin"><p><l>spas<b/>dikir</l><r>spas<b/>kirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="spas kirin"><p><l>spas<b/>nak</l><r>spas<b/>kirin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="spas kirin"><p><l>spas<b/>nek</l><r>spas<b/>kirin</r></p><par n="nek/e__vblex_tv"/></e>
+
         <!-- heşifandin; ; heşifand; heşifîn -->
     <e lm="heşifandin"><p><l>heşifand</l><r>heşifandin</r></p><par n="kir/__vblex_tv"/></e>
     <e lm="heşifandin"><p><l>diheşifîn</l><r>heşifandin</r></p><par n="dik/e__vblex_tv"/></e>
@@ -19965,6 +19981,7 @@
     <e lm="hêsan"><i>hêsan</i><par n="germ__adj"/></e>
     <e lm="jor"><i>jor</i><par n="germ__adj"/></e>
     <e lm="kevn"><i>kevn</i><par n="germ__adj"/></e>
+    <e lm="kevn"><p><l>kevin</l><r>kevn</r></p><par n="germ__adj"/></e>
     <e lm="kêm"><i>kêm</i><par n="germ__adj"/></e>
     <e lm="kûr"><i>kûr</i><par n="germ__adj"/></e>
     <e lm="lawaz"><i>lawaz</i><par n="germ__adj"/></e>
