@@ -196,3 +196,82 @@
 13	e	bûn	_	vbcop	pri|p3|sg	8	cop	_	_
 14	.	.	_	sent	_	2	punct	_	_
 
+1	Heke	heke	_	cnjsub	_	6	mark	_	_
+2	min	ez	_	prn	pers|p1|mf|sg|obl	6	nsubj	_	_
+3	işê	îş	_	n	m|sg|con|def	6	dobj	_	_
+4	te	tu	_	prn	pers|p2|mf|sg|obl	3	nmod:poss	_	_
+5	safî	safî	_	adj	pst	6	compound	_	_
+6	kir	kirin	_	vblex	tv|past|p3|sg	12	ccomp	_	_
+7	,	,	_	cm	_	6	punct	_	_
+8	emelê	emel	_	n	m|sg|con|def	12	nsubj	_	_
+9	min	ez	_	prn	pers|p1|mf|sg|obl	8	nmod:poss	_	_
+10	bi	bi	_	pr	_	11	case	_	_
+11	xwe	xwe	_	prn	ref|mf|sp	12	nmod	_	_
+12	mikafata	mikafat	_	n	f|sg|con|def	0	root	_	_
+13	min	ez	_	prn	pers|p1|mf|sg|obl	12	nmod:poss	_	_
+14	e	bûn	_	vbcop	pri|p3|sg	12	cop	_	_
+15	.	.	_	sent	_	12	punct	_	_
+
+1	Ez	ez	_	prn	pers|p1|mf|sg|nom	5	nsubj	_	_
+2	digel	digel	_	pr	_	3	case	_	_
+3	zirbavê	zirbav	_	n	m|sg|con|def	5	nmod	_	_
+4	xwe	xwe	_	prn	ref|mf|sp	3	nmod:poss	_	_
+5	dijîm	jîn	_	vblex	iv|pri|p1|sg	0	root	_	_
+6	.	.	_	sent	_	5	punct	_	_
+
+1	Zirbavê	zirbav	_	n	m|sg|con|def	4	nsubj	_	_
+2	min	ez	_	prn	pers|p1|mf|sg|obl	1	nmod:poss	_	_
+3	ji	ji	_	pr	_	4	case	_	_
+4	malbateke	malbat	_	n	f|sg|con|ind	0	root	_	_
+5	kevin	kevn	_	adj	pst	4	amod	_	_
+6	e	bûn	_	vbcop	pri|p3|sg	4	cop	_	_
+7	;	;	_	sent	_	4	punct	_	_
+8	ji	ji	_	pr	_	9	case	_	_
+9	malbata	malbat	_	n	f|sg|con|def	4	appos	_	_
+10	Rweylot	Rweylot	_	np	ant|m|sg|obl	10	nmod:poss	_	_
+11	.	.	_	sent	_	10	punct	_	_
+
+1	Qesirekê	qesir	_	n	f|sg|con|ind	11	nsubj	_	_
+2	kevinare	kevnare	_	adj	pst	1	amod	_	_
+3	,	,	_	cm	_	11	punct	_	_
+4	berî	berî	_	pr	_	9	case	_	_
+5	du	du	_	num	pl|nom|def	6	compound	_	_
+6	sed	sed	_	num	pl	9	nummod	_	_
+7	û	û	_	cnjcoo	_	6	cc	_	_
+8	hin	hin	_	det	qnt|mf|sp	9	det	_	_
+9	salan	sal	_	n	f|pl|obl|def	11	nmod	_	_
+10	hate	hatin	_	vblex	iv|perf|p3|sg	11	aux	_	_
+11	ava kirin	avakirin	_	vblex	tv|inf	0	root	_	_
+12	.	.	_	sent	_	11	punct	_	_
+
+1	Di	di	_	pr	_	2	case	_	_
+2	wextê	wext	_	n	m|sg|con|def	10	nmod	_	_
+3	bavê	bav	_	n	m|sg|con|def	2	nmod:poss	_	_
+4	zirbavê	zirbav	_	n	m|sg|con|def	3	nmod:poss	_	_
+5	min	ez	_	prn	pers|p1|mf|sg|obl	4	nmod:poss	_	_
+6	de	de	_	post	_	2	case	_	_
+7	hêj	hêj	_	adv	_	10	advmod	_	_
+8	çend	çend	_	det	qnt|mf|sp	9	det	_	_
+9	pêre	pêre	_	n	m|pl|nom|def	10	nsubj	_	_
+10	hebûn	hebûn	_	vbhaver	past|p3|pl	0	root	_	_
+11	.	.	_	sent	_	10	punct	_	_
+
+1	Piştî	pîştî	_	pr	_	2	case	_	_
+2	mirina	mirin	_	n	f|sg|con|def	7	nmod	_	_
+3	bavê	bav	_	n	m|sg|con|def	2	nmod:poss	_	_
+4	wî	ew	_	prn	pers|p3|m|sg|obl	3	nmod:poss	_	_
+5	zirbavê	zirbav	_	n	m|sg|con|def	7	nsubj	_	_
+6	min	ez	_	prn	pers|p1|mf|sg|obl	5	nmod:poss	_	_
+7	rabû	rabûn	_	vblex	iv|past|p3|sg	0	root	_	_
+8	çû	çû	_	adj	_	7	conj	_	_
+9	Hindistanê	Hindistan	_	np	top|f|sg|obl|def	8	nmod	_	_
+10	û	û	_	cnjcoo	_	7	cc	_	_
+11	li	li	_	pr	_	13	case	_	_
+12	wê	ew	_	prn	dem|f|sg|obl	13	det	_	_
+13	derê	dêr	_	n	f|sg|obl|dem	16	nmod	_	_
+14	bi	bi	_	pr	_	15	case	_	_
+15	bijîşkiyê	bijîşkî	_	n	f|sg|obl|def	16	nmod	_	_
+16	mijûl	mijûl	_	adj	pst	0	root	_	_
+17	bû	bûn	_	vbcop	past|p3|sg	7	conj	_	_
+18	.	.	_	sent	_	16	punct	_	_
+
