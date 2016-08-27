@@ -950,7 +950,7 @@
 "<safî>"
 	"safî" adj pst @compound #5->6
 "<kir>"
-	"kirin" vblex tv past p3 sg @ccomp #6->12
+	"kirin" vblex tv past p3 sg @advcl #6->12
 "<,>"
 	"," cm @punct #7->6
 "<emelê>"
