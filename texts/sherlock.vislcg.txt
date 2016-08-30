@@ -1547,78 +1547,46 @@
 	"." sent @punct
 
 "<Diya>"
-	"dî" n f sg con def
+	"dî" n f sg con def @nsubj #1->5
 "<me>"
-	"em" prn pers p1 mf pl obl
+	"em" prn pers p1 mf pl obl @nmod:poss #2->1
 "<em>"
-	"em" prn pers p1 mf pl nom
+	"em" prn pers p1 mf pl nom @dobj #3->5
 "<cêwik>"
-	"cêwik" n f sg nom def 
+	"cêwik" n f sg nom def @nmod #4->5
 "<anî bûn>"
-	"anîn" vblex tv plu p1 pl
+	"anîn" vblex tv plu p1 pl @root #5->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #6->5
 
 "<Piştî>"
-	"piştî" pr @case
-	"piştî" n m sg obl def @dobj
-	"piştî" n m sg nom def
-	"piştî" n m pl nom def
+	"piştî" pr @case #1->2
 "<vegera>"
-	"veger" n f sg con def
+	"veger" n f sg con def @nmod #2->13
 "<me>"
-	"em" prn pers p1 mf pl obl @nmod:poss
-;	"me" n f sg nom def
-;	"me" n f pl nom def
-;	"mê" adj pst
-;	"me" n f sg obl def
-;	"bûn" vbcop pri p1 sg
+	"em" prn pers p1 mf pl obl @nmod:poss #3->2
 "<a>"
-	"yê" con f sg
+	"yê" con f sg @x #4->2
 "<Ingilterê>"
-	"Ingilterê" np top f sg nom def @dobj
+	"Ingilterê" np top f sg obl def @x #5->2
 "<bi>"
-	"bi" pr @case
-;	"bûn" vbcop prs p3 sg
-;	"bûn" vaux prs p3 sg
-;	"bî" n f sg nom def
-;	"bî" n f pl nom def
+	"bi" pr @case #6->8
 "<çend>"
-	"çend" det qnt mf sp @det
-;	"çend" adv
+	"çend" det qnt mf sp @det #7->8
 "<salan>"
-	"sal" n f pl obl dem @dobj
-	"sal" n f pl obl def @dobj
+	"sal" n f pl obl def @nmod #8->13
 "<diya>"
-	"dî" n f sg con def
+	"dî" n f sg con def @nsubj #9->13
 "<me>"
-	"em" prn pers p1 mf pl obl @nmod:poss
-;	"mê" adj pst
-;	"me" n f sg obl def
-;	"me" n f sg nom def
-;	"me" n f pl nom def
-;	"bûn" vbcop pri p1 sg
+	"em" prn pers p1 mf pl obl @nmod:poss #10->9
 "<emirê>"
-	"emir" n m sg con def
-	"emîre" n f sg obl def @dobj
-	"emir" n f sg obl def @dobj
-	"emir" n f sg voc def
-;	"emir" n f sg obl dem
+	"emir" n m sg con def @dobj #11->13
 "<Xwedê>"
-	"Xweda" n m sg con def
-	"xweda" n m sg con def
-;	"xwedê" n m pl nom def
-;	"xwedê" n m sg obl def
-;	"xwedê" n m sg nom def
+	"Xweda" n m sg obl def @nmod:poss #12->11
 "<kir>"
-	"kirin" vblex tv past p3 sg
-;	"kir" n f sg nom def
-;	"kir" n f pl nom def
-;	"kîr" n m sg nom def
-;	"kîr" n m pl nom def
-;	"kîr" n m sg obl def
+	"kirin" vblex tv past p3 sg @root #13->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #14->13
 
 "<Zirbavê>"
 	"zirbav" n m sg con def
