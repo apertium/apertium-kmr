@@ -293,3 +293,25 @@
 16	anî bû	anîn	_	vblex	tv|plu|p3|sg	0	root	_	_
 17	.	.	_	sent	_	16	punct	_	_
 
+1	Diya	dî	_	n	f|sg|con|def	5	nsubj	_	_
+2	me	em	_	prn	pers|p1|mf|pl|obl	1	nmod:poss	_	_
+3	em	em	_	prn	pers|p1|mf|pl|nom	5	dobj	_	_
+4	cêwik	cêwik	_	n	f|sg|nom|def	5	nmod	_	_
+5	anî bûn	anîn	_	vblex	tv|plu|p1|pl	0	root	_	_
+6	.	.	_	sent	_	5	punct	_	_
+
+1	Piştî	piştî	_	pr	_	2	case	_	_
+2	vegera	veger	_	n	f|sg|con|def	13	nmod	_	_
+3	me	em	_	prn	pers|p1|mf|pl|obl	2	nmod:poss	_	_
+4	a	yê	_	con	f|sg	2	x	_	_
+5	Ingilterê	Ingilterê	_	np	top|f|sg|obl|def	2	x	_	_
+6	bi	bi	_	pr	_	8	case	_	_
+7	çend	çend	_	det	qnt|mf|sp	8	det	_	_
+8	salan	sal	_	n	f|pl|obl|def	13	nmod	_	_
+9	diya	dî	_	n	f|sg|con|def	13	nsubj	_	_
+10	me	em	_	prn	pers|p1|mf|pl|obl	9	nmod:poss	_	_
+11	emirê	emir	_	n	m|sg|con|def	13	dobj	_	_
+12	Xwedê	Xweda	_	n	m|sg|obl|def	11	nmod:poss	_	_
+13	kir	kirin	_	vblex	tv|past|p3|sg	0	root	_	_
+14	.	.	_	sent	_	13	punct	_	_
+
