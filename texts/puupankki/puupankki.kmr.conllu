@@ -201,7 +201,7 @@
 3	işê	îş	_	n	m|sg|con|def	6	dobj	_	_
 4	te	tu	_	prn	pers|p2|mf|sg|obl	3	nmod:poss	_	_
 5	safî	safî	_	adj	pst	6	compound	_	_
-6	kir	kirin	_	vblex	tv|past|p3|sg	12	ccomp	_	_
+6	kir	kirin	_	vblex	tv|past|p3|sg	12	advcl	_	_
 7	,	,	_	cm	_	6	punct	_	_
 8	emelê	emel	_	n	m|sg|con|def	12	nsubj	_	_
 9	min	ez	_	prn	pers|p1|mf|sg|obl	8	nmod:poss	_	_
@@ -274,4 +274,22 @@
 16	mijûl	mijûl	_	adj	pst	0	root	_	_
 17	bû	bûn	_	vbcop	past|p3|sg	7	conj	_	_
 18	.	.	_	sent	_	16	punct	_	_
+
+1	Dr.	Dr.	_	abbr	_	16	nsubj	_	_
+2	Rweylot	Rweylot	_	np	ant|m|sg|nom	1	name	_	_
+3	gava	gava	_	cnjsub	_	5	mark	_	_
+4	li	li	_	pr	_	5	case	_	_
+5	Hindistanê	Hindistan	_	np	top|f|sg|obl|def	16	advcl	_	_
+6	bû	bûn	_	vbcop	past|p3|sg	5	cop	_	_
+7	diya	dî	_	n	f|sg|con|def	16	dobj	_	_
+8	min	ez	_	prn	pers|p1|mf|sg|obl	7	nmod:poss	_	_
+9	biya	bî	_	n	f|sg|con|def	7	appos	_	_
+10	gênêral	gênêral	_	n	m|sg|nom|def	9	nmod:poss	_	_
+11	Stonêr	Stonêr	_	np	ant|m|sg|nom	10	name	_	_
+12	,	,	_	cm	_	16	punct	_	_
+13	ji	ji	_	pr	_	14	case	_	_
+14	xwe	xwe	_	prn	ref|mf|sp	16	nmod	_	_
+15	re	re	_	post	_	14	case	_	_
+16	anî bû	anîn	_	vblex	tv|plu|p3|sg	0	root	_	_
+17	.	.	_	sent	_	16	punct	_	_
 
