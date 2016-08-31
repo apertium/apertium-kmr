@@ -150,7 +150,7 @@
 2	oda	ode	_	n	f|sg|con|def	5	nmod	_	_
 3	mêvanan	mêvan	_	n	m|pl|obl|def	2	nmod:poss	_	_
 4	de	de	_	post	_	2	case	_	_
-5	rûnistiye	rûniştin	_	vblex	iv|narr|p2|sg	0	root	_	_
+5	rûniştiye	rûniştin	_	vblex	iv|narr|p2|sg	0	root	_	_
 6	.	.	_	sent	_	5	punct	_	_
 
 1	Min	ez	_	prn	pers|p1|mf|sg|obl	3	nsubj	_	_
@@ -275,8 +275,8 @@
 17	bû	bûn	_	vbcop	past|p3|sg	7	conj	_	_
 18	.	.	_	sent	_	16	punct	_	_
 
-1	Dr.	Dr.	_	abbr	_	16	nsubj	_	_
-2	Rweylot	Rweylot	_	np	ant|m|sg|nom	1	name	_	_
+1	Dr.	Dr.	_	abbr	_	2	compound:nn	_	_
+2	Rweylot	Rweylot	_	np	ant|m|sg|nom	16	nsubj	_	_
 3	gava	gava	_	cnjsub	_	5	mark	_	_
 4	li	li	_	pr	_	5	case	_	_
 5	Hindistanê	Hindistan	_	np	top|f|sg|obl|def	16	advcl	_	_
@@ -314,4 +314,63 @@
 12	Xwedê	Xweda	_	n	m|sg|obl|def	11	nmod:poss	_	_
 13	kir	kirin	_	vblex	tv|past|p3|sg	0	root	_	_
 14	.	.	_	sent	_	13	punct	_	_
+
+1	Zirbavê	zirbav	_	n	m|sg|con|def	4	nsubj	_	_
+2	me	em	_	prn	pers|p1|mf|pl|obl	1	nmod:poss	_	_
+3	em	em	_	prn	pers|p1|mf|pl|nom	4	dobj	_	_
+4	birin	birin	_	vblex	tv|past|p1|pl	0	root	_	_
+5	Stok moranê	Stokmoran	_	np	top|f|sg|obl|def	4	nmod	_	_
+6	û	û	_	cnjcoo	_	4	cc	_	_
+7	em	em	_	prn	pers|p1|mf|pl|nom	16	nsubj	_	_
+8	digel	digel	_	pr	_	9	case	_	_
+9	wî	ew	_	prn	pers|p3|m|sg|obl	16	nmod	_	_
+10	di	di	_	pr	_	11	case	_	_
+11	qesira	qesir	_	n	f|sg|con|def	16	nmod	_	_
+12	pêşiyên	pêşî	_	n	f|pl|obl|def	12	nmod:poss	_	_
+13	wî	ew	_	prn	pers|p3|m|sg|obl	12	nmod:poss	_	_
+14	de	de	_	post	_	12	case	_	_
+15	diman	man	_	vblex	iv|past|prog|p1|pl	4	conj	_	_
+16	.	.	_	sent	_	16	punct	_	_
+
+1	Diya	dî	_	n	f|sg|con|def	10	nsubj	_	_
+2	me	em	_	prn	pers|p1|mf|pl|obl	1	nmod:poss	_	_
+3	hemî	hemî	_	det	_	4	det	_	_
+4	malê	mal	_	n	m|sg|con|def	10	dobj	_	_
+5	xwe	xwe	_	prn	ref|mf|sp	4	nmod:poss	_	_
+6	ji	ji	_	pr	_	7	case	_	_
+7	mêrê	mêr	_	n	m|sg|con|def	10	nmod	_	_
+8	xwe	xwe	_	prn	ref|mf|sp	7	nmod:poss	_	_
+9	re	re	_	post	_	7	case	_	_
+10	hişti bû	hiştin	_	vblex	tv|plu|p3|sg	0	root	_	_
+11	.	.	_	sent	_	10	punct	_	_
+
+1	Bi	bi	_	pr	_	2	case	_	_
+2	şertê	şert	_	n	f|sg|obl|def	0	root	_	_
+3	ko	ku	_	cnjsub	_	6	mark	_	_
+4	li	li	_	pr	_	5	case	_	_
+5	me	em	_	prn	pers|p1|mf|pl|obl	6	nmod	_	_
+6	binêre	nêrîn	_	vblex	iv|prs|p3|sg	2	ccomp	_	_
+7	û	û	_	cnjcoo	_	6	cc	_	_
+8	wextê ko	wextê ku	_	cnjsub	_	10	mark	_	_
+9	em	em	_	prn	pers|p1|mf|pl|nom	10	nsubj	_	_
+10	bizewicin	zewicîn	_	vblex	iv|prs|p1|pl	16	advcl	_	_
+11	ji	ji	_	pr	_	12	case	_	_
+12	heryekê	heryek	_	prn	sg|obl	16	nmod	_	_
+13	re	re	_	post	_	12	case	_	_
+14	çaryeka	çaryek	_	n	f|sg|con|def	16	dobj	_	_
+15	wî	ew	_	prn	pers|p3|m|sg|obl	14	nmod:poss	_	_
+16	bidê	dan	_	vblex	tv|prs|p3|sg	6	conj	_	_
+17	.	.	_	sent	_	16	punct	_	_
+
+1	Hatina	hatin	_	n	f|sg|con|def	7	nsubj	_	_
+2	malên	mal	_	n	m|pl|con|def	1	nmod:poss	_	_
+3	diya	dî	_	n	f|sg|con|def	2	nmod:poss	_	_
+4	min	ez	_	prn	pers|p1|mf|sg|obl	3	nmod:poss	_	_
+5	li	li	_	pr	_	6	case	_	_
+6	salê	sal	_	n	f|sg|obl|def	7	nmod	_	_
+7	digihaşte	gihiştin	_	vblex	iv|narr|prog|p3|sg	0	root	_	_
+8	hezar	hezar	_	num	pl	9	nummod	_	_
+9	zêrên	zêr	_	n	m|pl|con|def	7	nmod	_	_
+10	ingilîzî	îngilîzî	_	adj	pst	9	amod	_	_
+11	.	.	_	sent	_	7	punct	_	_
 
