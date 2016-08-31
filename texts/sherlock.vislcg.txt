@@ -1715,9 +1715,6 @@
 		"ew" prn dem m sg obl
 	"bi" pr @case
 		"ew" prn dem f sg obl
-;	"pê" n m sg obl def
-;	"pê" n m sg nom def
-;	"pê" n m pl nom def
 "<çêdibû>"
 	"çêbûn" vblex iv prog past p3 sg @root
 "<û>"
@@ -1725,7 +1722,7 @@
 "<me>"
 	"em" prn pers p1 mf pl obl
 "<tengî>"
-	"*tengî"
+	"tengî" n f sg nom def
 "<ne>"
 	"ne" adv neg
 "<dikişand>"
@@ -1741,11 +1738,6 @@
 	"zirbav" n m sg con def
 "<me>"
 	"em" prn pers p1 mf pl obl @nmod:poss
-;	"me" n f sg nom def
-;	"me" n f pl nom def
-;	"mê" adj pst
-;	"me" n f sg obl def
-;	"bûn" vbcop pri p1 sg
 "<,>"
 	"," cm @punct
 "<hero>"
@@ -1753,15 +1745,9 @@
 	"hêro" n f sg nom def @dobj
 ;	"hêro" n f pl nom def
 "<xulqê>"
-	"*xulqê"
+	"xulqê"
 "<xwe>"
 	"xwe" prn ref mf sp
-	"xwê" n m sg obl def @dobj
-	"xwê" n m sg nom def @dobj
-	"xwê" n m pl nom def @dobj
-	"xwe" n f sg obl def @dobj
-	"xwe" n f sg nom def @dobj
-	"xwe" n f pl nom def @dobj
 "<hêj>"
 	"hêj" adv @advmod
 "<bêtir>"
@@ -1777,20 +1763,10 @@
 
 "<Ji>"
 	"ji" pr @case
-;	"jî" n m sg obl def
-;	"jî" emph
-;	"jî" n m pl nom def
-;	"jî" n m sg nom def
 "<xwe>"
 	"xwe" prn ref mf sp
-	"xwê" n m sg obl def @nmod
-	"xwe" n f sg obl def @nmod
-;	"xwê" n m sg nom def
-;	"xwê" n m pl nom def
-;	"xwe" n f sg nom def
-;	"xwe" n f pl nom def
-"<lkê>"
-	"*lkê"
+"<xelkê>"
+	"xelk" n m sg con def
 "<malbata>"
 	"malbat" n f sg con def
 "<wî>"
