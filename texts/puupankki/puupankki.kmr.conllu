@@ -374,3 +374,46 @@
 10	ingilîzî	îngilîzî	_	adj	pst	9	amod	_	_
 11	.	.	_	sent	_	7	punct	_	_
 
+1	Dr.	Dr.	_	abbr	_	2	appos	_	_
+2	Rweylot	Rweylot	_	np	ant|m|sg|nom	7	nsubj	_	_
+3	gelek	gelek	_	preadv	_	7	advmod	_	_
+4	hej	hej	_	n	f|sg|nom|def	7	compound	_	_
+5	heywanên	heywan	_	n	f|pl|con|def	7	dobj	_	_
+6	Hindistanê	Hindistan	_	np	top|f|sg|obl|def	5	nmod:poss	_	_
+7	kiri bûn	kirin	_	vblex	tv|plu|p3|sg	0	root	_	_
+8	.	.	_	sent	_	7	punct	_	_
+
+1	Bi	bi	_	pr	_	2	case	_	_
+2	xwe	xwe	_	prn	ref|mf|sp	7	nmod	_	_
+3	re	re	_	post	_	2	case	_	_
+4	şîp	şîp	_	n	f|sg|nom|def	7	dobj	_	_
+5	û	û	_	cnjcoo	_	4	cc	_	_
+6	meymûnek	meymûn	_	n	m|sg|nom|ind	4	conj	_	_
+7	anîn	anîn	_	vblex	tv|past|p3|pl	0	root	_	_
+8	û	û	_	cnjcoo	_	7	cc	_	_
+9	ew	ew	_	prn	pers|p3|mf|pl|nom	10	dobj	_	_
+10	berdan	berdan	_	vblex	tv|past|p3|pl	7	conj	_	_
+11	erdê	erd	_	n	m|sg|con|def	10	nmod	_	_
+12	qesirê	qesir	_	n	f|sg|obl|dem	11	nmod:poss	_	_
+13	.	.	_	sent	_	10	punct	_	_
+
+1	Gundî	gundî	_	n	m|pl|nom|def	4	nsubj	_	_
+2	ji	ji	_	pr	_	3	case	_	_
+3	wan	ew	_	prn	dem|mf|pl|obl	4	nmod	_	_
+4	aciz	aciz	_	adj	pst	0	root	_	_
+5	in	bûn	_	vbcop	pri|p3|pl	4	cop	_	_
+6	;	;	_	sent	_	4	punct	_	_
+7	lê	lê	_	cnjcoo	_	4	cc	_	_
+8	çi	çi	_	prn	itg	9	dobj	_	_
+9	bikin	kirin	_	vblex	tv|prs|p3|pl	4	conj	_	_
+10	,	,	_	cm	_	9	punct	_	_
+11	nikarin	karîn	_	vblex	tv|neg|pri|p3|pl	4	conj	_	_
+12	dengê	deng	_	n	m|sg|con|def	14	dobj	_	_
+13	xwe	xwe	_	prn	ref|mf|sp	12	nmod:poss	_	_
+14	bikin	kirin	_	vblex	tv|prs|p3|pl	11	ccomp	_	_
+15	;	;	_	sent	_	14	punct	_	_
+16	ji	ji	_	pr	_	17	case	_	_
+17	Dr.	Dr.	_	abbr	_	18	nmod	_	_
+18	ditirsin	tirsîn	_	vblex	iv|pri|p3|sg	11	conj	_	_
+19	.	.	_	sent	_	18	punct	_	_
+
