@@ -417,3 +417,25 @@
 18	ditirsin	tirsîn	_	vblex	iv|pri|p3|sg	11	conj	_	_
 19	.	.	_	sent	_	18	punct	_	_
 
+1	Zirbavê	zirbav	_	n	m|sg|con|def	5	nsubj	_	_
+2	me	em	_	prn	pers|p1|mf|pl|obl	1	nmod:poss	_	_
+3	destûra	destûr	_	n	f|sg|con|def	5	dobj	_	_
+4	me	em	_	prn	pers|p1|mf|pl|obl	3	nmod:poss	_	_
+5	dida	dan	_	vblex	tv|past|prog|p3|sg	0	root	_	_
+6	û	û	_	cnjcoo	_	5	cc	_	_
+7	em	em	_	prn	pers|p1|mf|pl|nom	9	nsubj	_	_
+8	carina	carina	_	adv	_	9	advmod	_	_
+9	diçûn	çûn	_	vblex	iv|prog|past|p1|pl	5	conj	_	_
+10	ziyareta	ziyaret	_	n	f|sg|con|def	9	nmod	_	_
+11	wê	ew	_	prn	pers|p3|f|sg|obl	10	nmod:poss	_	_
+12	.	.	_	sent	_	11	punct	_	_
+
+1	Lê	lê	_	cnjcoo	_	3	cc	_	_
+2	me	em	_	prn	pers|p1|mf|pl|obl	3	nsubj	_	_
+3	dizanî	zanîn	_	vblex	tv|prog|past|p3|sg	0	root	_	_
+4	ko	ku	_	cnjsub	_	3	mark	_	_
+5	ne	ne	_	adv	neg	6	neg	_	_
+6	çû bû	çûn	_	vblex	plu|p3|sg	3	ccomp	_	_
+7	raketinê	raketin	_	n	f|sg|obl|def	8	nmod	_	_
+8	.	.	_	sent	_	6	punct	_	_
+
