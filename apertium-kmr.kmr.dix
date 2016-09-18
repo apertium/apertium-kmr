@@ -265,39 +265,44 @@
 
 
     <pardef n="S__ê_dê__enc">
-      <e><p><l/><r/></p></e>
       <e><p><l>ê</l><r><j/>dê<s n="fut"/></r></p></e>
       <e r="LR"><p><l><b/>dê</l><r><j/>dê<s n="fut"/></r></p></e>
     </pardef>
 
 
     <pardef n="S__dê__enc">
-      <e><p><l/><r/></p></e>
-      <e r="LR"><p><l><b/>dê</l><r><j/>dê<s n="fut"/></r></p></e>
+      <e><p><l><b/>dê</l><r><j/>dê<s n="fut"/></r></p></e>
     </pardef>
 
     <pardef n="/ez__prn">
+      <e><p><l>ez</l><r>ez<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>ez</l><r>ez<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p><par n="S__ê_dê__enc"/></e>
       <e><p><l>min</l><r>ez<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="obl"/></r></p></e>
     </pardef>
 
     <pardef n="t/u__prn">
+      <e><p><l>u</l><r>u<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>u</l><r>u<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p><par n="S__ê_dê__enc"/></e>
       <e><p><l>e</l><r>u<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="obl"/></r></p></e>
     </pardef>
 
     <pardef n="ew__prn">
+      <e><p><l>ew</l><r>ew<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>ew</l><r>ew<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p><par n="S__ê_dê__enc"/></e>
+      <e><p><l>wî</l><r>ew<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="obl"/></r></p></e>
       <e><p><l>wî</l><r>ew<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="obl"/></r></p><par n="S__dê__enc"/></e>
+      <e><p><l>wê</l><r>ew<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="obl"/></r></p></e>
       <e><p><l>wê</l><r>ew<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="obl"/></r></p><par n="S__dê__enc"/></e>
     </pardef>
 
     <pardef n="/em__prn">
+      <e><p><l>em</l><r>em<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>em</l><r>em<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p><par n="S__ê_dê__enc"/></e>
       <e><p><l>me</l><r>em<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
 
     <pardef n="/hûn__prn">
+      <e><p><l>hûn</l><r>hûn<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p></e>
       <e><p><l>hûn</l><r>hûn<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="nom"/></r></p>  <par n="S__ê_dê__enc"/></e>
       <e><p><l>we</l><r>hûn<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="obl"/></r></p></e>
     </pardef>
