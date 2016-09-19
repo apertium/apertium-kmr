@@ -7,6 +7,7 @@
     <sdef n="opt"      c="Optative"/>
     <sdef n="abbr"     c="Abbreviation"/>
     <sdef n="n"       c="Noun"/>     
+    <sdef n="ij"       c="Interjection"/>     
     <sdef n="np"      c="Proper noun"/>     
     <sdef n="pr"      c="Preposition"/>     
     <sdef n="post"    c="Postposition"/>    
@@ -1592,6 +1593,12 @@
     </pardef>
 
 
+    <!-- SECTION: Interjections -->
+    
+    <pardef n="merheba__ij">
+      <e><p><l></l><r><s n="ij"/></r></p></e>
+    </pardef>
+
 
   </pardefs> 
 
@@ -1603,7 +1610,13 @@
     <e lm="jî"><i>jî</i><par n="jî__enc"/></e> <!-- This is the emphatic jî -->
     <e lm="ma"><i>ma</i><par n="ma__qst"/></e>
     <e lm="dê"><i>dê</i><par n="dê__fut"/></e>
- 
+
+    <!-- SECTION: Conjunctions -->
+    <e lm="merheba"><i>merheba</i><par n="merheba__ij"/></e>
+    <e lm="silav"><i>silav</i><par n="merheba__ij"/></e>
+    <e lm="rojbaş"><i>rojbaş</i><par n="merheba__ij"/></e>
+
+
     <!-- SECTION: Conjunctions -->
     <e lm="heger"><i>heger</i><par n="ango__cnjadv"/></e>
     <e lm="heger" r="LR"><p><l>eger</l><r>heger</r></p><par n="ango__cnjadv"/></e>
@@ -2973,7 +2986,6 @@
     <e lm="kirîz"><i>kirîz</i><par n="jin__n_f"/></e>
     <e lm="cumhûriyet"><i>cumhûriyet</i><par n="jin__n_f"/></e>
     <e lm="nîvro"><i>nîvro</i><par n="nîvro__n_f"/></e>
-    <e lm="dinya"><i>dinya</i><par n="nîvro__n_f"/></e>
 
     <e lm="başûr"><i>başûr</i><par n="mirov__n_m"/></e>
     <e lm="bakur"><i>bakur</i><par n="mirov__n_m"/></e>
