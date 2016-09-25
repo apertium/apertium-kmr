@@ -27,6 +27,7 @@ texts/dirok.txt -text
 texts/ethem.vislcg.txt -text
 texts/miscellaneous.vislcg.txt -text
 texts/puupankki/puupankki.kmr.conllu -text
+texts/puupankki/puupankki.kmr.tagged -text
 texts/qundir.txt -text
 texts/sherlock.txt -text
 texts/sherlock.vislcg.txt -text
