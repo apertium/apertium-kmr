@@ -12,6 +12,7 @@ LIST V = vaux vblex vbser vbcop vbhaver ;
 LIST Vaux = vaux ;
 LIST Adv = adv ;
 LIST Narr = narr ;
+LIST Qst = qst ;
 LIST Num = num ;
 LIST Sent = sent ;
 LIST CC = cnjcoo ;
@@ -325,3 +326,5 @@ REMOVE Eza IF (1C Fin) ;
 REMOVE Det IF (0 Pron OR Det + Dem) (NOT 1 Dem) ;
 
 SELECT Neg IF (0 Ne) (1 Fin) ;
+
+SELECT Qst IF (1 Pirs) ;
