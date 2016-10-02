@@ -1609,6 +1609,7 @@
     <e lm="yê"><i/><par n="/yê__enc"/></e> <!-- This is the free ezafe -->
     <e lm="jî"><i>jî</i><par n="jî__enc"/></e> <!-- This is the emphatic jî -->
     <e lm="ma"><i>ma</i><par n="ma__qst"/></e>
+    <e lm="gelo"><i>gelo</i><par n="ma__qst"/></e>
     <e lm="dê"><i>dê</i><par n="dê__fut"/></e>
 
     <!-- SECTION: Conjunctions -->
