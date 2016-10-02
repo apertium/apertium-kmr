@@ -16417,6 +16417,23 @@
     <e lm="fêm kirin"><p><l>fêm<b/>nak</l><r>fêm<b/>kirin</r></p><par n="nak/e__vblex_tv"/></e>
     <e lm="fêm kirin"><p><l>fêm<b/>nek</l><r>fêm<b/>kirin</r></p><par n="nek/e__vblex_tv"/></e>
 
+        <!-- fêmkirin; ; fêmkir; fêm..k -->
+    <e lm="fêmkirin"><p><l>fêmkir</l><r>fêmkirin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="fêmkirin"><p><l>fêmdik</l><r>fêmkirin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="fêmkirin"><p><l>fêmbik</l><r>fêmkirin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="fêmkirin"><p><l>fêmnekir</l><r>fêmkirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="fêmkirin"><p><l>fêmdikir</l><r>fêmkirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="fêmkirin"><p><l>fêmnak</l><r>fêmkirin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="fêmkirin"><p><l>fêmnek</l><r>fêmkirin</r></p><par n="nek/e__vblex_tv"/></e>
+    <e lm="fêmkirin" r="LR"><p><l>fêm<b/>kir</l><r>fêmkirin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="fêmkirin" r="LR"><p><l>fêm<b/>dik</l><r>fêmkirin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="fêmkirin" r="LR"><p><l>fêm<b/>bik</l><r>fêmkirin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="fêmkirin" r="LR"><p><l>fêm<b/>nekir</l><r>fêmkirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="fêmkirin" r="LR"><p><l>fêm<b/>dikir</l><r>fêmkirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="fêmkirin" r="LR"><p><l>fêm<b/>nak</l><r>fêmkirin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="fêmkirin" r="LR"><p><l>fêm<b/>nek</l><r>fêmkirin</r></p><par n="nek/e__vblex_tv"/></e>
+
+
         <!-- reşandin; ; reşand; reşîn -->
     <e lm="reşandin"><p><l>reşand</l><r>reşandin</r></p><par n="kir/__vblex_tv"/></e>
     <e lm="reşandin"><p><l>direşîn</l><r>reşandin</r></p><par n="dik/e__vblex_tv"/></e>
@@ -17557,22 +17574,6 @@
     <e lm="standin"><p><l>nestand</l><r>standin</r></p><par n="nekir/__vblex_tv"/></e>
     <e lm="standin"><p><l>nastîn</l><r>standin</r></p><par n="nak/e__vblex_tv"/></e>
     <e lm="standin"><p><l>nestîn</l><r>standin</r></p><par n="nek/e__vblex_tv"/></e>
-
-        <!-- fêmkirin; ; fêmkir; fêm..k -->
-    <e lm="fêmkirin"><p><l>fêmkir</l><r>fêmkirin</r></p><par n="kir/__vblex_tv"/></e>
-    <e lm="fêmkirin"><p><l>fêmdik</l><r>fêmkirin</r></p><par n="dik/e__vblex_tv"/></e>
-    <e lm="fêmkirin"><p><l>fêmbik</l><r>fêmkirin</r></p><par n="bik/e__vblex_tv"/></e>
-    <e lm="fêmkirin"><p><l>fêmnekir</l><r>fêmkirin</r></p><par n="nekir/__vblex_tv"/></e>
-    <e lm="fêmkirin"><p><l>fêmdikir</l><r>fêmkirin</r></p><par n="nekir/__vblex_tv"/></e>
-    <e lm="fêmkirin"><p><l>fêmnak</l><r>fêmkirin</r></p><par n="nak/e__vblex_tv"/></e>
-    <e lm="fêmkirin"><p><l>fêmnek</l><r>fêmkirin</r></p><par n="nek/e__vblex_tv"/></e>
-    <e lm="fêmkirin" r="LR"><p><l>fêm<b/>kir</l><r>fêmkirin</r></p><par n="kir/__vblex_tv"/></e>
-    <e lm="fêmkirin" r="LR"><p><l>fêm<b/>dik</l><r>fêmkirin</r></p><par n="dik/e__vblex_tv"/></e>
-    <e lm="fêmkirin" r="LR"><p><l>fêm<b/>bik</l><r>fêmkirin</r></p><par n="bik/e__vblex_tv"/></e>
-    <e lm="fêmkirin" r="LR"><p><l>fêm<b/>nekir</l><r>fêmkirin</r></p><par n="nekir/__vblex_tv"/></e>
-    <e lm="fêmkirin" r="LR"><p><l>fêm<b/>dikir</l><r>fêmkirin</r></p><par n="nekir/__vblex_tv"/></e>
-    <e lm="fêmkirin" r="LR"><p><l>fêm<b/>nak</l><r>fêmkirin</r></p><par n="nak/e__vblex_tv"/></e>
-    <e lm="fêmkirin" r="LR"><p><l>fêm<b/>nek</l><r>fêmkirin</r></p><par n="nek/e__vblex_tv"/></e>
 
         <!-- pêve kirin; ; pêve kir; pêve..k -->
     <e lm="pêve kirin" r="LR"><p><l>pêvekir</l><r>pêve<b/>kirin</r></p><par n="kir/__vblex_tv"/></e>
