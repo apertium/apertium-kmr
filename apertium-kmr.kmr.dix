@@ -16661,6 +16661,7 @@
 
         <!-- çûn; ; çû; diç -->
     <e lm="çûn"><p><l>diç</l><r>çûn</r></p><par n="diaxiv/e__vblex_iv"/></e>
+    <e lm="çûn" r="LR"><p><l>diçê</l><r>çûn<s n="vblex"/><s n="iv"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     <e lm="çûn"><p><l>biç</l><r>çûn</r></p><par n="biaxiv/e__vblex_iv"/></e>
     <e lm="çûn"><p><l>her</l><r>çûn</r></p><par n="biaxiv/e__vblex_iv"/></e>
 <!-- <e lm="çûn"><p><l>çû</l><r>çûn</r></p><par n="çû/n__vblex_iv"/></e>-->
