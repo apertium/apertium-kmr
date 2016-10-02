@@ -318,8 +318,6 @@ SELECT V IF (0C V OR N) (-1 Adv);
 
 SELECT Cop IF (0C Cop OR Vaux) (NOT -1* PrfPrc); 
 
-SELECT Det IF (0C Adv OR Det) (1 N);
-
 SELECT Det IF (1 N OR V + Inf LINK 1* NON-ERG-FIN);
 
 SELECT CS IF (0 Gelo) (-1 BOS);
