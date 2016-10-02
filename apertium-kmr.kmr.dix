@@ -15833,7 +15833,6 @@
     <e lm="man"><p><l>dimîn</l><r>man</r></p><par n="diaxiv/e__vblex_iv"/></e>
     <e lm="xwendin"><p><l>dixwîn</l><r>xwendin</r></p><par n="dik/e__vblex_tv"/></e>
     <e lm="xwendin" r="LR"><p><l>dixwên</l><r>xwendin</r></p><par n="dik/e__vblex_tv"/></e>
-    <e lm="vexwarin"><p><l>vedixw</l><r>vexwarin</r></p><par n="dik/e__vblex_tv"/></e>
     <e lm="rabûn"><p><l>ra</l><r>ra</r></p><par n="/bûn__vblex"/></e>
     <e lm="rabûn" r="LR"><p><l>ra<b/></l><r>ra</r></p><par n="/bûn__vblex"/></e>
     <e lm="çêbûn"><p><l>çê</l><r>çê</r></p><par n="/bûn__vblex"/></e>
@@ -15917,6 +15916,13 @@
     <e lm="xwarin"><p><l>naxw</l><r>xwarin</r></p><par n="nak/e__vblex_tv"/></e>
     <e lm="xwarin"><p><l>nexw</l><r>xwarin</r></p><par n="nek/e__vblex_tv"/></e>
 
+         <!-- ve-xwarin -->
+    <e lm="vexwarin"><p><l>vexwar</l><r>vexwarin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="vexwarin"><p><l>vedix</l><r>vexwarin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="vexwarin"><p><l>vebix</l><r>vexwarin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="vexwarin"><p><l>venexwar</l><r>vexwarin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="vexwarin"><p><l>venax</l><r>vexwarin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="vexwarin"><p><l>venex</l><r>vexwarin</r></p><par n="nek/e__vblex_tv"/></e>
 
         <!-- çikandin; ; çikand; çikîn -->
     <e lm="çikandin"><p><l>çikand</l><r>çikandin</r></p><par n="kir/__vblex_tv"/></e>
