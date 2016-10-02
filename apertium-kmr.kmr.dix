@@ -1612,10 +1612,19 @@
     <e lm="gelo"><i>gelo</i><par n="ma__qst"/></e>
     <e lm="dê"><i>dê</i><par n="dê__fut"/></e>
 
-    <!-- SECTION: Conjunctions -->
+    <!-- SECTION: Interjections -->
     <e lm="merheba"><i>merheba</i><par n="merheba__ij"/></e>
     <e lm="silav"><i>silav</i><par n="merheba__ij"/></e>
+    <e lm="sipas"><i>sipas</i><par n="merheba__ij"/></e>
     <e lm="rojbaş"><i>rojbaş</i><par n="merheba__ij"/></e>
+    <e lm="serçavan"><i>serçavan</i><par n="merheba__ij"/></e>
+    <e lm="bibore"><i>bibore</i><par n="merheba__ij"/></e>
+    <e lm="bibaxişîne"><i>bibaxişîne</i><par n="merheba__ij"/></e>
+    <e lm="dembaş"><i>dembaş</i><par n="merheba__ij"/></e>
+    <e lm="rojbaş"><i>rojbaş</i><par n="merheba__ij"/></e>
+    <e lm="êvarbaş"><i>êvarbaş</i><par n="merheba__ij"/></e>
+    <e lm="oxir be"><i>oxir<b/>be</i><par n="merheba__ij"/></e>
+    <e lm="bi xatirê te"><i>bi<b/>xatirê<b/>te</i><par n="merheba__ij"/></e>
 
 
     <!-- SECTION: Conjunctions -->
