@@ -110,6 +110,10 @@ SECTION
 
 SELECT CC IF (0C CC OR Voc) (1C Pron);
 
+SELECT N IF (0C V OR N) (-1 Det);
+
+REMOVE Ind IF (-1 Det);
+
 REMOVE CC IF (0 LÊ OR CC)(-1* CC BARRIER V);
 
 SELECT CC IF (0 LÊ OR CC) (1C Pron); 
