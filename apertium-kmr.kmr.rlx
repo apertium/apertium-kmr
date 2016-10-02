@@ -109,6 +109,8 @@ SET CLB = Fin | CS | CC ;
 
 SECTION
 
+SELECT Prs IF (0C Prs OR Fut) (NOT -1* Fut);
+
 SELECT CC IF (0C CC OR Voc) (1C Pron);
 
 SELECT N IF (0C V OR N) (-1 Det);
