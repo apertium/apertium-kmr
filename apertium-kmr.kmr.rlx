@@ -139,7 +139,7 @@ REMOVE Voc IF (0 Voc OR Obl) (-1 Eza) ;
 
 SELECT Sg IF (0 Sg OR Pl) (NOT 0 PrfPrc) (NOT 0 Post)  (1 Cop + Sg);
 
-SELECT Eza IF (-1 Eza) (NOT 1 Eza) (NOT 1 EOS);
+SELECT Eza IF (-1 Eza) (NOT 1 Eza) (NOT 1 EOS) (NOT 1 V);
 
 SELECT LANG IF (-1 BI) (1 SPEECH-VERB) ;
 
@@ -153,7 +153,8 @@ SELECT Ant IF (0 N OR Ant) (1 Ant) (NOT 1 Eza);
 
 REMOVE N + Dem IF (NOT -1 Det) ; 
 
-SELECT V IF (1 EOS) (NEGATE -1* V) ; 
+SELECT V IF (1 EOS) (NOT 0 Pron)(NEGATE -1* V) ; 
+
 
 REMOVE NOMEN + Obl IF (Not -1 Dash) (NOT -1 Eza) (NOT -1 Pr) (NOT 1 Post)  (NOT 1* TV) (NOT -1 V);
 

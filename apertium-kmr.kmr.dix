@@ -15927,7 +15927,15 @@
     <e lm="xwarin"><p><l>nexwar</l><r>xwarin</r></p><par n="nekir/__vblex_tv"/></e>
     <e lm="xwarin"><p><l>naxw</l><r>xwarin</r></p><par n="nak/e__vblex_tv"/></e>
     <e lm="xwarin"><p><l>nexw</l><r>xwarin</r></p><par n="nek/e__vblex_tv"/></e>
+         <!-- xeman -xwarin -->
+    <e lm="xeman xwarin"><p><l>xeman<b/>xwar</l><r>xeman<b/>xwarin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="xeman xwarin"><p><l>xeman<b/>dix</l><r>xeman<b/>xwarin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="xeman xwarin"><p><l>xeman<b/>bix</l><r>xeman<b/>xwarin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="xeman xwarin"><p><l>xeman<b/>nexwar</l><r>xeman<b/>xwarin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="xeman xwarin"><p><l>xeman<b/>nax</l><r>xeman<b/>xwarin</r></p><par n="nak/e__vblex_tv"/></e>
+    <e lm="xeman xwarin"><p><l>xeman<b/>nex</l><r>xeman<b/>xwarin</r></p><par n="nek/e__vblex_tv"/></e>
 
+ 
          <!-- ve-xwarin -->
     <e lm="vexwarin"><p><l>vexwar</l><r>vexwarin</r></p><par n="kir/__vblex_tv"/></e>
     <e lm="vexwarin"><p><l>vedix</l><r>vexwarin</r></p><par n="dik/e__vblex_tv"/></e>
@@ -17018,6 +17026,13 @@
     <e lm="vegerîn"><p><l>vediger</l><r>vegerîn</r></p><par n="dibez/î__vblex_iv"/></e>
     <e lm="vegerîn"><p><l>vebiger</l><r>vegerîn</r></p><par n="bibez/î__vblex_iv"/></e>
     <e lm="vegerîn"><p><l>vediger</l><r>vegerîn</r></p><par n="diaxiv/e__vblex_iv"/></e>
+
+    <!-- êşîn; ; êş; êş -->
+    <e lm="êşîn"><p><l>êş</l><r>êşîn</r></p><par n="bez/î__vblex_iv"/></e>
+    <e lm="êşîn"><p><l>diêş</l><r>êşîn</r></p><par n="dibez/î__vblex_iv"/></e>
+    <e lm="êşîn"><p><l>biêş</l><r>êşîn</r></p><par n="bibez/î__vblex_iv"/></e>
+    <e lm="êşîn"><p><l>diêş</l><r>êşîn</r></p><par n="diaxiv/e__vblex_iv"/></e>
+
 
     <!-- gerîn; ; ger; ger -->
     <e lm="gerîn"><p><l>ger</l><r>gerîn</r></p><par n="bez/î__vblex_iv"/></e>
