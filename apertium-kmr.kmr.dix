@@ -18423,7 +18423,14 @@
     <e lm="destpêkirin" r="LR"><p><l>destpê<b/>bik</l><r>destpêkirin</r></p><par n="bik/e__vblex_tv"/></e>
     <e lm="destpêkirin" r="LR"><p><l>destpê<b/>nekir</l><r>destpêkirin</r></p><par n="nekir/__vblex_tv"/></e>
     <e lm="destpêkirin" r="LR"><p><l>destpê<b/>nak</l><r>destpêkirin</r></p><par n="nak/e__vblex_tv"/></e>
+     <e lm="destpêkirin" r="LR"><p><l>dest<b/>pê<b/>kir</l><r>destpêkirin</r></p><par n="kir/__vblex_tv"/></e>
+    <e lm="destpêkirin" r="LR"><p><l>dest<b/>pê<b/>dik</l><r>destpêkirin</r></p><par n="dik/e__vblex_tv"/></e>
+    <e lm="destpêkirin" r="LR"><p><l>dest<b/>pê<b/>bik</l><r>destpêkirin</r></p><par n="bik/e__vblex_tv"/></e>
+    <e lm="destpêkirin" r="LR"><p><l>dest<b/>pê<b/>nekir</l><r>destpêkirin</r></p><par n="nekir/__vblex_tv"/></e>
+    <e lm="destpêkirin" r="LR"><p><l>dest<b/>pê<b/>nak</l><r>destpêkirin</r></p><par n="nak/e__vblex_tv"/></e>
     <e lm="destpêkirin" r="LR"><p><l>destpê<b/>nek</l><r>destpêkirin</r></p><par n="nek/e__vblex_tv"/></e>
+
+   <e lm="destpêkirin" r="LR"><p><l>destpê<b/>nek</l><r>destpêkirin</r></p><par n="nek/e__vblex_tv"/></e>
 
     <!-- karîn; ; kar; kar -->
     <e lm="karîn"><p><l>dikar</l><r>karîn</r></p><par n="dik/e__vblex_tv"/></e>
