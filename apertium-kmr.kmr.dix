@@ -1709,6 +1709,8 @@
     <e lm="ber"><i>ber</i><par n="ba__pr"/></e>
     <e lm="bêî"><i>bêî</i><par n="ba__pr"/></e>
     <e lm="berî"><i>berî</i><par n="ba__pr"/></e>
+    <e lm="bêyî"><i>bêyî</i><par n="ba__pr"/></e> <!-- Gema says: please check paradigm -->
+    <e lm="bêy"><i>bêy</i><par n="ba__pr"/></e>  <!-- Gema says: check paradigm -->
     <e lm="bi tenê"><i>bi<b/>tenê</i><par n="ba__pr"/></e>
     <e lm="bi xêra"><i>bi<b/>xêra</i><par n="ba__pr"/></e>
     <e lm="derveyî"><i>derveyî</i><par n="ba__pr"/></e>
@@ -1727,6 +1729,7 @@
     <e lm="pişta"><i>pişta</i><par n="ba__pr"/></e>
     <e lm="piştî"><i>piştî</i><par n="ba__pr"/></e>
     <e lm="heta"><i>heta</i><par n="ba__pr"/></e>
+    <e lm="heya"><i>heya</i><par n="ba__pr"/></e>
 
     <e lm="de"><i>de</i><par n="de__post"/></e>
     <e lm="ve"><i>ve</i><par n="de__post"/></e>
