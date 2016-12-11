@@ -354,7 +354,7 @@
 "<ketim>"
 	"ketin" vblex iv past p1 sg @conj #23->6
 "<.>"
-	"." sent @punct #24->2
+	"." sent @punct #24->23
 
 "<Holmes>"
 	"Holmes" np ant m sg obl @nsubj #1->2
@@ -419,17 +419,17 @@
 "<her>"
 	"her" det ind mf sg @det #3->4
 "<tiştî>"
-	"tişt" n m sg obl dem @dobj #4->
+	"tişt" n m sg obl dem @dobj #4->9
 "<ji>"
-	"ji" pr @case #5->
+	"ji" pr @case #5->6
 "<pêş>"
-	"pêş" adj @x #6->
+	"pêş" n m sg nom def @nmod #6->9
 "<wî>"
-	"ew" prn pers p3 m sg obl @nmod #7->
+	"ew" prn pers p3 m sg obl @nmod:poss #7->6
 "<ve>"
-	"ev" prn dem f sg obl @x #8->
+	"ve" post @case #8->6
 "<bibêjî>"
-	"gotin" vblex tv prs p2 sg @ccomp #9->
+	"gotin" vblex tv prs p2 sg @ccomp #9->2
 "<.>"
 	"." sent @punct #10->2
 
@@ -448,7 +448,7 @@
 "<dibînim>"
 	"dîtin" vblex tv pri p1 sg @conj #7->3
 "<ko>"
-	"ku" cnjsub @mark
+	"ku" cnjsub @mark 
 "<tu>"
 	"tu" prn pers p2 mf sg nom @nsubj #9->10
 "<direcifî>"
@@ -458,7 +458,7 @@
 "<gelo>"
 	"gelo" cnjsub
 "<te>"
-	"tu" prn pers p2 mf sg obl
+	"tu" prn pers p2 mf sg obl @nmod #13->14
 "<sar>"
 	"sar" adj pst
 "<e>"
@@ -479,19 +479,17 @@
 "<got>"
 	"gotin" vblex tv past p3 sg @root #2->0
 "<:>"
-	":" sent @punct
+	":" sent @punct #3->2
 "<Ne>"
-	"ne" adv neg
-"<ji>"
-	"ji" pr @case 
-"<ber>"
-	"ber" pr @case
+	"ne" adv neg @advmod #4->8 
+"<ji ber>"
+	"ji ber" pr @case #5->6 
 "<sermayê>"
-	"serma" n f sg obl def @nmod
+	"serma" n f sg obl def @nmod #6->8
 "<ez>"
-	"ez" prn pers p1 mf sg nom
+	"ez" prn pers p1 mf sg nom @nsubj #7->8
 "<direcifim>"
-	"reciftin" vblex iv pri p1 sg @parataxis
+	"reciftin" vblex iv pri p1 sg @parataxis #8->2
 
 "<-->"
 	"--" guio
@@ -524,7 +522,7 @@
 "<rûyê>"
 	"rû" n m sg con def
 "<xwe>"
-	"xwê" n m sg obl def @nmod:poss
+	"xwê" n m sg obl def @nmod:poss #3->2
 "<bi>"
 	"bi" pr @case
 "<tûleke>"

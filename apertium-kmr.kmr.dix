@@ -16967,6 +16967,12 @@
     <e lm="werkirin" r="LR"><p><l>wer<b/>nak</l><r>werkirin</r></p><par n="nak/e__vblex_tv"/></e>
     <e lm="werkirin" r="LR"><p><l>wer<b/>nek</l><r>werkirin</r></p><par n="nek/e__vblex_tv"/></e>
 
+    <!-- recifîn; ; recif; recif -->
+    <e lm="recifîn"><p><l>recif</l><r>recifîn</r></p><par n="bez/î__vblex_iv"/></e>
+    <e lm="recifîn"><p><l>direcif</l><r>recifîn</r></p><par n="dibez/î__vblex_iv"/></e>
+    <e lm="recifîn"><p><l>birecif</l><r>recifîn</r></p><par n="bibez/î__vblex_iv"/></e>
+    <e lm="recifîn"><p><l>direcif</l><r>recifîn</r></p><par n="diaxiv/e__vblex_iv"/></e>
+ 
 
     <!-- ruhvegerîn; ; ruhveger; ruhveger -->
     <e lm="ruhvegerîn"><p><l>ruhveger</l><r>ruhvegerîn</r></p><par n="bez/î__vblex_iv"/></e>
