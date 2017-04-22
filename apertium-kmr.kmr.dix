@@ -341,6 +341,10 @@
       <e><p><l></l><r><s n="det"/><s n="qnt"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
 
+    <pardef n="hemû__det">
+      <e><p><l></l><r><s n="det"/><s n="qnt"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
+
     <pardef n="çiqas__det"> 
       <e><p><l></l><r><s n="det"/><s n="itg"/></r></p></e>
     </pardef>
@@ -1118,12 +1122,12 @@
     </pardef> 
 
     <pardef n="div/êtin__vblex">
-        <e><p><l>ê</l><r><s n="vblex"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>êt</l><r><s n="vblex"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>abû</l><r><s n="vblex"/><s n="p3"/><s n="plu"/><s n="sg"/></r></p></e>
-        <e><p><l>a<b/>bû</l><r><s n="vblex"/><s n="p3"/><s n="plu"/><s n="sg"/></r></p></e>
-        <e><p><l>iyabû</l><r><s n="vblex"/><s n="plu"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>iya<b/>bû</l><r><s n="vblex"/><s n="plu"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>ê</l><r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>êt</l><r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>abû</l><r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="plu"/><s n="sg"/></r></p></e>
+        <e><p><l>a<b/>bû</l><r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="plu"/><s n="sg"/></r></p></e>
+        <e><p><l>iyabû</l><r><s n="vblex"/><s n="pri"/><s n="plu"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>iya<b/>bû</l><r><s n="vblex"/><s n="pri"/><s n="plu"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef> 
 
     <pardef n="kar/în_past">
@@ -1764,6 +1768,7 @@
     <e lm="herdu"><i>herdu</i><par n="her__det"/></e>
     <e lm="hin"><i>hin</i><par n="hindek__det"/></e>
     <e lm="hindek"><i>hindek</i><par n="hindek__det"/></e>
+    <e lm="hemû"><i>hemû</i><par n="hemû__det"/></e>
     <e lm="hindek" r="LR"><p><l>hinek</l><r>hindek</r></p><par n="hindek__det"/></e>
     <e lm="hindek" r="LR"><p><l>hindik</l><r>hindek</r></p><par n="hindek__det"/></e>
 
