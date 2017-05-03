@@ -1,0 +1,111 @@
+_	np	m|sg|con	obl	_	PROPN	Gender=Masc|Number=Sing|Case=Con	obl	#Noun
+_	np	m|pl|con	obl	_	PROPN	Gender=Masc|Number=Plur|Case=Con	obl	#Noun
+_	np	f|sg|con	obl	_	PROPN	Gender=Fem|Number=Sing|Case=Con	obl	#Noun
+_	np	f|pl|con	obl	_	PROPN	Gender=Fem|Number=Plur|Case=Con	obl	#Noun
+_	n	m|sg|con	obl	_	NOUN	Gender=Masc|Number=Sing|Case=Con	obl	#Noun
+_	n	m|pl|con	obl	_	NOUN	Gender=Masc|Number=Plur|Case=Con	obl	#Noun
+_	n	f|sg|con	obl	_	NOUN	Gender=Fem|Number=Sing|Case=Con	obl	#Noun
+_	n	f|pl|con	obl	_	NOUN	Gender=Fem|Number=Plur|Case=Con	obl	#Noun
+_	np	m|sg|con	_	_	PROPN	Gender=Masc|Number=Sing|Case=Con	_	#Noun
+_	np	m|pl|con	_	_	PROPN	Gender=Masc|Number=Plur|Case=Con	_	#Noun
+_	np	f|sg|con	_	_	PROPN	Gender=Fem|Number=Sing|Case=Con	_	#Noun
+_	np	f|pl|con	_	_	PROPN	Gender=Fem|Number=Plur|Case=Con	_	#Noun
+_	n	m|sg|con	_	_	NOUN	Gender=Masc|Number=Sing|Case=Con	_	#Noun
+_	n	m|pl|con	_	_	NOUN	Gender=Masc|Number=Plur|Case=Con	_	#Noun
+_	n	f|sg|con	_	_	NOUN	Gender=Fem|Number=Sing|Case=Con	_	#Noun
+_	n	f|pl|con	_	_	NOUN	Gender=Fem|Number=Plur|Case=Con	_	#Noun
+_	_	con	_	_	_	Case=Con	_	#Construct
+_	fut	_	aux	_	PART	Tense=Fut	aux	#
+_	con	m	_	_	ADP	AdpType=Post|Gender=Masc	_	#
+_	con	f	_	_	ADP	AdpType=Post|Gender=Fem	_	#
+_	con	mf	_	_	ADP	AdpType=Post|Gender=Fem,Masc	_	#
+_	det	neg	_	_	DET	PronType=Ind|Polarity=Neg	_	#Definite
+_	det	def	_	_	DET	PronType=Ind	_	#Definite
+_	prn	def	_	_	PRON	PronType=Ind	_	#Definite
+_	_	acr	_	_	_	_	_	#Acronym
+_	vblex	prog|opt	_	_	VERB	VerbForm=Fin|Mood=Opt|Aspect=Prog	_	#
+_	vblex	prog|narr	_	_	VERB	VerbForm=Fin|Tense=Past|Mood=Ind|Aspect=Prog|Evident=Nfh	_	#
+_	vblex	plu|perf	_	_	VERB	VerbForm=Fin|Tense=Pqp|Mood=Ind|Aspect=Perf	_	#
+_	vblex	plu|narr	_	_	VERB	VerbForm=Fin|Tense=Pqp|Mood=Ind|Evident=Nfh	_	#
+_	_	narr	_	_	Mood=Ind|Tense=Past|VerbForm=Fin|Evident=Nfh	_	_	#Narrative
+_	_	opt	_	_	_	VerbForm=Fin|Mood=Opt	_	#Optative
+_	_	enc	_	_	_	_	_	#Enclitic
+_	NUM	ord	_	_	NUM	NumType=Ord	_	_	#Ordinal
+_	_	hab	_	_	_	_	_	#Habitual
+_	_	tv	_	_	_	_	_	#Transitive
+_	_	iv	_	_	_	_	_	#Intransitive
+_	_	m	_	_	_	Gender=Masc	_	#Masculine
+_	_	f	_	_	_	Gender=Fem	_	#Feminine
+_	_	mf	_	_	_	Gender=Fem,Masc	_	#Masculine, feminine
+_	_	p1	_	_	_	Person=1	_	#First person
+_	_	p2	_	_	_	Person=2	_	#Second person
+_	_	p3	_	_	_	Person=3	_	#Third person
+_	_	sg	_	_	_	Number=Sing	_	#Singular
+_	_	pl	_	_	_	Number=Plur	_	#Plural
+_	_	sp	_	_	_	Number=Plur,Sing	_	#Singular, plural
+_	_	def	_	_	_	Definite=Def	_	#Definite
+_	_	ind	_	_	_	PronType=Ind	_	#Indefinite
+_	_	dem	_	_	_	PronType=Dem	_	#Demonstrative
+_	_	qnt	_	_	_	PronType=Ind	_	#Quantifier
+_	_	pers	_	_	_	PronType=Prs	_	#Personal
+_	_	ref	_	_	_	PronType=Prs|Reflex=Yes	_	#Reflexive
+_	_	rel	_	_	_	PronType=Rel	_	#Relative
+_	_	rcp	_	_	_	PronType=Rcp	_	#Relative
+_	_	emph	_	_	PART	_	_	#Emphatic
+_	_	pst	_	_	_	Degree=Pos	_	#Positive
+_	_	comp	_	_	_	Degree=Cmp	_	#Comparative
+_	_	sup	_	_	_	Degree=Sup	_	#Superlative
+_	_	nom	_	_	_	Case=Nom	_	#Nominative (Absolutive)
+_	_	obl	_	_	_	Case=Obl	_	#Oblique (Ergative)
+_	_	voc	_	_	_	Case=Voc	_	#Vocative
+_	_	top	_	_	_	_	_	#Toponym
+_	_	al	_	_	_	_	_	#Altres
+_	_	ant	_	_	_	_	_	#Anthroponym
+_	_	pri	_	_	_	VerbForm=Fin|Tense=Pres|Mood=Ind	_	#Present
+_	_	past	_	_	_	VerbForm=Fin|Tense=Past|Mood=Ind	_	#
+_	_	perf	_	_	_	VerbForm=Fin|Tense=Past|Mood=Ind|Aspect=Perf	_	#
+_	_	prog	_	_	_	VerbForm=Fin|Tense=Past|Mood=Ind|Aspect=Prog	_	#
+_	_	fpi	_	_	_	_	_	#
+_	_	imp	_	_	_	VerbForm=Fin|Mood=Imp	_	#
+_	_	inf	_	_	_	VerbForm=Inf	_	#
+_	_	itg	_	_	_	PronType=Int	_	#Interrogative
+_	_	pp	_	_	_	VerbForm=Part|Tense=Past	_	#
+_	_	prs	_	_	_	VerbForm=Fin|Tense=Pres|Mood=Sub	_	#
+_	_	fut	_	_	_	VerbForm=Fin|Tense=Fut|Mood=Ind	_	#Future
+_	_	plu	_	_	_	VerbForm=Fin|Tense=Pqp|Mood=Ind	_	#
+_	_	neg	_	_	_	Polarity=Neg	_	#Negative
+_	_	org	_	_	_	_	_	#
+_	sym	_	_	_	SYM	_	_	#Symbol
+_	barb	_	_	_	X	_	_	#Barbarisme
+_	sent	_	_	_	PUNCT	_	_	#Sentence marker
+_	lpar	_	_	_	PUNCT	_	_	#Left parenthesis
+_	rpar	_	_	_	PUNCT	_	_	#Right parenthesis
+_	lquot	_	_	_	PUNCT	_	_	#Left quote
+_	rquot	_	_	_	PUNCT	_	_	#Right quote
+_	quot	_	_	_	PUNCT	_	_	#Quote
+_	guio	_	_	_	PUNCT	_	_	#Hyphen
+_	cm	_	_	_	PUNCT	_	_	#Comma
+_	vaux	_	_	_	AUX	_	_	#Auxiliary verb
+_	n	_	_	_	NOUN	_	_	#Noun
+_	ij	_	_	_	INTJ	_	_	#Interjection
+_	abbr	_	_	_	NOUN	_	_	#Abbreviation
+_	np	_	_	_	PROPN	_	_	#Proper noun
+_	pr	_	_	_	ADP	AdpType=Prep	_	#Preposition
+_	post	_	_	_	ADP	AdpType=Post	_	#Postposition
+_	num	_	_	_	NUM	NumType=Card	_	#Numeral
+_	prn	_	_	_	PRON	_	_	#Pronoun
+_	adj	_	_	_	ADJ	_	_	#Adjective
+_	adv	_	_	_	ADV	_	_	#Adverb
+_	preadv	_	_	_	ADV	_	_	#Preadverb
+_	det	_	_	_	DET	_	_	#Determiner
+_	qst	_	_	_	PART	_	_	#Question word
+yanî	cnjadv	_	_	yanî	CCONJ	_	_	#Conjunctive adverb
+_	cnjcoo	_	_	_	CCONJ	_	_	#Co-ordinating conjunction
+_	cnjsub	_	_	_	SCONJ	_	_	#Sub-ordinating conjunction
+_	cnjadv	_	_	_	SCONJ	_	_	#Conjunctive adverb
+_	vblex	_	_	_	VERB	_	_	#Verb
+_	vbhaver	_	_	_	AUX	_	_	#Verb 'to exist'
+_	vbcop	_	_	_	AUX	_	_	#Copula
+_	x	_	_	_	X	_	_	#
+_	_	_	x	_	_	_	dep	#
+_	dup	_	_	_	X	_	_	#Reduplication

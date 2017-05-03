@@ -15,6 +15,7 @@
 dev/apertium-kur.kur.lexc -text
 dev/apertium-kur.kur.twol -text
 dev/conj.sh -text
+dev/kmr-feats.tsv -text
 dev/kurmanji-basic.kmr-eng.txt -text
 dev/test-phrases.txt -text
 dev/test-words.txt -text
