@@ -947,7 +947,7 @@
         <e><p><l>im</l><r><s n="p1"/><s n="sg"/></r></p></e>
         <e><p><l>î</l><r><s n="p2"/><s n="sg"/></r></p></e>
         <e><p><l>e</l><r><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l></l><r><s n="p3"/><s n="sg"/></r></p></e>
+<!--        <e><p><l></l><r><s n="p3"/><s n="sg"/></r></p></e>     --> 
         <e><p><l>in</l><r><s n="p1"/><s n="pl"/></r></p></e>
         <e><p><l>in</l><r><s n="p2"/><s n="pl"/></r></p></e>
         <e><p><l>in</l><r><s n="p3"/><s n="pl"/></r></p></e>
@@ -1122,12 +1122,12 @@
     </pardef> 
 
     <pardef n="div/êtin__vblex">
-        <e><p><l>ê</l><r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>êt</l><r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>abû</l><r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="plu"/><s n="sg"/></r></p></e>
-        <e><p><l>a<b/>bû</l><r><s n="vblex"/><s n="pri"/><s n="p3"/><s n="plu"/><s n="sg"/></r></p></e>
-        <e><p><l>iyabû</l><r><s n="vblex"/><s n="pri"/><s n="plu"/><s n="p3"/><s n="sg"/></r></p></e>
-        <e><p><l>iya<b/>bû</l><r><s n="vblex"/><s n="pri"/><s n="plu"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>ê</l><r><s n="vblex"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>êt</l><r><s n="vblex"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>abû</l><r><s n="vblex"/><s n="p3"/><s n="plu"/><s n="sg"/></r></p></e>
+        <e><p><l>a<b/>bû</l><r><s n="vblex"/><s n="p3"/><s n="plu"/><s n="sg"/></r></p></e>
+        <e><p><l>iyabû</l><r><s n="vblex"/><s n="plu"/><s n="p3"/><s n="sg"/></r></p></e>
+        <e><p><l>iya<b/>bû</l><r><s n="vblex"/><s n="plu"/><s n="p3"/><s n="sg"/></r></p></e>
     </pardef> 
 
     <pardef n="kar/în_past">
@@ -16680,7 +16680,7 @@
     <e lm="çûn" r="LR"><p><l>diçê</l><r>çûn<s n="vblex"/><s n="iv"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     <e lm="çûn"><p><l>biç</l><r>çûn</r></p><par n="biaxiv/e__vblex_iv"/></e>
     <e lm="çûn"><p><l>her</l><r>çûn</r></p><par n="biaxiv/e__vblex_iv"/></e>
-<!-- <e lm="çûn"><p><l>çû</l><r>çûn</r></p><par n="çû/n__vblex_iv"/></e>-->
+	<e lm="çûn"><p><l>çû</l><r>çûn</r></p><par n="çû/n__vblex_iv"/></e>
     <e lm="çûn"><p><l>neçû</l><r>çûn</r></p><par n="neçû/n__vblex_iv"/></e>
     <e lm="çûn"><p><l>naçû</l><r>çûn</r></p><par n="neçû/n__vblex_iv"/></e>
     <e lm="çûn"><p><l>diçû</l><r>çûn</r></p><par n="diçû/n__vblex_iv"/></e>
