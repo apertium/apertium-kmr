@@ -511,20 +511,23 @@
       <pardef n="aw/a__n_m">
       <e><p><l>a</l><r>a<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
       <e><p><l>a</l><r>a<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><s n="def"/></r></p></e>
-      <e><p><l>yê</l><r>a<s n="n"/><s n="m"/><s n="sg"/><s n="con"/><s n="def"/></r></p></e>
+      <e><p><l>ayê</l><r>a<s n="n"/><s n="m"/><s n="sg"/><s n="con"/><s n="def"/></r></p></e>
       <e><p><l>o</l><r>a<s n="n"/><s n="m"/><s n="sg"/><s n="voc"/><s n="def"/></r></p></e>
       <e><p><l>ak</l><r>a<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
       <e><p><l>akî</l><r>a<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><s n="ind"/></r></p></e>
       <e><p><l>akî</l><r>a<s n="n"/><s n="m"/><s n="sg"/><s n="con"/><s n="ind"/></r></p></e>
+      <e><p><l>ayek</l><r>a<s n="n"/><s n="m"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e><p><l>ayekî</l><r>a<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><s n="ind"/></r></p></e>
+      <e><p><l>ayekî</l><r>a<s n="n"/><s n="m"/><s n="sg"/><s n="con"/><s n="ind"/></r></p></e>
       <e><p><l></l><r>a<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
-      <e><p><l>yan</l><r>a<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><s n="def"/></r></p></e>
-      <e><p><l>yên</l><r>a<s n="n"/><s n="m"/><s n="pl"/><s n="con"/><s n="def"/></r></p></e>
-      <e><p><l>yên</l><r>a<s n="n"/><s n="m"/><s n="pl"/><s n="voc"/><s n="def"/></r></p></e>
-      <e><p><l>yin</l><r>a<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
-      <e><p><l>yinan</l><r>a<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><s n="ind"/></r></p></e>
-      <e><p><l>yine</l><r>a<s n="n"/><s n="m"/><s n="pl"/><s n="con"/><s n="ind"/></r></p></e>
-      <e><p><l>yî</l><r>a<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><s n="dem"/></r></p></e>
-      <e><p><l>yan</l><r>a<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><s n="dem"/></r></p></e>
+      <e><p><l>ayan</l><r>a<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><s n="def"/></r></p></e>
+      <e><p><l>ayên</l><r>a<s n="n"/><s n="m"/><s n="pl"/><s n="con"/><s n="def"/></r></p></e>
+      <e><p><l>ayên</l><r>a<s n="n"/><s n="m"/><s n="pl"/><s n="voc"/><s n="def"/></r></p></e>
+      <e><p><l>ayin</l><r>a<s n="n"/><s n="m"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e><p><l>ayinan</l><r>a<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><s n="ind"/></r></p></e>
+      <e><p><l>ayine</l><r>a<s n="n"/><s n="m"/><s n="pl"/><s n="con"/><s n="ind"/></r></p></e>
+      <e><p><l>ayî</l><r>a<s n="n"/><s n="m"/><s n="sg"/><s n="obl"/><s n="dem"/></r></p></e>
+      <e><p><l>ayan</l><r>a<s n="n"/><s n="m"/><s n="pl"/><s n="obl"/><s n="dem"/></r></p></e>
     </pardef>
 
 
@@ -1720,6 +1723,7 @@
     <e lm="derveyî"><i>derveyî</i><par n="ba__pr"/></e>
     <e lm="ji bilî"><i>ji<b/>bilî</i><par n="ba__pr"/></e>
     <e lm="ji bo"><i>ji<b/>bo</i><par n="ba__pr"/></e>
+    <e lm="ji bona"><i>ji<b/>bona</i><par n="ba__pr"/></e>
     <e lm="li ser"><i>li<b/>ser</i><par n="ba__pr"/></e>
     <e lm="ji bo" r="LR"><p><l>jibo</l><r>ji<b/>bo</r></p><par n="ba__pr"/></e>
     <e lm="ji bo" r="LR"><p><l>jî<b/>bo</l><r>ji<b/>bo</r></p><par n="ba__pr"/></e>
@@ -15836,6 +15840,8 @@
 
 
     <e lm="êdî"><i>êdî</i><par n="niha__adv"/></e>
+
+    <e lm="bila"><i>bila</i><par n="niha__adv"/></e>
     <!-- SECTION: Verbs -->
 
 
