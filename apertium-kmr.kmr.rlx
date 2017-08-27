@@ -270,7 +270,7 @@ SECTION
 
 LIST @amod = @amod ;
 LIST @nsubj = @nsubj ;
-LIST @dobj = @dobj ;
+LIST @obj = @obj ;
 LIST @csubj = @csubj ;
 LIST @qst = @qst ;
 LIST @nmod:dat = @nmod:dat ;
@@ -291,7 +291,7 @@ MAP @nmod:dat TARGET NOMEN + Obl IF (NOT -1* Pr BARRIER V) (NOT 1 Post) (NEGATE 
 
 MAP @nmod:dat TARGET Pron + Obl IF (NOT -1* Pr BARRIER V) (NOT 1 Post) (1* Cop BARRIER (*) - A - Adv) (NOT -1 Eza);
 
-MAP @dobj TARGET NOMEN + Obl IF (NOT -1 Eza)(NOT -1* Pr BARRIER V) (NOT 1 Post) (1* TV BARRIER V);
+MAP @obj TARGET NOMEN + Obl IF (NOT -1 Eza)(NOT -1* Pr BARRIER V) (NOT 1 Post) (1* TV BARRIER V);
 
 MAP @nmod:poss TARGET Pron + Obl OR Pron + SELF OR NOMEN + Obl IF (-1C Eza) ;
 
@@ -303,9 +303,9 @@ MAP @nmod TARGET N IF (-1C Pr);
 
 MAP @case TARGET Pr OR Post ;
 
-MAP @dobj TARGET NP-HEAD + Nom IF (-1C* NP-HEAD + Obl) (1C* TV + Past OR TV + Narr) (NOT -1 Pr) ;
+MAP @obj TARGET NP-HEAD + Nom IF (-1C* NP-HEAD + Obl) (1C* TV + Past OR TV + Narr) (NOT -1 Pr) ;
 
-MAP @dobj TARGET NP-HEAD + Obl IF (-1C* NP-HEAD + Nom) (1C* TV + NON-ERG-FIN) (NOT -1 Pr);
+MAP @obj TARGET NP-HEAD + Obl IF (-1C* NP-HEAD + Nom) (1C* TV + NON-ERG-FIN) (NOT -1 Pr);
 
 MAP @punct TARGET PUNCT ;
 
