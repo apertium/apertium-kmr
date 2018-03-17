@@ -33,3 +33,8 @@ texts/puupankki/puupankki.kmr.tagged -text
 texts/qundir.txt -text
 texts/sherlock.txt -text
 texts/sherlock.vislcg.txt -text
+*.dix linguist-language=XML linguist-detectable=true
+*.lrx linguist-language=XML linguist-detectable=true
+*.lsx linguist-language=XML linguist-detectable=true
+*.tsx linguist-language=XML linguist-detectable=true
+*.t[[:digit:]]x linguist-language=XML linguist-detectable=true
