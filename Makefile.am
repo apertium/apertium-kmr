@@ -2,8 +2,6 @@
 ## Makefile for apertium-kmr
 ###############################################################################
 
-RELEASE=0.1
-VERSION=0.1.0
 LANG1=kmr
 BASENAME=apertium-$(LANG1)
 
@@ -11,6 +9,8 @@ TARGETS_COMMON = $(LANG1).automorf.bin $(LANG1).autogen.bin \
 	$(LANG1).autopgen.bin \
 	$(LANG1).automorf.att.gz $(LANG1).autogen.att.gz \
         $(LANG1).rlx.bin
+
+@ap_include@
 
 ###############################################################################
 ## Kurdish transducer
