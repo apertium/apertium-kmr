@@ -1,6 +1,7 @@
 prefix=@prefix@
 exec_prefix=${prefix}
+srcdir=@datarootdir@/apertium/apertium-kmr
 
 Name: apertium-kmr
-Description: Finite-state morphological transducer and constraint grammar for Kurdish 
+Description: Finite-state morphological transducer and constraint grammar for Kurdish
 Version: @VERSION@
