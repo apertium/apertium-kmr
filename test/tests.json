@@ -1,0 +1,6 @@
+{
+  "analysis": {
+    "input": "analysis-input.txt",
+    "mode": "kmr-morph"
+  }
+}

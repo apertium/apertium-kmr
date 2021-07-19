@@ -53,6 +53,9 @@ then
   AC_MSG_ERROR([You don't have pkg-config installed.])
 fi
 
+PKG_CHECK_MODULES(REGTEST, apertium-regtest >= 0.0.1, [],
+                  [AC_MSG_WARN([Running tests requires apertium-regtest])])
+
 AP_MKINCLUDE
 
 AC_OUTPUT([Makefile apertium-kmr.pc])

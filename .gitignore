@@ -17,3 +17,8 @@
 /.deps
 /config.in
 /config
+/*.hfst
+/*.zhfst
+/.DS_Store
+/*-*.prob
+/test/*-output.txt
